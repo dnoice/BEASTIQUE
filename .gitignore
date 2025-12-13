@@ -1,0 +1,81 @@
+# =============================================================================
+# BEASTIQUE .gitignore
+# =============================================================================
+
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.eggs/
+*.egg-info/
+*.egg
+
+# Environment
+.env
+.env.local
+.env.*.local
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# Database (keep schema, ignore data files if large)
+*.db-journal
+*.sqlite-journal
+
+# Large assets (optional - uncomment if needed)
+# assets/images/originals/*
+# !assets/images/originals/.gitkeep
+# assets/renders/high-res/*
+# !assets/renders/high-res/.gitkeep
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Secrets (never commit)
+secrets/
+*.pem
+*.key
+credentials.json

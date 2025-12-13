@@ -1,0 +1,381 @@
+species:
+
+# =============================================================================
+# MAMMALS - CARNIVORA
+# =============================================================================
+
+- common_name: Jaguar
+  scientific_name: Panthera onca
+  status: NT
+  taxonomy:
+    class: Mammalia
+    order: Carnivora
+    family: Felidae
+  biome: Tropical Rainforest, Wetlands
+  range: Central and South America, from Mexico to Argentina
+  population_estimate: ~170,000 individuals
+  primary_threats:
+    - Habitat loss and fragmentation
+    - Human-wildlife conflict
+    - Illegal hunting for pelts and body parts
+  description: The largest cat in the Americas and the third-largest in the world. Known for its powerful bite that can pierce turtle shells and crocodile skulls.
+  intriguing_facts:
+    - Jaguars have the strongest bite force of any big cat, capable of crushing bones
+    - Unlike most cats, jaguars are excellent swimmers and often hunt caimans
+    - The name "jaguar" comes from the indigenous word "yaguar" meaning "he who kills with one leap"
+  beastique_material_suggestion: Hammered bronze with onyx rosette inlays
+  beastique_narrative: In the emerald cathedral of the Amazon, the jaguar walks as both shadow and sovereign—a spotted ghost whose silence speaks of ancient power now threatened by chainsaw symphonies.
+
+- common_name: Gray Wolf
+  scientific_name: Canis lupus
+  status: LC
+  taxonomy:
+    class: Mammalia
+    order: Carnivora
+    family: Canidae
+  biome: Tundra, Temperate Forest, Taiga
+  range: North America, Europe, Asia
+  population_estimate: ~300,000 individuals
+  primary_threats:
+    - Human persecution and hunting
+    - Habitat fragmentation
+    - Decline of prey species
+  description: The largest wild member of the dog family, known for complex social structures and cooperative hunting. A keystone species that shapes entire ecosystems.
+  intriguing_facts:
+    - Wolf packs are family units led by a breeding pair, not "alpha" dominance hierarchies
+    - Wolves can travel up to 30 miles in a single day while hunting
+    - The reintroduction of wolves to Yellowstone literally changed the course of rivers
+  beastique_material_suggestion: Brushed silver with moonstone eyes
+  beastique_narrative: The wolf's howl carries across frozen valleys like a prayer to forgotten gods—each note a thread in the tapestry of wilderness we have nearly unraveled.
+
+- common_name: Grizzly Bear
+  scientific_name: Ursus arctos horribilis
+  status: LC
+  taxonomy:
+    class: Mammalia
+    order: Carnivora
+    family: Ursidae
+  biome: Temperate Forest, Alpine Meadow, Tundra
+  range: North America - Alaska, Western Canada, Northwestern United States
+  population_estimate: ~55,000 individuals
+  primary_threats:
+    - Habitat loss and fragmentation
+    - Human-wildlife conflict
+    - Climate change affecting food sources
+  description: A powerful subspecies of brown bear, named for the grizzled appearance of their fur. They are ecosystem engineers, spreading seeds and nutrients across vast territories.
+  intriguing_facts:
+    - Grizzly bears can run at speeds up to 35 mph despite weighing up to 800 pounds
+    - Their claws can be 4 inches long, adapted for digging rather than climbing
+    - A single grizzly can eat 90 pounds of food per day before hibernation
+  beastique_material_suggestion: Weathered copper with amber resin accents
+  beastique_narrative: The grizzly rises from the river, salmon silver in its jaws—a monument to wild abundance in a world that increasingly demands tameness.
+
+- common_name: Fennec Fox
+  scientific_name: Vulpes zerda
+  status: LC
+  taxonomy:
+    class: Mammalia
+    order: Carnivora
+    family: Canidae
+  biome: Desert (Sahara)
+  range: North Africa - Sahara Desert and Sinai Peninsula
+  population_estimate: Unknown, but stable
+  primary_threats:
+    - Illegal pet trade
+    - Habitat degradation
+    - Trapping for fur
+  description: The smallest canid in the world, famous for its enormous ears that dissipate heat and detect prey beneath the sand. Perfectly adapted to extreme desert life.
+  intriguing_facts:
+    - Their ears can be 6 inches long—the largest relative to body size of any canid
+    - Fennec foxes can survive without free water, obtaining moisture from food
+    - They dig burrows up to 32 feet long to escape the desert heat
+  beastique_material_suggestion: Pale gold with rose quartz ear details
+  beastique_narrative: Ears like satellite dishes scanning the star-drenched Sahara night—the fennec fox is the desert's whispered secret, increasingly stolen for living room novelty.
+
+- common_name: Red Panda
+  scientific_name: Ailurus fulgens
+  status: EN
+  taxonomy:
+    class: Mammalia
+    order: Carnivora
+    family: Ailuridae
+  biome: Temperate Forest (Himalayan)
+  range: Eastern Himalayas - Nepal, Bhutan, India, China, Myanmar
+  population_estimate: ~10,000 individuals
+  primary_threats:
+    - Habitat loss and fragmentation
+    - Poaching for fur and pet trade
+    - Inbreeding in isolated populations
+  description: Despite sharing its name with the giant panda, the red panda is the sole living member of its own unique family. An arboreal specialist dependent on bamboo.
+  intriguing_facts:
+    - Red pandas were discovered 48 years before giant pandas and are the original "panda"
+    - They have a false thumb (extended wrist bone) for gripping bamboo
+    - Firefox, the web browser, is named after the red panda, not the fox
+  beastique_material_suggestion: Russet bronze with white gold facial markings
+  beastique_narrative: Perched in the mist-shrouded bamboo, the red panda embodies the fragile magic of the Himalayas—a living ember in forests we continue to extinguish.
+
+# =============================================================================
+# MAMMALS - UNGULATES
+# =============================================================================
+
+- common_name: Okapi
+  scientific_name: Okapia johnstoni
+  status: EN
+  taxonomy:
+    class: Mammalia
+    order: Artiodactyla
+    family: Giraffidae
+  biome: Tropical Rainforest
+  range: Democratic Republic of Congo - Ituri Rainforest
+  population_estimate: ~35,000 individuals
+  primary_threats:
+    - Habitat loss from logging and agriculture
+    - Hunting for bushmeat and skin
+    - Civil unrest in range countries
+  description: The only living relative of the giraffe, the okapi remained unknown to Western science until 1901. Its striking stripes provide camouflage in dappled forest light.
+  intriguing_facts:
+    - Okapis have prehensile tongues up to 18 inches long that can clean their own ears
+    - They are so elusive that local Congolese believed them to be mythical forest spirits
+    - Baby okapis don't defecate for the first month to avoid attracting predators
+  beastique_material_suggestion: Dark mahogany with zebra-striped silver leg details
+  beastique_narrative: Ghost of the Ituri, the okapi moves through Congo's green darkness like a fever dream—proof that mystery still breathes in our diminishing wild places.
+
+- common_name: Przewalski's Horse
+  scientific_name: Equus ferus przewalskii
+  status: EN
+  taxonomy:
+    class: Mammalia
+    order: Perissodactyla
+    family: Equidae
+  biome: Steppe, Semi-desert
+  range: Mongolia, China (reintroduced)
+  population_estimate: ~2,000 individuals
+  primary_threats:
+    - Limited genetic diversity
+    - Competition with livestock for resources
+    - Harsh winters and drought
+  description: The last truly wild horse species, never successfully domesticated. Went extinct in the wild in the 1960s but has been reintroduced through captive breeding programs.
+  intriguing_facts:
+    - They have 66 chromosomes compared to 64 in domestic horses
+    - All living Przewalski's horses descend from just 12 individuals
+    - They were sacred to Mongolian nomads who called them "takhi" meaning "spirit"
+  beastique_material_suggestion: Tawny bronze with wild mane texture
+  beastique_narrative: The Przewalski's horse gallops across the Mongolian steppe as living proof of resurrection—back from extinction's edge to remind us that hope, too, runs wild.
+
+# =============================================================================
+# BIRDS
+# =============================================================================
+
+- common_name: Harpy Eagle
+  scientific_name: Harpia harpyja
+  status: VU
+  taxonomy:
+    class: Aves
+    order: Accipitriformes
+    family: Accipitridae
+  biome: Tropical Rainforest
+  range: Central and South America - Mexico to Argentina
+  population_estimate: ~50,000 individuals
+  primary_threats:
+    - Deforestation and habitat loss
+    - Hunting and persecution
+    - Low reproductive rate
+  description: One of the largest and most powerful eagles in the world, capable of hunting monkeys and sloths. Named after the harpies of Greek mythology.
+  intriguing_facts:
+    - Their talons are as large as grizzly bear claws, up to 5 inches long
+    - Harpy eagles can carry prey equal to their own body weight while flying
+    - A single breeding pair requires up to 30 square miles of forest territory
+  beastique_material_suggestion: Storm-gray titanium with obsidian crest
+  beastique_narrative: The harpy eagle descends from the canopy like a thunderbolt made flesh—apex predator of a world that shrinks beneath the saw's relentless progress.
+
+- common_name: Shoebill
+  scientific_name: Balaeniceps rex
+  status: VU
+  taxonomy:
+    class: Aves
+    order: Pelecaniformes
+    family: Balaenicipitidae
+  biome: Freshwater Wetlands, Swamps
+  range: East-Central Africa - South Sudan, Uganda, Tanzania, Zambia
+  population_estimate: ~5,000-8,000 individuals
+  primary_threats:
+    - Wetland drainage and degradation
+    - Disturbance at nesting sites
+    - Illegal capture for bird trade
+  description: A prehistoric-looking bird with an enormous shoe-shaped bill. Known for statue-like patience while hunting lungfish, standing motionless for hours.
+  intriguing_facts:
+    - Their bill can be over 9 inches long and nearly as wide
+    - Shoebills often bow to each other as a greeting, a behavior called "bill-clattering"
+    - They practice siblicide—the stronger chick often kills its weaker sibling
+  beastique_material_suggestion: Slate gray with golden bill accent
+  beastique_narrative: Standing sentinel in the papyrus swamps, the shoebill regards the modern world with the indifference of a creature that has seen dinosaurs come and go.
+
+- common_name: Peregrine Falcon
+  scientific_name: Falco peregrinus
+  status: LC
+  taxonomy:
+    class: Aves
+    order: Falconiformes
+    family: Falconidae
+  biome: Varied - Cliffs, Mountains, Urban Areas
+  range: Worldwide except Antarctica and some islands
+  population_estimate: ~140,000 individuals
+  primary_threats:
+    - Historically DDT (now recovered)
+    - Collision with structures
+    - Illegal take for falconry
+  description: The fastest animal on Earth, reaching speeds over 240 mph in hunting dives called "stoops." A conservation success story after near-extinction from pesticide poisoning.
+  intriguing_facts:
+    - During a stoop, a peregrine's heart can beat 600-900 times per minute
+    - They have a third eyelid that spreads tears and clears debris at high speeds
+    - Urban peregrines have adapted to hunt pigeons among skyscrapers
+  beastique_material_suggestion: Polished gunmetal with sapphire eye inlay
+  beastique_narrative: The peregrine writes poetry in velocity—a feathered missile that fell to our chemicals and rose again, teaching us that even the fastest cannot outrun our mistakes.
+
+# =============================================================================
+# REPTILES
+# =============================================================================
+
+- common_name: King Cobra
+  scientific_name: Ophiophagus hannah
+  status: VU
+  taxonomy:
+    class: Reptilia
+    order: Squamata
+    family: Elapidae
+  biome: Tropical Rainforest, Mangroves
+  range: South and Southeast Asia - India to Indonesia
+  population_estimate: Unknown, declining
+  primary_threats:
+    - Habitat destruction
+    - Persecution by humans
+    - Collection for traditional medicine
+  description: The world's longest venomous snake, reaching up to 18 feet. The only snake known to build a nest for its eggs, which it guards fiercely.
+  intriguing_facts:
+    - Their genus name "Ophiophagus" means "snake-eater"—they primarily eat other snakes
+    - King cobras can deliver enough venom in a single bite to kill an elephant
+    - They can raise the front third of their body and look a person in the eye
+  beastique_material_suggestion: Iridescent black with emerald hood scales
+  beastique_narrative: Rising from the forest floor like a dark question mark, the king cobra asks what we value more—our fear or our forests.
+
+- common_name: Nile Crocodile
+  scientific_name: Crocodylus niloticus
+  status: LC
+  taxonomy:
+    class: Reptilia
+    order: Crocodilia
+    family: Crocodylidae
+  biome: Freshwater Rivers, Lakes, Wetlands
+  range: Sub-Saharan Africa, Madagascar, Nile Basin
+  population_estimate: ~250,000-500,000 individuals
+  primary_threats:
+    - Habitat loss
+    - Hunting for leather
+    - Human-wildlife conflict
+  description: Africa's largest freshwater predator, unchanged for 80 million years. An ambush hunter capable of taking prey as large as wildebeest and zebra.
+  intriguing_facts:
+    - They can go a full year without eating after a large meal
+    - Female crocs are attentive mothers, carrying hatchlings gently in their powerful jaws
+    - Ancient Egyptians worshipped the crocodile god Sobek and mummified crocs
+  beastique_material_suggestion: Weathered bronze with scale texture detail
+  beastique_narrative: The Nile crocodile has watched pharaohs rise and fall, survived ice ages and empires—a living fossil that asks whether we will outlast what we have survived.
+
+# =============================================================================
+# AMPHIBIANS
+# =============================================================================
+
+- common_name: Golden Poison Dart Frog
+  scientific_name: Phyllobates terribilis
+  status: EN
+  taxonomy:
+    class: Amphibia
+    order: Anura
+    family: Dendrobatidae
+  biome: Tropical Rainforest
+  range: Pacific coast of Colombia
+  population_estimate: Unknown, extremely limited range
+  primary_threats:
+    - Habitat loss from logging and agriculture
+    - Chytrid fungus
+    - Illegal collection for pet trade
+  description: The most poisonous animal on Earth—a single frog contains enough toxin to kill 10-20 adult humans. Indigenous Emberá people use its toxin on blowgun darts.
+  intriguing_facts:
+    - Captive-bred frogs are not poisonous—they derive toxins from their wild diet
+    - Their bright color is aposematic, warning predators of their deadly nature
+    - Scientists are studying their toxins for potential painkillers and heart medications
+  beastique_material_suggestion: 24-karat gold with emerald back pattern
+  beastique_narrative: Brilliant as a drop of sunlight made flesh, the golden poison frog wears its danger like a crown—a tiny emperor of a shrinking rainforest kingdom.
+
+# =============================================================================
+# AQUATIC
+# =============================================================================
+
+- common_name: Hammerhead Shark
+  scientific_name: Sphyrna mokarran
+  status: CR
+  taxonomy:
+    class: Chondrichthyes
+    order: Carcharhiniformes
+    family: Sphyrnidae
+  biome: Marine (Tropical and Warm Temperate)
+  range: Worldwide tropical and warm temperate waters
+  population_estimate: Declined by 80% in many areas
+  primary_threats:
+    - Finning for shark fin soup
+    - Bycatch in commercial fishing
+    - Habitat degradation
+  description: The largest hammerhead species, with a distinctive wide, flat head called a cephalofoil. This unique shape provides 360-degree vision and enhanced electroreception.
+  intriguing_facts:
+    - Their hammer-shaped head contains extra electroreceptors for detecting prey buried in sand
+    - Great hammerheads are one of the few shark species known to be cannibalistic
+    - They can detect one part blood per million parts water
+  beastique_material_suggestion: Polished silver with mother-of-pearl cephalofoil
+  beastique_narrative: The hammerhead sweeps through warm seas like a living metal detector—an engineering marvel sculpted by 20 million years, now melting in the crucible of our appetite.
+
+- common_name: Manta Ray
+  scientific_name: Mobula birostris
+  status: EN
+  taxonomy:
+    class: Chondrichthyes
+    order: Myliobatiformes
+    family: Mobulidae
+  biome: Marine (Open Ocean, Coral Reefs)
+  range: Tropical and subtropical oceans worldwide
+  population_estimate: Unknown, declining globally
+  primary_threats:
+    - Targeted fishing for gill plates
+    - Bycatch in fishing gear
+    - Microplastic accumulation
+  description: The largest ray species, with wingspans up to 29 feet. Despite their size, they feed on tiny plankton filtered through specialized gill plates.
+  intriguing_facts:
+    - Manta rays have the largest brain-to-body ratio of any fish
+    - They can recognize themselves in mirrors, suggesting self-awareness
+    - Each manta has unique spot patterns, like human fingerprints
+  beastique_material_suggestion: Deep indigo with white platinum underbelly
+  beastique_narrative: The manta ray flies through the ocean like a dark angel, wings spanning wider than cars—proving that gentleness can grow larger than violence.
+
+# =============================================================================
+# INSECTS
+# =============================================================================
+
+- common_name: Atlas Moth
+  scientific_name: Attacus atlas
+  status: NE
+  taxonomy:
+    class: Insecta
+    order: Lepidoptera
+    family: Saturniidae
+  biome: Tropical Rainforest
+  range: Southeast Asia - India to Indonesia
+  population_estimate: Unknown, common in range
+  primary_threats:
+    - Habitat loss
+    - Collection by enthusiasts
+    - Light pollution
+  description: One of the largest moths in the world, with a wingspan up to 12 inches. Adults have no functional mouthparts and live only 1-2 weeks, surviving on fat stored as caterpillars.
+  intriguing_facts:
+    - The wing tips resemble snake heads to deter predators
+    - In Taiwan, their cocoons are used as coin purses
+    - Males can detect female pheromones from 7 miles away
+  beastique_material_suggestion: Burnt sienna silk with translucent wing windows
+  beastique_narrative: The atlas moth carries the world on its wings for just two weeks—a brief explosion of pattern and purpose in the eternal green of the rainforest.

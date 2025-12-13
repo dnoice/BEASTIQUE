@@ -1,0 +1,47 @@
+# ==============================================================================
+# BEASTIQUE Project Settings
+# ==============================================================================
+
+project:
+  name: "BEASTIQUE"
+  tagline: "Visual Evidence from the Sixth Mass Extinction"
+  version: "1.0.0"
+  author: "Dennis 'dnoice' Smaltz"
+  
+website:
+  url: "https://beastique.art"
+  gallery_url: "https://beastique.art/gallery"
+  
+branding:
+  signature: "︻デ═—··· 🎯 = Aim Twice, Shoot Once!"
+  primary_color: "#d4af37"  # Gold
+  secondary_color: "#b87333"  # Copper
+  background: "#0a0a0a"  # Black
+  
+artwork:
+  min_resolution: [3840, 2160]  # 4K minimum
+  aspect_ratios:
+    - "16:9"
+    - "4:3"
+    - "1:1"
+  formats:
+    primary: "png"
+    web: "webp"
+    thumbnail: "jpg"
+  naming_convention: "{species}_{material}_v{version}"
+  
+database:
+  type: "sqlite"
+  path: "data/database/beastique.db"
+  
+categories:
+  primary_count: 7
+  special_count: 6
+  
+metadata:
+  required_fields:
+    - common_name
+    - scientific_name
+    - status
+    - beastique_narrative
+    - beastique_material_suggestion

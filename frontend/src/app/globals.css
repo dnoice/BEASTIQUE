@@ -1,0 +1,211 @@
+/*
+ * BEASTIQUE Global Styles
+ * Visual Evidence from the Sixth Mass Extinction
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================================
+   CSS Variables
+   ============================================================================ */
+
+:root {
+  /* Brand Colors */
+  --color-black: #0a0a0a;
+  --color-charcoal: #1a1a1a;
+  --color-slate: #2d2d2d;
+  --color-gold: #d4af37;
+  --color-copper: #b87333;
+  --color-silver: #c0c0c0;
+  --color-bone: #e8e4d9;
+  --color-blood: #8b0000;
+  
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  
+  /* Spacing */
+  --container-max: 1400px;
+  --section-padding: 6rem;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+}
+
+/* ============================================================================
+   Base Styles
+   ============================================================================ */
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-beastique-black text-beastique-bone antialiased;
+    font-family: var(--font-body);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-bold tracking-tight;
+  }
+  
+  h1 { @apply text-5xl md:text-6xl lg:text-7xl; }
+  h2 { @apply text-4xl md:text-5xl; }
+  h3 { @apply text-3xl md:text-4xl; }
+  h4 { @apply text-2xl md:text-3xl; }
+  
+  a {
+    @apply text-beastique-gold hover:text-beastique-copper transition-colors;
+  }
+  
+  ::selection {
+    @apply bg-beastique-gold text-beastique-black;
+  }
+}
+
+/* ============================================================================
+   Component Classes
+   ============================================================================ */
+
+@layer components {
+  .container-beastique {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+    max-width: var(--container-max);
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  .gradient-gold {
+    @apply bg-gradient-to-r from-beastique-gold via-beastique-copper to-beastique-gold;
+  }
+  
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent gradient-gold;
+  }
+  
+  .card-beastique {
+    @apply bg-beastique-charcoal border border-beastique-slate rounded-lg overflow-hidden;
+    @apply hover:border-beastique-gold/50 transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-beastique-gold text-beastique-black font-semibold rounded;
+    @apply hover:bg-beastique-copper transition-colors duration-300;
+  }
+  
+  .btn-outline {
+    @apply px-6 py-3 border border-beastique-gold text-beastique-gold rounded;
+    @apply hover:bg-beastique-gold hover:text-beastique-black transition-all duration-300;
+  }
+  
+  /* Conservation Status Badges */
+  .status-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold;
+  }
+  
+  .status-extinct { @apply bg-status-extinct text-white; }
+  .status-critical { @apply bg-status-critical text-white; }
+  .status-endangered { @apply bg-status-endangered text-white; }
+  .status-vulnerable { @apply bg-status-vulnerable text-black; }
+}
+
+/* ============================================================================
+   Gallery Styles
+   ============================================================================ */
+
+@layer components {
+  .gallery-grid {
+    @apply grid gap-4 md:gap-6;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .gallery-item {
+    @apply relative overflow-hidden rounded-lg cursor-pointer;
+    @apply transform hover:scale-[1.02] transition-transform duration-500;
+  }
+  
+  .gallery-item::after {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-t from-beastique-black/80 via-transparent to-transparent;
+    @apply opacity-0 hover:opacity-100 transition-opacity duration-300;
+  }
+  
+  .gallery-item-info {
+    @apply absolute bottom-0 left-0 right-0 p-4 text-white;
+    @apply transform translate-y-full transition-transform duration-300;
+  }
+  
+  .gallery-item:hover .gallery-item-info {
+    @apply translate-y-0;
+  }
+}
+
+/* ============================================================================
+   Typography Utilities
+   ============================================================================ */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .narrative-text {
+    @apply text-lg leading-relaxed;
+    font-family: var(--font-display);
+    font-style: italic;
+  }
+  
+  .scientific-name {
+    @apply italic text-beastique-silver;
+  }
+}
+
+/* ============================================================================
+   Animations
+   ============================================================================ */
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-charcoal) 0%,
+    var(--color-slate) 50%,
+    var(--color-charcoal) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* ============================================================================
+   Scrollbar Styling
+   ============================================================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-beastique-charcoal;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-beastique-slate rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-beastique-gold;
+}

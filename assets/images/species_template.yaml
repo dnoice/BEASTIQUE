@@ -1,0 +1,20 @@
+species:
+- common_name: Species Common Name
+  scientific_name: Genus species
+  status: CR
+  taxonomy:
+    class: Mammalia
+    order: OrderName
+    family: FamilyName
+  biome: Tropical Rainforest
+  range: Geographic range description
+  population_estimate: ~X individuals
+  primary_threats:
+  - Threat 1
+  - Threat 2
+  description: A 2-3 sentence description of the species.
+  intriguing_facts:
+  - First intriguing fact about this species
+  - Second intriguing fact about this species
+  beastique_material_suggestion: Material with texture description
+  beastique_narrative: Poetic BEASTIQUE-style narrative about what we aim to lose...

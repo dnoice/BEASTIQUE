@@ -1,0 +1,945 @@
+# ==============================================================================
+# ✒ Metadata
+#     - Title: BEASTIQUE Image Organization Manifest (BEASTIQUE Edition - v1.0)
+#     - File Name: beastique-image-manifest.yaml
+#     - Relative Path: data/beastique-image-manifest.yaml
+#     - Artifact Type: config
+#     - Version: 1.0.0
+#     - Date: 2025-12-02
+#     - Update: Tuesday, December 02, 2025
+#     - Author: Dennis 'dnoice' Smaltz
+#     - Signature:  ︻デ═—··· 🎯 = Aim Twice, Shoot Once!
+#
+# ✒ Description:
+#     Complete organization manifest mapping all BEASTIQUE artwork images to
+#     their appropriate collection directories. Each image is assigned to its
+#     taxonomically correct artworks/ folder for the scaffolded project.
+#
+# ✒ Key Features:
+#     - Feature 1: All images categorized by taxonomy
+#     - Feature 2: Organized into 7 primary collections
+#     - Feature 3: 52 subcategory assignments
+#     - Feature 4: Ready for automated file sorting scripts
+#     - Feature 5: Full directory paths included
+# ==============================================================================
+
+# =============================================================================
+# SUMMARY STATISTICS
+# =============================================================================
+statistics:
+  total_images: 470
+  
+  by_primary_category:
+    mammalian-beasts: 247
+    avian-beasts: 96
+    reptilian-beasts: 62
+    aquatic-beasts: 39
+    insecta-beasts: 39
+    arachnid-beasts: 5
+    amphibian-beasts: 7
+  
+  by_subcategory:
+    # Mammals (247)
+    carnivora: 84
+    ungulates: 79
+    primates: 16
+    cetaceans: 10
+    marsupials: 11
+    marine-mammals: 6
+    rodents: 11
+    bats: 2
+    elephants: 3
+    other-mammals: 20
+    
+    # Birds (96)
+    raptors: 21
+    owls: 6
+    songbirds: 10
+    waterfowl: 8
+    seabirds: 11
+    flightless: 5
+    wading-birds: 9
+    gamebirds: 7
+    parrots: 2
+    other-birds: 6
+    
+    # Reptiles (62)
+    snakes: 25
+    lizards: 15
+    turtles-tortoises: 7
+    crocodilians: 5
+    marine-reptiles: 5
+    
+    # Aquatic (39)
+    sharks: 7
+    rays-skates: 4
+    bony-fish-marine: 5
+    bony-fish-freshwater: 5
+    coral-reef: 8
+    deep-sea: 1
+    migratory: 1
+    ancient-fish: 1
+    other-fish: 3
+    
+    # Insects (39)
+    butterflies-moths: 13
+    beetles: 7
+    bees-wasps: 8
+    ants: 2
+    dragonflies: 1
+    crickets-grasshoppers: 1
+    other-insects: 7
+    
+    # Arachnids (5)
+    spiders: 3
+    scorpions: 1
+    ticks-mites: 1
+    
+    # Amphibians (7)
+    frogs-toads: 7
+
+# =============================================================================
+# MAMMALIAN BEASTS (247 images)
+# =============================================================================
+mammalian-beasts:
+  
+  # ---------------------------------------------------------------------------
+  # CARNIVORA - 84 images
+  # Target: collections/mammalian-beasts/carnivora/artworks/
+  # ---------------------------------------------------------------------------
+  carnivora:
+    - african-leopard-1.png
+    - african-wild-dog-1.png
+    - african-wild-dog-2.png
+    - akbash-1.png
+    - alaskan-husky-1.png
+    - american-staffordshire-terrier-1.png
+    - amur-leopard-1.png
+    - arctic-fox-1.png
+    - asiatic-lion-1.png
+    - austrian-pinscher-1.png
+    - austrian-pinscher-2.png
+    - basset-bleu-de-gascogne-1.png
+    - bear-1.png
+    - beech-marten-1.png
+    - belgian-malinois-1.png
+    - bengal-tiger-1.png
+    - black-footed-cat-1.png
+    - black-footed-ferret-1.png
+    - black-footed-ferret-2.png
+    - black-panther.png
+    - BQ-Lion.png
+    - cacomistle-1.png
+    - cheetah-1.png
+    - cheetah-2.png
+    - coyote-1.png
+    - dutch-smoushond-1.png
+    - ethiopian-wolf-1.png
+    - european-mink-1.png
+    - european-polecat-1.png
+    - european-polecat-2.png
+    - european-wolf-1.png
+    - fennec-fox-1.png
+    - fila-brasileiro-3.png
+    - fisher-1.png
+    - fox-terrier-1.png
+    - gray-wolf-1.png
+    - greater-swiss-mountain-dog-1.png
+    - grey-wolf-1.png
+    - grizzly-bear-1.png
+    - grizzly-bear-2.png
+    - grizzly-bear-3.png
+    - hairy-nosed-otter-1.png
+    - himalayan-brown-bear-1.png
+    - island-fox-1.png
+    - jaguar-1.png
+    - japanese-chin-1.png
+    - kerry-blue-terrier-1.png
+    - kinkajou-1.png
+    - kishu-1.png
+    - kodiak-bear-1.png
+    - kodiak-bear-2.png
+    - kodiak-bear-3.png
+    - lapponian-herder-1.png
+    - leonberger-1.png
+    - leopard-1.png
+    - lion-1.png
+    - lion-2.png
+    - malayan-tiger-1.png
+    - maned-wolf-1.png
+    - maned-wolf-2.png
+    - maremmano-abruzzese-sheepdog-1.png
+    - margay-1.png
+    - pampas-cat-1.png
+    - polar-bear-1.png
+    - polar-bear-2.png
+    - polar-bear-3.png
+    - polar-bear-4.png
+    - polar-bear-5.png
+    - raccoon-1.png
+    - red-panda-1.png
+    - red-panda-2.png
+    - rottweiler-1.png
+    - rottweiler-2.png
+    - siberian-tiger-1.png
+    - spotted-hyena-1.png
+    - spotted-hyena-2.png
+    - stoat-1.png
+    - sumatran-tiger-1.png
+    - tiger-1.png
+    - tiger-2.png
+    - toy-fox-terrier-1.png
+    - wire-fox-terrier-1.png
+    - wolf-1.png
+    - wolverine-1.png
+  
+  # ---------------------------------------------------------------------------
+  # UNGULATES - 79 images
+  # Target: collections/mammalian-beasts/ungulates/artworks/
+  # ---------------------------------------------------------------------------
+  ungulates:
+    - addax-1.png
+    - addax-2.png
+    - addra-gazelle-1.png
+    - african-buffalo.png
+    - american-bison-2.png
+    - american_bison_1.png
+    - antelope-1.png
+    - arabian-oryx-1.png
+    - arabian-oryx-2.png
+    - banteng-1.png
+    - bay-duiker-1.png
+    - black-rhinoceros-1.png
+    - black-wildebeest-1.png
+    - blackbuck-1.png
+    - blue-wildebeest-1.png
+    - bohor-reedbuck-1.png
+    - brazilian-tapir-1.png
+    - caribou-1.png
+    - cashmere-goat-1.png
+    - common-eland-1.png
+    - common-warthog-1.png
+    - cuvier's-gazelle-1.png
+    - dama-gazelle-1.png
+    - dromedary-camel-1.png
+    - elk-1.png
+    - four-horned-antelope-1.png
+    - giraffe-1.png
+    - giraffe-2.png
+    - giraffe-3.png
+    - giraffe-4.png
+    - giraffe.png
+    - greater-kudu-1.png
+    - grevys-zebra-1.png
+    - herdwick-sheep-1.png
+    - hirola-antelope-1.png
+    - horse-1.png
+    - impala-1.png
+    - indian-rhinoceros-1.png
+    - jacob-sheep-1.png
+    - kirk's-dik-dik-1.png
+    - klipspringer-1.png
+    - lesser-kudu-1.png
+    - malagasy-hippopotamus-1.png
+    - malayan-tapir-1.png
+    - malayan-tapir-2.png
+    - malaysian-tapir-1.png
+    - moose-1.png
+    - muskox-1.png
+    - nilgai-antelope-1.png
+    - nyala-1.png
+    - okapi-1.png
+    - okapi-2.png
+    - okapi-3.png
+    - okapi-4.png
+    - oribi-1.png
+    - plains-zebra-1.png
+    - przewalskis-horse-1.png
+    - pudu-1.png
+    - pygmy-hippopotamus-1.png
+    - pygmy-hippopotamus-2.png
+    - pygmy-hippopotamus-3.png
+    - quagga-1.png
+    - rhinoceros-1.png
+    - royal-antelope-1.png
+    - sable-antelope-1.png
+    - saiga-antelope-1.png
+    - saola-1.png
+    - shetland-sheep-1.png
+    - sitatunga-1.png
+    - stone-sheep-1.png
+    - sumatran-rhino-1.png
+    - sumatran-rhinoceros-1.png
+    - sumatran-serow-1.png
+    - tamaraw-1.png
+    - water-buffalo-1.png
+    - white-rhinocero-1.png
+    - zebra-1.png
+    - zebra-2.png
+    - zebrule-1.png
+  
+  # ---------------------------------------------------------------------------
+  # PRIMATES - 16 images
+  # Target: collections/mammalian-beasts/primates/artworks/
+  # ---------------------------------------------------------------------------
+  primates:
+    - bengal-slow-loris-1.png
+    - bengal-slow-loris-2.png
+    - bornean-orangutan-1.png
+    - brown-headed-spider-monkey-1.png
+    - geoffroy's-spider-monkey-1.png
+    - golden-crowned-sifak-1.png
+    - golden-tamarin-1.png
+    - javan-slow-loris-1.png
+    - lemur-1.png
+    - peruvian-yellow-tailed-woolly-monkey-1.png
+    - pig-tailed-langur-1.png
+    - roloway-monkey-1.png
+    - ruffed-lemur-1.png
+    - vervet-monkey-1.png
+    - western-lowland-gorilla-1.png
+    - western-lowland-gorilla-2.png
+  
+  # ---------------------------------------------------------------------------
+  # CETACEANS - 10 images
+  # Target: collections/mammalian-beasts/cetaceans/artworks/
+  # ---------------------------------------------------------------------------
+  cetaceans:
+    - blue-whale-1.png
+    - dolphin-1.png
+    - dusky-dolphin-1.png
+    - dwarf-sperm-whale-1.png
+    - false-killer-whale-1.png
+    - fin-whale-1.png
+    - ganges-river-dolphin-1.png
+    - humpback-whale-2.png
+    - pilot-whale-1.png
+    - vaquita-1.png
+  
+  # ---------------------------------------------------------------------------
+  # MARSUPIALS - 11 images
+  # Target: collections/mammalian-beasts/marsupials/artworks/
+  # ---------------------------------------------------------------------------
+  marsupials:
+    - bettong-1.png
+    - bold-potoroo-1.png
+    - burrowing-bettong-1.png
+    - coppery-brushtail-possum-1.png
+    - fat-tailed-dunnart-2.png
+    - koala-bear-1.png
+    - potoroo-1.png
+    - quokka-1.png
+    - quoll-1.png
+    - red-kangaroo-1.png
+    - wombat-1.png
+  
+  # ---------------------------------------------------------------------------
+  # MARINE MAMMALS - 6 images
+  # Target: collections/mammalian-beasts/marine-mammals/artworks/
+  # ---------------------------------------------------------------------------
+  marine-mammals:
+    - australian-fur-seal-1.png
+    - dugong-1.png
+    - manatee-1.png
+    - ross-seal-1.png
+    - spotted-seal-1.png
+    - walrus-1.png
+  
+  # ---------------------------------------------------------------------------
+  # RODENTS - 11 images
+  # Target: collections/mammalian-beasts/rodents/artworks/
+  # ---------------------------------------------------------------------------
+  rodents:
+    - beaver-1.png
+    - capybara-1.png
+    - chinchilla-1.png
+    - idaho-pocket-gopher-1.png
+    - lemming-1.png
+    - malagasy-giant-rat-1.png
+    - naked-mole-rat-1.png
+    - porcupine-1.png
+    - rock-squirrel-1.png
+    - squirrel-1.png
+    - wood-mouse-1.png
+  
+  # ---------------------------------------------------------------------------
+  # BATS - 2 images
+  # Target: collections/mammalian-beasts/bats/artworks/
+  # ---------------------------------------------------------------------------
+  bats:
+    - christmas-island-flying-fox-1.png
+    - golden-crowned-flying-fox-1.png
+  
+  # ---------------------------------------------------------------------------
+  # ELEPHANTS - 3 images
+  # Target: collections/mammalian-beasts/elephants/artworks/
+  # ---------------------------------------------------------------------------
+  elephants:
+    - african-elephant-1.png
+    - african-elephant-2.png
+    - asian-elephant-1.png
+  
+  # ---------------------------------------------------------------------------
+  # OTHER MAMMALS - 20 images
+  # (monotremes, xenarthrans, lagomorphs, eulipotyphlans, hyracoids, tubulidentata)
+  # Target: collections/mammalian-beasts/other-mammals/artworks/
+  # ---------------------------------------------------------------------------
+  other-mammals:
+    - aardvark-1.png
+    - arctic-hare-1.png
+    - armadillo-1.png
+    - black-tailed-jackrabbit-1.png
+    - echidna-1.png
+    - ethiopian-hare-1.png
+    - ethiopian-highland-hare-1.png
+    - forrest's-pika-1.png
+    - giant-anteater-1.png
+    - giant-armadillo-1.png
+    - hare-1.png
+    - hedgehog-1.png
+    - inyo-shrew-1.png
+    - moupin-pika-1.png
+    - natal-red-rock-hare-1.png
+    - platypus-1.png
+    - rock-hyrax-1.png
+    - silky-anteater-1.png
+    - six-banded-armadillo-1.png
+    - tenrec-1.png
+
+# =============================================================================
+# AVIAN BEASTS (96 images)
+# =============================================================================
+avian-beasts:
+  
+  # ---------------------------------------------------------------------------
+  # RAPTORS - 21 images
+  # Target: collections/avian-beasts/raptors/artworks/
+  # ---------------------------------------------------------------------------
+  raptors:
+    - african-fish-eagle-2.png
+    - bald-eagle-1.png
+    - california-condor-1.png
+    - eagle-1.png
+    - eagle-2.png
+    - egyptian-vulture-1.png
+    - golden-eagle-1.png
+    - harpy-eagle-1.png
+    - harris's-hawk-1.png
+    - king-vulture-1.png
+    - lappet-faced-vulture-1.png
+    - lesser-kestrel-1.png
+    - lesser-kestrel-2.png
+    - madagascar-serpent-eagle-1.png
+    - osprey-1.png
+    - peregrine-falcon-1.png
+    - peregrine-falcon-2.png
+    - philippine-eagle-1.png
+    - rough-legged-hawk-1.png
+    - rufous-bellied-eagle-1.png
+    - secretary-bird-1.png
+  
+  # ---------------------------------------------------------------------------
+  # OWLS - 6 images
+  # Target: collections/avian-beasts/owls/artworks/
+  # ---------------------------------------------------------------------------
+  owls:
+    - flores-scops-owl-1.png
+    - great-horned-owl-1.png
+    - great-horned-owl-2.png
+    - owl-1.png
+    - snowy-owl-1.png
+    - sunda-scops-owl-1.png
+  
+  # ---------------------------------------------------------------------------
+  # SONGBIRDS - 10 images
+  # Target: collections/avian-beasts/songbirds/artworks/
+  # ---------------------------------------------------------------------------
+  songbirds:
+    - american-robin-1.png
+    - bugun-liocichla-1.png
+    - chusquea-tapaculo-1.png
+    - evening-grosbeak-1.png
+    - grey-sunbird-1.png
+    - guianan-cock-of-the-rock-1.png
+    - plushcap-1.png
+    - rufous-tailed-palm-thrush-1.png
+    - tahiti-monarch-1.png
+    - yellow-rumped-warbler-1.png
+  
+  # ---------------------------------------------------------------------------
+  # WATERFOWL - 8 images
+  # Target: collections/avian-beasts/waterfowl/artworks/
+  # ---------------------------------------------------------------------------
+  waterfowl:
+    - american-coot-1.png
+    - crested-shelduck-1.png
+    - falkland-steamer-duck-1.png
+    - greater-snow-goose-1.png
+    - northern-pintail-1.png
+    - pintail-duck-1.png
+    - pintail-duck-2.png
+    - swan-1.png
+  
+  # ---------------------------------------------------------------------------
+  # SEABIRDS - 11 images
+  # Target: collections/avian-beasts/seabirds/artworks/
+  # ---------------------------------------------------------------------------
+  seabirds:
+    - albatross-1.png
+    - antarctic-petrel-1.png
+    - arctic-tern-1.png
+    - arctic-tern-2.png
+    - least-auklet-1.png
+    - long-tailed-jaeger-1.png
+    - masked-booby-1.png
+    - mew-gulls.png
+    - pelican.png
+    - royal-tern-1.png
+    - spectacled-guillemot-1.png
+  
+  # ---------------------------------------------------------------------------
+  # FLIGHTLESS - 5 images
+  # Target: collections/avian-beasts/flightless/artworks/
+  # ---------------------------------------------------------------------------
+  flightless:
+    - adelie-penguin-1.png
+    - african-penguin-1.png
+    - north-island-brown-kiwi-1.png
+    - ostrich-1.png
+    - rowi-1.png
+  
+  # ---------------------------------------------------------------------------
+  # WADING BIRDS - 9 images
+  # Target: collections/avian-beasts/wading-birds/artworks/
+  # ---------------------------------------------------------------------------
+  wading-birds:
+    - crane-1.png
+    - crane-2.png
+    - jabiru-1.png
+    - pectoral-sandpiper-1.png
+    - red-phalarope-1.png
+    - sanderling-1.png
+    - shoebill-stork-1.png
+    - spoon-billed-sandpiper-1.png
+    - western-sandpiper-1.png
+  
+  # ---------------------------------------------------------------------------
+  # GAMEBIRDS - 7 images
+  # Target: collections/avian-beasts/gamebirds/artworks/
+  # ---------------------------------------------------------------------------
+  gamebirds:
+    - attwater's-prairie-chicken-1.png
+    - himalayan-monal-1.png
+    - lady-amherst's-pheasant-1.png
+    - peacock-1.png
+    - ptarmigan-1.png
+    - ruffed-grouse-1.png
+    - turkey-1.png
+  
+  # ---------------------------------------------------------------------------
+  # PARROTS - 2 images
+  # Target: collections/avian-beasts/parrots/artworks/
+  # ---------------------------------------------------------------------------
+  parrots:
+    - african-grey-parrot-1.png
+    - african-grey-parrot-3.png
+  
+  # ---------------------------------------------------------------------------
+  # OTHER BIRDS - 6 images
+  # Target: collections/avian-beasts/other-birds/artworks/
+  # ---------------------------------------------------------------------------
+  other-birds:
+    - common-kingfisher-1.png
+    - greater-roadrunner-1.png
+    - hummingbird-1.png
+    - mourning-dove-1.png
+    - pileated-woodpecker-1.png
+    - yellow-billed-cuckoo-1.png
+
+# =============================================================================
+# REPTILIAN BEASTS (62 images)
+# =============================================================================
+reptilian-beasts:
+  
+  # ---------------------------------------------------------------------------
+  # SNAKES - 25 images
+  # Target: collections/reptilian-beasts/snakes/artworks/
+  # ---------------------------------------------------------------------------
+  snakes:
+    - amazon-tree-boa-1.png
+    - anaconda-1.png
+    - arizona-coral-snake-1.png
+    - atractaspis-1.png
+    - black-headed-python-1.png
+    - copperhead-snake-1.png
+    - eastern-brown-snake-1.png
+    - gaboon-viper-1.png
+    - indian-cobra-1.png
+    - japanese-rat-snake-1.png
+    - king-cobra-1.png
+    - king-cobra-2.png
+    - mexican-pine-snake-1.png
+    - mojave-rattlesnake-1.png
+    - mountain-pit-viper-1.png
+    - northern-pacific-rattlesnake-1.png
+    - panamint-rattlesnake-1.png
+    - pygmy-python-1.png
+    - serpent-1.png
+    - sinaloan-milksnake-1.png
+    - smooth-snake-1.png
+    - speckled-rattlesnake-1.png
+    - tiger-rattlesnake-1.png
+    - twig-snake-1.png
+    - twin-spotted-rattlesnake-1.png
+  
+  # ---------------------------------------------------------------------------
+  # LIZARDS - 15 images
+  # Target: collections/reptilian-beasts/lizards/artworks/
+  # ---------------------------------------------------------------------------
+  lizards:
+    - chameleon-1.png
+    - egyptian-uromastyx-1.png
+    - flat-headed-gecko-1.png
+    - gecko-1.png
+    - komodo-dragon-1.png
+    - komodo-dragon-2.png
+    - marbled-monitor-1.png
+    - mexican-alligator-lizard-1.png
+    - mourning-gecko-1.png
+    - nile-monitor-1.png
+    - northern-alligator-lizard-1.png
+    - savannah-monitor-1.png
+    - six-lined-racerunner-1.png
+    - skink-1.png
+    - vogelkop-monitor-1.png
+  
+  # ---------------------------------------------------------------------------
+  # TURTLES & TORTOISES - 7 images
+  # Target: collections/reptilian-beasts/turtles-tortoises/artworks/
+  # ---------------------------------------------------------------------------
+  turtles-tortoises:
+    - galapagos-tortoise-1.png
+    - galapagos-tortoise-2.png
+    - mesoamerican-river-turtle-1.png
+    - red-eared-slider-1.png
+    - tortoise-1.png
+    - tortoise-2.png
+    - tortoise-3.png
+  
+  # ---------------------------------------------------------------------------
+  # CROCODILIANS - 5 images
+  # Target: collections/reptilian-beasts/crocodilians/artworks/
+  # ---------------------------------------------------------------------------
+  crocodilians:
+    - australian-saltwater-crocodile-1.png
+    - crocodile-1.png
+    - nile-crocodile-1.png
+    - nile-crocodile-2.png
+    - saltwater-crocodile-1.png
+  
+  # ---------------------------------------------------------------------------
+  # MARINE REPTILES - 5 images
+  # Target: collections/reptilian-beasts/marine-reptiles/artworks/
+  # ---------------------------------------------------------------------------
+  marine-reptiles:
+    - green-sea-turtle-1.png
+    - leatherback-sea-turtle-3.png
+    - loggerhead-sea-turtles.png
+    - sea-snake-1.png
+    - sea-turtle-1.png
+
+# =============================================================================
+# AQUATIC BEASTS (39 images)
+# =============================================================================
+aquatic-beasts:
+  
+  # ---------------------------------------------------------------------------
+  # SHARKS - 7 images
+  # Target: collections/aquatic-beasts/sharks/artworks/
+  # ---------------------------------------------------------------------------
+  sharks:
+    - bull-shark-1.png
+    - bull-shark-2.png
+    - ganges-shark-1.png
+    - great-white-shark-1.png
+    - great-white-shark-2.png
+    - hammerhead-shark-1.png
+    - hammerhead-shark-2.png
+  
+  # ---------------------------------------------------------------------------
+  # RAYS & SKATES - 4 images
+  # Target: collections/aquatic-beasts/rays-skates/artworks/
+  # ---------------------------------------------------------------------------
+  rays-skates:
+    - bowmouth-guitarfish-1.png
+    - giant-manta-ray-1.png
+    - manta-ray-1.png
+    - manta-ray-2.png
+  
+  # ---------------------------------------------------------------------------
+  # BONY FISH - MARINE - 5 images
+  # Target: collections/aquatic-beasts/bony-fish-marine/artworks/
+  # ---------------------------------------------------------------------------
+  bony-fish-marine:
+    - albacore-tuna-1.png
+    - atlantic-halibut-1.png
+    - mahi-mahi-1.png
+    - marlin-1.png
+    - white-marlin-1.png
+  
+  # ---------------------------------------------------------------------------
+  # BONY FISH - FRESHWATER - 5 images
+  # Target: collections/aquatic-beasts/bony-fish-freshwater/artworks/
+  # ---------------------------------------------------------------------------
+  bony-fish-freshwater:
+    - arctic-char-1.png
+    - armored-catfish-1.png
+    - barramundi-1.png
+    - electric-eel-1.png
+    - goliath-tigerfish-1.png
+  
+  # ---------------------------------------------------------------------------
+  # CORAL REEF - 8 images
+  # Target: collections/aquatic-beasts/coral-reef/artworks/
+  # ---------------------------------------------------------------------------
+  coral-reef:
+    - clown-triggerfish-1.png
+    - clownfish-1.png
+    - common-seahorse-1.png
+    - green-humphead-parrotfish-1.png
+    - lionfish-1.png
+    - pufferfish-1.png
+    - saddleback-clownfish-1.png
+    - seahorse-seahorse-1.png
+  
+  # ---------------------------------------------------------------------------
+  # DEEP SEA - 1 image
+  # Target: collections/aquatic-beasts/deep-sea/artworks/
+  # ---------------------------------------------------------------------------
+  deep-sea:
+    - anglerfish-1.png
+  
+  # ---------------------------------------------------------------------------
+  # MIGRATORY - 1 image
+  # Target: collections/aquatic-beasts/migratory/artworks/
+  # ---------------------------------------------------------------------------
+  migratory:
+    - chinook-salmon-1.png
+  
+  # ---------------------------------------------------------------------------
+  # ANCIENT FISH - 1 image
+  # Target: collections/aquatic-beasts/ancient-fish/artworks/
+  # ---------------------------------------------------------------------------
+  ancient-fish:
+    - beluga-sturgeon-1.png
+  
+  # ---------------------------------------------------------------------------
+  # OTHER AQUATIC (invertebrates) - 3 images
+  # Target: collections/aquatic-beasts/other-fish/artworks/
+  # ---------------------------------------------------------------------------
+  other-fish:
+    - bobbit-worm-1.png
+    - krill-1.png
+    - shrimp-1.png
+
+# =============================================================================
+# INSECTA BEASTS (39 images)
+# =============================================================================
+insecta-beasts:
+  
+  # ---------------------------------------------------------------------------
+  # BUTTERFLIES & MOTHS - 13 images
+  # Target: collections/insecta-beasts/butterflies-moths/artworks/
+  # ---------------------------------------------------------------------------
+  butterflies-moths:
+    - african-swallowtail-1.png
+    - atlas-moth-1.png
+    - atlas-moth-2.png
+    - buckeye-butterfly-1.png
+    - butterfly-1.png
+    - butterfly-2.png
+    - butterfly-3.png
+    - butterfly-4.png
+    - common-mormon-butterfly-1.png
+    - death's-head-hawkmoth-1.png
+    - monarch-butterfly-1.png
+    - sri-lankan-cruiser-butterfly-1.png
+    - zebra-swallowtail-butterfly-1.png
+  
+  # ---------------------------------------------------------------------------
+  # BEETLES - 7 images
+  # Target: collections/insecta-beasts/beetles/artworks/
+  # ---------------------------------------------------------------------------
+  beetles:
+    - black-vine-weevil-1.png
+    - black-vine-weevil-2.png
+    - june-bug-1.png
+    - ladybug-1.png
+    - large-beetle-1.png
+    - milkweed-leaf-beetle-1.png
+    - mountain-pine-beetle-1.png
+  
+  # ---------------------------------------------------------------------------
+  # BEES & WASPS - 8 images
+  # Target: collections/insecta-beasts/bees-wasps/artworks/
+  # ---------------------------------------------------------------------------
+  bees-wasps:
+    - honeybee-1.png
+    - japanese-hornet-1.png
+    - mason-bee-1.png
+    - mason-bee-2.png
+    - paper-wasp-1.png
+    - red-velvet-ant-1.png
+    - red-velvet-ant-2.png
+    - yellow-jacket-1.png
+  
+  # ---------------------------------------------------------------------------
+  # ANTS - 2 images
+  # Target: collections/insecta-beasts/ants/artworks/
+  # ---------------------------------------------------------------------------
+  ants:
+    - carpenter-ant-1.png
+    - red-imported-fire-ant-1.png
+  
+  # ---------------------------------------------------------------------------
+  # DRAGONFLIES - 1 image
+  # Target: collections/insecta-beasts/dragonflies/artworks/
+  # ---------------------------------------------------------------------------
+  dragonflies:
+    - eastern-amberwing-dragonfly-1.png
+  
+  # ---------------------------------------------------------------------------
+  # CRICKETS & GRASSHOPPERS - 1 image
+  # Target: collections/insecta-beasts/crickets-grasshoppers/artworks/
+  # ---------------------------------------------------------------------------
+  crickets-grasshoppers:
+    - northern-mole-cricket-1.png
+  
+  # ---------------------------------------------------------------------------
+  # OTHER INSECTS - 7 images
+  # Target: collections/insecta-beasts/other-insects/artworks/
+  # ---------------------------------------------------------------------------
+  other-insects:
+    - assassin-bug-1.png
+    - conehead-mantis-1.png
+    - german-cockroach-1.png
+    - madagascar-hissing-cockroach-1.png
+    - silverfish-1.png
+    - spotted-lanternfly-1.png
+    - walking-leaf-1.png
+
+# =============================================================================
+# ARACHNID BEASTS (5 images)
+# =============================================================================
+arachnid-beasts:
+  
+  # ---------------------------------------------------------------------------
+  # SPIDERS - 3 images
+  # Target: collections/arachnid-beasts/spiders/artworks/
+  # ---------------------------------------------------------------------------
+  spiders:
+    - brown-recluse-spider-1.png
+    - garden-spider-1.png
+    - spider-1.png
+  
+  # ---------------------------------------------------------------------------
+  # SCORPIONS - 1 image
+  # Target: collections/arachnid-beasts/scorpions/artworks/
+  # ---------------------------------------------------------------------------
+  scorpions:
+    - scorpion-1.png
+  
+  # ---------------------------------------------------------------------------
+  # TICKS & MITES - 1 image
+  # Target: collections/arachnid-beasts/ticks-mites/artworks/
+  # ---------------------------------------------------------------------------
+  ticks-mites:
+    - mule-deer-tick-1.png
+
+# =============================================================================
+# AMPHIBIAN BEASTS (7 images)
+# =============================================================================
+amphibian-beasts:
+  
+  # ---------------------------------------------------------------------------
+  # FROGS & TOADS - 7 images
+  # Target: collections/amphibian-beasts/frogs-toads/artworks/
+  # ---------------------------------------------------------------------------
+  frogs-toads:
+    - fowler's-toad-1.png
+    - golden-poison-dart-frog-1.png
+    - golden-poison-dart-frog-2.png
+    - golden-poison-dart-frog-3.png
+    - little-red-frog-of-yapacana-1.png
+    - small-tree-frog-1.png
+    - variegated-bush-frog-1.png
+
+# =============================================================================
+# FULL DIRECTORY MAPPING
+# Use this for automated sorting scripts
+# =============================================================================
+directory_mapping:
+  
+  mammalian-beasts:
+    carnivora: "collections/mammalian-beasts/carnivora/artworks/"
+    ungulates: "collections/mammalian-beasts/ungulates/artworks/"
+    primates: "collections/mammalian-beasts/primates/artworks/"
+    cetaceans: "collections/mammalian-beasts/cetaceans/artworks/"
+    marsupials: "collections/mammalian-beasts/marsupials/artworks/"
+    marine-mammals: "collections/mammalian-beasts/marine-mammals/artworks/"
+    rodents: "collections/mammalian-beasts/rodents/artworks/"
+    bats: "collections/mammalian-beasts/bats/artworks/"
+    elephants: "collections/mammalian-beasts/elephants/artworks/"
+    other-mammals: "collections/mammalian-beasts/other-mammals/artworks/"
+  
+  avian-beasts:
+    raptors: "collections/avian-beasts/raptors/artworks/"
+    owls: "collections/avian-beasts/owls/artworks/"
+    songbirds: "collections/avian-beasts/songbirds/artworks/"
+    waterfowl: "collections/avian-beasts/waterfowl/artworks/"
+    seabirds: "collections/avian-beasts/seabirds/artworks/"
+    flightless: "collections/avian-beasts/flightless/artworks/"
+    wading-birds: "collections/avian-beasts/wading-birds/artworks/"
+    gamebirds: "collections/avian-beasts/gamebirds/artworks/"
+    parrots: "collections/avian-beasts/parrots/artworks/"
+    other-birds: "collections/avian-beasts/other-birds/artworks/"
+  
+  reptilian-beasts:
+    snakes: "collections/reptilian-beasts/snakes/artworks/"
+    lizards: "collections/reptilian-beasts/lizards/artworks/"
+    turtles-tortoises: "collections/reptilian-beasts/turtles-tortoises/artworks/"
+    crocodilians: "collections/reptilian-beasts/crocodilians/artworks/"
+    marine-reptiles: "collections/reptilian-beasts/marine-reptiles/artworks/"
+  
+  aquatic-beasts:
+    sharks: "collections/aquatic-beasts/sharks/artworks/"
+    rays-skates: "collections/aquatic-beasts/rays-skates/artworks/"
+    bony-fish-marine: "collections/aquatic-beasts/bony-fish-marine/artworks/"
+    bony-fish-freshwater: "collections/aquatic-beasts/bony-fish-freshwater/artworks/"
+    coral-reef: "collections/aquatic-beasts/coral-reef/artworks/"
+    deep-sea: "collections/aquatic-beasts/deep-sea/artworks/"
+    migratory: "collections/aquatic-beasts/migratory/artworks/"
+    ancient-fish: "collections/aquatic-beasts/ancient-fish/artworks/"
+    other-fish: "collections/aquatic-beasts/other-fish/artworks/"
+  
+  insecta-beasts:
+    butterflies-moths: "collections/insecta-beasts/butterflies-moths/artworks/"
+    beetles: "collections/insecta-beasts/beetles/artworks/"
+    bees-wasps: "collections/insecta-beasts/bees-wasps/artworks/"
+    ants: "collections/insecta-beasts/ants/artworks/"
+    dragonflies: "collections/insecta-beasts/dragonflies/artworks/"
+    crickets-grasshoppers: "collections/insecta-beasts/crickets-grasshoppers/artworks/"
+    other-insects: "collections/insecta-beasts/other-insects/artworks/"
+  
+  arachnid-beasts:
+    spiders: "collections/arachnid-beasts/spiders/artworks/"
+    scorpions: "collections/arachnid-beasts/scorpions/artworks/"
+    ticks-mites: "collections/arachnid-beasts/ticks-mites/artworks/"
+  
+  amphibian-beasts:
+    frogs-toads: "collections/amphibian-beasts/frogs-toads/artworks/"
+
+# =============================================================================
+# END OF MANIFEST
+# =============================================================================
+# ︻デ═—··· 🎯 = Aim Twice, Shoot Once!
