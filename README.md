@@ -14,8 +14,6 @@ We are not just rendering galleries. We are building a **trustable interface bet
 
 Importantly, BEASTIQUE does not pretend there is a single fix. It respects complexity. Solutions are presented as layered and cumulative: habitat protection, indigenous land stewardship, supply-chain reform, regulatory pressure, targeted conservation funding. Small actions are framed honestly as small. Systemic actions are named as systemic. No greenwashing. No savior narratives.
 
-For the team, this means discipline. We don’t sensationalize. We don’t exaggerate. We don’t aestheticize suffering without accountability. Every design choice, every animation, every block of copy has a job. Either it clarifies, contextualizes, or connects the user to reality in a way they can’t unknow once they’ve seen it.
-
 What we’re building should feel inevitable. As if this was always the way this information needed to be presented, and it’s strange it took so long to do it properly.
 
 BEASTIQUE stands on the idea that truth, when presented with care, rigor, and craft, is powerful enough on its own. Our responsibility is to honor that truth, respect the audience’s intelligence, and deliver an experience where beauty, data, and accountability reinforce each other instead of competing.
