@@ -1,0 +1,178 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * ✒ Metadata
+ *    - Title: Animation Keyframes (BEASTIQUE Edition - v1.0)
+ *    - File Name: animations.css
+ *    - Relative Path: css/animations.css
+ *    - Artifact Type: config
+ *    - Version: 1.0.0
+ *    - Date: 2025-01-04
+ *    - Update: Saturday, January 04, 2025
+ *    - Author: Dennis 'dnoice' Smaltz
+ *    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+ *    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+ *
+ * ✒ Description:
+ *    Reusable CSS keyframe animations for scroll reveals, particles,
+ *    waves, and micro-interactions throughout the showcase.
+ *
+ * ✒ Key Features:
+ *    - Feature 1: Slide and fade entrance animations
+ *    - Feature 2: Floating particle animation
+ *    - Feature 3: Wave motion animation
+ *    - Feature 4: Pulse effect for decorative elements
+ *    - Feature 5: Scale and reveal transitions
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Entrance Animations
+   ───────────────────────────────────────────────────────────────────────────── */
+@keyframes slideDown {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%) scale(0.9) translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-50%) scale(1) translateX(0);
+    }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Particle Animation
+   ───────────────────────────────────────────────────────────────────────────── */
+@keyframes float {
+    0% {
+        transform: translateY(100vh) scale(0);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) scale(1);
+        opacity: 0;
+    }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Wave Animation
+   ───────────────────────────────────────────────────────────────────────────── */
+@keyframes wave {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Ring Animations — One per fact card
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Fact 1 — Pulse: classic scale outward */
+@keyframes ringPulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.45;
+    }
+    50% {
+        transform: scale(1.12);
+        opacity: 0.15;
+    }
+}
+
+/* Fact 2 — Breathe: slow inhale/exhale with slight drift */
+@keyframes ringBreathe {
+    0%, 100% {
+        transform: scale(1) translateY(0);
+        opacity: 0.4;
+    }
+    40% {
+        transform: scale(1.06) translateY(-2px);
+        opacity: 0.2;
+    }
+    70% {
+        transform: scale(1.03) translateY(1px);
+        opacity: 0.35;
+    }
+}
+
+/* Fact 3 — Drift: gentle horizontal sway */
+@keyframes ringDrift {
+    0%, 100% {
+        transform: scale(1) translateX(0);
+        opacity: 0.4;
+    }
+    30% {
+        transform: scale(1.04) translateX(3px);
+        opacity: 0.25;
+    }
+    70% {
+        transform: scale(1.04) translateX(-3px);
+        opacity: 0.25;
+    }
+}
+
+/* Fact 4 — Contract: pulls inward then relaxes */
+@keyframes ringContract {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.45;
+    }
+    50% {
+        transform: scale(0.94);
+        opacity: 0.2;
+    }
+}
+
+/* Fact 5 — Glow: opacity-dominant, minimal movement */
+@keyframes ringGlow {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    35% {
+        transform: scale(1.02);
+        opacity: 0.12;
+    }
+    65% {
+        transform: scale(1.02);
+        opacity: 0.4;
+    }
+}
+
+/* Fact 6 — Ripple: sharp outward then slow return */
+@keyframes ringRipple {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.45;
+    }
+    20% {
+        transform: scale(1.14);
+        opacity: 0.1;
+    }
+    60% {
+        transform: scale(1.04);
+        opacity: 0.3;
+    }
+}

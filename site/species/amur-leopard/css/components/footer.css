@@ -1,0 +1,113 @@
+/* ============================================
+   Footer — Brand & attribution
+   ============================================ */
+
+.footer {
+  padding: var(--space-lg) 0 var(--space-md);
+  background: var(--color-shadow);
+  border-top: 1px solid var(--color-mist);
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-md);
+}
+
+/* ── Brand Column ── */
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-ivory);
+}
+
+.footer__logo svg {
+  width: 26px;
+  height: 26px;
+  fill: var(--color-amber);
+}
+
+.footer__project {
+  font-size: 0.8rem;
+  color: var(--color-frost);
+  opacity: 0.7;
+}
+
+.footer__project a {
+  color: var(--color-amber-soft);
+  transition: color var(--duration-fast);
+}
+
+.footer__project a:hover {
+  color: var(--color-amber-bright);
+}
+
+.footer__links {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.25rem;
+}
+
+.footer__link {
+  font-size: 0.8rem;
+  color: var(--color-frost);
+  transition: color var(--duration-fast) var(--ease-prowl);
+}
+
+.footer__link:hover {
+  color: var(--color-amber);
+}
+
+/* ── Signature Column ── */
+.footer__signature {
+  text-align: right;
+  max-width: 320px;
+}
+
+.footer__sig-line {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--color-ivory);
+  margin-bottom: 0.5rem;
+}
+
+.footer__sig-desc {
+  font-size: 0.75rem;
+  color: var(--color-frost);
+  opacity: 0.6;
+  line-height: 1.6;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__signature {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__links {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}

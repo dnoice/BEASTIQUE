@@ -1,0 +1,315 @@
+/* ============================================
+   Facts Section — Alternating timeline cards
+   with image galleries & per-card glow effects
+   ============================================ */
+
+.facts {
+  position: relative;
+  padding: var(--space-xl) 0;
+  background: var(--color-shadow);
+  overflow: hidden;
+}
+
+.facts__header {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.facts__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-amber);
+  margin-bottom: var(--space-xs);
+}
+
+.facts__label svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ── Center Timeline Line ── */
+.facts__list {
+  position: relative;
+}
+
+.facts__list::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--color-bark) 10%,
+    var(--color-bark) 90%,
+    transparent
+  );
+  transform: translateX(-50%);
+}
+
+/* ── Fact Card ── */
+.fact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  align-items: center;
+  margin-bottom: var(--space-xl);
+}
+
+.fact:last-child {
+  margin-bottom: 0;
+}
+
+/* Alternate direction */
+.fact:nth-child(even) {
+  direction: rtl;
+}
+
+.fact:nth-child(even) > * {
+  direction: ltr;
+}
+
+/* ── Rosette Container ── */
+.fact__rosette {
+  position: relative;
+  width: 275px;
+  height: 275px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.02);
+  overflow: hidden;
+}
+
+/* ── Animated Ring ── */
+.fact__rosette-ring {
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px solid;
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* ── Ring colors & animations per card ── */
+.fact:nth-child(1) .fact__rosette-ring {
+  color: #d4944a;
+  animation: stalkPulse 4s ease-in-out infinite;
+}
+.fact:nth-child(2) .fact__rosette-ring {
+  color: #7eb8c9;
+  animation: prowlBreathe 5s ease-in-out infinite;
+}
+.fact:nth-child(3) .fact__rosette-ring {
+  color: #c9a84c;
+  animation: predatorDrift 6s ease-in-out infinite;
+}
+.fact:nth-child(4) .fact__rosette-ring {
+  color: #e07a5f;
+  animation: crouchContract 3.5s ease-in-out infinite;
+}
+.fact:nth-child(5) .fact__rosette-ring {
+  color: #8fae6e;
+  animation: eyeGlow 5.5s ease-in-out infinite;
+}
+.fact:nth-child(6) .fact__rosette-ring {
+  color: #b08d57;
+  animation: springPounce 4.5s ease-in-out infinite;
+}
+
+/* ── Image Gallery ── */
+.fact__rosette-gallery {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.fact__rosette-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 1.2s var(--ease-prowl);
+  /* Vignette shadow to blend with dark bg */
+  box-shadow: inset 0 0 30px var(--color-shadow);
+}
+
+.fact__rosette-img--active {
+  opacity: 1;
+}
+
+/* ── Per-card image glow pulse ── */
+.fact:nth-child(1) .fact__rosette-gallery {
+  animation: imgGlowAmber 4s ease-in-out infinite;
+}
+.fact:nth-child(2) .fact__rosette-gallery {
+  animation: imgGlowIce 5s ease-in-out infinite;
+}
+.fact:nth-child(3) .fact__rosette-gallery {
+  animation: imgGlowGold 6s ease-in-out infinite;
+}
+.fact:nth-child(4) .fact__rosette-gallery {
+  animation: imgGlowCoral 3.5s ease-in-out infinite;
+}
+.fact:nth-child(5) .fact__rosette-gallery {
+  animation: imgGlowForest 5.5s ease-in-out infinite;
+}
+.fact:nth-child(6) .fact__rosette-gallery {
+  animation: imgGlowBronze 4.5s ease-in-out infinite;
+}
+
+/* ── Rosette Wrapper (holds rosette + hint) ── */
+.fact__rosette-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ── Indicator Dots ── */
+.fact__rosette-dots {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 4;
+}
+
+.fact__rosette-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-bark);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  transition: background var(--duration-normal) var(--ease-prowl),
+              transform var(--duration-normal) var(--ease-out-back),
+              box-shadow var(--duration-normal) var(--ease-prowl);
+}
+
+.fact__rosette-dot--active {
+  background: var(--color-amber);
+  transform: scale(1.4);
+  box-shadow: 0 0 8px rgba(212, 148, 74, 0.4);
+}
+
+/* ── Fallback for number-only rosettes (no images yet) ── */
+.fact__rosette-inner {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-ivory);
+  opacity: 0.15;
+  line-height: 1;
+  z-index: 1;
+}
+
+/* ── Hover: lift the image slightly ── */
+.fact__rosette:hover .fact__rosette-img--active {
+  transform: scale(1.06);
+  transition: transform 0.6s var(--ease-out-expo), opacity 1.2s var(--ease-prowl);
+}
+
+/* ── Fact Content ── */
+.fact__content {
+  padding: 0 var(--space-sm);
+}
+
+.fact__number {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-amber);
+  margin-bottom: 0.5rem;
+}
+
+.fact__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 700;
+  color: var(--color-ivory);
+  margin-bottom: 0.75rem;
+}
+
+.fact__desc {
+  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+  color: var(--color-frost);
+  line-height: 1.8;
+}
+
+/* ── Gallery Interaction Hint ── */
+.fact__gallery-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--color-frost);
+  opacity: 0.55;
+}
+
+.fact__gallery-hint svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .facts__list::before {
+    display: none;
+  }
+
+  .fact {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: var(--space-sm);
+  }
+
+  .fact:nth-child(even) {
+    direction: ltr;
+  }
+
+  .fact__rosette {
+    width: 220px;
+    height: 220px;
+  }
+
+  .fact__rosette-inner {
+    font-size: 3rem;
+  }
+
+  .fact__content {
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .fact__rosette {
+    width: 176px;
+    height: 176px;
+  }
+
+  .fact__rosette-inner {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "BQ-LINO-MAM-003__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\lion_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 106.35,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 414,
+      "output_tokens": 5488,
+      "total_tokens": 5902
+    },
+    "ts": 1782445656
+  },
+  "BQ-LINO-MAM-004__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\bengal-tiger_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 116.18,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 395,
+      "output_tokens": 5488,
+      "total_tokens": 5883
+    },
+    "ts": 1782445665
+  },
+  "BQ-LINO-MAM-002__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\african-elephant_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 116.57,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 431,
+      "output_tokens": 5488,
+      "total_tokens": 5919
+    },
+    "ts": 1782445666
+  },
+  "BQ-LINO-MAM-001__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\american-bison_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 119.35,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 465,
+      "output_tokens": 5488,
+      "total_tokens": 5953
+    },
+    "ts": 1782445669
+  },
+  "BQ-LINO-MAM-005__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\reticulated-giraffe_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 99.6,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 411,
+      "output_tokens": 5488,
+      "total_tokens": 5899
+    },
+    "ts": 1782445755
+  },
+  "BQ-LINO-MAM-006__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\western-gorilla_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 103.34,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 386,
+      "output_tokens": 5488,
+      "total_tokens": 5874
+    },
+    "ts": 1782445769
+  },
+  "BQ-LINO-MAM-007__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\chimpanzee_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 118.36,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 367,
+      "output_tokens": 5488,
+      "total_tokens": 5855
+    },
+    "ts": 1782445784
+  },
+  "BQ-LINO-MAM-008__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\grizzly-bear_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 115.68,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 374,
+      "output_tokens": 5488,
+      "total_tokens": 5862
+    },
+    "ts": 1782445784
+  },
+  "BQ-LINO-MAM-009__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\gray-wolf_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 105.37,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 387,
+      "output_tokens": 5488,
+      "total_tokens": 5875
+    },
+    "ts": 1782445861
+  },
+  "BQ-LINO-MAM-010__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\red-fox_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 106.06,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 383,
+      "output_tokens": 5488,
+      "total_tokens": 5871
+    },
+    "ts": 1782445875
+  },
+  "BQ-LINO-MAM-011__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\cheetah_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 100.6,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 390,
+      "output_tokens": 5488,
+      "total_tokens": 5878
+    },
+    "ts": 1782445885
+  },
+  "BQ-LINO-MAM-012__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\leopard_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 106.29,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 395,
+      "output_tokens": 5488,
+      "total_tokens": 5883
+    },
+    "ts": 1782445891
+  },
+  "BQ-LINO-MAM-013__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\jaguar_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 104.73,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 402,
+      "output_tokens": 5488,
+      "total_tokens": 5890
+    },
+    "ts": 1782445965
+  },
+  "BQ-LINO-MAM-014__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\plains-zebra_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 116.93,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 398,
+      "output_tokens": 5488,
+      "total_tokens": 5886
+    },
+    "ts": 1782445992
+  },
+  "BQ-LINO-MAM-015__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\hippopotamus_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 107.99,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 415,
+      "output_tokens": 5488,
+      "total_tokens": 5903
+    },
+    "ts": 1782445993
+  },
+  "BQ-LINO-MAM-016__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\white-rhinoceros_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 118.68,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 395,
+      "output_tokens": 5488,
+      "total_tokens": 5883
+    },
+    "ts": 1782446009
+  },
+  "BQ-LINO-MAM-017__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\red-kangaroo_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 97.65,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 407,
+      "output_tokens": 5488,
+      "total_tokens": 5895
+    },
+    "ts": 1782446063
+  },
+  "BQ-LINO-MAM-019__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\giant-panda_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 100.89,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 403,
+      "output_tokens": 5488,
+      "total_tokens": 5891
+    },
+    "ts": 1782446094
+  },
+  "BQ-LINO-MAM-018__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\koala_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 105.41,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 417,
+      "output_tokens": 5488,
+      "total_tokens": 5905
+    },
+    "ts": 1782446097
+  },
+  "BQ-LINO-MAM-020__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\polar-bear_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 108.2,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 407,
+      "output_tokens": 5488,
+      "total_tokens": 5895
+    },
+    "ts": 1782446117
+  },
+  "BQ-LINO-MAM-021__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\moose_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 105.59,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 401,
+      "output_tokens": 5488,
+      "total_tokens": 5889
+    },
+    "ts": 1782446169
+  },
+  "BQ-LINO-MAM-022__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\elk_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 102.95,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 412,
+      "output_tokens": 5488,
+      "total_tokens": 5900
+    },
+    "ts": 1782446197
+  },
+  "BQ-LINO-MAM-023__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\white-tailed-deer_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 101.23,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 408,
+      "output_tokens": 5488,
+      "total_tokens": 5896
+    },
+    "ts": 1782446198
+  },
+  "BQ-LINO-MAM-024__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\caribou_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 113.91,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 436,
+      "output_tokens": 5488,
+      "total_tokens": 5924
+    },
+    "ts": 1782446231
+  },
+  "BQ-LINO-MAM-025__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\dromedary-camel_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 112.0,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 408,
+      "output_tokens": 5488,
+      "total_tokens": 5896
+    },
+    "ts": 1782446281
+  },
+  "BQ-LINO-MAM-026__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\wild-horse_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 106.94,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 413,
+      "output_tokens": 5488,
+      "total_tokens": 5901
+    },
+    "ts": 1782446304
+  },
+  "BQ-LINO-MAM-027__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\cape-buffalo_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 110.64,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 412,
+      "output_tokens": 5488,
+      "total_tokens": 5900
+    },
+    "ts": 1782446309
+  },
+  "BQ-LINO-MAM-028__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\wild-boar_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 124.33,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 428,
+      "output_tokens": 5488,
+      "total_tokens": 5916
+    },
+    "ts": 1782446356
+  },
+  "BQ-LINO-MAM-029__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\bornean-orangutan_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 114.12,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 412,
+      "output_tokens": 5488,
+      "total_tokens": 5900
+    },
+    "ts": 1782446395
+  },
+  "BQ-LINO-MAM-031__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\raccoon_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 109.58,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 411,
+      "output_tokens": 5488,
+      "total_tokens": 5899
+    },
+    "ts": 1782446419
+  },
+  "BQ-LINO-MAM-030__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\three-toed-sloth_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 119.81,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 421,
+      "output_tokens": 5488,
+      "total_tokens": 5909
+    },
+    "ts": 1782446423
+  },
+  "BQ-LINO-MAM-032__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\beaver_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 112.82,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 411,
+      "output_tokens": 5488,
+      "total_tokens": 5899
+    },
+    "ts": 1782446468
+  },
+  "BQ-LINO-MAM-033__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\river-otter_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 112.06,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 411,
+      "output_tokens": 5488,
+      "total_tokens": 5899
+    },
+    "ts": 1782446507
+  },
+  "BQ-LINO-MAM-034__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\european-badger_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 113.11,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 406,
+      "output_tokens": 5488,
+      "total_tokens": 5894
+    },
+    "ts": 1782446532
+  },
+  "BQ-LINO-MAM-035__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\striped-skunk_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 110.9,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 413,
+      "output_tokens": 5488,
+      "total_tokens": 5901
+    },
+    "ts": 1782446534
+  },
+  "BQ-LINO-MAM-036__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\hedgehog_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 112.08,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 429,
+      "output_tokens": 5488,
+      "total_tokens": 5917
+    },
+    "ts": 1782446581
+  },
+  "BQ-LINO-MAM-037__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\flying-fox_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 101.57,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 418,
+      "output_tokens": 5488,
+      "total_tokens": 5906
+    },
+    "ts": 1782446608
+  },
+  "BQ-LINO-MAM-038__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\european-rabbit_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 93.58,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 404,
+      "output_tokens": 5488,
+      "total_tokens": 5892
+    },
+    "ts": 1782446625
+  },
+  "BQ-LINO-MAM-039__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\gray-squirrel_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 101.69,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 411,
+      "output_tokens": 5488,
+      "total_tokens": 5899
+    },
+    "ts": 1782446636
+  },
+  "BQ-LINO-MAM-040__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\jackrabbit_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 97.06,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 403,
+      "output_tokens": 5488,
+      "total_tokens": 5891
+    },
+    "ts": 1782446678
+  },
+  "BQ-LINO-MAM-041__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\armadillo_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 114.03,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 430,
+      "output_tokens": 5488,
+      "total_tokens": 5918
+    },
+    "ts": 1782446722
+  },
+  "BQ-LINO-MAM-042__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\giant-anteater_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 99.14,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 418,
+      "output_tokens": 5488,
+      "total_tokens": 5906
+    },
+    "ts": 1782446724
+  },
+  "BQ-LINO-MAM-043__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\meerkat_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 89.86,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 428,
+      "output_tokens": 5488,
+      "total_tokens": 5916
+    },
+    "ts": 1782446726
+  },
+  "BQ-LINO-MAM-044__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\ring-tailed-lemur_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 105.45,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 413,
+      "output_tokens": 5488,
+      "total_tokens": 5901
+    },
+    "ts": 1782446783
+  },
+  "BQ-LINO-MAM-047__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\pronghorn_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 93.24,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 427,
+      "output_tokens": 5488,
+      "total_tokens": 5915
+    },
+    "ts": 1782446819
+  },
+  "BQ-LINO-MAM-045__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\bighorn-sheep_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 102.48,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 411,
+      "output_tokens": 5488,
+      "total_tokens": 5899
+    },
+    "ts": 1782446825
+  },
+  "BQ-LINO-MAM-046__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\mountain-goat_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 102.48,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 448,
+      "output_tokens": 5488,
+      "total_tokens": 5936
+    },
+    "ts": 1782446827
+  },
+  "BQ-LINO-MAM-048__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\wolverine_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 105.92,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 442,
+      "output_tokens": 5488,
+      "total_tokens": 5930
+    },
+    "ts": 1782446889
+  },
+  "BQ-LINO-MAM-049__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\snow-leopard_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 108.62,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 450,
+      "output_tokens": 5488,
+      "total_tokens": 5938
+    },
+    "ts": 1782446928
+  },
+  "BQ-LINO-MAM-050__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\linocut\\high\\aardvark_linocut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 107.56,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 453,
+      "output_tokens": 5488,
+      "total_tokens": 5941
+    },
+    "ts": 1782446932
+  }
+}

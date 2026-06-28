@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEASTIQUE — What We Destroy to Extract</title>
+    <meta name="description" content="Endangered species rendered in the precious materials we destroy their habitats to mine. 39 handcrafted artworks. 5 kingdoms. 1 mission. Art meets evidence.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/landing.css">
+</head>
+
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- ═══════════════════════════════════════════
+         1. NAVIGATION — Cinematic Command Bar
+         ═══════════════════════════════════════════ -->
+    <nav class="nav" aria-label="Main navigation">
+        <div class="nav__progress" aria-hidden="true"></div>
+        <div class="container nav__inner">
+            <a href="index.html" class="nav__logo" aria-label="BEASTIQUE Home">
+                <img src="assets/logos/bq_logo.png" alt="" class="nav__logo-icon" aria-hidden="true">
+                <span class="nav__logo-text">BEASTIQUE</span>
+            </a>
+            <ul class="nav__links">
+                <li><a href="#gallery" class="nav__link">Gallery</a></li>
+                <li><a href="#beasts" class="nav__link">The Beasts</a></li>
+                <li><a href="#mission" class="nav__link">Mission</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <!-- Mobile hamburger -->
+            <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <img src="assets/logos/bq_logo.png" alt="" class="mobile-menu__logo" aria-hidden="true">
+        <ul class="mobile-menu__links">
+            <li><a href="#gallery" class="mobile-menu__link">Gallery</a></li>
+            <li><a href="#beasts" class="mobile-menu__link">The Beasts</a></li>
+            <li><a href="#mission" class="mobile-menu__link">Mission</a></li>
+            <li><a href="#about" class="mobile-menu__link">About</a></li>
+            <li><a href="#contact" class="mobile-menu__link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main">
+
+    <!-- ═══════════════════════════════════════════
+         2. HERO — Full-Screen Cinematic Entrance
+         ═══════════════════════════════════════════ -->
+    <section class="hero" aria-label="Hero">
+        <canvas id="particle-canvas" class="hero__canvas" aria-hidden="true"></canvas>
+        <div class="hero__overlay" aria-hidden="true"></div>
+
+        <div class="hero__content">
+            <p class="hero__eyebrow">
+
+            <h1 class="sr-only">BEASTIQUE — Endangered Species in Precious Materials</h1>
+
+            <!-- Hero centerpiece — BQ Lion artwork -->
+            <div class="hero__artwork-wrap">
+                <div class="hero__artwork-glow" aria-hidden="true"></div>
+                <img src="assets/images/landing/bq-lion-hero.png"
+                     alt="BEASTIQUE — A majestic lion rendered in copper and bronze, flanked by B and Q monograms"
+                     class="hero__artwork" loading="eager">
+            </div>
+
+            <div class="hero__tagline"
+                 data-typewriter="What we destroy to extract.|What we lose in the transaction."
+                 aria-label="What we destroy to extract. What we lose in the transaction.">
+            </div>
+
+            <div class="hero__cta-block">
+                <a href="#gallery" class="hero__cta">
+                    <span>Enter</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M12 5v14M5 12l7 7 7-7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero__stats" aria-label="Crisis statistics">
+            <div class="hero__stat" data-animate>
+                <span class="hero__stat-number" data-count="1000000">1,000,000</span>
+                <span class="hero__stat-label">Species face extinction</span>
+            </div>
+            <div class="hero__stat" data-animate>
+                <span class="hero__stat-number" data-count="69">69%</span>
+                <span class="hero__stat-label">Wildlife lost since 1970</span>
+            </div>
+            <div class="hero__stat" data-animate>
+                <span class="hero__stat-number" data-count="150">150</span>
+                <span class="hero__stat-label">Species lost per day</span>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="hero__scroll-hint" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 5v14M5 12l7 7 7-7"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         3. THE COST — Emotional Impact
+         ═══════════════════════════════════════════ -->
+    <section class="cost" aria-label="The cost of extinction">
+        <div class="cost__glow" aria-hidden="true"></div>
+        <div class="container">
+            <blockquote class="cost__quote" data-animate>
+                <p>Every gold ring has a shadow.<br>Every diamond has a grave.</p>
+            </blockquote>
+        </div>
+        <div class="cost__ticker" aria-label="Extinction facts">
+            <div class="cost__ticker-track">
+                <span class="cost__ticker-item">1 species goes extinct every 10 minutes</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+                <span class="cost__ticker-item">We've lost 69% of wildlife populations since 1970</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+                <span class="cost__ticker-item">23,000+ species currently threatened with extinction</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+                <span class="cost__ticker-item">Up to 150 species disappear every single day</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+                <span class="cost__ticker-item">$44 trillion of economic value depends on nature</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+                <!-- Duplicate for seamless loop -->
+                <span class="cost__ticker-item">1 species goes extinct every 10 minutes</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+                <span class="cost__ticker-item">We've lost 69% of wildlife populations since 1970</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+                <span class="cost__ticker-item">23,000+ species currently threatened with extinction</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+                <span class="cost__ticker-item">Up to 150 species disappear every single day</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+                <span class="cost__ticker-item">$44 trillion of economic value depends on nature</span>
+                <span class="cost__ticker-sep" aria-hidden="true">&loz;</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         4. THE GALLERY — Crown Jewel Showcase
+         ═══════════════════════════════════════════ -->
+    <section class="gallery" id="gallery" aria-label="Featured artworks gallery">
+        <div class="gallery__track">
+            <!-- Slide 1 -->
+            <div class="gallery__slide gallery__slide--active">
+                <img src="assets/images/featured/philippine-eagle.png"
+                     alt="Philippine Eagle rendered in precious metals and minerals"
+                     class="gallery__image" loading="eager">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--avian">Avian</span>
+                    <h3 class="gallery__name">Philippine Eagle</h3>
+                    <p class="gallery__tagline">Monkey-Eating Lord of the Canopy</p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="gallery__slide">
+                <img src="assets/images/featured/amur-leopard-1.png"
+                     alt="Amur Leopard rendered in precious metals and minerals"
+                     class="gallery__image" loading="lazy">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--mammalian">Mammalian</span>
+                    <h3 class="gallery__name">Amur Leopard</h3>
+                    <p class="gallery__tagline">Ghost of the Siberian Forest</p>
+                    <a href="species/amur-leopard/" class="gallery__cta">Explore Showcase <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="gallery__slide">
+                <img src="assets/images/featured/blue-whale.png"
+                     alt="Blue Whale rendered in precious metals and minerals"
+                     class="gallery__image" loading="lazy">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--aquatic">Aquatic</span>
+                    <h3 class="gallery__name">Blue Whale</h3>
+                    <p class="gallery__tagline">Colossus of the Abyss</p>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="gallery__slide">
+                <img src="assets/images/featured/scarlet-macaw.png"
+                     alt="Scarlet Macaw rendered in precious metals and minerals"
+                     class="gallery__image" loading="lazy">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--avian">Avian</span>
+                    <h3 class="gallery__name">Scarlet Macaw</h3>
+                    <p class="gallery__tagline">Blazing Jewel of the Canopy</p>
+                </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="gallery__slide">
+                <img src="assets/images/featured/arizona-tree-frog.png"
+                     alt="Arizona Tree Frog rendered in precious metals and minerals"
+                     class="gallery__image" loading="lazy">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--reptilian">Reptilian</span>
+                    <h3 class="gallery__name">Arizona Tree Frog</h3>
+                    <p class="gallery__tagline">Emerald Gem of the Canyon</p>
+                </div>
+            </div>
+            <!-- Slide 6 -->
+            <div class="gallery__slide">
+                <img src="assets/images/featured/lion.png"
+                     alt="Lion rendered in precious metals and minerals"
+                     class="gallery__image" loading="lazy">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--mammalian">Mammalian</span>
+                    <h3 class="gallery__name">Lion</h3>
+                    <p class="gallery__tagline">King of the Vanishing Savanna</p>
+                </div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="gallery__slide">
+                <img src="assets/images/featured/butterfly-1.png"
+                     alt="Butterfly rendered in precious metals and minerals"
+                     class="gallery__image" loading="lazy">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--insecta">Insecta</span>
+                    <h3 class="gallery__name">Monarch Butterfly</h3>
+                    <p class="gallery__tagline">Crown Jewel of the Migration</p>
+                </div>
+            </div>
+            <!-- Slide 8 -->
+            <div class="gallery__slide">
+                <img src="assets/images/featured/great-white-shark.png"
+                     alt="Great White Shark rendered in precious metals and minerals"
+                     class="gallery__image" loading="lazy">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--aquatic">Aquatic</span>
+                    <h3 class="gallery__name">Great White Shark</h3>
+                    <p class="gallery__tagline">Supreme Predator of the Deep</p>
+                </div>
+            </div>
+            <!-- Slide 9 -->
+            <div class="gallery__slide">
+                <img src="assets/images/featured/secretary-bird.png"
+                     alt="Secretary Bird rendered in precious metals and minerals"
+                     class="gallery__image" loading="lazy">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--avian">Avian</span>
+                    <h3 class="gallery__name">Secretary Bird</h3>
+                    <p class="gallery__tagline">Serpent Crusher of the Savanna</p>
+                </div>
+            </div>
+            <!-- Slide 10 -->
+            <div class="gallery__slide">
+                <img src="assets/images/featured/madagascar-pochard-1.png"
+                     alt="Madagascar Pochard rendered in precious metals and minerals"
+                     class="gallery__image" loading="lazy">
+                <div class="gallery__info">
+                    <span class="gallery__badge gallery__badge--avian">Avian</span>
+                    <h3 class="gallery__name">Madagascar Pochard</h3>
+                    <p class="gallery__tagline">Rarest Duck on Earth</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="gallery__prev" aria-label="Previous artwork">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="gallery__next" aria-label="Next artwork">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+
+        <!-- Dots -->
+        <div class="gallery__dots" aria-label="Gallery navigation">
+            <div class="gallery__dot gallery__dot--active" aria-label="Slide 1"></div>
+            <div class="gallery__dot" aria-label="Slide 2"></div>
+            <div class="gallery__dot" aria-label="Slide 3"></div>
+            <div class="gallery__dot" aria-label="Slide 4"></div>
+            <div class="gallery__dot" aria-label="Slide 5"></div>
+            <div class="gallery__dot" aria-label="Slide 6"></div>
+            <div class="gallery__dot" aria-label="Slide 7"></div>
+            <div class="gallery__dot" aria-label="Slide 8"></div>
+            <div class="gallery__dot" aria-label="Slide 9"></div>
+            <div class="gallery__dot" aria-label="Slide 10"></div>
+        </div>
+
+        <!-- Counter -->
+        <div class="gallery__counter" aria-hidden="true">
+            <span class="gallery__counter-current">01</span>
+            <span class="gallery__counter-sep">/</span>
+            <span class="gallery__counter-total">10</span>
+        </div>
+
+        <!-- Gallery footer line -->
+        <div class="gallery__footer" data-animate>
+            <p class="gallery__footer-text">39 Artworks &middot; 5 Kingdoms &middot; 1 Mission</p>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         5. THE BEASTS — 5 Category Portals
+         ═══════════════════════════════════════════ -->
+    <section class="beasts" id="beasts">
+        <div class="container">
+            <header class="beasts__header" data-animate>
+                <div class="beasts__rule" aria-hidden="true"></div>
+                <h2 class="beasts__title">The Beasts</h2>
+                <p class="beasts__subtitle">Five kingdoms of endangered life. Each rendered in the materials we extract from their dying worlds.</p>
+                <div class="beasts__rule" aria-hidden="true"></div>
+            </header>
+
+            <div class="beasts__grid">
+                <!-- Aquatic -->
+                <a href="categories/aquatic.html" class="beast-card" data-animate style="--card-accent: #d4565c; --card-bg: #0a1628;">
+                    <div class="beast-card__image-wrap">
+                        <img src="assets/images/featured/great-white-shark.png" alt="Aquatic — Guardians of the Deep" class="beast-card__image" loading="lazy">
+                        <div class="beast-card__overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="beast-card__content">
+                        <span class="beast-card__count">37 Species</span>
+                        <h3 class="beast-card__name">Aquatic</h3>
+                        <p class="beast-card__tagline">Guardians of the Deep</p>
+                    </div>
+                    <div class="beast-card__border" aria-hidden="true"></div>
+                </a>
+
+                <!-- Avian -->
+                <a href="categories/avian.html" class="beast-card" data-animate style="--card-accent: #7eb8c9; --card-bg: #0c1420;">
+                    <div class="beast-card__image-wrap">
+                        <img src="assets/images/featured/philippine-eagle.png" alt="Avian — Voices of the Vanishing Sky" class="beast-card__image" loading="lazy">
+                        <div class="beast-card__overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="beast-card__content">
+                        <span class="beast-card__count">66 Species</span>
+                        <h3 class="beast-card__name">Avian</h3>
+                        <p class="beast-card__tagline">Voices of the Vanishing Sky</p>
+                    </div>
+                    <div class="beast-card__border" aria-hidden="true"></div>
+                </a>
+
+                <!-- Insecta -->
+                <a href="categories/insecta.html" class="beast-card" data-animate style="--card-accent: #c9a84e; --card-bg: #0a1208;">
+                    <div class="beast-card__image-wrap">
+                        <img src="assets/images/featured/butterfly-1.png" alt="Insecta — The Invisible Architecture of Life" class="beast-card__image" loading="lazy">
+                        <div class="beast-card__overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="beast-card__content">
+                        <span class="beast-card__count">33 Species</span>
+                        <h3 class="beast-card__name">Insecta</h3>
+                        <p class="beast-card__tagline">The Invisible Architecture of Life</p>
+                    </div>
+                    <div class="beast-card__border" aria-hidden="true"></div>
+                </a>
+
+                <!-- Mammalian -->
+                <a href="categories/mammalian.html" class="beast-card" data-animate style="--card-accent: #d4944a; --card-bg: #0a0806;">
+                    <div class="beast-card__image-wrap">
+                        <img src="assets/images/featured/amur-leopard-1.png" alt="Mammalian — Bloodlines Running Out" class="beast-card__image" loading="lazy">
+                        <div class="beast-card__overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="beast-card__content">
+                        <span class="beast-card__count">47 Species</span>
+                        <h3 class="beast-card__name">Mammalian</h3>
+                        <p class="beast-card__tagline">Bloodlines Running Out</p>
+                    </div>
+                    <div class="beast-card__border" aria-hidden="true"></div>
+                </a>
+
+                <!-- Reptilian -->
+                <a href="categories/reptilian.html" class="beast-card" data-animate style="--card-accent: #8fae6e; --card-bg: #080c0a;">
+                    <div class="beast-card__image-wrap">
+                        <img src="assets/images/featured/arizona-tree-frog.png" alt="Reptilian — Ancient Scales, Modern Graves" class="beast-card__image" loading="lazy">
+                        <div class="beast-card__overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="beast-card__content">
+                        <span class="beast-card__count">37 Species</span>
+                        <h3 class="beast-card__name">Reptilian</h3>
+                        <p class="beast-card__tagline">Ancient Scales, Modern Graves</p>
+                    </div>
+                    <div class="beast-card__border" aria-hidden="true"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         6. LIVE SHOWCASES — Species Deep Dives
+         ═══════════════════════════════════════════ -->
+    <section class="showcases" id="showcases">
+        <div class="container">
+            <header class="showcases__header" data-animate>
+                <h2 class="showcases__title">Live Showcases</h2>
+                <p class="showcases__subtitle">Full immersive experiences. Data-backed. Source-linked. Unforgettable.</p>
+            </header>
+
+            <!-- Beluga Sturgeon -->
+            <article class="showcase" data-animate>
+                <div class="showcase__image-wrap">
+                    <img src="assets/images/featured/beluga-sturgeon-1.png"
+                         alt="Beluga Sturgeon — Ancient Giant of the Caspian"
+                         class="showcase__image" loading="lazy">
+                    <div class="showcase__vignette" aria-hidden="true"></div>
+                </div>
+                <div class="showcase__content">
+                    <span class="showcase__status showcase__status--critical">Critically Endangered</span>
+                    <h3 class="showcase__name">Beluga Sturgeon</h3>
+                    <p class="showcase__scientific">Huso huso</p>
+                    <p class="showcase__tagline">A 200-million-year lineage, harvested to the edge of oblivion for the world's most expensive delicacy.</p>
+                    <a href="species/beluga-sturgeon/" class="showcase__cta">
+                        Enter the Showcase
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Wave Divider -->
+            <div class="showcases__divider" aria-hidden="true">
+                <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+                    <path d="M0,30 C200,50 400,10 600,30 C800,50 1000,10 1200,30" fill="none" stroke="var(--color-muted)" stroke-width="0.5" opacity="0.4"/>
+                </svg>
+            </div>
+
+            <!-- Amur Leopard -->
+            <article class="showcase showcase--reverse" data-animate>
+                <div class="showcase__image-wrap">
+                    <img src="assets/images/featured/amur-leopard-2.png"
+                         alt="Amur Leopard — Ghost of the Siberian Forest"
+                         class="showcase__image" loading="lazy">
+                    <div class="showcase__vignette" aria-hidden="true"></div>
+                </div>
+                <div class="showcase__content">
+                    <span class="showcase__status showcase__status--critical">Critically Endangered</span>
+                    <h3 class="showcase__name">Amur Leopard</h3>
+                    <p class="showcase__scientific">Panthera pardus orientalis</p>
+                    <p class="showcase__tagline">The rarest big cat on Earth, silently stalking the frozen forests of the Russian Far East. Fewer than 120 remain.</p>
+                    <a href="species/amur-leopard/" class="showcase__cta">
+                        Enter the Showcase
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         7. THE MISSION — Project Manifesto
+         ═══════════════════════════════════════════ -->
+    <section class="mission" id="mission">
+        <div class="container">
+            <div class="mission__grid">
+                <div class="mission__content" data-animate>
+                    <div class="mission__label">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M12 2l2 7h7l-6 4 2 7-6-4-6 4 2-7-6-4h7z"/>
+                        </svg>
+                        The Project
+                    </div>
+                    <h2 class="mission__title">Art Meets Evidence</h2>
+                    <p class="mission__text">
+                        BEASTIQUE renders endangered creatures in the precious metals, industrial
+                        minerals, and rare substances we destroy their habitats to extract.
+                        Every image is a transaction receipt. Every fact is sourced and citeable.
+                    </p>
+                    <p class="mission__text">
+                        This is not protest art. It is a translation layer between peer-reviewed
+                        ecological data and the human capacity to care. If someone challenges a claim,
+                        the receipts are one click away. If someone asks what can actually be done,
+                        the experience responds with documented interventions that work.
+                    </p>
+                </div>
+                <div class="mission__visual" data-animate>
+                    <div class="mission__sources">
+                        <div class="mission__source-hex">
+                            <span>IUCN</span>
+                            <small>Red List</small>
+                        </div>
+                        <div class="mission__source-hex">
+                            <span>UNEP</span>
+                            <small>Env. Programme</small>
+                        </div>
+                        <div class="mission__source-hex">
+                            <span>WWF</span>
+                            <small>Living Planet</small>
+                        </div>
+                        <div class="mission__source-hex">
+                            <span>IPBES</span>
+                            <small>Biodiversity</small>
+                        </div>
+                        <div class="mission__source-hex">
+                            <span>CITES</span>
+                            <small>Trade Data</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hexagon divider -->
+            <div class="mission__divider" data-animate aria-hidden="true">
+                <div class="mission__divider-line"></div>
+                <img src="assets/logos/bq_logo.png" alt="" class="mission__divider-icon">
+                <div class="mission__divider-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         8. BY THE NUMBERS — Data Wall
+         ═══════════════════════════════════════════ -->
+    <section class="numbers" id="numbers">
+        <div class="container">
+            <div class="numbers__grid">
+                <div class="numbers__stat" data-animate>
+                    <span class="numbers__value" data-count="39">39</span>
+                    <span class="numbers__label">Handcrafted Artworks</span>
+                </div>
+                <div class="numbers__stat" data-animate>
+                    <span class="numbers__value" data-count="5">5</span>
+                    <span class="numbers__label">Beast Kingdoms</span>
+                </div>
+                <div class="numbers__stat" data-animate>
+                    <span class="numbers__value" data-count="220">220+</span>
+                    <span class="numbers__label">Species Catalogued</span>
+                </div>
+                <div class="numbers__stat" data-animate>
+                    <span class="numbers__value" data-count="2">2</span>
+                    <span class="numbers__label">Immersive Showcases</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         9. ABOUT — Studio Identity
+         ═══════════════════════════════════════════ -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__content" data-animate>
+                <h2 class="about__title">A digiSpace Studios Production</h2>
+                <p class="about__text">
+                    Each piece in the BEASTIQUE collection is the product of a meticulous process:
+                    custom SVG frameworks built from scratch in Inkscape, layered with photographic
+                    reference and digital enhancement techniques refined over 18 months. A single
+                    image can take anywhere from several hours to several days to complete.
+                </p>
+                <p class="about__text">
+                    The result is not illustration. It is not photography. It is a new form of
+                    conservation art that exists at the intersection of precision craft and
+                    ecological accountability.
+                </p>
+                <div class="about__signature">
+                    <p class="about__sig-line">&#xFE3B;&#x30C7;&#x2550;&#x2500;&#x2500;&#x2500; &#x2726; &#x2726; &#x2726; &#x007C; Aim Twice, Shoot Once!</p>
+                    <p class="about__sig-desc">A creative philosophy of precision and intentionality &mdash; measure twice, execute once.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         10. CONTACT — Reach Out
+         ═══════════════════════════════════════════ -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__content" data-animate>
+                <h2 class="contact__title">Get In Touch</h2>
+                <p class="contact__text">For collaborations, inquiries, or to support the BEASTIQUE mission.</p>
+                <div class="contact__links">
+                    <a href="mailto:densmaltz4@gmail.com" class="contact__link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="M22 7l-10 6L2 7"/>
+                        </svg>
+                        densmaltz4@gmail.com
+                    </a>
+                    <a href="https://github.com/dnoice/BEASTIQUE" target="_blank" rel="noopener" class="contact__link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.49.5.09.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                        </svg>
+                        dnoice/BEASTIQUE
+                        <span class="sr-only">(opens in new tab)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- ═══════════════════════════════════════════
+         11. CLOSING BANNER — Cinematic Final Impact
+         ═══════════════════════════════════════════ -->
+    <section class="closing-banner" aria-label="Call to action">
+        <div class="closing-banner__glow" aria-hidden="true"></div>
+        <div class="closing-banner__image-wrap">
+            <img src="assets/images/landing/bq-hero-banner.png"
+                 alt="BEASTIQUE — Each letter filled with endangered species rendered in gold"
+                 class="closing-banner__image" loading="lazy">
+        </div>
+        <div class="closing-banner__overlay" aria-hidden="true"></div>
+        <div class="closing-banner__content">
+            <div class="closing-banner__warning" aria-hidden="true">
+                <span class="closing-banner__warning-icon">&#x26A0;</span>
+                <span class="closing-banner__warning-text">1 species goes extinct every 10 minutes</span>
+                <span class="closing-banner__warning-icon">&#x26A0;</span>
+            </div>
+            <p class="closing-banner__message">The clock does not pause. The ledger does not lie.</p>
+            <div class="closing-banner__ctas">
+                <a href="#gallery" class="closing-banner__cta closing-banner__cta--primary">
+                    <span>Explore the Collection</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#mission" class="closing-banner__cta closing-banner__cta--secondary">
+                    <span>Read the Mission</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+            <div class="closing-banner__warning closing-banner__warning--bottom" aria-hidden="true">
+                <span class="closing-banner__warning-text">Every gold ring has a shadow. Every diamond has a grave.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         12. FOOTER — Signature Close
+         ═══════════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="footer__divider" aria-hidden="true">
+            <div class="footer__divider-line"></div>
+            <img src="assets/logos/bq_logo.png" alt="" class="footer__divider-icon">
+            <div class="footer__divider-line"></div>
+        </div>
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <img src="assets/logos/bq_logo.png" alt="" class="footer__logo-icon" aria-hidden="true">
+                        BEASTIQUE
+                    </div>
+                    <p class="footer__tagline">Built with precision. Powered by purpose.</p>
+                </div>
+                <div class="footer__nav">
+                    <a href="#gallery" class="footer__link">Gallery</a>
+                    <a href="#beasts" class="footer__link">The Beasts</a>
+                    <a href="#mission" class="footer__link">Mission</a>
+                    <a href="#contact" class="footer__link">Contact</a>
+                </div>
+                <div class="footer__copy">
+                    <p>&copy; 2024&ndash;2026 digiSpace Studios. All artworks original.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript Module -->
+    <script type="module" src="js/landing.js"></script>
+</body>
+
+</html>

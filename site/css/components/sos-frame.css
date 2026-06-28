@@ -1,0 +1,378 @@
+/* ═══════════════════════════════════════════════════════════════
+   SOS FRAME — BEASTIQUE Design System Component
+   Reusable SOS Morse code frame for species display
+
+   Usage: Import this CSS, then call SOSFrame.init() from JS module.
+   Custom properties (set on .sos-frame or parent):
+     --sos-signal        Signal gold color (default: #f2bc00)
+     --sos-signal-dim    Signal at 40% opacity
+     --sos-signal-glow   Signal at 15% opacity
+     --sos-flash         Flash state color (default: #ffd740)
+     --sos-accent        Accent color from species palette
+     --sos-accent-dim    Accent at reduced opacity
+   ═══════════════════════════════════════════════════════════════ */
+
+
+/* ── Default Custom Properties ── */
+.sos-frame {
+  --sos-signal: #f2bc00;
+  --sos-signal-dim: rgba(242, 188, 0, 0.4);
+  --sos-signal-glow: rgba(242, 188, 0, 0.15);
+  --sos-flash: #ffd740;
+  --sos-accent: #6ba3c7;
+  --sos-accent-dim: rgba(107, 163, 199, 0.15);
+}
+
+
+/* ═══════════════════════════════════════
+   FRAME CONTAINER
+   ═══════════════════════════════════════ */
+
+.sos-frame {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  opacity: 0;
+  transform: scale(0.97);
+  animation: sosFrameReveal 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+}
+
+@keyframes sosFrameReveal {
+  to { opacity: 1; transform: scale(1); }
+}
+
+
+/* ── Ambient Glow ── */
+.sos-frame__ambient-glow {
+  position: absolute;
+  inset: -15%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  animation: sosAmbientBreathe 8s ease-in-out infinite;
+  /* Background gradient set by JS with species palette colors */
+}
+
+@keyframes sosAmbientBreathe {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.02); }
+}
+
+/* Heightened glow during SOS playback */
+.sos-frame--playing .sos-frame__ambient-glow {
+  animation: sosHeartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes sosHeartbeat {
+  0%, 100% { opacity: 0.4; }
+  25% { opacity: 0.8; }
+  50% { opacity: 0.3; }
+  75% { opacity: 0.7; }
+}
+
+
+/* ── SVG Wrapper ── */
+.sos-frame__svg-wrap {
+  position: relative;
+  z-index: 1;
+  line-height: 0;
+}
+
+.sos-frame__svg-wrap svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter:
+    drop-shadow(0 4px 40px rgba(0, 0, 0, 0.5))
+    drop-shadow(0 0 30px var(--sos-accent-dim));
+}
+
+/* Enhanced glow during SOS playback */
+.sos-frame--playing .sos-frame__svg-wrap svg {
+  filter:
+    drop-shadow(0 4px 40px rgba(0, 0, 0, 0.5))
+    drop-shadow(0 0 40px var(--sos-accent-dim))
+    drop-shadow(0 0 60px var(--sos-signal-glow));
+}
+
+
+/* ── Scanlines ── */
+.sos-frame__scanlines {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  mix-blend-mode: multiply;
+  opacity: 0.4;
+}
+
+
+/* ═══════════════════════════════════════
+   SVG ELEMENT STYLING
+   ═══════════════════════════════════════ */
+
+/* ── Outer Frame ── */
+.sos-outer-frame {
+  /* Black frame border — no fill override needed (default black) */
+}
+
+/* ── Inner Frame ── */
+.sos-inner-frame {
+  /* Gradient fill set in SVG defs, customized by JS */
+  transition: filter 1s ease, opacity 1s ease;
+}
+
+
+/* ── Morse Code Elements ── */
+.sos-morse {
+  fill: var(--sos-signal);
+  fill-opacity: 1;
+  transition: fill 0.3s ease, fill-opacity 0.4s ease, filter 0.4s ease;
+}
+
+/* Default idle — dim */
+.sos-morse--idle {
+  fill-opacity: 0.35;
+  filter: none;
+}
+
+/* Active/lit during SOS sequence */
+.sos-morse--active {
+  fill-opacity: 1;
+  filter:
+    drop-shadow(0 0 8px var(--sos-signal))
+    drop-shadow(0 0 20px var(--sos-signal-glow));
+}
+
+/* Intense flash state */
+.sos-morse--flash {
+  fill: var(--sos-flash);
+  fill-opacity: 1;
+  filter:
+    drop-shadow(0 0 12px rgba(255, 215, 64, 0.6))
+    drop-shadow(0 0 30px rgba(242, 188, 0, 0.3));
+}
+
+
+/* ── Pulse Mode — Synchronized breathing ── */
+.sos-morse--pulsing {
+  animation: sosMorsePulse 3s ease-in-out infinite;
+}
+
+@keyframes sosMorsePulse {
+  0%, 100% {
+    fill-opacity: 0.15;
+    filter: none;
+  }
+  50% {
+    fill-opacity: 1;
+    filter:
+      drop-shadow(0 0 12px var(--sos-signal-glow))
+      drop-shadow(0 0 25px rgba(242, 188, 0, 0.1));
+  }
+}
+
+
+/* ── Cascade Mode — Staggered wave ── */
+.sos-morse--cascading-wave {
+  animation: sosMorseCascadeWave 2.5s ease-in-out infinite;
+}
+
+@keyframes sosMorseCascadeWave {
+  0%, 100% {
+    fill-opacity: 0.2;
+    filter: none;
+  }
+  40% {
+    fill-opacity: 1;
+    filter:
+      drop-shadow(0 0 10px rgba(242, 188, 0, 0.5))
+      drop-shadow(0 0 20px rgba(242, 188, 0, 0.15));
+  }
+  60% {
+    fill-opacity: 1;
+    filter: drop-shadow(0 0 8px rgba(242, 188, 0, 0.3));
+  }
+}
+
+
+/* ── Labels (Status + BQ) ── */
+.sos-label {
+  fill: var(--sos-signal);
+  fill-opacity: 0.8;
+  transition: fill-opacity 0.6s ease, filter 0.6s ease;
+}
+
+.sos-label--active {
+  fill-opacity: 1;
+  filter: drop-shadow(0 0 8px var(--sos-signal-glow));
+}
+
+
+/* ═══════════════════════════════════════
+   MORSE LEGEND
+   ═══════════════════════════════════════ */
+
+.sos-legend {
+  margin-top: 2rem;
+  text-align: center;
+  opacity: 0;
+  animation: sosFadeSlideUp 0.8s ease 1s forwards;
+}
+
+.sos-legend__title {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--sos-text-muted, rgba(255, 255, 255, 0.3));
+  margin-bottom: 0.5rem;
+}
+
+.sos-legend__sequence {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.sos-legend__char {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--sos-signal);
+  min-width: 1rem;
+  text-align: center;
+}
+
+.sos-legend__svg {
+  width: clamp(200px, 40vw, 360px);
+  height: auto;
+  opacity: 0.85;
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+.sos-legend__svg:hover {
+  opacity: 1;
+}
+
+/* Individual legend elements — per-group animation */
+.sos-legend__dot,
+.sos-legend__dash {
+  transition: fill 0.3s ease, filter 0.3s ease, fill-opacity 0.3s ease;
+}
+
+.sos-legend__dot--active,
+.sos-legend__dash--active {
+  fill: var(--sos-flash);
+  filter: drop-shadow(0 0 6px rgba(242, 188, 0, 0.5));
+}
+
+.sos-legend__labels {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  font-size: 0.6rem;
+  color: var(--sos-text-muted, rgba(255, 255, 255, 0.3));
+  letter-spacing: 0.1em;
+}
+
+
+/* ═══════════════════════════════════════
+   CONTROL BAR (optional, built by module)
+   ═══════════════════════════════════════ */
+
+.sos-controls {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  opacity: 0;
+  animation: sosFadeSlideUp 0.8s ease 1.2s forwards;
+}
+
+.sos-controls__btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.8rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--sos-signal-dim);
+  font-family: inherit;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sos-controls__btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+.sos-controls__btn:hover {
+  background: rgba(242, 188, 0, 0.08);
+  border-color: var(--sos-signal-dim);
+  color: var(--sos-signal);
+}
+
+.sos-controls__btn--active {
+  background: rgba(242, 188, 0, 0.12);
+  border-color: var(--sos-signal);
+  color: var(--sos-signal);
+}
+
+
+/* ═══════════════════════════════════════
+   SHARED KEYFRAMES
+   ═══════════════════════════════════════ */
+
+@keyframes sosFadeSlideUp {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ═══════════════════════════════════════
+   REDUCED MOTION
+   ═══════════════════════════════════════ */
+
+@media (prefers-reduced-motion: reduce) {
+  .sos-frame {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .sos-frame__ambient-glow {
+    animation: none;
+    opacity: 0.5;
+  }
+
+  .sos-legend,
+  .sos-controls {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .sos-morse--pulsing,
+  .sos-morse--cascading-wave {
+    animation: none;
+    fill-opacity: 0.7;
+  }
+
+  .sos-frame--playing .sos-frame__ambient-glow {
+    animation: none;
+  }
+}

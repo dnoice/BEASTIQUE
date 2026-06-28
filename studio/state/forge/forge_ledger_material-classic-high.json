@@ -1,0 +1,377 @@
+{
+  "BQ-MATC-MAM-001__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\northern-white-rhino_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 110.88,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 451,
+      "output_tokens": 5488,
+      "total_tokens": 5939
+    },
+    "ts": 1782583071
+  },
+  "BQ-MATC-MAM-002__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\amur-leopard_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 123.17,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 400,
+      "output_tokens": 5488,
+      "total_tokens": 5888
+    },
+    "ts": 1782583083
+  },
+  "BQ-MATC-MAM-004__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\javan-rhino_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 125.14,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 383,
+      "output_tokens": 5488,
+      "total_tokens": 5871
+    },
+    "ts": 1782583085
+  },
+  "BQ-MATC-MAM-003__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\saola_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 126.17,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 388,
+      "output_tokens": 5488,
+      "total_tokens": 5876
+    },
+    "ts": 1782583086
+  },
+  "BQ-MATC-MAM-005__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\sumatran-rhino_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 128.5,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 378,
+      "output_tokens": 5488,
+      "total_tokens": 5866
+    },
+    "ts": 1782583200
+  },
+  "BQ-MATC-MAM-006__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\sumatran-tiger_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 120.97,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 381,
+      "output_tokens": 5488,
+      "total_tokens": 5869
+    },
+    "ts": 1782583204
+  },
+  "BQ-MATC-MAM-007__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\cross-river-gorilla_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 125.52,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 374,
+      "output_tokens": 5488,
+      "total_tokens": 5862
+    },
+    "ts": 1782583211
+  },
+  "BQ-MATC-MAM-008__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\tapanuli-orangutan_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 141.12,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 382,
+      "output_tokens": 5488,
+      "total_tokens": 5870
+    },
+    "ts": 1782583227
+  },
+  "BQ-MATC-MAM-009__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\sunda-pangolin_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 112.96,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 369,
+      "output_tokens": 5488,
+      "total_tokens": 5857
+    },
+    "ts": 1782583313
+  },
+  "BQ-MATC-MAM-011__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\red-wolf_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 109.21,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 385,
+      "output_tokens": 5488,
+      "total_tokens": 5873
+    },
+    "ts": 1782583320
+  },
+  "BQ-MATC-MAM-010__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\african-forest-elephant_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 124.65,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 375,
+      "output_tokens": 5488,
+      "total_tokens": 5863
+    },
+    "ts": 1782583329
+  },
+  "BQ-MATC-MAM-012__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material-classic\\high\\snow-leopard_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 143.75,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 376,
+      "output_tokens": 5488,
+      "total_tokens": 5864
+    },
+    "ts": 1782583371
+  },
+  "BQ-MATC-AQU-001__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material-classic\\high\\vaquita_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 109.93,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 411,
+      "output_tokens": 5488,
+      "total_tokens": 5899
+    },
+    "ts": 1782583422
+  },
+  "BQ-MATC-AQU-002__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material-classic\\high\\hawksbill-sea-turtle_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 116.92,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 390,
+      "output_tokens": 5488,
+      "total_tokens": 5878
+    },
+    "ts": 1782583437
+  },
+  "BQ-MATC-AQU-003__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material-classic\\high\\leatherback-sea-turtle_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 115.85,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 394,
+      "output_tokens": 5488,
+      "total_tokens": 5882
+    },
+    "ts": 1782583445
+  },
+  "BQ-MATC-AQU-004__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material-classic\\high\\whale-shark_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 99.51,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 395,
+      "output_tokens": 5488,
+      "total_tokens": 5883
+    },
+    "ts": 1782583471
+  },
+  "BQ-MATC-AQU-005__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material-classic\\high\\great-hammerhead_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 117.67,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 386,
+      "output_tokens": 5488,
+      "total_tokens": 5874
+    },
+    "ts": 1782583540
+  },
+  "BQ-MATC-AVI-001__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\material-classic\\high\\philippine-eagle_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 127.15,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 384,
+      "output_tokens": 5488,
+      "total_tokens": 5872
+    },
+    "ts": 1782583564
+  },
+  "BQ-MATC-AVI-002__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\material-classic\\high\\california-condor_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 132.89,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 382,
+      "output_tokens": 5488,
+      "total_tokens": 5870
+    },
+    "ts": 1782583578
+  },
+  "BQ-MATC-AVI-003__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\material-classic\\high\\helmeted-hornbill_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 109.09,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 379,
+      "output_tokens": 5488,
+      "total_tokens": 5867
+    },
+    "ts": 1782583580
+  },
+  "BQ-MATC-REP-001__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\material-classic\\high\\gharial_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 120.95,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 400,
+      "output_tokens": 5488,
+      "total_tokens": 5888
+    },
+    "ts": 1782583661
+  },
+  "BQ-MATC-REP-002__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\material-classic\\high\\cuban-crocodile_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 125.76,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 392,
+      "output_tokens": 5488,
+      "total_tokens": 5880
+    },
+    "ts": 1782583690
+  },
+  "BQ-MATC-REP-003__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\material-classic\\high\\komodo-dragon_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 119.05,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 399,
+      "output_tokens": 5488,
+      "total_tokens": 5887
+    },
+    "ts": 1782583697
+  },
+  "BQ-MATC-REP-004__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\material-classic\\high\\chinese-giant-salamander_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 132.87,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 398,
+      "output_tokens": 5488,
+      "total_tokens": 5886
+    },
+    "ts": 1782583713
+  },
+  "BQ-MATC-INS-001__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\material-classic\\high\\desertas-wolf-spider_material-classic_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 115.4,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 400,
+      "output_tokens": 5488,
+      "total_tokens": 5888
+    },
+    "ts": 1782583777
+  }
+}

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1239 468" width="1239" height="468">
+  <!-- Combined palette for white-marlin-1 -->
+  <rect width="1239" height="468" fill="#0a0a0a" rx="6"/>
+
+  <!-- Species image (linked) -->
+  <image x="0" y="0" width="819" height="468"
+         preserveAspectRatio="xMidYMid slice"
+         href="../../../assets/images/aquatic/white-marlin-1.png"/>
+
+  <!-- Species title -->
+  <text x="1029.0" y="32"
+        text-anchor="middle" fill="#e8e0d4"
+        font-family="Raleway, sans-serif" font-size="13"
+        font-weight="700" letter-spacing="0.12em">WHITE-MARLIN-1</text>
+  <text x="833" y="61" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="9" font-weight="600" letter-spacing="0.18em">K-MEANS</text>
+  <rect x="833" y="66" width="72" height="72" fill="#9d865f" rx="4"/>
+  <text x="869.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="869.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#9d865f</text>
+  <text x="869.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">22.6%</text>
+  <rect x="913" y="66" width="72" height="72" fill="#73603c" rx="4"/>
+  <text x="949.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="949.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#73603c</text>
+  <text x="949.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">20.9%</text>
+  <rect x="993" y="66" width="72" height="72" fill="#c1ad8a" rx="4"/>
+  <text x="1029.0" y="106.0" text-anchor="middle" fill="#0a0a0a" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="1029.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#c1ad8a</text>
+  <text x="1029.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">20.9%</text>
+  <rect x="1073" y="66" width="72" height="72" fill="#e5d6bc" rx="4"/>
+  <text x="1109.0" y="106.0" text-anchor="middle" fill="#0a0a0a" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">light yellow</text>
+  <text x="1109.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#e5d6bc</text>
+  <text x="1109.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">19.9%</text>
+  <rect x="1153" y="66" width="72" height="72" fill="#35301f" rx="4"/>
+  <text x="1189.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark yellow</text>
+  <text x="1189.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#35301f</text>
+  <text x="1189.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">15.8%</text>
+  <text x="833" y="201" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="9" font-weight="600" letter-spacing="0.18em">MEDIAN CUT</text>
+  <rect x="833" y="206" width="72" height="72" fill="#533d1a" rx="4"/>
+  <text x="869.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark yellow</text>
+  <text x="869.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#533d1a</text>
+  <text x="869.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="913" y="206" width="72" height="72" fill="#625c46" rx="4"/>
+  <text x="949.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="949.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#625c46</text>
+  <text x="949.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="993" y="206" width="72" height="72" fill="#916f3d" rx="4"/>
+  <text x="1029.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="1029.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#916f3d</text>
+  <text x="1029.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="1073" y="206" width="72" height="72" fill="#9f8357" rx="4"/>
+  <text x="1109.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="1109.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#9f8357</text>
+  <text x="1109.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="1153" y="206" width="72" height="72" fill="#a79a7e" rx="4"/>
+  <text x="1189.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="1189.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#a79a7e</text>
+  <text x="1189.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <text x="833" y="341" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="9" font-weight="600" letter-spacing="0.18em">HISTOGRAM</text>
+  <rect x="833" y="346" width="72" height="72" fill="#988666" rx="4"/>
+  <text x="869.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="869.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#988666</text>
+  <text x="869.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">24.5%</text>
+  <rect x="913" y="346" width="72" height="72" fill="#c9b99c" rx="4"/>
+  <text x="949.0" y="386.0" text-anchor="middle" fill="#0a0a0a" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="949.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#c9b99c</text>
+  <text x="949.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">22.6%</text>
+  <rect x="993" y="346" width="72" height="72" fill="#695837" rx="4"/>
+  <text x="1029.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="1029.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#695837</text>
+  <text x="1029.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">16.6%</text>
+  <rect x="1073" y="346" width="72" height="72" fill="#ecdfc8" rx="4"/>
+  <text x="1109.0" y="386.0" text-anchor="middle" fill="#0a0a0a" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">light yellow</text>
+  <text x="1109.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#ecdfc8</text>
+  <text x="1109.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">9.9%</text>
+  <rect x="1153" y="346" width="72" height="72" fill="#331f09" rx="4"/>
+  <text x="1189.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark orange</text>
+  <text x="1189.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#331f09</text>
+  <text x="1189.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">1.4%</text>
+</svg>

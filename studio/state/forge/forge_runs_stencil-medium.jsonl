@@ -1,0 +1,1 @@
+{"ts": 1782570387, "iso": "2026-06-27T07:26:27", "mode": "sync", "model": "gpt-image-2", "quality": "medium", "size": "1536x1024", "background": "opaque", "variants": 1, "only": null, "collections": null, "requested": 25, "generated": 25, "errors": 0, "interrupted": false, "wall_secs": 255.3, "sum_gen_secs": 940.4, "retries": 0, "output_tokens": 34300, "est_cost_usd": 1.025}

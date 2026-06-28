@@ -1,0 +1,191 @@
+/* ============================================
+   Taxonomy Tree — Interactive SVG Cladogram
+   Animated tree-of-life from Kingdom → Species
+   ============================================ */
+
+/* ── Container ── */
+.taxonomy-tree {
+  position: relative;
+  width: 100%;
+  padding: var(--space-xs) 0 0;
+}
+
+/* Depth: radial ambient light behind the tree */
+.taxonomy-tree::before {
+  content: '';
+  position: absolute;
+  inset: 0% 5%;
+  background: radial-gradient(
+    ellipse 70% 55% at 50% 38%,
+    rgba(152, 96, 40, 0.12) 0%,
+    rgba(152, 96, 40, 0.05) 35%,
+    rgba(11, 10, 5, 0.06) 65%,
+    transparent 85%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Depth: vignette — darker edges push focus inward */
+.taxonomy-tree::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 65% 60% at 50% 45%,
+    transparent 40%,
+    rgba(11, 10, 5, 0.15) 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+  border-radius: 8px;
+}
+
+.taxonomy-tree > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── SVG canvas ── */
+.taxonomy-tree__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: var(--color-amber);
+}
+
+/* ── SVG Typography ── */
+.tt-label__rank {
+  font-family: var(--font-body);
+}
+
+.tt-label__value {
+  font-family: var(--font-body);
+}
+
+.tt-label--species .tt-label__value {
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+/* ── Node base — scale-ready, no browser outline ── */
+.tt-node {
+  outline: none;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.28s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Glow ring — only shows for species pulse + keyboard focus */
+.tt-node .tt-node__glow {
+  transition: opacity 0.3s ease;
+}
+
+.tt-node:focus-visible .tt-node__glow {
+  opacity: 0.45 !important;
+}
+
+/* ── Node Hover — scale + circle brightening, NO glow ring ── */
+.tt-node--hover {
+  transform: scale(1.1);
+}
+
+.tt-node--hover .tt-node__circle {
+  transition: stroke-width 0.2s ease, filter 0.2s ease;
+  stroke-width: 2.5;
+}
+
+/* ── Species node — persistent pulse after reveal ── */
+.taxonomy-tree--revealed .tt-node--species .tt-node__glow {
+  animation: tt-species-pulse 3.5s ease-in-out 8s infinite;
+}
+
+@keyframes tt-species-pulse {
+  0%, 100% { opacity: 0.2; }
+  50%      { opacity: 0.5; }
+}
+
+/* Pause pulse during hover (hover glow takes over) */
+.tt-node--species.tt-node--hover .tt-node__glow {
+  animation: none;
+}
+
+/* ── Footprints — ghost tracks that appear then dissolve ── */
+.tt-print {
+  color: var(--color-amber);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  opacity: 0;
+}
+
+/* Footstep lifecycle: materialise → hold → vanish */
+@keyframes tt-footstep {
+  0%   { opacity: 0; }
+  25%  { opacity: 0.24; }
+  55%  { opacity: 0.20; }
+  100% { opacity: 0; }
+}
+
+/* ── Info Bar ── */
+.taxonomy-tree__info {
+  text-align: center;
+  padding: var(--space-xs) 0 0;
+  min-height: 1.6em;
+}
+
+.taxonomy-tree__info-text {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--color-frost);
+  letter-spacing: 0.04em;
+  opacity: 0.65;
+  transition: opacity var(--duration-fast) ease;
+}
+
+/* ── Reduced Motion ── */
+.taxonomy-tree--no-motion * {
+  animation: none !important;
+}
+
+/* ── Responsive ── */
+
+/* Tablet — relax */
+@media (max-width: 768px) {
+  .taxonomy-tree__info-text {
+    font-size: 0.74rem;
+  }
+}
+
+/* Phablet */
+@media (max-width: 600px) {
+  .taxonomy-tree__info-text {
+    font-size: 0.72rem;
+  }
+}
+
+/* Small phone */
+@media (max-width: 360px) {
+  .taxonomy-tree__info-text {
+    font-size: 0.68rem;
+  }
+
+  .taxonomy-tree__info {
+    padding: 0.25rem 0 0;
+  }
+}
+
+/* Landscape phones */
+@media (max-height: 500px) and (orientation: landscape) {
+  .taxonomy-tree {
+    padding: 0;
+  }
+
+  .taxonomy-tree__info {
+    padding: 0.2rem 0 0;
+    min-height: 1.2em;
+  }
+
+  .taxonomy-tree__info-text {
+    font-size: 0.68rem;
+  }
+}

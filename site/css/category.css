@@ -1,0 +1,429 @@
+/* ============================================
+   BEASTIQUE — Category Page Styles
+   Hub page for browsing species within a category
+   ============================================ */
+
+/* ── Shared category tokens ── */
+:root {
+  --color-bg: #0a0a0a;
+  --color-surface: #111111;
+  --color-muted: #2a2a2a;
+  --color-text: #e8e4dc;
+  --color-text-dim: #8a8680;
+  --color-mist: rgba(255, 255, 255, 0.06);
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Raleway', 'Segoe UI', sans-serif;
+}
+
+/* ── Per-category palettes ── */
+.category--aquatic    { --cat-bg: #0a1628; --cat-accent: #d4565c; --color-accent: #d4565c; }
+.category--avian      { --cat-bg: #0c1420; --cat-accent: #7eb8c9; --color-accent: #7eb8c9; }
+.category--insecta    { --cat-bg: #0a1208; --cat-accent: #c9a84e; --color-accent: #c9a84e; }
+.category--mammalian  { --cat-bg: #0a0806; --cat-accent: #d4944a; --color-accent: #d4944a; }
+.category--reptilian  { --cat-bg: #080c0a; --cat-accent: #8fae6e; --color-accent: #8fae6e; }
+
+body {
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--color-text, #e8e4dc);
+  background: var(--color-bg, #0a0a0a);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Navigation ── */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1rem 0;
+  transition: background var(--duration-normal) var(--ease-out-expo);
+}
+
+.nav--scrolled {
+  background: rgba(10, 10, 10, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--color-text, #e8e4dc);
+  transition: opacity var(--duration-fast);
+}
+
+.nav__logo:hover {
+  opacity: 0.8;
+}
+
+.nav__logo-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.nav__logo-text {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.nav__breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--color-text-dim, #8a8680);
+}
+
+.nav__breadcrumb a {
+  color: var(--color-text-dim, #8a8680);
+  transition: color var(--duration-fast);
+}
+
+.nav__breadcrumb a:hover {
+  color: var(--color-accent, #c8a45c);
+}
+
+.nav__breadcrumb-sep {
+  opacity: 0.4;
+}
+
+.nav__breadcrumb-current {
+  color: var(--color-accent, #c8a45c);
+  font-weight: 500;
+}
+
+.nav__categories {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav__cat-link {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-dim, #8a8680);
+  transition: color var(--duration-fast);
+  padding: 0.25rem 0;
+}
+
+.nav__cat-link:hover {
+  color: var(--color-text, #e8e4dc);
+}
+
+.nav__cat-link--active {
+  color: var(--color-accent, #c8a45c);
+  border-bottom: 1px solid var(--color-accent, #c8a45c);
+}
+
+/* ── Category Hero ── */
+.cat-hero {
+  padding: calc(var(--nav-height) + var(--space-lg)) 0 var(--space-lg);
+  text-align: center;
+  background: linear-gradient(180deg, var(--cat-bg, #0a0a0a) 0%, var(--color-bg, #0a0a0a) 100%);
+}
+
+.cat-hero__label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--cat-accent, var(--color-accent));
+  margin-bottom: var(--space-xs);
+}
+
+.cat-hero__title {
+  font-family: var(--font-display);
+  color: var(--color-text, #e8e4dc);
+  margin-bottom: 0.5rem;
+}
+
+.cat-hero__tagline {
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-style: italic;
+  color: var(--cat-accent, var(--color-accent));
+  margin-bottom: var(--space-sm);
+}
+
+.cat-hero__desc {
+  max-width: 60ch;
+  margin: 0 auto;
+  color: var(--color-text-dim, #8a8680);
+  line-height: 1.8;
+}
+
+/* ── Species Grid ── */
+.species-grid {
+  padding: var(--space-lg) 0 var(--space-xl);
+}
+
+.species-grid__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--space-md);
+}
+
+.species-grid__count {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-text-dim, #8a8680);
+  letter-spacing: 0.05em;
+}
+
+.species-grid__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+
+/* ── Species Card ── */
+.species-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface, #111);
+  border-radius: 2px;
+  overflow: hidden;
+  transition: transform var(--duration-normal) var(--ease-out-expo),
+              box-shadow var(--duration-normal) var(--ease-out-expo);
+}
+
+.species-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.species-card__image-wrap {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: #0d0d0d;
+}
+
+.species-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--duration-slow) var(--ease-out-expo);
+}
+
+.species-card:hover .species-card__image {
+  transform: scale(1.05);
+}
+
+.species-card__badge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+  backdrop-filter: blur(8px);
+}
+
+.species-card__badge--critical {
+  background: rgba(220, 60, 60, 0.8);
+  color: #fff;
+}
+
+.species-card__badge--endangered {
+  background: rgba(220, 140, 40, 0.8);
+  color: #fff;
+}
+
+.species-card__badge--vulnerable {
+  background: rgba(200, 164, 92, 0.8);
+  color: #111;
+}
+
+.species-card__badge--near-threatened {
+  background: rgba(100, 160, 100, 0.7);
+  color: #fff;
+}
+
+.species-card__badge--least-concern {
+  background: rgba(80, 140, 80, 0.7);
+  color: #fff;
+}
+
+.species-card__badge--data-needed {
+  background: rgba(100, 100, 100, 0.7);
+  color: #ddd;
+}
+
+.species-card__content {
+  padding: 1rem 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.species-card__name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text, #e8e4dc);
+  line-height: 1.2;
+  margin-bottom: 0.15rem;
+}
+
+.species-card__scientific {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--color-text-dim, #8a8680);
+  margin-bottom: 0.5rem;
+}
+
+.species-card__tagline {
+  font-size: 0.8rem;
+  color: var(--color-text-dim, #8a8680);
+  font-weight: 300;
+  flex: 1;
+}
+
+.species-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cat-accent, var(--color-accent));
+  margin-top: 0.75rem;
+  transition: gap var(--duration-fast);
+}
+
+.species-card:hover .species-card__cta {
+  gap: 0.6rem;
+}
+
+.species-card__cta svg {
+  width: 14px;
+  height: 14px;
+}
+
+.species-card--coming-soon {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.species-card--coming-soon .species-card__cta {
+  color: var(--color-text-dim, #8a8680);
+}
+
+/* ── Footer ── */
+.footer {
+  padding: var(--space-lg) 0 var(--space-md);
+  border-top: 1px solid var(--color-muted, #2a2a2a);
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--color-text, #e8e4dc);
+  margin-bottom: 0.5rem;
+}
+
+.footer__logo svg {
+  width: 24px;
+  height: 24px;
+}
+
+.footer__project {
+  font-size: 0.8rem;
+  color: var(--color-text-dim, #8a8680);
+  margin-bottom: 1rem;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer__link {
+  font-size: 0.8rem;
+  color: var(--color-text-dim, #8a8680);
+  transition: color var(--duration-fast);
+}
+
+.footer__link:hover {
+  color: var(--color-accent, #c8a45c);
+}
+
+.footer__signature {
+  text-align: right;
+}
+
+.footer__sig-line {
+  font-size: 0.85rem;
+  color: var(--color-text-dim, #8a8680);
+  font-family: monospace;
+}
+
+.footer__sig-desc {
+  font-size: 0.7rem;
+  color: var(--color-muted, #2a2a2a);
+  max-width: 40ch;
+  margin-left: auto;
+  line-height: 1.5;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .nav__categories {
+    display: none;
+  }
+
+  .species-grid__list {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  .footer__inner {
+    flex-direction: column;
+  }
+
+  .footer__signature {
+    text-align: left;
+  }
+
+  .footer__sig-desc {
+    margin-left: 0;
+  }
+}

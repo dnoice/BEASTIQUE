@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1239 468" width="1239" height="468">
+  <!-- Combined palette for great-white-shark-2 -->
+  <rect width="1239" height="468" fill="#0a0a0a" rx="6"/>
+
+  <!-- Species image (linked) -->
+  <image x="0" y="0" width="819" height="468"
+         preserveAspectRatio="xMidYMid slice"
+         href="../../../assets/images/aquatic/great-white-shark-2.png"/>
+
+  <!-- Species title -->
+  <text x="1029.0" y="32"
+        text-anchor="middle" fill="#e8e0d4"
+        font-family="Raleway, sans-serif" font-size="13"
+        font-weight="700" letter-spacing="0.12em">GREAT-WHITE-SHARK-2</text>
+  <text x="833" y="61" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="9" font-weight="600" letter-spacing="0.18em">K-MEANS</text>
+  <rect x="833" y="66" width="72" height="72" fill="#0c1c2c" rx="4"/>
+  <text x="869.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark blue</text>
+  <text x="869.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#0c1c2c</text>
+  <text x="869.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">44.0%</text>
+  <rect x="913" y="66" width="72" height="72" fill="#07446b" rx="4"/>
+  <text x="949.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark blue</text>
+  <text x="949.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#07446b</text>
+  <text x="949.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">29.0%</text>
+  <rect x="993" y="66" width="72" height="72" fill="#1187b9" rx="4"/>
+  <text x="1029.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">blue</text>
+  <text x="1029.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#1187b9</text>
+  <text x="1029.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">14.9%</text>
+  <rect x="1073" y="66" width="72" height="72" fill="#685f50" rx="4"/>
+  <text x="1109.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">yellow</text>
+  <text x="1109.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#685f50</text>
+  <text x="1109.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.4%</text>
+  <rect x="1153" y="66" width="72" height="72" fill="#93bfc7" rx="4"/>
+  <text x="1189.0" y="106.0" text-anchor="middle" fill="#0a0a0a" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">blue</text>
+  <text x="1189.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#93bfc7</text>
+  <text x="1189.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">5.7%</text>
+  <text x="833" y="201" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="9" font-weight="600" letter-spacing="0.18em">MEDIAN CUT</text>
+  <rect x="833" y="206" width="72" height="72" fill="#011e38" rx="4"/>
+  <text x="869.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark blue</text>
+  <text x="869.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#011e38</text>
+  <text x="869.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="913" y="206" width="72" height="72" fill="#012f50" rx="4"/>
+  <text x="949.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark blue</text>
+  <text x="949.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#012f50</text>
+  <text x="949.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="993" y="206" width="72" height="72" fill="#004779" rx="4"/>
+  <text x="1029.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark blue</text>
+  <text x="1029.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#004779</text>
+  <text x="1029.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="1073" y="206" width="72" height="72" fill="#005f95" rx="4"/>
+  <text x="1109.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">blue</text>
+  <text x="1109.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#005f95</text>
+  <text x="1109.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="1153" y="206" width="72" height="72" fill="#008fca" rx="4"/>
+  <text x="1189.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">blue</text>
+  <text x="1189.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#008fca</text>
+  <text x="1189.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <text x="833" y="341" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="9" font-weight="600" letter-spacing="0.18em">HISTOGRAM</text>
+  <rect x="833" y="346" width="72" height="72" fill="#0c2235" rx="4"/>
+  <text x="869.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark blue</text>
+  <text x="869.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#0c2235</text>
+  <text x="869.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">36.1%</text>
+  <rect x="913" y="346" width="72" height="72" fill="#0b5b84" rx="4"/>
+  <text x="949.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">blue</text>
+  <text x="949.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#0b5b84</text>
+  <text x="949.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">23.0%</text>
+  <rect x="993" y="346" width="72" height="72" fill="#29566b" rx="4"/>
+  <text x="1029.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">blue</text>
+  <text x="1029.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#29566b</text>
+  <text x="1029.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">4.2%</text>
+  <rect x="1073" y="346" width="72" height="72" fill="#04a9de" rx="4"/>
+  <text x="1109.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">blue</text>
+  <text x="1109.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#04a9de</text>
+  <text x="1109.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">3.6%</text>
+  <rect x="1153" y="346" width="72" height="72" fill="#3798bd" rx="4"/>
+  <text x="1189.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">blue</text>
+  <text x="1189.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#3798bd</text>
+  <text x="1189.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">2.5%</text>
+</svg>

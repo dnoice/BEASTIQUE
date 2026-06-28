@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOS Frame Module Test — BEASTIQUE</title>
+  <link rel="stylesheet" href="../../css/components/sos-frame.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #f2bc00;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-size: 0.7rem;
+      color: rgba(255,255,255,0.35);
+      letter-spacing: 0.1em;
+      margin-bottom: 2rem;
+    }
+
+    /* ── Species Switcher ── */
+    .switcher {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 2.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .switcher__btn {
+      padding: 0.5rem 1.2rem;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.5);
+      font-family: inherit;
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .switcher__btn:hover {
+      background: rgba(242,188,0,0.08);
+      border-color: rgba(242,188,0,0.3);
+      color: #f2bc00;
+    }
+
+    .switcher__btn--active {
+      background: rgba(242,188,0,0.12);
+      border-color: #f2bc00;
+      color: #f2bc00;
+    }
+
+    /* ── Frame Container ── */
+    #frame-container {
+      width: 100%;
+      max-width: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* ── Diagnostics Panel ── */
+    .diagnostics {
+      width: 100%;
+      max-width: 900px;
+      margin-top: 3rem;
+      padding: 1.5rem;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.06);
+      font-family: 'Fira Code', 'Cascadia Code', monospace;
+      font-size: 0.65rem;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.4);
+    }
+
+    .diagnostics__title {
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(242,188,0,0.5);
+      margin-bottom: 0.75rem;
+    }
+
+    .diagnostics__log {
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .diagnostics__log p {
+      margin: 0.15rem 0;
+    }
+
+    .diagnostics__log .ok { color: #4caf50; }
+    .diagnostics__log .warn { color: #ff9800; }
+    .diagnostics__log .err { color: #f44336; }
+    .diagnostics__log .info { color: rgba(255,255,255,0.5); }
+
+    /* ── Keyboard Hints ── */
+    .keyboard-hints {
+      width: 100%;
+      max-width: 900px;
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 0.6rem;
+      color: rgba(255,255,255,0.2);
+      letter-spacing: 0.05em;
+    }
+
+    kbd {
+      display: inline-block;
+      padding: 0.1rem 0.35rem;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 3px;
+      font-family: inherit;
+      font-size: 0.6rem;
+      color: rgba(255,255,255,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SOS Frame Module Test</h1>
+  <p class="subtitle">Global module — 3-species switcher with diagnostics</p>
+
+  <!-- Species Switcher -->
+  <div class="switcher">
+    <button class="switcher__btn switcher__btn--active" data-species="philippine-eagle">Philippine Eagle</button>
+    <button class="switcher__btn" data-species="beluga-sturgeon">Beluga Sturgeon</button>
+    <button class="switcher__btn" data-species="amur-leopard">Amur Leopard</button>
+  </div>
+
+  <!-- Frame Mount Point -->
+  <div id="frame-container"></div>
+
+  <!-- Diagnostics -->
+  <div class="diagnostics">
+    <div class="diagnostics__title">Diagnostics</div>
+    <div class="diagnostics__log" id="diag-log"></div>
+  </div>
+
+  <!-- Keyboard Hints -->
+  <div class="keyboard-hints">
+    <kbd>1</kbd> SOS &nbsp; <kbd>2</kbd> Pulse &nbsp; <kbd>3</kbd> Cascade &nbsp; <kbd>0</kbd> / <kbd>Esc</kbd> Stop
+  </div>
+
+  <script type="module">
+    import * as SOSFrame from '../../js/modules/sos-frame.js';
+
+    // ── Species Configurations ──
+    const SPECIES = {
+      'philippine-eagle': {
+        name: 'Philippine Eagle',
+        status: 'CR',
+        image: '../../assets/images/avian/philippine-eagle-1.png',
+        palette: ['#2d3a2b', '#7a6b4a', '#c4a85a', '#546b52', '#d4c9a8']
+      },
+      'beluga-sturgeon': {
+        name: 'Beluga Sturgeon',
+        status: 'CR',
+        image: '../../assets/images/aquatic/beluga-sturgeon-1.png',
+        palette: ['#25292a', '#195c58', '#5a8775', '#b3aea6', '#c93c56']
+      },
+      'amur-leopard': {
+        name: 'Amur Leopard',
+        status: 'CR',
+        image: '../../assets/images/mammalian/amur-leopard-1.png',
+        palette: ['#1a2a1e', '#5a3d2b', '#c47a5a', '#2d4a3a', '#8fa5ad']
+      }
+    };
+
+    // ── State ──
+    let currentController = null;
+    const container = document.getElementById('frame-container');
+    const diagLog = document.getElementById('diag-log');
+
+    // ── Diagnostics Logger ──
+    function log(msg, level = 'info') {
+      const p = document.createElement('p');
+      p.className = level;
+      p.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+      diagLog.appendChild(p);
+      diagLog.scrollTop = diagLog.scrollHeight;
+    }
+
+    // ── Load Species ──
+    async function loadSpecies(id) {
+      const spec = SPECIES[id];
+      if (!spec) {
+        log(`Unknown species: ${id}`, 'err');
+        return;
+      }
+
+      // Destroy existing frame
+      if (currentController) {
+        log(`Destroying previous frame...`, 'info');
+        currentController.destroy();
+        currentController = null;
+      }
+
+      // Clear container
+      container.innerHTML = '';
+
+      log(`Loading ${spec.name} (${spec.status})...`, 'info');
+
+      try {
+        currentController = await SOSFrame.init({
+          container: '#frame-container',
+          status: spec.status,
+          basePath: '../../assets/custom-designs/sos-frames/',
+          image: spec.image,
+          palette: spec.palette,
+          showLegend: true,
+          showControls: true,
+          showScanlines: true,
+          showAmbientGlow: true,
+          enableKeyboard: true
+        });
+
+        // Report diagnostics
+        const els = currentController.elements;
+        log(`Ready: ${els.morse.length} morse elements (${els.dots.length} dots, ${els.dashes.length} dashes)`, 'ok');
+        log(`Status label: ${els.statusLabel ? 'detected' : 'MISSING'}`, els.statusLabel ? 'ok' : 'warn');
+        log(`BQ label: ${els.bqLabel ? 'detected' : 'MISSING'}`, els.bqLabel ? 'ok' : 'warn');
+        log(`Outer frame: ${els.outerFrame ? 'detected' : 'MISSING'}`, els.outerFrame ? 'ok' : 'warn');
+        log(`Inner frame: ${els.innerFrame ? 'detected' : 'MISSING'}`, els.innerFrame ? 'ok' : 'warn');
+
+        // Edge distribution
+        const edgeCounts = {};
+        els.morse.forEach(el => {
+          const edge = el.getAttribute('data-edge');
+          edgeCounts[edge] = (edgeCounts[edge] || 0) + 1;
+        });
+        log(`Edges: top=${edgeCounts.top||0} right=${edgeCounts.right||0} bottom=${edgeCounts.bottom||0} left=${edgeCounts.left||0}`, 'info');
+
+      } catch (err) {
+        log(`INIT FAILED: ${err.message}`, 'err');
+        console.error(err);
+      }
+    }
+
+    // ── Switcher Buttons ──
+    document.querySelectorAll('.switcher__btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.switcher__btn').forEach(b => b.classList.remove('switcher__btn--active'));
+        btn.classList.add('switcher__btn--active');
+        loadSpecies(btn.dataset.species);
+      });
+    });
+
+    // ── Initial Load ──
+    log('SOS Frame Module Test initialized', 'info');
+    loadSpecies('philippine-eagle');
+  </script>
+
+</body>
+</html>

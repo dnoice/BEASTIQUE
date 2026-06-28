@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1239 468" width="1239" height="468">
+  <!-- Combined palette for bull-shark-2 -->
+  <rect width="1239" height="468" fill="#0a0a0a" rx="6"/>
+
+  <!-- Species image (linked) -->
+  <image x="0" y="0" width="819" height="468"
+         preserveAspectRatio="xMidYMid slice"
+         href="../../../assets/images/aquatic/bull-shark-2.png"/>
+
+  <!-- Species title -->
+  <text x="1029.0" y="32"
+        text-anchor="middle" fill="#e8e0d4"
+        font-family="Raleway, sans-serif" font-size="13"
+        font-weight="700" letter-spacing="0.12em">BULL-SHARK-2</text>
+  <text x="833" y="61" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="9" font-weight="600" letter-spacing="0.18em">K-MEANS</text>
+  <rect x="833" y="66" width="72" height="72" fill="#25221d" rx="4"/>
+  <text x="869.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark yellow</text>
+  <text x="869.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#25221d</text>
+  <text x="869.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">32.5%</text>
+  <rect x="913" y="66" width="72" height="72" fill="#2b4a45" rx="4"/>
+  <text x="949.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark cyan</text>
+  <text x="949.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#2b4a45</text>
+  <text x="949.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">29.5%</text>
+  <rect x="993" y="66" width="72" height="72" fill="#3d766d" rx="4"/>
+  <text x="1029.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">cyan</text>
+  <text x="1029.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#3d766d</text>
+  <text x="1029.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">22.5%</text>
+  <rect x="1073" y="66" width="72" height="72" fill="#71aa9b" rx="4"/>
+  <text x="1109.0" y="106.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">cyan</text>
+  <text x="1109.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#71aa9b</text>
+  <text x="1109.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">11.0%</text>
+  <rect x="1153" y="66" width="72" height="72" fill="#29c3b1" rx="4"/>
+  <text x="1189.0" y="106.0" text-anchor="middle" fill="#0a0a0a" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">cyan</text>
+  <text x="1189.0" y="152" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#29c3b1</text>
+  <text x="1189.0" y="164" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">4.5%</text>
+  <text x="833" y="201" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="9" font-weight="600" letter-spacing="0.18em">MEDIAN CUT</text>
+  <rect x="833" y="206" width="72" height="72" fill="#2d2722" rx="4"/>
+  <text x="869.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark orange</text>
+  <text x="869.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#2d2722</text>
+  <text x="869.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="913" y="206" width="72" height="72" fill="#24433e" rx="4"/>
+  <text x="949.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark cyan</text>
+  <text x="949.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#24433e</text>
+  <text x="949.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="993" y="206" width="72" height="72" fill="#324544" rx="4"/>
+  <text x="1029.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark cyan</text>
+  <text x="1029.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#324544</text>
+  <text x="1029.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="1073" y="206" width="72" height="72" fill="#1da494" rx="4"/>
+  <text x="1109.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">cyan</text>
+  <text x="1109.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#1da494</text>
+  <text x="1109.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <rect x="1153" y="206" width="72" height="72" fill="#568375" rx="4"/>
+  <text x="1189.0" y="246.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">cyan</text>
+  <text x="1189.0" y="292" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#568375</text>
+  <text x="1189.0" y="304" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">6.2%</text>
+  <text x="833" y="341" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="9" font-weight="600" letter-spacing="0.18em">HISTOGRAM</text>
+  <rect x="833" y="346" width="72" height="72" fill="#335753" rx="4"/>
+  <text x="869.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">cyan</text>
+  <text x="869.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#335753</text>
+  <text x="869.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">35.7%</text>
+  <rect x="913" y="346" width="72" height="72" fill="#292420" rx="4"/>
+  <text x="949.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">dark orange</text>
+  <text x="949.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#292420</text>
+  <text x="949.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">14.1%</text>
+  <rect x="993" y="346" width="72" height="72" fill="#629083" rx="4"/>
+  <text x="1029.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">cyan</text>
+  <text x="1029.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#629083</text>
+  <text x="1029.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">9.2%</text>
+  <rect x="1073" y="346" width="72" height="72" fill="#068b77" rx="4"/>
+  <text x="1109.0" y="386.0" text-anchor="middle" fill="#e8e0d4" font-family="Raleway, sans-serif" font-size="8" font-weight="500" opacity="0.8">cyan</text>
+  <text x="1109.0" y="432" text-anchor="middle" fill="#e8e0d4" font-family="monospace" font-size="9">#068b77</text>
+  <text x="1109.0" y="444" text-anchor="middle" fill="rgba(232,224,212,0.45)" font-family="Raleway, sans-serif" font-size="7">2.8%</text>
+</svg>

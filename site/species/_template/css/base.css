@@ -1,0 +1,15 @@
+/* ============================================
+   {SPECIES NAME} — Base Styles
+   Customize body colors to reference your theme vars
+   ============================================ */
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--color-ivory);
+  background-color: var(--color-shadow);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

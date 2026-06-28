@@ -1,0 +1,377 @@
+{
+  "BQ-WOOD-AQU-004__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\woodcut\\medium\\orca_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.32,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 231,
+      "output_tokens": 1372,
+      "total_tokens": 1603
+    },
+    "ts": 1782552007
+  },
+  "BQ-WOOD-AQU-001__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\woodcut\\medium\\blue-whale_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 41.03,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 238,
+      "output_tokens": 1372,
+      "total_tokens": 1610
+    },
+    "ts": 1782552009
+  },
+  "BQ-WOOD-AQU-002__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\woodcut\\medium\\great-white-shark_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.02,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 222,
+      "output_tokens": 1372,
+      "total_tokens": 1594
+    },
+    "ts": 1782552011
+  },
+  "BQ-WOOD-AQU-003__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\woodcut\\medium\\manta-ray_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.54,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 223,
+      "output_tokens": 1372,
+      "total_tokens": 1595
+    },
+    "ts": 1782552011
+  },
+  "BQ-WOOD-AQU-005__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\woodcut\\medium\\hammerhead-shark_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 38.72,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 218,
+      "output_tokens": 1372,
+      "total_tokens": 1590
+    },
+    "ts": 1782552046
+  },
+  "BQ-WOOD-AVI-002__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\woodcut\\medium\\snowy-owl_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 36.57,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 214,
+      "output_tokens": 1372,
+      "total_tokens": 1586
+    },
+    "ts": 1782552047
+  },
+  "BQ-WOOD-AVI-001__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\woodcut\\medium\\bald-eagle_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.7,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 219,
+      "output_tokens": 1372,
+      "total_tokens": 1591
+    },
+    "ts": 1782552049
+  },
+  "BQ-WOOD-AVI-003__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\woodcut\\medium\\flamingo_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 38.7,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 222,
+      "output_tokens": 1372,
+      "total_tokens": 1594
+    },
+    "ts": 1782552050
+  },
+  "BQ-WOOD-AVI-004__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\woodcut\\medium\\scarlet-macaw_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.85,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 218,
+      "output_tokens": 1372,
+      "total_tokens": 1590
+    },
+    "ts": 1782552086
+  },
+  "BQ-WOOD-AVI-005__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\woodcut\\medium\\shoebill_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 40.8,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 209,
+      "output_tokens": 1372,
+      "total_tokens": 1581
+    },
+    "ts": 1782552088
+  },
+  "BQ-WOOD-INS-001__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\woodcut\\medium\\monarch-butterfly_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 40.68,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 210,
+      "output_tokens": 1372,
+      "total_tokens": 1582
+    },
+    "ts": 1782552089
+  },
+  "BQ-WOOD-INS-002__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\woodcut\\medium\\hercules-beetle_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.25,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 209,
+      "output_tokens": 1372,
+      "total_tokens": 1581
+    },
+    "ts": 1782552093
+  },
+  "BQ-WOOD-INS-003__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\woodcut\\medium\\praying-mantis_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 40.66,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 203,
+      "output_tokens": 1372,
+      "total_tokens": 1575
+    },
+    "ts": 1782552126
+  },
+  "BQ-WOOD-INS-004__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\woodcut\\medium\\dragonfly_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 41.92,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 195,
+      "output_tokens": 1372,
+      "total_tokens": 1567
+    },
+    "ts": 1782552130
+  },
+  "BQ-WOOD-INS-005__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\woodcut\\medium\\stag-beetle_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 42.49,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 210,
+      "output_tokens": 1372,
+      "total_tokens": 1582
+    },
+    "ts": 1782552132
+  },
+  "BQ-WOOD-MAM-001__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\woodcut\\medium\\gray-wolf_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.49,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 224,
+      "output_tokens": 1372,
+      "total_tokens": 1596
+    },
+    "ts": 1782552133
+  },
+  "BQ-WOOD-MAM-002__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\woodcut\\medium\\lion_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 40.54,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 210,
+      "output_tokens": 1372,
+      "total_tokens": 1582
+    },
+    "ts": 1782552167
+  },
+  "BQ-WOOD-MAM-003__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\woodcut\\medium\\red-fox_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 41.63,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 204,
+      "output_tokens": 1372,
+      "total_tokens": 1576
+    },
+    "ts": 1782552172
+  },
+  "BQ-WOOD-MAM-005__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\woodcut\\medium\\mountain-gorilla_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.27,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 207,
+      "output_tokens": 1372,
+      "total_tokens": 1579
+    },
+    "ts": 1782552172
+  },
+  "BQ-WOOD-MAM-004__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\woodcut\\medium\\african-elephant_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 41.14,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 226,
+      "output_tokens": 1372,
+      "total_tokens": 1598
+    },
+    "ts": 1782552173
+  },
+  "BQ-WOOD-REP-003__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\woodcut\\medium\\king-cobra_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 34.63,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 212,
+      "output_tokens": 1372,
+      "total_tokens": 1584
+    },
+    "ts": 1782552207
+  },
+  "BQ-WOOD-REP-001__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\woodcut\\medium\\panther-chameleon_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 42.38,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 220,
+      "output_tokens": 1372,
+      "total_tokens": 1592
+    },
+    "ts": 1782552209
+  },
+  "BQ-WOOD-REP-002__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\woodcut\\medium\\komodo-dragon_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.09,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 221,
+      "output_tokens": 1372,
+      "total_tokens": 1593
+    },
+    "ts": 1782552211
+  },
+  "BQ-WOOD-REP-004__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\woodcut\\medium\\saltwater-crocodile_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.5,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 217,
+      "output_tokens": 1372,
+      "total_tokens": 1589
+    },
+    "ts": 1782552212
+  },
+  "BQ-WOOD-REP-005__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\woodcut\\medium\\green-iguana_woodcut-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.69,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 208,
+      "output_tokens": 1372,
+      "total_tokens": 1580
+    },
+    "ts": 1782552250
+  }
+}

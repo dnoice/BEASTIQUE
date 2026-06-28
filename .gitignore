@@ -1,0 +1,47 @@
+# ── BEASTIQUE .gitignore ────────────────────────────────────────────────────
+# Git history tracks the ENGINE: code, markup, data, prompt libraries, ledgers,
+# and docs. The multi-GB binary trees (print masters, raw art, render outputs)
+# are OneDrive-backed and regenerable, so they stay OUT of git.
+
+# OneDrive folder metadata
+desktop.ini
+**/desktop.ini
+
+# Orphaned duplicate dir left by the restructure (5 OneDrive-locked image dupes;
+# the complete set lives in site/assets/images/). Delete once the lock releases.
+/assets/
+
+# studio/ — heavy raw art + render outputs (OneDrive-backed, regenerable).
+# Kept in git: studio/prompts/ (text libraries), studio/state/ (small ledgers),
+# studio/sandbox/ (tiny experiments).
+studio/source-art/
+studio/collections/
+
+# studio/workbench/ — keep the README, drop the heavy hand-art buckets
+studio/workbench/designs/
+studio/workbench/low-poly-studies/
+studio/workbench/trace-studies/
+
+# site/ — served print-grade media (the live site should serve web derivatives)
+site/assets/
+
+# site/species/ — version the page code (html/css/js/docs), not the big binaries
+site/species/**/assets/
+site/species/**/*.png
+site/species/**/*.jpg
+site/species/**/*.jpeg
+site/species/**/*.webp
+site/species/**/*.pdf
+site/species/**/*.docx
+
+# assistant working state (ephemeral plans/config — not project source)
+.claude/
+
+# tooling / OS cruft
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db

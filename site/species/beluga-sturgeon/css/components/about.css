@@ -1,0 +1,240 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * ✒ Metadata
+ *    - Title: About Section Component (BEASTIQUE Edition - v1.0)
+ *    - File Name: about.css
+ *    - Relative Path: css/components/about.css
+ *    - Artifact Type: config
+ *    - Version: 1.0.0
+ *    - Date: 2025-01-04
+ *    - Update: Saturday, January 04, 2025
+ *    - Author: Dennis 'dnoice' Smaltz
+ *    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+ *    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+ *
+ * ✒ Description:
+ *    Two-column about section with content panel and taxonomy card.
+ *    Features slide-in animations and decorative corner frames.
+ *
+ * ✒ Key Features:
+ *    - Feature 1: Two-column responsive grid
+ *    - Feature 2: Slide-in reveal animations
+ *    - Feature 3: Taxonomy card with glass effect
+ *    - Feature 4: Decorative corner frames
+ *    - Feature 5: Gradient background
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
+
+.about {
+    background: linear-gradient(
+        180deg,
+        var(--color-deep) 0%,
+        var(--color-abyss) 100%
+    );
+    position: relative;
+}
+
+.about__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    align-items: center;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Content Column
+   ───────────────────────────────────────────────────────────────────────────── */
+.about__content {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity var(--duration-slow) var(--ease-out-expo),
+                transform var(--duration-slow) var(--ease-out-expo);
+}
+
+.about__content.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about__label {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--color-coral);
+    margin-bottom: var(--space-sm);
+}
+
+.about__label svg {
+    width: 16px;
+    height: 16px;
+}
+
+.about__title {
+    margin-bottom: var(--space-md);
+}
+
+.about__text {
+    color: var(--color-silver);
+    margin-bottom: var(--space-sm);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Visual Column
+   ───────────────────────────────────────────────────────────────────────────── */
+.about__visual {
+    position: relative;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: opacity var(--duration-slow) var(--ease-out-expo),
+                transform var(--duration-slow) var(--ease-out-expo);
+}
+
+.about__visual.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about__frame {
+    position: relative;
+    padding: var(--space-md);
+}
+
+.about__frame::before,
+.about__frame::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--color-coral);
+    opacity: 0.5;
+}
+
+.about__frame::before {
+    top: 0;
+    left: 0;
+    border-right: none;
+    border-bottom: none;
+}
+
+.about__frame::after {
+    bottom: 0;
+    right: 0;
+    border-left: none;
+    border-top: none;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Taxonomy Card
+   ───────────────────────────────────────────────────────────────────────────── */
+.taxonomy-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--color-foam);
+    padding: var(--space-md);
+}
+
+.taxonomy-card__header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--color-foam);
+}
+
+.taxonomy-card__icon {
+    width: 40px;
+    height: 40px;
+    color: var(--color-coral);
+}
+
+.taxonomy-card__title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.taxonomy-card__list {
+    list-style: none;
+}
+
+.taxonomy-card__item {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-xs) var(--space-xs);
+    margin: 0 calc(-1 * var(--space-xs));
+    border-bottom: 1px solid var(--color-foam);
+    border-radius: 2px;
+    font-size: 0.95rem;
+    transition: background var(--duration-fast) ease,
+                padding-left var(--duration-fast) ease;
+}
+
+.taxonomy-card__item:hover {
+    background: rgba(255, 255, 255, 0.04);
+    padding-left: var(--space-sm);
+}
+
+.taxonomy-card__item:last-child {
+    border-bottom: none;
+}
+
+.taxonomy-card__key {
+    color: var(--color-silver);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.8rem;
+}
+
+.taxonomy-card__value {
+    color: var(--color-pearl);
+    font-style: italic;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Responsive
+   ───────────────────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .about__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about__content,
+    .about__visual {
+        transform: translateY(20px);
+    }
+
+    .about__content.visible,
+    .about__visual.visible {
+        transform: translateY(0);
+    }
+
+    .about__frame::before,
+    .about__frame::after {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .taxonomy-card {
+        padding: var(--space-sm);
+    }
+
+    .taxonomy-card__header {
+        gap: var(--space-xs);
+        margin-bottom: var(--space-sm);
+    }
+
+    .taxonomy-card__icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .taxonomy-card__title {
+        font-size: 1.2rem;
+    }
+}

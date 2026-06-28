@@ -1,0 +1,194 @@
+/* ============================================
+   Closing Showcase — Image & reflective quote
+   ============================================ */
+
+.closing {
+  padding: var(--space-xl) 0;
+  background: linear-gradient(
+    180deg,
+    var(--color-shadow) 0%,
+    var(--color-dusk) 50%,
+    var(--color-shadow) 100%
+  );
+}
+
+.closing__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+/* ── Framed Image ── */
+.closing__image-frame {
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.closing__image-frame::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  background: linear-gradient(135deg, var(--color-amber), var(--color-bark), var(--color-amber-soft));
+  border-radius: 6px;
+  z-index: 0;
+}
+
+.closing__image-frame::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 6px;
+  box-shadow: 0 0 60px rgba(152, 96, 40, 0.2),
+              0 0 120px rgba(152, 96, 40, 0.08);
+  z-index: 0;
+  transition: box-shadow var(--duration-slow) var(--ease-drift);
+}
+
+.closing__image-frame:hover::after {
+  box-shadow: 0 0 80px rgba(152, 96, 40, 0.3),
+              0 0 160px rgba(152, 96, 40, 0.12);
+}
+
+.closing__image {
+  position: relative;
+  width: 100%;
+  border-radius: 4px;
+  z-index: 1;
+  display: block;
+}
+
+/* ── Quote Block ── */
+.closing__quote-block {
+  padding: var(--space-md);
+}
+
+.closing__quote {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--color-ivory);
+  margin-bottom: var(--space-md);
+  position: relative;
+}
+
+.closing__quote::before {
+  content: '\201C';
+  position: absolute;
+  top: -0.5em;
+  left: -0.3em;
+  font-size: 4em;
+  color: var(--color-amber);
+  opacity: 0.2;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.closing__cite {
+  display: block;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-frost);
+}
+
+/* ── Responsive ── */
+
+/* Desktop — tighten image frame + gap */
+@media (max-width: 1024px) {
+  .closing__image-frame {
+    max-width: 420px;
+  }
+
+  .closing__grid {
+    gap: var(--space-md);
+  }
+}
+
+/* Tablet portrait — single column */
+@media (max-width: 768px) {
+  .closing__grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .closing__image-frame {
+    max-width: 360px;
+  }
+
+  .closing__quote-block {
+    padding: var(--space-sm) 0;
+  }
+
+  .closing__quote::before {
+    position: static;
+    display: block;
+    font-size: 3em;
+    margin-bottom: -0.5em;
+  }
+}
+
+/* Phablet */
+@media (max-width: 600px) {
+  .closing__image-frame {
+    max-width: 320px;
+  }
+
+  .closing__quote-block {
+    padding: var(--space-xs) 0;
+  }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+  .closing__image-frame {
+    max-width: 280px;
+  }
+}
+
+/* Small phone */
+@media (max-width: 360px) {
+  .closing {
+    padding: var(--space-lg) 0;
+  }
+
+  .closing__image-frame {
+    max-width: 240px;
+  }
+
+  .closing__quote::before {
+    font-size: 2.5em;
+  }
+
+  .closing__cite {
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+  }
+}
+
+/* Landscape phones — keep 2-col grid */
+@media (max-height: 500px) and (orientation: landscape) {
+  .closing {
+    padding: var(--space-md) 0;
+  }
+
+  .closing__grid {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    gap: var(--space-sm);
+  }
+
+  .closing__image-frame {
+    max-width: 300px;
+  }
+
+  .closing__quote-block {
+    padding: var(--space-xs);
+  }
+}

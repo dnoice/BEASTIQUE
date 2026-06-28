@@ -1,0 +1,377 @@
+{
+  "BQ-LOPO-AQU-003__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\low-poly\\medium\\manta-ray_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 41.39,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 311,
+      "output_tokens": 1372,
+      "total_tokens": 1683
+    },
+    "ts": 1782501117
+  },
+  "BQ-LOPO-AQU-004__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\low-poly\\medium\\orca_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.56,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 320,
+      "output_tokens": 1372,
+      "total_tokens": 1692
+    },
+    "ts": 1782501119
+  },
+  "BQ-LOPO-AQU-001__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\low-poly\\medium\\blue-whale_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.82,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 346,
+      "output_tokens": 1372,
+      "total_tokens": 1718
+    },
+    "ts": 1782501119
+  },
+  "BQ-LOPO-AQU-002__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\low-poly\\medium\\great-white-shark_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 55.88,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 328,
+      "output_tokens": 1372,
+      "total_tokens": 1700
+    },
+    "ts": 1782501131
+  },
+  "BQ-LOPO-AQU-005__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\low-poly\\medium\\hammerhead-shark_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.49,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 312,
+      "output_tokens": 1372,
+      "total_tokens": 1684
+    },
+    "ts": 1782501156
+  },
+  "BQ-LOPO-AVI-002__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\low-poly\\medium\\snowy-owl_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.74,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 297,
+      "output_tokens": 1372,
+      "total_tokens": 1669
+    },
+    "ts": 1782501159
+  },
+  "BQ-LOPO-AVI-001__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\low-poly\\medium\\bald-eagle_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 40.41,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 309,
+      "output_tokens": 1372,
+      "total_tokens": 1681
+    },
+    "ts": 1782501159
+  },
+  "BQ-LOPO-AVI-003__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\low-poly\\medium\\flamingo_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 36.48,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 299,
+      "output_tokens": 1372,
+      "total_tokens": 1671
+    },
+    "ts": 1782501168
+  },
+  "BQ-LOPO-AVI-004__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\low-poly\\medium\\scarlet-macaw_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 34.5,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 318,
+      "output_tokens": 1372,
+      "total_tokens": 1690
+    },
+    "ts": 1782501191
+  },
+  "BQ-LOPO-AVI-005__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\low-poly\\medium\\shoebill_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.26,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 308,
+      "output_tokens": 1372,
+      "total_tokens": 1680
+    },
+    "ts": 1782501202
+  },
+  "BQ-LOPO-INS-002__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\low-poly\\medium\\hercules-beetle_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 37.78,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 324,
+      "output_tokens": 1372,
+      "total_tokens": 1696
+    },
+    "ts": 1782501205
+  },
+  "BQ-LOPO-INS-001__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\low-poly\\medium\\monarch-butterfly_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 48.38,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 297,
+      "output_tokens": 1372,
+      "total_tokens": 1669
+    },
+    "ts": 1782501208
+  },
+  "BQ-LOPO-INS-003__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\low-poly\\medium\\praying-mantis_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 38.14,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 319,
+      "output_tokens": 1372,
+      "total_tokens": 1691
+    },
+    "ts": 1782501229
+  },
+  "BQ-LOPO-INS-004__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\low-poly\\medium\\dragonfly_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.0,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 298,
+      "output_tokens": 1372,
+      "total_tokens": 1670
+    },
+    "ts": 1782501241
+  },
+  "BQ-LOPO-INS-005__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\low-poly\\medium\\stag-beetle_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 36.92,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 311,
+      "output_tokens": 1372,
+      "total_tokens": 1683
+    },
+    "ts": 1782501242
+  },
+  "BQ-LOPO-MAM-001__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\low-poly\\medium\\gray-wolf_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.37,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 309,
+      "output_tokens": 1372,
+      "total_tokens": 1681
+    },
+    "ts": 1782501251
+  },
+  "BQ-LOPO-MAM-002__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\low-poly\\medium\\lion_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 48.55,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 295,
+      "output_tokens": 1372,
+      "total_tokens": 1667
+    },
+    "ts": 1782501277
+  },
+  "BQ-LOPO-MAM-003__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\low-poly\\medium\\red-fox_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.57,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 280,
+      "output_tokens": 1372,
+      "total_tokens": 1652
+    },
+    "ts": 1782501281
+  },
+  "BQ-LOPO-MAM-004__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\low-poly\\medium\\african-elephant_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 44.37,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 320,
+      "output_tokens": 1372,
+      "total_tokens": 1692
+    },
+    "ts": 1782501287
+  },
+  "BQ-LOPO-MAM-005__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\low-poly\\medium\\mountain-gorilla_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 44.0,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 311,
+      "output_tokens": 1372,
+      "total_tokens": 1683
+    },
+    "ts": 1782501295
+  },
+  "BQ-LOPO-REP-001__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\low-poly\\medium\\panther-chameleon_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 44.64,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 330,
+      "output_tokens": 1372,
+      "total_tokens": 1702
+    },
+    "ts": 1782501322
+  },
+  "BQ-LOPO-REP-002__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\low-poly\\medium\\komodo-dragon_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 42.73,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 319,
+      "output_tokens": 1372,
+      "total_tokens": 1691
+    },
+    "ts": 1782501323
+  },
+  "BQ-LOPO-REP-003__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\low-poly\\medium\\king-cobra_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 40.28,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 325,
+      "output_tokens": 1372,
+      "total_tokens": 1697
+    },
+    "ts": 1782501327
+  },
+  "BQ-LOPO-REP-004__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\low-poly\\medium\\saltwater-crocodile_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 47.75,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 331,
+      "output_tokens": 1372,
+      "total_tokens": 1703
+    },
+    "ts": 1782501343
+  },
+  "BQ-LOPO-REP-005__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\low-poly\\medium\\green-iguana_low-poly-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.59,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 335,
+      "output_tokens": 1372,
+      "total_tokens": 1707
+    },
+    "ts": 1782501365
+  }
+}

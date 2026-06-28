@@ -1,0 +1,251 @@
+/* ============================================
+   About Section — Species profile & taxonomy
+   ============================================ */
+
+.about {
+  padding: var(--space-xl) 0;
+  background: linear-gradient(
+    180deg,
+    var(--color-shadow) 0%,
+    var(--color-dusk) 50%,
+    var(--color-shadow) 100%
+  );
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: var(--space-lg);
+  align-items: start;
+}
+
+/* ── Content Side ── */
+.about__content {
+  padding-right: var(--space-md);
+}
+
+.about__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-amber);
+  margin-bottom: var(--space-sm);
+}
+
+.about__label svg {
+  width: 16px;
+  height: 16px;
+}
+
+.about__title {
+  margin-bottom: var(--space-sm);
+  color: var(--color-ivory);
+}
+
+.about__text {
+  margin-bottom: var(--space-sm);
+  color: var(--color-frost);
+  line-height: 1.9;
+}
+
+.about__text:last-of-type {
+  margin-bottom: 0;
+}
+
+/* ── Taxonomy Card ── */
+.about__taxonomy {
+  position: relative;
+  padding: var(--space-md);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--color-mist);
+  border-radius: 4px;
+}
+
+/* Decorative corner frames */
+.about__taxonomy::before,
+.about__taxonomy::after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-color: var(--color-amber);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.about__taxonomy::before {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+}
+
+.about__taxonomy::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+.about__taxonomy-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--color-mist);
+}
+
+.about__taxonomy-header svg {
+  width: 24px;
+  height: 24px;
+  color: var(--color-amber);
+}
+
+.about__taxonomy-header h3 {
+  font-size: 1.1rem;
+  color: var(--color-ivory);
+}
+
+.about__taxonomy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.about__taxonomy-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0.75rem;
+  border-radius: 3px;
+  transition: background var(--duration-fast) var(--ease-drift),
+              padding-left var(--duration-fast) var(--ease-drift);
+}
+
+.about__taxonomy-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+  padding-left: 1rem;
+}
+
+.about__taxonomy-key {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-amber-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.about__taxonomy-value {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--color-frost);
+}
+
+/* ── Responsive ── */
+
+/* Desktop — equalize columns */
+@media (max-width: 1024px) {
+  .about__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+  }
+
+  .about__content {
+    padding-right: var(--space-sm);
+  }
+}
+
+/* Tablet portrait */
+@media (max-width: 768px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .about__content {
+    padding-right: 0;
+  }
+
+  .about__taxonomy::before,
+  .about__taxonomy::after {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Phablet */
+@media (max-width: 600px) {
+  .about {
+    padding: var(--space-lg) 0;
+  }
+
+  .about__taxonomy::before,
+  .about__taxonomy::after {
+    width: 40px;
+    height: 40px;
+  }
+
+  .about__taxonomy-header h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+  .about__taxonomy {
+    padding: var(--space-sm);
+  }
+
+  .about__taxonomy-item {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+}
+
+/* Small phone */
+@media (max-width: 360px) {
+  .about__taxonomy {
+    padding: var(--space-xs);
+  }
+
+  .about__taxonomy-key {
+    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+  }
+
+  .about__taxonomy-value {
+    font-size: 0.8rem;
+  }
+
+  .about__text {
+    line-height: 1.7;
+  }
+
+  .about__taxonomy::before,
+  .about__taxonomy::after {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Landscape phones — keep 2-col grid */
+@media (max-height: 500px) and (orientation: landscape) {
+  .about {
+    padding: var(--space-md) 0;
+  }
+
+  .about__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-sm);
+  }
+
+  .about__content {
+    padding-right: var(--space-xs);
+  }
+}

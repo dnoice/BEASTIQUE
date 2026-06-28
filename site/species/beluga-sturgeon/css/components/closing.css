@@ -1,0 +1,175 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * ✒ Metadata
+ *    - Title: Closing Showcase Component (BEASTIQUE Edition - v1.0)
+ *    - File Name: closing.css
+ *    - Relative Path: css/components/closing.css
+ *    - Artifact Type: config
+ *    - Version: 1.0.0
+ *    - Date: 2026-02-17
+ *    - Update: Tuesday, February 17, 2026
+ *    - Author: Dennis 'dnoice' Smaltz
+ *    - A.I. Acknowledgement: Anthropic - Claude Opus 4.6
+ *    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+ *
+ * ✒ Description:
+ *    Closing showcase section with framed illustration and reflective
+ *    quote. Mirrors the hero section's dramatic presence at page bottom.
+ *
+ * ✒ Key Features:
+ *    - Feature 1: Centered framed image with ambient glow
+ *    - Feature 2: Reflective blockquote with display typography
+ *    - Feature 3: Scroll-triggered reveal animations
+ *    - Feature 4: Responsive image scaling
+ *    - Feature 5: Gradient background bridging conservation to footer
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
+
+.closing {
+    background: linear-gradient(
+        180deg,
+        var(--color-abyss) 0%,
+        var(--color-deep) 40%,
+        var(--color-abyss) 100%
+    );
+    position: relative;
+    overflow: hidden;
+}
+
+.closing__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: var(--space-lg);
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity var(--duration-slow) var(--ease-out-expo),
+                transform var(--duration-slow) var(--ease-out-expo);
+}
+
+.closing__content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Framed Image
+   ───────────────────────────────────────────────────────────────────────────── */
+.closing__frame {
+    position: relative;
+    width: 100%;
+    justify-self: center;
+}
+
+.closing__frame::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: 8px;
+    background: linear-gradient(
+        135deg,
+        var(--color-coral) 0%,
+        transparent 40%,
+        transparent 60%,
+        var(--color-teal) 100%
+    );
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.closing__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 6px;
+}
+
+.closing__frame::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.5),
+        0 0 80px rgba(26, 95, 106, 0.12);
+    z-index: 0;
+    transition: box-shadow var(--duration-slow) var(--ease-out-expo);
+    pointer-events: none;
+}
+
+.closing__frame:hover::after {
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.5),
+        0 0 100px rgba(212, 86, 92, 0.15);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Quote
+   ───────────────────────────────────────────────────────────────────────────── */
+.closing__quote {
+    text-align: left;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity var(--duration-slow) var(--ease-out-expo) 0.3s,
+                transform var(--duration-slow) var(--ease-out-expo) 0.3s;
+}
+
+.closing__quote.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.closing__quote p {
+    font-family: var(--font-display);
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--color-pearl);
+    margin: 0 auto var(--space-sm);
+}
+
+.closing__quote cite {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--color-coral-soft);
+}
+
+.closing__quote cite em {
+    font-style: italic;
+    letter-spacing: 0.05em;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Responsive
+   ───────────────────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .closing__content {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .closing__frame {
+        max-width: 360px;
+    }
+
+    .closing__quote {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .closing__frame {
+        max-width: 280px;
+    }
+
+    .closing__quote p {
+        font-size: clamp(1.2rem, 4vw, 1.4rem);
+    }
+}

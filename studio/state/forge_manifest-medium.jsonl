@@ -1,0 +1,240 @@
+{"id": "BQ-LINO-AQU-001", "gallery": "aquatic", "slug": "blue-whale", "name": "Blue Whale", "iucn": "EN", "out_stem": "blue-whale_linocut-bw", "prompt_chars": 1962, "has_negative": true}
+{"id": "BQ-LINO-AQU-002", "gallery": "aquatic", "slug": "humpback-whale", "name": "Humpback Whale", "iucn": "LC", "out_stem": "humpback-whale_linocut-bw", "prompt_chars": 1940, "has_negative": true}
+{"id": "BQ-LINO-AQU-003", "gallery": "aquatic", "slug": "sperm-whale", "name": "Sperm Whale", "iucn": "VU", "out_stem": "sperm-whale_linocut-bw", "prompt_chars": 1822, "has_negative": true}
+{"id": "BQ-LINO-AQU-004", "gallery": "aquatic", "slug": "orca", "name": "Orca", "iucn": "DD", "out_stem": "orca_linocut-bw", "prompt_chars": 1917, "has_negative": true}
+{"id": "BQ-LINO-AQU-005", "gallery": "aquatic", "slug": "beluga-whale", "name": "Beluga Whale", "iucn": "LC", "out_stem": "beluga-whale_linocut-bw", "prompt_chars": 1926, "has_negative": true}
+{"id": "BQ-LINO-AQU-006", "gallery": "aquatic", "slug": "narwhal", "name": "Narwhal", "iucn": "LC", "out_stem": "narwhal_linocut-bw", "prompt_chars": 1827, "has_negative": true}
+{"id": "BQ-LINO-AQU-007", "gallery": "aquatic", "slug": "bottlenose-dolphin", "name": "Bottlenose Dolphin", "iucn": "LC", "out_stem": "bottlenose-dolphin_linocut-bw", "prompt_chars": 1773, "has_negative": true}
+{"id": "BQ-LINO-AQU-008", "gallery": "aquatic", "slug": "common-dolphin", "name": "Common Dolphin", "iucn": "LC", "out_stem": "common-dolphin_linocut-bw", "prompt_chars": 1780, "has_negative": true}
+{"id": "BQ-LINO-AQU-009", "gallery": "aquatic", "slug": "manatee", "name": "West Indian Manatee", "iucn": "VU", "out_stem": "manatee_linocut-bw", "prompt_chars": 1915, "has_negative": true}
+{"id": "BQ-LINO-AQU-010", "gallery": "aquatic", "slug": "dugong", "name": "Dugong", "iucn": "VU", "out_stem": "dugong_linocut-bw", "prompt_chars": 1879, "has_negative": true}
+{"id": "BQ-LINO-AQU-011", "gallery": "aquatic", "slug": "sea-lion", "name": "California Sea Lion", "iucn": "LC", "out_stem": "sea-lion_linocut-bw", "prompt_chars": 1910, "has_negative": true}
+{"id": "BQ-LINO-AQU-012", "gallery": "aquatic", "slug": "harbor-seal", "name": "Harbor Seal", "iucn": "LC", "out_stem": "harbor-seal_linocut-bw", "prompt_chars": 1825, "has_negative": true}
+{"id": "BQ-LINO-AQU-013", "gallery": "aquatic", "slug": "leopard-seal", "name": "Leopard Seal", "iucn": "LC", "out_stem": "leopard-seal_linocut-bw", "prompt_chars": 1856, "has_negative": true}
+{"id": "BQ-LINO-AQU-014", "gallery": "aquatic", "slug": "elephant-seal", "name": "Northern Elephant Seal", "iucn": "LC", "out_stem": "elephant-seal_linocut-bw", "prompt_chars": 1804, "has_negative": true}
+{"id": "BQ-LINO-AQU-015", "gallery": "aquatic", "slug": "walrus", "name": "Walrus", "iucn": "VU", "out_stem": "walrus_linocut-bw", "prompt_chars": 1861, "has_negative": true}
+{"id": "BQ-LINO-AQU-016", "gallery": "aquatic", "slug": "sea-otter", "name": "Sea Otter", "iucn": "EN", "out_stem": "sea-otter_linocut-bw", "prompt_chars": 1816, "has_negative": true}
+{"id": "BQ-LINO-AQU-017", "gallery": "aquatic", "slug": "great-white-shark", "name": "Great White Shark", "iucn": "VU", "out_stem": "great-white-shark_linocut-bw", "prompt_chars": 1886, "has_negative": true}
+{"id": "BQ-LINO-AQU-018", "gallery": "aquatic", "slug": "whale-shark", "name": "Whale Shark", "iucn": "EN", "out_stem": "whale-shark_linocut-bw", "prompt_chars": 1944, "has_negative": true}
+{"id": "BQ-LINO-AQU-019", "gallery": "aquatic", "slug": "hammerhead-shark", "name": "Great Hammerhead Shark", "iucn": "CR", "out_stem": "hammerhead-shark_linocut-bw", "prompt_chars": 1838, "has_negative": true}
+{"id": "BQ-LINO-AQU-020", "gallery": "aquatic", "slug": "tiger-shark", "name": "Tiger Shark", "iucn": "NT", "out_stem": "tiger-shark_linocut-bw", "prompt_chars": 1864, "has_negative": true}
+{"id": "BQ-LINO-AQU-021", "gallery": "aquatic", "slug": "manta-ray", "name": "Giant Manta Ray", "iucn": "EN", "out_stem": "manta-ray_linocut-bw", "prompt_chars": 1906, "has_negative": true}
+{"id": "BQ-LINO-AQU-022", "gallery": "aquatic", "slug": "stingray", "name": "Southern Stingray", "iucn": "NT", "out_stem": "stingray_linocut-bw", "prompt_chars": 1801, "has_negative": true}
+{"id": "BQ-LINO-AQU-023", "gallery": "aquatic", "slug": "bluefin-tuna", "name": "Atlantic Bluefin Tuna", "iucn": "LC", "out_stem": "bluefin-tuna_linocut-bw", "prompt_chars": 1863, "has_negative": true}
+{"id": "BQ-LINO-AQU-024", "gallery": "aquatic", "slug": "atlantic-salmon", "name": "Atlantic Salmon", "iucn": "LC", "out_stem": "atlantic-salmon_linocut-bw", "prompt_chars": 1900, "has_negative": true}
+{"id": "BQ-LINO-AQU-025", "gallery": "aquatic", "slug": "blue-marlin", "name": "Atlantic Blue Marlin", "iucn": "VU", "out_stem": "blue-marlin_linocut-bw", "prompt_chars": 1847, "has_negative": true}
+{"id": "BQ-LINO-AQU-026", "gallery": "aquatic", "slug": "swordfish", "name": "Swordfish", "iucn": "NT", "out_stem": "swordfish_linocut-bw", "prompt_chars": 1864, "has_negative": true}
+{"id": "BQ-LINO-AQU-027", "gallery": "aquatic", "slug": "clownfish", "name": "Clownfish", "iucn": "LC", "out_stem": "clownfish_linocut-bw", "prompt_chars": 1926, "has_negative": true}
+{"id": "BQ-LINO-AQU-028", "gallery": "aquatic", "slug": "seahorse", "name": "Seahorse", "iucn": "VU", "out_stem": "seahorse_linocut-bw", "prompt_chars": 1966, "has_negative": true}
+{"id": "BQ-LINO-AQU-029", "gallery": "aquatic", "slug": "anglerfish", "name": "Anglerfish", "iucn": "LC", "out_stem": "anglerfish_linocut-bw", "prompt_chars": 1966, "has_negative": true}
+{"id": "BQ-LINO-AQU-030", "gallery": "aquatic", "slug": "moray-eel", "name": "Mediterranean Moray", "iucn": "LC", "out_stem": "moray-eel_linocut-bw", "prompt_chars": 1938, "has_negative": true}
+{"id": "BQ-LINO-AQU-031", "gallery": "aquatic", "slug": "lionfish", "name": "Red Lionfish", "iucn": "LC", "out_stem": "lionfish_linocut-bw", "prompt_chars": 2025, "has_negative": true}
+{"id": "BQ-LINO-AQU-032", "gallery": "aquatic", "slug": "pufferfish", "name": "Pufferfish", "iucn": "LC", "out_stem": "pufferfish_linocut-bw", "prompt_chars": 1932, "has_negative": true}
+{"id": "BQ-LINO-AQU-033", "gallery": "aquatic", "slug": "ocean-sunfish", "name": "Ocean Sunfish", "iucn": "VU", "out_stem": "ocean-sunfish_linocut-bw", "prompt_chars": 1983, "has_negative": true}
+{"id": "BQ-LINO-AQU-034", "gallery": "aquatic", "slug": "koi", "name": "Koi Carp", "iucn": "DOM", "out_stem": "koi_linocut-bw", "prompt_chars": 2060, "has_negative": true}
+{"id": "BQ-LINO-AQU-035", "gallery": "aquatic", "slug": "barracuda", "name": "Great Barracuda", "iucn": "LC", "out_stem": "barracuda_linocut-bw", "prompt_chars": 1885, "has_negative": true}
+{"id": "BQ-LINO-AQU-036", "gallery": "aquatic", "slug": "sturgeon", "name": "Atlantic Sturgeon", "iucn": "NT", "out_stem": "sturgeon_linocut-bw", "prompt_chars": 2036, "has_negative": true}
+{"id": "BQ-LINO-AQU-037", "gallery": "aquatic", "slug": "piranha", "name": "Red-bellied Piranha", "iucn": "LC", "out_stem": "piranha_linocut-bw", "prompt_chars": 1965, "has_negative": true}
+{"id": "BQ-LINO-AQU-038", "gallery": "aquatic", "slug": "giant-pacific-octopus", "name": "Giant Pacific Octopus", "iucn": "LC", "out_stem": "giant-pacific-octopus_linocut-bw", "prompt_chars": 2057, "has_negative": true}
+{"id": "BQ-LINO-AQU-039", "gallery": "aquatic", "slug": "giant-squid", "name": "Giant Squid", "iucn": "DD", "out_stem": "giant-squid_linocut-bw", "prompt_chars": 2035, "has_negative": true}
+{"id": "BQ-LINO-AQU-040", "gallery": "aquatic", "slug": "cuttlefish", "name": "Common Cuttlefish", "iucn": "NT", "out_stem": "cuttlefish_linocut-bw", "prompt_chars": 1917, "has_negative": true}
+{"id": "BQ-LINO-AQU-041", "gallery": "aquatic", "slug": "nautilus", "name": "Chambered Nautilus", "iucn": "EN", "out_stem": "nautilus_linocut-bw", "prompt_chars": 2029, "has_negative": true}
+{"id": "BQ-LINO-AQU-042", "gallery": "aquatic", "slug": "lobster", "name": "American Lobster", "iucn": "LC", "out_stem": "lobster_linocut-bw", "prompt_chars": 2144, "has_negative": true}
+{"id": "BQ-LINO-AQU-043", "gallery": "aquatic", "slug": "king-crab", "name": "Red King Crab", "iucn": "NE", "out_stem": "king-crab_linocut-bw", "prompt_chars": 2098, "has_negative": true}
+{"id": "BQ-LINO-AQU-044", "gallery": "aquatic", "slug": "mantis-shrimp", "name": "Peacock Mantis Shrimp", "iucn": "LC", "out_stem": "mantis-shrimp_linocut-bw", "prompt_chars": 2128, "has_negative": true}
+{"id": "BQ-LINO-AQU-045", "gallery": "aquatic", "slug": "jellyfish", "name": "Moon Jellyfish", "iucn": "LC", "out_stem": "jellyfish_linocut-bw", "prompt_chars": 2118, "has_negative": true}
+{"id": "BQ-LINO-AQU-046", "gallery": "aquatic", "slug": "sea-star", "name": "Common Sea Star", "iucn": "LC", "out_stem": "sea-star_linocut-bw", "prompt_chars": 1998, "has_negative": true}
+{"id": "BQ-LINO-AQU-047", "gallery": "aquatic", "slug": "sea-urchin", "name": "Sea Urchin", "iucn": "LC", "out_stem": "sea-urchin_linocut-bw", "prompt_chars": 2121, "has_negative": true}
+{"id": "BQ-LINO-AQU-048", "gallery": "aquatic", "slug": "nudibranch", "name": "Nudibranch", "iucn": "NE", "out_stem": "nudibranch_linocut-bw", "prompt_chars": 2108, "has_negative": true}
+{"id": "BQ-LINO-AQU-049", "gallery": "aquatic", "slug": "green-sea-turtle", "name": "Green Sea Turtle", "iucn": "EN", "out_stem": "green-sea-turtle_linocut-bw", "prompt_chars": 2112, "has_negative": true}
+{"id": "BQ-LINO-AQU-050", "gallery": "aquatic", "slug": "leatherback-turtle", "name": "Leatherback Sea Turtle", "iucn": "VU", "out_stem": "leatherback-turtle_linocut-bw", "prompt_chars": 2307, "has_negative": true}
+{"id": "BQ-LINO-AVI-001", "gallery": "avian", "slug": "bald-eagle", "name": "Bald Eagle", "iucn": "LC", "out_stem": "bald-eagle_linocut-bw", "prompt_chars": 1955, "has_negative": true}
+{"id": "BQ-LINO-AVI-002", "gallery": "avian", "slug": "golden-eagle", "name": "Golden Eagle", "iucn": "LC", "out_stem": "golden-eagle_linocut-bw", "prompt_chars": 1885, "has_negative": true}
+{"id": "BQ-LINO-AVI-003", "gallery": "avian", "slug": "peregrine-falcon", "name": "Peregrine Falcon", "iucn": "LC", "out_stem": "peregrine-falcon_linocut-bw", "prompt_chars": 1870, "has_negative": true}
+{"id": "BQ-LINO-AVI-004", "gallery": "avian", "slug": "red-tailed-hawk", "name": "Red-tailed Hawk", "iucn": "LC", "out_stem": "red-tailed-hawk_linocut-bw", "prompt_chars": 1807, "has_negative": true}
+{"id": "BQ-LINO-AVI-005", "gallery": "avian", "slug": "osprey", "name": "Osprey", "iucn": "LC", "out_stem": "osprey_linocut-bw", "prompt_chars": 1901, "has_negative": true}
+{"id": "BQ-LINO-AVI-006", "gallery": "avian", "slug": "great-horned-owl", "name": "Great Horned Owl", "iucn": "LC", "out_stem": "great-horned-owl_linocut-bw", "prompt_chars": 1905, "has_negative": true}
+{"id": "BQ-LINO-AVI-007", "gallery": "avian", "slug": "barn-owl", "name": "Barn Owl", "iucn": "LC", "out_stem": "barn-owl_linocut-bw", "prompt_chars": 2018, "has_negative": true}
+{"id": "BQ-LINO-AVI-008", "gallery": "avian", "slug": "snowy-owl", "name": "Snowy Owl", "iucn": "VU", "out_stem": "snowy-owl_linocut-bw", "prompt_chars": 1981, "has_negative": true}
+{"id": "BQ-LINO-AVI-009", "gallery": "avian", "slug": "andean-condor", "name": "Andean Condor", "iucn": "VU", "out_stem": "andean-condor_linocut-bw", "prompt_chars": 1930, "has_negative": true}
+{"id": "BQ-LINO-AVI-010", "gallery": "avian", "slug": "secretarybird", "name": "Secretarybird", "iucn": "EN", "out_stem": "secretarybird_linocut-bw", "prompt_chars": 1995, "has_negative": true}
+{"id": "BQ-LINO-AVI-011", "gallery": "avian", "slug": "mute-swan", "name": "Mute Swan", "iucn": "LC", "out_stem": "mute-swan_linocut-bw", "prompt_chars": 2013, "has_negative": true}
+{"id": "BQ-LINO-AVI-012", "gallery": "avian", "slug": "canada-goose", "name": "Canada Goose", "iucn": "LC", "out_stem": "canada-goose_linocut-bw", "prompt_chars": 1853, "has_negative": true}
+{"id": "BQ-LINO-AVI-013", "gallery": "avian", "slug": "mallard", "name": "Mallard", "iucn": "LC", "out_stem": "mallard_linocut-bw", "prompt_chars": 1885, "has_negative": true}
+{"id": "BQ-LINO-AVI-014", "gallery": "avian", "slug": "mandarin-duck", "name": "Mandarin Duck", "iucn": "LC", "out_stem": "mandarin-duck_linocut-bw", "prompt_chars": 1981, "has_negative": true}
+{"id": "BQ-LINO-AVI-015", "gallery": "avian", "slug": "greater-flamingo", "name": "Greater Flamingo", "iucn": "LC", "out_stem": "greater-flamingo_linocut-bw", "prompt_chars": 2011, "has_negative": true}
+{"id": "BQ-LINO-AVI-016", "gallery": "avian", "slug": "great-blue-heron", "name": "Great Blue Heron", "iucn": "LC", "out_stem": "great-blue-heron_linocut-bw", "prompt_chars": 1969, "has_negative": true}
+{"id": "BQ-LINO-AVI-017", "gallery": "avian", "slug": "grey-crowned-crane", "name": "Grey Crowned Crane", "iucn": "EN", "out_stem": "grey-crowned-crane_linocut-bw", "prompt_chars": 1948, "has_negative": true}
+{"id": "BQ-LINO-AVI-018", "gallery": "avian", "slug": "white-stork", "name": "White Stork", "iucn": "LC", "out_stem": "white-stork_linocut-bw", "prompt_chars": 1936, "has_negative": true}
+{"id": "BQ-LINO-AVI-019", "gallery": "avian", "slug": "roseate-spoonbill", "name": "Roseate Spoonbill", "iucn": "LC", "out_stem": "roseate-spoonbill_linocut-bw", "prompt_chars": 1920, "has_negative": true}
+{"id": "BQ-LINO-AVI-020", "gallery": "avian", "slug": "shoebill", "name": "Shoebill", "iucn": "VU", "out_stem": "shoebill_linocut-bw", "prompt_chars": 2058, "has_negative": true}
+{"id": "BQ-LINO-AVI-021", "gallery": "avian", "slug": "atlantic-puffin", "name": "Atlantic Puffin", "iucn": "VU", "out_stem": "atlantic-puffin_linocut-bw", "prompt_chars": 1908, "has_negative": true}
+{"id": "BQ-LINO-AVI-022", "gallery": "avian", "slug": "wandering-albatross", "name": "Wandering Albatross", "iucn": "VU", "out_stem": "wandering-albatross_linocut-bw", "prompt_chars": 1925, "has_negative": true}
+{"id": "BQ-LINO-AVI-023", "gallery": "avian", "slug": "brown-pelican", "name": "Brown Pelican", "iucn": "LC", "out_stem": "brown-pelican_linocut-bw", "prompt_chars": 1939, "has_negative": true}
+{"id": "BQ-LINO-AVI-024", "gallery": "avian", "slug": "northern-gannet", "name": "Northern Gannet", "iucn": "LC", "out_stem": "northern-gannet_linocut-bw", "prompt_chars": 1849, "has_negative": true}
+{"id": "BQ-LINO-AVI-025", "gallery": "avian", "slug": "indian-peafowl", "name": "Indian Peafowl", "iucn": "LC", "out_stem": "indian-peafowl_linocut-bw", "prompt_chars": 2032, "has_negative": true}
+{"id": "BQ-LINO-AVI-026", "gallery": "avian", "slug": "wild-turkey", "name": "Wild Turkey", "iucn": "LC", "out_stem": "wild-turkey_linocut-bw", "prompt_chars": 2041, "has_negative": true}
+{"id": "BQ-LINO-AVI-027", "gallery": "avian", "slug": "red-junglefowl", "name": "Red Junglefowl", "iucn": "LC", "out_stem": "red-junglefowl_linocut-bw", "prompt_chars": 1953, "has_negative": true}
+{"id": "BQ-LINO-AVI-028", "gallery": "avian", "slug": "ring-necked-pheasant", "name": "Ring-necked Pheasant", "iucn": "LC", "out_stem": "ring-necked-pheasant_linocut-bw", "prompt_chars": 2028, "has_negative": true}
+{"id": "BQ-LINO-AVI-029", "gallery": "avian", "slug": "common-ostrich", "name": "Common Ostrich", "iucn": "LC", "out_stem": "common-ostrich_linocut-bw", "prompt_chars": 1980, "has_negative": true}
+{"id": "BQ-LINO-AVI-030", "gallery": "avian", "slug": "emu", "name": "Emu", "iucn": "LC", "out_stem": "emu_linocut-bw", "prompt_chars": 1892, "has_negative": true}
+{"id": "BQ-LINO-AVI-031", "gallery": "avian", "slug": "southern-cassowary", "name": "Southern Cassowary", "iucn": "LC", "out_stem": "southern-cassowary_linocut-bw", "prompt_chars": 2027, "has_negative": true}
+{"id": "BQ-LINO-AVI-032", "gallery": "avian", "slug": "emperor-penguin", "name": "Emperor Penguin", "iucn": "NT", "out_stem": "emperor-penguin_linocut-bw", "prompt_chars": 1979, "has_negative": true}
+{"id": "BQ-LINO-AVI-033", "gallery": "avian", "slug": "southern-brown-kiwi", "name": "Southern Brown Kiwi", "iucn": "VU", "out_stem": "southern-brown-kiwi_linocut-bw", "prompt_chars": 1933, "has_negative": true}
+{"id": "BQ-LINO-AVI-034", "gallery": "avian", "slug": "scarlet-macaw", "name": "Scarlet Macaw", "iucn": "LC", "out_stem": "scarlet-macaw_linocut-bw", "prompt_chars": 2036, "has_negative": true}
+{"id": "BQ-LINO-AVI-035", "gallery": "avian", "slug": "sulphur-crested-cockatoo", "name": "Sulphur-crested Cockatoo", "iucn": "LC", "out_stem": "sulphur-crested-cockatoo_linocut-bw", "prompt_chars": 1994, "has_negative": true}
+{"id": "BQ-LINO-AVI-036", "gallery": "avian", "slug": "african-grey-parrot", "name": "African Grey Parrot", "iucn": "EN", "out_stem": "african-grey-parrot_linocut-bw", "prompt_chars": 1979, "has_negative": true}
+{"id": "BQ-LINO-AVI-037", "gallery": "avian", "slug": "kakapo", "name": "Kakapo", "iucn": "CR", "out_stem": "kakapo_linocut-bw", "prompt_chars": 2130, "has_negative": true}
+{"id": "BQ-LINO-AVI-038", "gallery": "avian", "slug": "common-raven", "name": "Common Raven", "iucn": "LC", "out_stem": "common-raven_linocut-bw", "prompt_chars": 1955, "has_negative": true}
+{"id": "BQ-LINO-AVI-039", "gallery": "avian", "slug": "eurasian-magpie", "name": "Eurasian Magpie", "iucn": "LC", "out_stem": "eurasian-magpie_linocut-bw", "prompt_chars": 1962, "has_negative": true}
+{"id": "BQ-LINO-AVI-040", "gallery": "avian", "slug": "blue-jay", "name": "Blue Jay", "iucn": "LC", "out_stem": "blue-jay_linocut-bw", "prompt_chars": 1874, "has_negative": true}
+{"id": "BQ-LINO-AVI-041", "gallery": "avian", "slug": "northern-cardinal", "name": "Northern Cardinal", "iucn": "LC", "out_stem": "northern-cardinal_linocut-bw", "prompt_chars": 1976, "has_negative": true}
+{"id": "BQ-LINO-AVI-042", "gallery": "avian", "slug": "american-robin", "name": "American Robin", "iucn": "LC", "out_stem": "american-robin_linocut-bw", "prompt_chars": 1887, "has_negative": true}
+{"id": "BQ-LINO-AVI-043", "gallery": "avian", "slug": "european-goldfinch", "name": "European Goldfinch", "iucn": "LC", "out_stem": "european-goldfinch_linocut-bw", "prompt_chars": 1984, "has_negative": true}
+{"id": "BQ-LINO-AVI-044", "gallery": "avian", "slug": "barn-swallow", "name": "Barn Swallow", "iucn": "LC", "out_stem": "barn-swallow_linocut-bw", "prompt_chars": 2047, "has_negative": true}
+{"id": "BQ-LINO-AVI-045", "gallery": "avian", "slug": "greater-bird-of-paradise", "name": "Greater Bird-of-paradise", "iucn": "LC", "out_stem": "greater-bird-of-paradise_linocut-bw", "prompt_chars": 2089, "has_negative": true}
+{"id": "BQ-LINO-AVI-046", "gallery": "avian", "slug": "ruby-throated-hummingbird", "name": "Ruby-throated Hummingbird", "iucn": "LC", "out_stem": "ruby-throated-hummingbird_linocut-bw", "prompt_chars": 2039, "has_negative": true}
+{"id": "BQ-LINO-AVI-047", "gallery": "avian", "slug": "belted-kingfisher", "name": "Belted Kingfisher", "iucn": "LC", "out_stem": "belted-kingfisher_linocut-bw", "prompt_chars": 1961, "has_negative": true}
+{"id": "BQ-LINO-AVI-048", "gallery": "avian", "slug": "pileated-woodpecker", "name": "Pileated Woodpecker", "iucn": "LC", "out_stem": "pileated-woodpecker_linocut-bw", "prompt_chars": 2089, "has_negative": true}
+{"id": "BQ-LINO-AVI-049", "gallery": "avian", "slug": "toco-toucan", "name": "Toco Toucan", "iucn": "LC", "out_stem": "toco-toucan_linocut-bw", "prompt_chars": 1974, "has_negative": true}
+{"id": "BQ-LINO-AVI-050", "gallery": "avian", "slug": "resplendent-quetzal", "name": "Resplendent Quetzal", "iucn": "NT", "out_stem": "resplendent-quetzal_linocut-bw", "prompt_chars": 2085, "has_negative": true}
+{"id": "BQ-LINO-INS-001", "gallery": "insecta", "slug": "monarch-butterfly", "name": "Monarch Butterfly", "iucn": "VU†", "out_stem": "monarch-butterfly_linocut-bw", "prompt_chars": 1839, "has_negative": true}
+{"id": "BQ-LINO-INS-002", "gallery": "insecta", "slug": "blue-morpho", "name": "Blue Morpho", "iucn": "NE", "out_stem": "blue-morpho_linocut-bw", "prompt_chars": 1801, "has_negative": true}
+{"id": "BQ-LINO-INS-003", "gallery": "insecta", "slug": "atlas-moth", "name": "Atlas Moth", "iucn": "NE", "out_stem": "atlas-moth_linocut-bw", "prompt_chars": 1839, "has_negative": true}
+{"id": "BQ-LINO-INS-004", "gallery": "insecta", "slug": "luna-moth", "name": "Luna Moth", "iucn": "NE", "out_stem": "luna-moth_linocut-bw", "prompt_chars": 1846, "has_negative": true}
+{"id": "BQ-LINO-INS-005", "gallery": "insecta", "slug": "swallowtail", "name": "Swallowtail", "iucn": "NE", "out_stem": "swallowtail_linocut-bw", "prompt_chars": 1805, "has_negative": true}
+{"id": "BQ-LINO-INS-006", "gallery": "insecta", "slug": "deaths-head-hawkmoth", "name": "Death's-head Hawkmoth", "iucn": "NE", "out_stem": "deaths-head-hawkmoth_linocut-bw", "prompt_chars": 1852, "has_negative": true}
+{"id": "BQ-LINO-INS-007", "gallery": "insecta", "slug": "madagascan-sunset-moth", "name": "Madagascan Sunset Moth", "iucn": "NE", "out_stem": "madagascan-sunset-moth_linocut-bw", "prompt_chars": 1886, "has_negative": true}
+{"id": "BQ-LINO-INS-008", "gallery": "insecta", "slug": "io-moth", "name": "Io Moth", "iucn": "NE", "out_stem": "io-moth_linocut-bw", "prompt_chars": 1831, "has_negative": true}
+{"id": "BQ-LINO-INS-009", "gallery": "insecta", "slug": "hercules-beetle", "name": "Hercules Beetle", "iucn": "NE", "out_stem": "hercules-beetle_linocut-bw", "prompt_chars": 1808, "has_negative": true}
+{"id": "BQ-LINO-INS-010", "gallery": "insecta", "slug": "stag-beetle", "name": "Stag Beetle", "iucn": "NT", "out_stem": "stag-beetle_linocut-bw", "prompt_chars": 1652, "has_negative": true}
+{"id": "BQ-LINO-INS-011", "gallery": "insecta", "slug": "rhinoceros-beetle", "name": "Rhinoceros Beetle", "iucn": "NE", "out_stem": "rhinoceros-beetle_linocut-bw", "prompt_chars": 1751, "has_negative": true}
+{"id": "BQ-LINO-INS-012", "gallery": "insecta", "slug": "goliath-beetle", "name": "Goliath Beetle", "iucn": "NE", "out_stem": "goliath-beetle_linocut-bw", "prompt_chars": 1856, "has_negative": true}
+{"id": "BQ-LINO-INS-013", "gallery": "insecta", "slug": "ladybug", "name": "Seven-spot Ladybird", "iucn": "NE", "out_stem": "ladybug_linocut-bw", "prompt_chars": 1819, "has_negative": true}
+{"id": "BQ-LINO-INS-014", "gallery": "insecta", "slug": "dung-beetle", "name": "Sacred Scarab", "iucn": "NE", "out_stem": "dung-beetle_linocut-bw", "prompt_chars": 1893, "has_negative": true}
+{"id": "BQ-LINO-INS-015", "gallery": "insecta", "slug": "jewel-beetle", "name": "Jewel Beetle", "iucn": "NE", "out_stem": "jewel-beetle_linocut-bw", "prompt_chars": 1793, "has_negative": true}
+{"id": "BQ-LINO-INS-016", "gallery": "insecta", "slug": "firefly", "name": "Common Eastern Firefly", "iucn": "NE", "out_stem": "firefly_linocut-bw", "prompt_chars": 1880, "has_negative": true}
+{"id": "BQ-LINO-INS-017", "gallery": "insecta", "slug": "weevil", "name": "Acorn Weevil", "iucn": "NE", "out_stem": "weevil_linocut-bw", "prompt_chars": 1824, "has_negative": true}
+{"id": "BQ-LINO-INS-018", "gallery": "insecta", "slug": "honeybee", "name": "Western Honeybee", "iucn": "NE", "out_stem": "honeybee_linocut-bw", "prompt_chars": 1821, "has_negative": true}
+{"id": "BQ-LINO-INS-019", "gallery": "insecta", "slug": "bumblebee", "name": "Buff-tailed Bumblebee", "iucn": "NE", "out_stem": "bumblebee_linocut-bw", "prompt_chars": 1753, "has_negative": true}
+{"id": "BQ-LINO-INS-020", "gallery": "insecta", "slug": "paper-wasp", "name": "Paper Wasp", "iucn": "NE", "out_stem": "paper-wasp_linocut-bw", "prompt_chars": 1888, "has_negative": true}
+{"id": "BQ-LINO-INS-021", "gallery": "insecta", "slug": "praying-mantis", "name": "Praying Mantis", "iucn": "NE", "out_stem": "praying-mantis_linocut-bw", "prompt_chars": 1938, "has_negative": true}
+{"id": "BQ-LINO-INS-022", "gallery": "insecta", "slug": "orchid-mantis", "name": "Orchid Mantis", "iucn": "NE", "out_stem": "orchid-mantis_linocut-bw", "prompt_chars": 1843, "has_negative": true}
+{"id": "BQ-LINO-INS-023", "gallery": "insecta", "slug": "common-green-darner", "name": "Common Green Darner", "iucn": "NE", "out_stem": "common-green-darner_linocut-bw", "prompt_chars": 1938, "has_negative": true}
+{"id": "BQ-LINO-INS-024", "gallery": "insecta", "slug": "banded-demoiselle", "name": "Banded Demoiselle", "iucn": "NE", "out_stem": "banded-demoiselle_linocut-bw", "prompt_chars": 1993, "has_negative": true}
+{"id": "BQ-LINO-INS-025", "gallery": "insecta", "slug": "giant-cicada", "name": "Giant Cicada", "iucn": "NE", "out_stem": "giant-cicada_linocut-bw", "prompt_chars": 1830, "has_negative": true}
+{"id": "BQ-LINO-INS-026", "gallery": "insecta", "slug": "leaf-insect", "name": "Leaf Insect", "iucn": "NE", "out_stem": "leaf-insect_linocut-bw", "prompt_chars": 1872, "has_negative": true}
+{"id": "BQ-LINO-INS-027", "gallery": "insecta", "slug": "giant-walking-stick", "name": "Giant Walking Stick", "iucn": "NE", "out_stem": "giant-walking-stick_linocut-bw", "prompt_chars": 1921, "has_negative": true}
+{"id": "BQ-LINO-INS-028", "gallery": "insecta", "slug": "bullet-ant", "name": "Bullet Ant", "iucn": "NE", "out_stem": "bullet-ant_linocut-bw", "prompt_chars": 1884, "has_negative": true}
+{"id": "BQ-LINO-INS-029", "gallery": "insecta", "slug": "leafcutter-ant", "name": "Leafcutter Ant", "iucn": "NE", "out_stem": "leafcutter-ant_linocut-bw", "prompt_chars": 1876, "has_negative": true}
+{"id": "BQ-LINO-INS-030", "gallery": "insecta", "slug": "desert-locust", "name": "Desert Locust", "iucn": "NE", "out_stem": "desert-locust_linocut-bw", "prompt_chars": 1834, "has_negative": true}
+{"id": "BQ-LINO-INS-031", "gallery": "insecta", "slug": "field-cricket", "name": "Field Cricket", "iucn": "NE", "out_stem": "field-cricket_linocut-bw", "prompt_chars": 1958, "has_negative": true}
+{"id": "BQ-LINO-INS-032", "gallery": "insecta", "slug": "mole-cricket", "name": "Mole Cricket", "iucn": "NE", "out_stem": "mole-cricket_linocut-bw", "prompt_chars": 1870, "has_negative": true}
+{"id": "BQ-LINO-ARA-001", "gallery": "insecta", "slug": "emperor-scorpion", "name": "Emperor Scorpion", "iucn": "NE", "out_stem": "emperor-scorpion_linocut-bw", "prompt_chars": 1910, "has_negative": true}
+{"id": "BQ-LINO-ARA-002", "gallery": "insecta", "slug": "deathstalker-scorpion", "name": "Deathstalker Scorpion", "iucn": "NE", "out_stem": "deathstalker-scorpion_linocut-bw", "prompt_chars": 1958, "has_negative": true}
+{"id": "BQ-LINO-ARA-003", "gallery": "insecta", "slug": "tarantula", "name": "Goliath Birdeater Tarantula", "iucn": "NE", "out_stem": "tarantula_linocut-bw", "prompt_chars": 1964, "has_negative": true}
+{"id": "BQ-LINO-ARA-004", "gallery": "insecta", "slug": "black-widow", "name": "Black Widow", "iucn": "NE", "out_stem": "black-widow_linocut-bw", "prompt_chars": 1862, "has_negative": true}
+{"id": "BQ-LINO-ARA-005", "gallery": "insecta", "slug": "jumping-spider", "name": "Jumping Spider", "iucn": "NE", "out_stem": "jumping-spider_linocut-bw", "prompt_chars": 1922, "has_negative": true}
+{"id": "BQ-LINO-ARA-006", "gallery": "insecta", "slug": "orb-weaver", "name": "Orb Weaver", "iucn": "NE", "out_stem": "orb-weaver_linocut-bw", "prompt_chars": 2043, "has_negative": true}
+{"id": "BQ-LINO-ARA-007", "gallery": "insecta", "slug": "wolf-spider", "name": "Wolf Spider", "iucn": "NE", "out_stem": "wolf-spider_linocut-bw", "prompt_chars": 1930, "has_negative": true}
+{"id": "BQ-LINO-ARA-008", "gallery": "insecta", "slug": "camel-spider", "name": "Camel Spider", "iucn": "NE", "out_stem": "camel-spider_linocut-bw", "prompt_chars": 1877, "has_negative": true}
+{"id": "BQ-LINO-ARA-009", "gallery": "insecta", "slug": "harvestman", "name": "Harvestman", "iucn": "NE", "out_stem": "harvestman_linocut-bw", "prompt_chars": 1853, "has_negative": true}
+{"id": "BQ-LINO-ARA-010", "gallery": "insecta", "slug": "vinegaroon", "name": "Giant Vinegaroon", "iucn": "NE", "out_stem": "vinegaroon_linocut-bw", "prompt_chars": 1963, "has_negative": true}
+{"id": "BQ-LINO-ARA-011", "gallery": "insecta", "slug": "tick", "name": "Tick", "iucn": "NE", "out_stem": "tick_linocut-bw", "prompt_chars": 2040, "has_negative": true}
+{"id": "BQ-LINO-ARA-012", "gallery": "insecta", "slug": "horseshoe-crab", "name": "Atlantic Horseshoe Crab", "iucn": "VU", "out_stem": "horseshoe-crab_linocut-bw", "prompt_chars": 1960, "has_negative": true}
+{"id": "BQ-LINO-MAM-001", "gallery": "mammalian", "slug": "american-bison", "name": "American Bison", "iucn": "NT", "out_stem": "american-bison_linocut-bw", "prompt_chars": 2260, "has_negative": true}
+{"id": "BQ-LINO-MAM-002", "gallery": "mammalian", "slug": "african-elephant", "name": "African Bush Elephant", "iucn": "EN", "out_stem": "african-elephant_linocut-bw", "prompt_chars": 1987, "has_negative": true}
+{"id": "BQ-LINO-MAM-003", "gallery": "mammalian", "slug": "lion", "name": "Lion", "iucn": "VU", "out_stem": "lion_linocut-bw", "prompt_chars": 1929, "has_negative": true}
+{"id": "BQ-LINO-MAM-004", "gallery": "mammalian", "slug": "bengal-tiger", "name": "Bengal Tiger", "iucn": "EN", "out_stem": "bengal-tiger_linocut-bw", "prompt_chars": 1855, "has_negative": true}
+{"id": "BQ-LINO-MAM-005", "gallery": "mammalian", "slug": "reticulated-giraffe", "name": "Reticulated Giraffe", "iucn": "EN", "out_stem": "reticulated-giraffe_linocut-bw", "prompt_chars": 1937, "has_negative": true}
+{"id": "BQ-LINO-MAM-006", "gallery": "mammalian", "slug": "western-gorilla", "name": "Western Lowland Gorilla", "iucn": "CR", "out_stem": "western-gorilla_linocut-bw", "prompt_chars": 1818, "has_negative": true}
+{"id": "BQ-LINO-MAM-007", "gallery": "mammalian", "slug": "chimpanzee", "name": "Common Chimpanzee", "iucn": "EN", "out_stem": "chimpanzee_linocut-bw", "prompt_chars": 1732, "has_negative": true}
+{"id": "BQ-LINO-MAM-008", "gallery": "mammalian", "slug": "grizzly-bear", "name": "Grizzly Bear", "iucn": "LC", "out_stem": "grizzly-bear_linocut-bw", "prompt_chars": 1751, "has_negative": true}
+{"id": "BQ-LINO-MAM-009", "gallery": "mammalian", "slug": "gray-wolf", "name": "Gray Wolf", "iucn": "LC", "out_stem": "gray-wolf_linocut-bw", "prompt_chars": 1754, "has_negative": true}
+{"id": "BQ-LINO-MAM-010", "gallery": "mammalian", "slug": "red-fox", "name": "Red Fox", "iucn": "LC", "out_stem": "red-fox_linocut-bw", "prompt_chars": 1795, "has_negative": true}
+{"id": "BQ-LINO-MAM-011", "gallery": "mammalian", "slug": "cheetah", "name": "Cheetah", "iucn": "VU", "out_stem": "cheetah_linocut-bw", "prompt_chars": 1832, "has_negative": true}
+{"id": "BQ-LINO-MAM-012", "gallery": "mammalian", "slug": "leopard", "name": "Leopard", "iucn": "VU", "out_stem": "leopard_linocut-bw", "prompt_chars": 1828, "has_negative": true}
+{"id": "BQ-LINO-MAM-013", "gallery": "mammalian", "slug": "jaguar", "name": "Jaguar", "iucn": "NT", "out_stem": "jaguar_linocut-bw", "prompt_chars": 1841, "has_negative": true}
+{"id": "BQ-LINO-MAM-014", "gallery": "mammalian", "slug": "plains-zebra", "name": "Plains Zebra", "iucn": "NT", "out_stem": "plains-zebra_linocut-bw", "prompt_chars": 1890, "has_negative": true}
+{"id": "BQ-LINO-MAM-015", "gallery": "mammalian", "slug": "hippopotamus", "name": "Common Hippopotamus", "iucn": "VU", "out_stem": "hippopotamus_linocut-bw", "prompt_chars": 1911, "has_negative": true}
+{"id": "BQ-LINO-MAM-016", "gallery": "mammalian", "slug": "white-rhinoceros", "name": "White Rhinoceros", "iucn": "NT", "out_stem": "white-rhinoceros_linocut-bw", "prompt_chars": 1861, "has_negative": true}
+{"id": "BQ-LINO-MAM-017", "gallery": "mammalian", "slug": "red-kangaroo", "name": "Red Kangaroo", "iucn": "LC", "out_stem": "red-kangaroo_linocut-bw", "prompt_chars": 1877, "has_negative": true}
+{"id": "BQ-LINO-MAM-018", "gallery": "mammalian", "slug": "koala", "name": "Koala", "iucn": "VU", "out_stem": "koala_linocut-bw", "prompt_chars": 1925, "has_negative": true}
+{"id": "BQ-LINO-MAM-019", "gallery": "mammalian", "slug": "giant-panda", "name": "Giant Panda", "iucn": "VU", "out_stem": "giant-panda_linocut-bw", "prompt_chars": 1902, "has_negative": true}
+{"id": "BQ-LINO-MAM-020", "gallery": "mammalian", "slug": "polar-bear", "name": "Polar Bear", "iucn": "VU", "out_stem": "polar-bear_linocut-bw", "prompt_chars": 1930, "has_negative": true}
+{"id": "BQ-LINO-MAM-021", "gallery": "mammalian", "slug": "moose", "name": "Moose", "iucn": "LC", "out_stem": "moose_linocut-bw", "prompt_chars": 1838, "has_negative": true}
+{"id": "BQ-LINO-MAM-022", "gallery": "mammalian", "slug": "elk", "name": "Rocky Mountain Elk", "iucn": "LC", "out_stem": "elk_linocut-bw", "prompt_chars": 1885, "has_negative": true}
+{"id": "BQ-LINO-MAM-023", "gallery": "mammalian", "slug": "white-tailed-deer", "name": "White-tailed Deer", "iucn": "LC", "out_stem": "white-tailed-deer_linocut-bw", "prompt_chars": 1894, "has_negative": true}
+{"id": "BQ-LINO-MAM-024", "gallery": "mammalian", "slug": "caribou", "name": "Caribou (Reindeer)", "iucn": "VU", "out_stem": "caribou_linocut-bw", "prompt_chars": 1970, "has_negative": true}
+{"id": "BQ-LINO-MAM-025", "gallery": "mammalian", "slug": "dromedary-camel", "name": "Dromedary Camel", "iucn": "", "out_stem": "dromedary-camel_linocut-bw", "prompt_chars": 1854, "has_negative": true}
+{"id": "BQ-LINO-MAM-026", "gallery": "mammalian", "slug": "wild-horse", "name": "Wild Horse (Mustang)", "iucn": "", "out_stem": "wild-horse_linocut-bw", "prompt_chars": 1957, "has_negative": true}
+{"id": "BQ-LINO-MAM-027", "gallery": "mammalian", "slug": "cape-buffalo", "name": "Cape Buffalo", "iucn": "NT", "out_stem": "cape-buffalo_linocut-bw", "prompt_chars": 1922, "has_negative": true}
+{"id": "BQ-LINO-MAM-028", "gallery": "mammalian", "slug": "wild-boar", "name": "Wild Boar", "iucn": "LC", "out_stem": "wild-boar_linocut-bw", "prompt_chars": 1946, "has_negative": true}
+{"id": "BQ-LINO-MAM-029", "gallery": "mammalian", "slug": "bornean-orangutan", "name": "Bornean Orangutan", "iucn": "CR", "out_stem": "bornean-orangutan_linocut-bw", "prompt_chars": 1898, "has_negative": true}
+{"id": "BQ-LINO-MAM-030", "gallery": "mammalian", "slug": "three-toed-sloth", "name": "Three-toed Sloth", "iucn": "LC", "out_stem": "three-toed-sloth_linocut-bw", "prompt_chars": 1967, "has_negative": true}
+{"id": "BQ-LINO-MAM-031", "gallery": "mammalian", "slug": "raccoon", "name": "Common Raccoon", "iucn": "LC", "out_stem": "raccoon_linocut-bw", "prompt_chars": 1896, "has_negative": true}
+{"id": "BQ-LINO-MAM-032", "gallery": "mammalian", "slug": "beaver", "name": "North American Beaver", "iucn": "LC", "out_stem": "beaver_linocut-bw", "prompt_chars": 1908, "has_negative": true}
+{"id": "BQ-LINO-MAM-033", "gallery": "mammalian", "slug": "river-otter", "name": "North American River Otter", "iucn": "LC", "out_stem": "river-otter_linocut-bw", "prompt_chars": 1874, "has_negative": true}
+{"id": "BQ-LINO-MAM-034", "gallery": "mammalian", "slug": "european-badger", "name": "European Badger", "iucn": "LC", "out_stem": "european-badger_linocut-bw", "prompt_chars": 1926, "has_negative": true}
+{"id": "BQ-LINO-MAM-035", "gallery": "mammalian", "slug": "striped-skunk", "name": "Striped Skunk", "iucn": "LC", "out_stem": "striped-skunk_linocut-bw", "prompt_chars": 1941, "has_negative": true}
+{"id": "BQ-LINO-MAM-036", "gallery": "mammalian", "slug": "hedgehog", "name": "European Hedgehog", "iucn": "NT", "out_stem": "hedgehog_linocut-bw", "prompt_chars": 1944, "has_negative": true}
+{"id": "BQ-LINO-MAM-037", "gallery": "mammalian", "slug": "flying-fox", "name": "Large Flying Fox", "iucn": "NT", "out_stem": "flying-fox_linocut-bw", "prompt_chars": 1990, "has_negative": true}
+{"id": "BQ-LINO-MAM-038", "gallery": "mammalian", "slug": "european-rabbit", "name": "European Rabbit", "iucn": "EN", "out_stem": "european-rabbit_linocut-bw", "prompt_chars": 1875, "has_negative": true}
+{"id": "BQ-LINO-MAM-039", "gallery": "mammalian", "slug": "gray-squirrel", "name": "Eastern Gray Squirrel", "iucn": "LC", "out_stem": "gray-squirrel_linocut-bw", "prompt_chars": 1891, "has_negative": true}
+{"id": "BQ-LINO-MAM-040", "gallery": "mammalian", "slug": "jackrabbit", "name": "Black-tailed Jackrabbit", "iucn": "LC", "out_stem": "jackrabbit_linocut-bw", "prompt_chars": 1888, "has_negative": true}
+{"id": "BQ-LINO-MAM-041", "gallery": "mammalian", "slug": "armadillo", "name": "Nine-banded Armadillo", "iucn": "LC", "out_stem": "armadillo_linocut-bw", "prompt_chars": 1943, "has_negative": true}
+{"id": "BQ-LINO-MAM-042", "gallery": "mammalian", "slug": "giant-anteater", "name": "Giant Anteater", "iucn": "VU", "out_stem": "giant-anteater_linocut-bw", "prompt_chars": 2007, "has_negative": true}
+{"id": "BQ-LINO-MAM-043", "gallery": "mammalian", "slug": "meerkat", "name": "Meerkat", "iucn": "LC", "out_stem": "meerkat_linocut-bw", "prompt_chars": 1963, "has_negative": true}
+{"id": "BQ-LINO-MAM-044", "gallery": "mammalian", "slug": "ring-tailed-lemur", "name": "Ring-tailed Lemur", "iucn": "EN", "out_stem": "ring-tailed-lemur_linocut-bw", "prompt_chars": 1979, "has_negative": true}
+{"id": "BQ-LINO-MAM-045", "gallery": "mammalian", "slug": "bighorn-sheep", "name": "Bighorn Sheep", "iucn": "LC", "out_stem": "bighorn-sheep_linocut-bw", "prompt_chars": 1926, "has_negative": true}
+{"id": "BQ-LINO-MAM-046", "gallery": "mammalian", "slug": "mountain-goat", "name": "Mountain Goat", "iucn": "LC", "out_stem": "mountain-goat_linocut-bw", "prompt_chars": 2071, "has_negative": true}
+{"id": "BQ-LINO-MAM-047", "gallery": "mammalian", "slug": "pronghorn", "name": "Pronghorn", "iucn": "LC", "out_stem": "pronghorn_linocut-bw", "prompt_chars": 1996, "has_negative": true}
+{"id": "BQ-LINO-MAM-048", "gallery": "mammalian", "slug": "wolverine", "name": "Wolverine", "iucn": "LC", "out_stem": "wolverine_linocut-bw", "prompt_chars": 2038, "has_negative": true}
+{"id": "BQ-LINO-MAM-049", "gallery": "mammalian", "slug": "snow-leopard", "name": "Snow Leopard", "iucn": "VU", "out_stem": "snow-leopard_linocut-bw", "prompt_chars": 2088, "has_negative": true}
+{"id": "BQ-LINO-MAM-050", "gallery": "mammalian", "slug": "aardvark", "name": "Aardvark", "iucn": "LC", "out_stem": "aardvark_linocut-bw", "prompt_chars": 2101, "has_negative": true}
+{"id": "BQ-LINO-REP-001", "gallery": "reptilian", "slug": "king-cobra", "name": "King Cobra", "iucn": "VU", "out_stem": "king-cobra_linocut-bw", "prompt_chars": 1896, "has_negative": true}
+{"id": "BQ-LINO-REP-002", "gallery": "reptilian", "slug": "gaboon-viper", "name": "Gaboon Viper", "iucn": "LC", "out_stem": "gaboon-viper_linocut-bw", "prompt_chars": 1830, "has_negative": true}
+{"id": "BQ-LINO-REP-003", "gallery": "reptilian", "slug": "eyelash-viper", "name": "Eyelash Viper", "iucn": "LC", "out_stem": "eyelash-viper_linocut-bw", "prompt_chars": 1853, "has_negative": true}
+{"id": "BQ-LINO-REP-004", "gallery": "reptilian", "slug": "green-tree-python", "name": "Green Tree Python", "iucn": "LC", "out_stem": "green-tree-python_linocut-bw", "prompt_chars": 1911, "has_negative": true}
+{"id": "BQ-LINO-REP-005", "gallery": "reptilian", "slug": "western-diamondback-rattlesnake", "name": "Western Diamondback Rattlesnake", "iucn": "LC", "out_stem": "western-diamondback-rattlesnake_linocut-bw", "prompt_chars": 1924, "has_negative": true}
+{"id": "BQ-LINO-REP-006", "gallery": "reptilian", "slug": "green-anaconda", "name": "Green Anaconda", "iucn": "LC", "out_stem": "green-anaconda_linocut-bw", "prompt_chars": 1965, "has_negative": true}
+{"id": "BQ-LINO-REP-007", "gallery": "reptilian", "slug": "komodo-dragon", "name": "Komodo Dragon", "iucn": "EN", "out_stem": "komodo-dragon_linocut-bw", "prompt_chars": 1785, "has_negative": true}
+{"id": "BQ-LINO-REP-008", "gallery": "reptilian", "slug": "panther-chameleon", "name": "Panther Chameleon", "iucn": "LC", "out_stem": "panther-chameleon_linocut-bw", "prompt_chars": 1891, "has_negative": true}
+{"id": "BQ-LINO-REP-009", "gallery": "reptilian", "slug": "frilled-lizard", "name": "Frilled Lizard", "iucn": "LC", "out_stem": "frilled-lizard_linocut-bw", "prompt_chars": 1893, "has_negative": true}
+{"id": "BQ-LINO-REP-010", "gallery": "reptilian", "slug": "green-iguana", "name": "Green Iguana", "iucn": "LC", "out_stem": "green-iguana_linocut-bw", "prompt_chars": 1854, "has_negative": true}
+{"id": "BQ-LINO-REP-011", "gallery": "reptilian", "slug": "marine-iguana", "name": "Marine Iguana", "iucn": "VU", "out_stem": "marine-iguana_linocut-bw", "prompt_chars": 1847, "has_negative": true}
+{"id": "BQ-LINO-REP-012", "gallery": "reptilian", "slug": "gila-monster", "name": "Gila Monster", "iucn": "NT", "out_stem": "gila-monster_linocut-bw", "prompt_chars": 1835, "has_negative": true}
+{"id": "BQ-LINO-REP-013", "gallery": "reptilian", "slug": "tokay-gecko", "name": "Tokay Gecko", "iucn": "LC", "out_stem": "tokay-gecko_linocut-bw", "prompt_chars": 1811, "has_negative": true}
+{"id": "BQ-LINO-REP-014", "gallery": "reptilian", "slug": "thorny-devil", "name": "Thorny Devil", "iucn": "LC", "out_stem": "thorny-devil_linocut-bw", "prompt_chars": 1925, "has_negative": true}
+{"id": "BQ-LINO-REP-015", "gallery": "reptilian", "slug": "tuatara", "name": "Tuatara", "iucn": "LC", "out_stem": "tuatara_linocut-bw", "prompt_chars": 1922, "has_negative": true}
+{"id": "BQ-LINO-REP-016", "gallery": "reptilian", "slug": "green-basilisk", "name": "Green Basilisk", "iucn": "LC", "out_stem": "green-basilisk_linocut-bw", "prompt_chars": 1883, "has_negative": true}
+{"id": "BQ-LINO-REP-017", "gallery": "reptilian", "slug": "galapagos-giant-tortoise", "name": "Galápagos Giant Tortoise", "iucn": "VU", "out_stem": "galapagos-giant-tortoise_linocut-bw", "prompt_chars": 1873, "has_negative": true}
+{"id": "BQ-LINO-REP-018", "gallery": "reptilian", "slug": "alligator-snapping-turtle", "name": "Alligator Snapping Turtle", "iucn": "VU", "out_stem": "alligator-snapping-turtle_linocut-bw", "prompt_chars": 1920, "has_negative": true}
+{"id": "BQ-LINO-REP-019", "gallery": "reptilian", "slug": "matamata", "name": "Matamata", "iucn": "LC", "out_stem": "matamata_linocut-bw", "prompt_chars": 1930, "has_negative": true}
+{"id": "BQ-LINO-REP-020", "gallery": "reptilian", "slug": "radiated-tortoise", "name": "Radiated Tortoise", "iucn": "CR", "out_stem": "radiated-tortoise_linocut-bw", "prompt_chars": 1897, "has_negative": true}
+{"id": "BQ-LINO-REP-021", "gallery": "reptilian", "slug": "saltwater-crocodile", "name": "Saltwater Crocodile", "iucn": "LC", "out_stem": "saltwater-crocodile_linocut-bw", "prompt_chars": 2048, "has_negative": true}
+{"id": "BQ-LINO-REP-022", "gallery": "reptilian", "slug": "american-alligator", "name": "American Alligator", "iucn": "LC", "out_stem": "american-alligator_linocut-bw", "prompt_chars": 1957, "has_negative": true}
+{"id": "BQ-LINO-REP-023", "gallery": "reptilian", "slug": "gharial", "name": "Gharial", "iucn": "CR", "out_stem": "gharial_linocut-bw", "prompt_chars": 1965, "has_negative": true}
+{"id": "BQ-LINO-AMP-001", "gallery": "reptilian", "slug": "red-eyed-tree-frog", "name": "Red-eyed Tree Frog", "iucn": "LC", "out_stem": "red-eyed-tree-frog_linocut-bw", "prompt_chars": 1869, "has_negative": true}
+{"id": "BQ-LINO-AMP-002", "gallery": "reptilian", "slug": "whites-tree-frog", "name": "White's Tree Frog", "iucn": "LC", "out_stem": "whites-tree-frog_linocut-bw", "prompt_chars": 1759, "has_negative": true}
+{"id": "BQ-LINO-AMP-003", "gallery": "reptilian", "slug": "wallaces-flying-frog", "name": "Wallace's Flying Frog", "iucn": "LC", "out_stem": "wallaces-flying-frog_linocut-bw", "prompt_chars": 1990, "has_negative": true}
+{"id": "BQ-LINO-AMP-004", "gallery": "reptilian", "slug": "vietnamese-mossy-frog", "name": "Vietnamese Mossy Frog", "iucn": "LC", "out_stem": "vietnamese-mossy-frog_linocut-bw", "prompt_chars": 1938, "has_negative": true}
+{"id": "BQ-LINO-AMP-005", "gallery": "reptilian", "slug": "glass-frog", "name": "Glass Frog", "iucn": "LC", "out_stem": "glass-frog_linocut-bw", "prompt_chars": 2004, "has_negative": true}
+{"id": "BQ-LINO-AMP-006", "gallery": "reptilian", "slug": "dyeing-poison-frog", "name": "Dyeing Poison Frog", "iucn": "LC", "out_stem": "dyeing-poison-frog_linocut-bw", "prompt_chars": 1862, "has_negative": true}
+{"id": "BQ-LINO-AMP-007", "gallery": "reptilian", "slug": "golden-poison-frog", "name": "Golden Poison Frog", "iucn": "EN", "out_stem": "golden-poison-frog_linocut-bw", "prompt_chars": 1938, "has_negative": true}
+{"id": "BQ-LINO-AMP-008", "gallery": "reptilian", "slug": "goliath-frog", "name": "Goliath Frog", "iucn": "EN", "out_stem": "goliath-frog_linocut-bw", "prompt_chars": 1964, "has_negative": true}
+{"id": "BQ-LINO-AMP-009", "gallery": "reptilian", "slug": "african-bullfrog", "name": "African Bullfrog", "iucn": "LC", "out_stem": "african-bullfrog_linocut-bw", "prompt_chars": 1862, "has_negative": true}
+{"id": "BQ-LINO-AMP-010", "gallery": "reptilian", "slug": "argentine-horned-frog", "name": "Argentine Horned Frog", "iucn": "NT", "out_stem": "argentine-horned-frog_linocut-bw", "prompt_chars": 1963, "has_negative": true}
+{"id": "BQ-LINO-AMP-011", "gallery": "reptilian", "slug": "malayan-horned-frog", "name": "Malayan Horned Frog", "iucn": "LC", "out_stem": "malayan-horned-frog_linocut-bw", "prompt_chars": 1971, "has_negative": true}
+{"id": "BQ-LINO-AMP-012", "gallery": "reptilian", "slug": "cane-toad", "name": "Cane Toad", "iucn": "LC", "out_stem": "cane-toad_linocut-bw", "prompt_chars": 1938, "has_negative": true}
+{"id": "BQ-LINO-AMP-013", "gallery": "reptilian", "slug": "surinam-toad", "name": "Surinam Toad", "iucn": "LC", "out_stem": "surinam-toad_linocut-bw", "prompt_chars": 2027, "has_negative": true}
+{"id": "BQ-LINO-AMP-014", "gallery": "reptilian", "slug": "hairy-frog", "name": "Hairy Frog", "iucn": "LC", "out_stem": "hairy-frog_linocut-bw", "prompt_chars": 1919, "has_negative": true}
+{"id": "BQ-LINO-AMP-015", "gallery": "reptilian", "slug": "darwins-frog", "name": "Darwin's Frog", "iucn": "EN", "out_stem": "darwins-frog_linocut-bw", "prompt_chars": 1871, "has_negative": true}
+{"id": "BQ-LINO-AMP-016", "gallery": "reptilian", "slug": "purple-frog", "name": "Purple Frog", "iucn": "EN", "out_stem": "purple-frog_linocut-bw", "prompt_chars": 2006, "has_negative": true}
+{"id": "BQ-LINO-AMP-017", "gallery": "reptilian", "slug": "axolotl", "name": "Axolotl", "iucn": "CR", "out_stem": "axolotl_linocut-bw", "prompt_chars": 2096, "has_negative": true}
+{"id": "BQ-LINO-AMP-018", "gallery": "reptilian", "slug": "chinese-giant-salamander", "name": "Chinese Giant Salamander", "iucn": "CR", "out_stem": "chinese-giant-salamander_linocut-bw", "prompt_chars": 2034, "has_negative": true}
+{"id": "BQ-LINO-AMP-019", "gallery": "reptilian", "slug": "fire-salamander", "name": "Fire Salamander", "iucn": "LC", "out_stem": "fire-salamander_linocut-bw", "prompt_chars": 1987, "has_negative": true}
+{"id": "BQ-LINO-AMP-020", "gallery": "reptilian", "slug": "marbled-salamander", "name": "Marbled Salamander", "iucn": "LC", "out_stem": "marbled-salamander_linocut-bw", "prompt_chars": 1922, "has_negative": true}
+{"id": "BQ-LINO-AMP-021", "gallery": "reptilian", "slug": "great-crested-newt", "name": "Great Crested Newt", "iucn": "LC", "out_stem": "great-crested-newt_linocut-bw", "prompt_chars": 1945, "has_negative": true}
+{"id": "BQ-LINO-AMP-022", "gallery": "reptilian", "slug": "olm", "name": "Olm", "iucn": "VU", "out_stem": "olm_linocut-bw", "prompt_chars": 2048, "has_negative": true}
+{"id": "BQ-LINO-AMP-023", "gallery": "reptilian", "slug": "ringed-caecilian", "name": "Ringed Caecilian", "iucn": "LC", "out_stem": "ringed-caecilian_linocut-bw", "prompt_chars": 2080, "has_negative": true}

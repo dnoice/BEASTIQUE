@@ -1,0 +1,42 @@
+/* ============================================
+   AMUR LEOPARD — Design System Variables
+   Theme: "Siberian Twilight"
+   Warm ambers & golds against deep forest blacks
+   ============================================ */
+
+:root {
+  /* ── Color Palette ── */
+  --color-shadow:       #0a0806;
+  --color-dusk:         #161210;
+  --color-umber:        #2d2319;
+  --color-bark:         #453526;
+  --color-amber:        #d4944a;
+  --color-amber-soft:   #e0a85e;
+  --color-amber-bright: #f0b860;
+  --color-ivory:        #f0e6d6;
+  --color-frost:        #c4b8a8;
+  --color-mist:         rgba(255, 255, 255, 0.07);
+
+  /* ── Typography ── */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'Raleway', 'Segoe UI', sans-serif;
+
+  /* ── Fluid Spacing ── */
+  --space-xs: clamp(0.5rem, 1vw, 0.75rem);
+  --space-sm: clamp(1rem, 2vw, 1.5rem);
+  --space-md: clamp(2rem, 4vw, 3rem);
+  --space-lg: clamp(4rem, 8vw, 6rem);
+  --space-xl: clamp(6rem, 12vw, 10rem);
+
+  /* ── Motion ── */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-prowl:    cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration-fast:   200ms;
+  --duration-normal: 400ms;
+  --duration-slow:   800ms;
+
+  /* ── Layout ── */
+  --max-width: 1400px;
+  --nav-height: 70px;
+}

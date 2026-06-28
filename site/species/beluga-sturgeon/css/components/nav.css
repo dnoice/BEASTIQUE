@@ -1,0 +1,198 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * ✒ Metadata
+ *    - Title: Navigation Component (BEASTIQUE Edition - v1.0)
+ *    - File Name: nav.css
+ *    - Relative Path: css/components/nav.css
+ *    - Artifact Type: config
+ *    - Version: 1.0.0
+ *    - Date: 2025-01-04
+ *    - Update: Saturday, January 04, 2025
+ *    - Author: Dennis 'dnoice' Smaltz
+ *    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+ *    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+ *
+ * ✒ Description:
+ *    Fixed navigation bar with backdrop blur, animated logo, and
+ *    underline hover effects on navigation links.
+ *
+ * ✒ Key Features:
+ *    - Feature 1: Fixed positioning with backdrop blur
+ *    - Feature 2: Slide-down entrance animation
+ *    - Feature 3: Animated underline on link hover
+ *    - Feature 4: Logo hover color transition
+ *    - Feature 5: Responsive mobile handling
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: var(--space-sm) 0;
+    backdrop-filter: blur(20px);
+    background: rgba(10, 22, 40, 0.7);
+    border-bottom: 1px solid var(--color-foam);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    transition: background var(--duration-normal) ease, box-shadow var(--duration-normal) ease;
+    transform: translateY(-100%);
+    opacity: 0;
+    animation: slideDown 0.8s var(--ease-out-expo) 0.5s forwards;
+}
+
+.nav__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-pearl);
+    text-decoration: none;
+    transition: color var(--duration-fast) ease;
+}
+
+.nav__logo:hover,
+.nav__logo:focus-visible {
+    color: var(--color-coral);
+}
+
+.nav__logo svg {
+    width: 32px;
+    height: 32px;
+}
+
+.nav__tagline {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--font-body);
+    font-size: clamp(0.7rem, 1.2vw, 0.9rem);
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+    color: var(--color-coral);
+    margin: 0;
+    white-space: nowrap;
+}
+
+/* ── Breadcrumb ── */
+.nav__breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.7rem;
+    color: var(--color-silver);
+    opacity: 0.7;
+}
+
+.nav__breadcrumb a {
+    color: var(--color-silver);
+    transition: color var(--duration-fast);
+}
+
+.nav__breadcrumb a:hover {
+    color: var(--color-coral);
+}
+
+.nav__breadcrumb-sep {
+    opacity: 0.4;
+}
+
+.nav__links {
+    display: flex;
+    gap: var(--space-md);
+    list-style: none;
+}
+
+.nav__link {
+    color: var(--color-silver);
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    position: relative;
+    transition: color var(--duration-fast) ease;
+}
+
+.nav__link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--color-coral);
+    transition: width var(--duration-normal) var(--ease-out-expo);
+}
+
+.nav__link:hover,
+.nav__link:focus-visible {
+    color: var(--color-pearl);
+}
+
+.nav__link:hover::after,
+.nav__link:focus-visible::after {
+    width: 100%;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Responsive
+   ───────────────────────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+    .nav__tagline {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav__links {
+        gap: var(--space-sm);
+    }
+
+    .nav__link {
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+    }
+
+    .nav__logo {
+        font-size: 1.1rem;
+    }
+
+    .nav__logo svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding: var(--space-xs) 0;
+    }
+
+    .nav__links {
+        gap: var(--space-xs);
+    }
+
+    .nav__link {
+        font-size: 0.7rem;
+        letter-spacing: 0.05em;
+    }
+
+    .nav__logo {
+        font-size: 0.95rem;
+        gap: 4px;
+    }
+
+    .nav__logo svg {
+        width: 20px;
+        height: 20px;
+    }
+}

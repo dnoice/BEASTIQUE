@@ -1,0 +1,299 @@
+/* ============================================
+   AMUR LEOPARD — Keyframe Animations
+   Entrance · Snowfall · Glow · Rings
+   ============================================ */
+
+/* ── Entrance Animations ── */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ── Snowfall Particle Animation ── */
+@keyframes snowfall {
+  0% {
+    transform: translateY(-10vh) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(110vh) translateX(80px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes snowDrift {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(15px);
+  }
+  75% {
+    transform: translateX(-15px);
+  }
+}
+
+/* ── Ambient Glow ── */
+@keyframes ambientGlow {
+  0%, 100% {
+    opacity: 0.3;
+    filter: blur(40px);
+  }
+  50% {
+    opacity: 0.5;
+    filter: blur(60px);
+  }
+}
+
+/* ── Wave Divider ── */
+@keyframes wave {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ── Fact Ring Animations ── */
+@keyframes stalkPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.9;
+  }
+}
+
+@keyframes prowlBreathe {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+    opacity: 0.5;
+  }
+  30% {
+    transform: scale(1.05) translateY(-3px);
+    opacity: 0.8;
+  }
+  70% {
+    transform: scale(0.97) translateY(2px);
+    opacity: 0.6;
+  }
+}
+
+@keyframes predatorDrift {
+  0%, 100% {
+    transform: scale(1) translateX(0);
+    opacity: 0.5;
+  }
+  33% {
+    transform: scale(1.06) translateX(4px);
+    opacity: 0.75;
+  }
+  66% {
+    transform: scale(0.98) translateX(-4px);
+    opacity: 0.55;
+  }
+}
+
+@keyframes crouchContract {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  40% {
+    transform: scale(0.93);
+    opacity: 0.8;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+}
+
+@keyframes eyeGlow {
+  0%, 100% {
+    opacity: 0.4;
+    box-shadow: 0 0 15px currentColor;
+  }
+  50% {
+    opacity: 0.8;
+    box-shadow: 0 0 30px currentColor;
+  }
+}
+
+@keyframes springPounce {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  20% {
+    transform: scale(0.92);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.14);
+    opacity: 0.9;
+  }
+  80% {
+    transform: scale(1.02);
+    opacity: 0.65;
+  }
+}
+
+/* ── Spot Pattern Rotate ── */
+@keyframes slowRotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* ── Per-card Image Glow Pulses ── */
+/* Each fact card gets a unique glow color and rhythm */
+
+@keyframes imgGlowAmber {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(212, 148, 74, 0.15),
+                inset 0 0 20px rgba(10, 8, 6, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(212, 148, 74, 0.35),
+                inset 0 0 15px rgba(10, 8, 6, 0.3);
+  }
+}
+
+@keyframes imgGlowIce {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(126, 184, 201, 0.15),
+                inset 0 0 20px rgba(10, 8, 6, 0.4);
+  }
+  40% {
+    box-shadow: 0 0 35px rgba(126, 184, 201, 0.3),
+                inset 0 0 15px rgba(10, 8, 6, 0.3);
+  }
+  70% {
+    box-shadow: 0 0 25px rgba(126, 184, 201, 0.2),
+                inset 0 0 18px rgba(10, 8, 6, 0.35);
+  }
+}
+
+@keyframes imgGlowGold {
+  0%, 100% {
+    box-shadow: 0 0 18px rgba(201, 168, 76, 0.12),
+                inset 0 0 20px rgba(10, 8, 6, 0.4);
+  }
+  33% {
+    box-shadow: 0 0 38px rgba(201, 168, 76, 0.3),
+                inset 0 0 12px rgba(10, 8, 6, 0.25);
+  }
+  66% {
+    box-shadow: 0 0 22px rgba(201, 168, 76, 0.18),
+                inset 0 0 22px rgba(10, 8, 6, 0.45);
+  }
+}
+
+@keyframes imgGlowCoral {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(224, 122, 95, 0.15),
+                inset 0 0 20px rgba(10, 8, 6, 0.4);
+  }
+  35% {
+    box-shadow: 0 0 15px rgba(224, 122, 95, 0.1),
+                inset 0 0 25px rgba(10, 8, 6, 0.5);
+  }
+  65% {
+    box-shadow: 0 0 45px rgba(224, 122, 95, 0.35),
+                inset 0 0 12px rgba(10, 8, 6, 0.25);
+  }
+}
+
+@keyframes imgGlowForest {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(143, 174, 110, 0.12),
+                inset 0 0 20px rgba(10, 8, 6, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(143, 174, 110, 0.28),
+                0 0 60px rgba(143, 174, 110, 0.08),
+                inset 0 0 15px rgba(10, 8, 6, 0.3);
+  }
+}
+
+@keyframes imgGlowBronze {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(176, 141, 87, 0.15),
+                inset 0 0 20px rgba(10, 8, 6, 0.4);
+  }
+  25% {
+    box-shadow: 0 0 15px rgba(176, 141, 87, 0.1),
+                inset 0 0 22px rgba(10, 8, 6, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 42px rgba(176, 141, 87, 0.35),
+                inset 0 0 10px rgba(10, 8, 6, 0.2);
+  }
+  75% {
+    box-shadow: 0 0 28px rgba(176, 141, 87, 0.22),
+                inset 0 0 18px rgba(10, 8, 6, 0.35);
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "BQ-MATL-MAM-001__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\northern-white-rhino_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 122.05,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 518,
+      "output_tokens": 5488,
+      "total_tokens": 6006
+    },
+    "ts": 1782584228
+  },
+  "BQ-MATL-MAM-002__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\amur-leopard_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 124.51,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 464,
+      "output_tokens": 5488,
+      "total_tokens": 5952
+    },
+    "ts": 1782584231
+  },
+  "BQ-MATL-MAM-004__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\javan-rhino_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 128.93,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 448,
+      "output_tokens": 5488,
+      "total_tokens": 5936
+    },
+    "ts": 1782584235
+  },
+  "BQ-MATL-MAM-003__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\saola_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 144.6,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 453,
+      "output_tokens": 5488,
+      "total_tokens": 5941
+    },
+    "ts": 1782584251
+  },
+  "BQ-MATL-MAM-006__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\sumatran-tiger_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 122.48,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 446,
+      "output_tokens": 5488,
+      "total_tokens": 5934
+    },
+    "ts": 1782584353
+  },
+  "BQ-MATL-MAM-005__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\sumatran-rhino_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 137.33,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 449,
+      "output_tokens": 5488,
+      "total_tokens": 5937
+    },
+    "ts": 1782584366
+  },
+  "BQ-MATL-MAM-007__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\cross-river-gorilla_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 142.34,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 447,
+      "output_tokens": 5488,
+      "total_tokens": 5935
+    },
+    "ts": 1782584377
+  },
+  "BQ-MATL-MAM-008__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\tapanuli-orangutan_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 142.97,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 444,
+      "output_tokens": 5488,
+      "total_tokens": 5932
+    },
+    "ts": 1782584394
+  },
+  "BQ-MATL-MAM-009__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\sunda-pangolin_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 118.5,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 447,
+      "output_tokens": 5488,
+      "total_tokens": 5935
+    },
+    "ts": 1782584472
+  },
+  "BQ-MATL-MAM-011__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\red-wolf_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 105.93,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 449,
+      "output_tokens": 5488,
+      "total_tokens": 5937
+    },
+    "ts": 1782584483
+  },
+  "BQ-MATL-MAM-010__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\african-forest-elephant_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 137.88,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 448,
+      "output_tokens": 5488,
+      "total_tokens": 5936
+    },
+    "ts": 1782584503
+  },
+  "BQ-MATL-MAM-012__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\material\\high\\snow-leopard_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 132.84,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 460,
+      "output_tokens": 5488,
+      "total_tokens": 5948
+    },
+    "ts": 1782584527
+  },
+  "BQ-MATL-AQU-001__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material\\high\\vaquita_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 124.51,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 481,
+      "output_tokens": 5488,
+      "total_tokens": 5969
+    },
+    "ts": 1782584596
+  },
+  "BQ-MATL-AQU-002__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material\\high\\hawksbill-sea-turtle_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 122.57,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 459,
+      "output_tokens": 5488,
+      "total_tokens": 5947
+    },
+    "ts": 1782584606
+  },
+  "BQ-MATL-AQU-003__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material\\high\\leatherback-sea-turtle_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 118.91,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 464,
+      "output_tokens": 5488,
+      "total_tokens": 5952
+    },
+    "ts": 1782584622
+  },
+  "BQ-MATL-AQU-004__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material\\high\\whale-shark_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 116.69,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 448,
+      "output_tokens": 5488,
+      "total_tokens": 5936
+    },
+    "ts": 1782584643
+  },
+  "BQ-MATL-AQU-005__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\material\\high\\great-hammerhead_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 120.97,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 443,
+      "output_tokens": 5488,
+      "total_tokens": 5931
+    },
+    "ts": 1782584717
+  },
+  "BQ-MATL-AVI-001__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\material\\high\\philippine-eagle_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 123.6,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 456,
+      "output_tokens": 5488,
+      "total_tokens": 5944
+    },
+    "ts": 1782584730
+  },
+  "BQ-MATL-AVI-002__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\material\\high\\california-condor_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 127.35,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 462,
+      "output_tokens": 5488,
+      "total_tokens": 5950
+    },
+    "ts": 1782584750
+  },
+  "BQ-MATL-AVI-003__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\material\\high\\helmeted-hornbill_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 123.26,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 449,
+      "output_tokens": 5488,
+      "total_tokens": 5937
+    },
+    "ts": 1782584767
+  },
+  "BQ-MATL-REP-001__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\material\\high\\gharial_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 119.44,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 480,
+      "output_tokens": 5488,
+      "total_tokens": 5968
+    },
+    "ts": 1782584837
+  },
+  "BQ-MATL-REP-002__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\material\\high\\cuban-crocodile_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 129.6,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 465,
+      "output_tokens": 5488,
+      "total_tokens": 5953
+    },
+    "ts": 1782584859
+  },
+  "BQ-MATL-REP-003__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\material\\high\\komodo-dragon_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 126.39,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 471,
+      "output_tokens": 5488,
+      "total_tokens": 5959
+    },
+    "ts": 1782584876
+  },
+  "BQ-MATL-REP-004__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\material\\high\\chinese-giant-salamander_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 135.02,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 466,
+      "output_tokens": 5488,
+      "total_tokens": 5954
+    },
+    "ts": 1782584902
+  },
+  "BQ-MATL-INS-001__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\material\\high\\desertas-wolf-spider_material_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 122.07,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 482,
+      "output_tokens": 5488,
+      "total_tokens": 5970
+    },
+    "ts": 1782584959
+  }
+}

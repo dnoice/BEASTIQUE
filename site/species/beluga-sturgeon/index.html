@@ -1,0 +1,565 @@
+<!--
+✒ Metadata
+    - Title: Beluga Sturgeon Showcase (BEASTIQUE Edition - v1.0)
+    - File Name: index.html
+    - Relative Path: index.html
+    - Artifact Type: other
+    - Version: 1.0.0
+    - Date: 2025-01-04
+    - Update: Saturday, January 04, 2025
+    - Author: Dennis 'dnoice' Smaltz
+    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+
+✒ Description:
+    A stunning, immersive webpage dedicated to the beluga sturgeon (Huso huso).
+    Features a dramatic hero section, animated facts, and advanced CSS/JS techniques.
+    Designed with a deep oceanic luxury aesthetic honoring this ancient species.
+
+✒ Key Features:
+    - Feature 1: Dramatic hero section with parallax depth effect
+    - Feature 2: Custom SVG icons throughout (no emojis)
+    - Feature 3: Scroll-triggered animations using Intersection Observer
+    - Feature 4: Advanced CSS gradients and backdrop filters
+    - Feature 5: Fluid typography scaling with clamp()
+    - Feature 6: Custom cursor and hover micro-interactions
+    - Feature 7: Staggered reveal animations on page load
+    - Feature 8: Responsive design with mobile-first approach
+    - Feature 9: CSS custom properties for theming consistency
+    - Feature 10: Animated SVG wave patterns
+    - Feature 11: Modular CSS architecture
+    - Feature 12: ES Module JavaScript structure
+
+✒ Other Important Information:
+    - Dependencies: None (vanilla HTML/CSS/JS)
+    - Compatible platforms: Modern browsers (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)
+    - Accessibility: Reduced motion support, semantic HTML
+    - Performance notes: Hardware-accelerated animations, optimized repaints
+---------
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beluga Sturgeon — Ancient Giant of the Caspian</title>
+
+    <!-- Google Fonts: Distinctive Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Josefin+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main navigation">
+        <div class="container nav__inner">
+            <a href="../../index.html" class="nav__logo">
+                <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+                    <path d="M20 4L8 14v16l12 8 12-8V14L20 4z"/>
+                    <path d="M20 10l-6 5v8l6 4 6-4v-8l-6-5z" stroke-width="0.8" opacity="0.6"/>
+                    <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.8"/>
+                </svg>
+                BEASTIQUE
+            </a>
+            <div class="nav__breadcrumb">
+                <a href="../../index.html">Home</a>
+                <span class="nav__breadcrumb-sep">/</span>
+                <a href="../../categories/aquatic.html">Aquatic</a>
+                <span class="nav__breadcrumb-sep">/</span>
+                <span>Beluga Sturgeon</span>
+            </div>
+            <ul class="nav__links">
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#facts" class="nav__link">Facts</a></li>
+                <li><a href="#conservation" class="nav__link">Conservation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Hero">
+        <div class="hero__particles" id="particles"></div>
+
+        <div class="hero__image-container">
+            <img src="assets/images/hero-image.webp"
+                alt="Beluga Sturgeon illustration showing distinctive body ridges and coral coloration"
+                class="hero__image">
+        </div>
+
+        <!-- Title Block - Top left, over image -->
+        <div class="hero__title-block">
+            <h1 class="hero__title">Beluga <span>Sturgeon</span></h1>
+        </div>
+
+        <!-- Description Block - Bottom right -->
+        <div class="hero__description-block">
+            <p class="hero__description">
+                A living fossil that has witnessed 200 million years of Earth's history.
+                The largest freshwater fish on the planet, now critically endangered
+                and fighting for survival in the modern age.
+            </p>
+            <a href="#facts" class="hero__cta">
+                <span>Discover More</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+
+        <!-- Wave Divider -->
+        <div class="wave-divider" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="var(--color-deep)">
+                <path d="M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z" />
+            </svg>
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="var(--color-deep)">
+                <path d="M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z" />
+            </svg>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- Stats Section -->
+    <section class="stats" aria-label="Key statistics">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stat" data-animate>
+                    <svg class="stat__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d="M4 34h40M8 28h32M12 22h24M16 16h16M20 10h8" />
+                        <circle cx="24" cy="38" r="6" />
+                    </svg>
+                    <div class="stat__number">7.2m</div>
+                    <div class="stat__label">Maximum Length</div>
+                </div>
+                <div class="stat" data-animate>
+                    <svg class="stat__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <circle cx="24" cy="24" r="18" />
+                        <path d="M24 10v14l8 8" />
+                        <circle cx="24" cy="24" r="3" />
+                    </svg>
+                    <div class="stat__number">118</div>
+                    <div class="stat__label">Years Lifespan</div>
+                </div>
+                <div class="stat" data-animate>
+                    <svg class="stat__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <ellipse cx="24" cy="28" rx="16" ry="12" />
+                        <ellipse cx="24" cy="28" rx="8" ry="6" />
+                        <path d="M24 16v-8M18 10h12" />
+                    </svg>
+                    <div class="stat__number">1,571kg</div>
+                    <div class="stat__label">Record Weight</div>
+                </div>
+                <div class="stat" data-animate>
+                    <svg class="stat__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d="M8 40V20l16-12 16 12v20" />
+                        <path d="M18 40V28h12v12" />
+                        <circle cx="24" cy="22" r="4" />
+                    </svg>
+                    <div class="stat__number">200M</div>
+                    <div class="stat__label">Years on Earth</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__content" data-animate>
+                    <div class="about__label">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M12 2l2 7h7l-6 4 2 7-6-4-6 4 2-7-6-4h7z" />
+                        </svg>
+                        Species Profile
+                    </div>
+                    <h2 class="about__title">The Caspian's Crown Jewel</h2>
+                    <p class="about__text">
+                        The beluga sturgeon (<em>Huso huso</em>) represents one of nature's most
+                        remarkable evolutionary success stories. Having survived multiple mass
+                        extinctions, this ancient fish predates the dinosaurs and has remained
+                        virtually unchanged for over 200 million years.
+                    </p>
+                    <p class="about__text">
+                        Native to the Caspian and Black Sea basins, the beluga is the largest
+                        freshwater fish in the world. Its name derives from the Russian word
+                        "beliy" meaning white, referring to the pale coloration of larger specimens.
+                        This magnificent creature is perhaps best known for producing the world's
+                        most prized caviar.
+                    </p>
+                    <p class="about__text">
+                        Despite outliving countless species across geological ages, the beluga
+                        sturgeon now faces its greatest challenge: human exploitation. Overfishing
+                        for its legendary roe has pushed this ancient giant to the brink of extinction.
+                    </p>
+                </div>
+                <div class="about__visual" data-animate>
+                    <div class="about__frame">
+                        <div class="taxonomy-card">
+                            <div class="taxonomy-card__header">
+                                <svg class="taxonomy-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" aria-hidden="true">
+                                    <rect x="6" y="6" width="36" height="36" rx="4" />
+                                    <path d="M6 18h36M18 18v24" />
+                                    <circle cx="12" cy="12" r="2" />
+                                </svg>
+                                <h3 class="taxonomy-card__title">Scientific Classification</h3>
+                            </div>
+                            <ul class="taxonomy-card__list">
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Kingdom</span>
+                                    <span class="taxonomy-card__value">Animalia</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Phylum</span>
+                                    <span class="taxonomy-card__value">Chordata</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Class</span>
+                                    <span class="taxonomy-card__value">Actinopterygii</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Order</span>
+                                    <span class="taxonomy-card__value">Acipenseriformes</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Family</span>
+                                    <span class="taxonomy-card__value">Acipenseridae</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Genus</span>
+                                    <span class="taxonomy-card__value">Huso</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Species</span>
+                                    <span class="taxonomy-card__value">H. huso</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- Facts Section -->
+    <section class="facts" id="facts">
+        <div class="container">
+            <header class="facts__header">
+                <div class="facts__label">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M12 6v6l4 2" />
+                    </svg>
+                    Remarkable Facts
+                </div>
+                <h2>Ancient Wonder</h2>
+            </header>
+
+            <div class="facts__grid">
+                <!-- Fact 1: Boneless Giant -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-01-boneless-giant.png"
+                                alt="Translucent sturgeon cartilage skeleton glowing in deep water"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 01</div>
+                        <h3 class="fact-card__title">Boneless Giant</h3>
+                        <p class="fact-card__text">
+                            Unlike most fish, the beluga sturgeon has no true bones. Its skeleton
+                            is made entirely of cartilage, similar to sharks. This primitive
+                            characteristic links it to the earliest vertebrates and explains how
+                            it has survived virtually unchanged since the Triassic period.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 2: Liquid Gold -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-02-liquid-gold-alt-a.png"
+                                alt="Beluga caviar eggs spilling downward through dark water" class="fact-card__image"
+                                loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 02</div>
+                        <h3 class="fact-card__title">Liquid Gold</h3>
+                        <p class="fact-card__text">
+                            Beluga caviar, harvested from female fish, can fetch prices exceeding
+                            $10,000 per kilogram. A single large female can carry up to 25% of
+                            her body weight in eggs, but must reach 15-20 years of age before
+                            spawning. This delayed maturity makes the species extremely vulnerable
+                            to overfishing.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 3: Epic Migrations -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-03-epic-migration.png"
+                                alt="Sturgeon silhouette moving upstream with luminous trail" class="fact-card__image"
+                                loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 03</div>
+                        <h3 class="fact-card__title">Epic Migrations</h3>
+                        <p class="fact-card__text">
+                            Beluga sturgeon are anadromous, meaning they live in saltwater but
+                            migrate to freshwater rivers to spawn. Historically, they traveled
+                            up to 1,000 kilometers upstream in the Volga, Danube, and Ural rivers.
+                            Today, dams have blocked most migration routes, devastating their
+                            natural reproduction.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 4: Sensory Masters -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-04-sensory-master.png"
+                                alt="Sturgeon snout with barbels and electroreceptor field visualization"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 04</div>
+                        <h3 class="fact-card__title">Sensory Masters</h3>
+                        <p class="fact-card__text">
+                            The beluga possesses an extraordinary array of sensory adaptations.
+                            Four sensitive barbels beneath their snout detect prey in murky
+                            bottom sediments. Electroreceptors along their body sense the
+                            electrical fields generated by other organisms, allowing them to
+                            hunt in complete darkness.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 5: Armored Ancestors -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-05-armored-ancestors.png"
+                                alt="Extreme close-up of sturgeon bony scutes showing ancient texture"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 05</div>
+                        <h3 class="fact-card__title">Armored Ancestors</h3>
+                        <p class="fact-card__text">
+                            Five rows of bony plates called scutes run along the beluga's body,
+                            remnants of the heavy armor that covered prehistoric fish. These
+                            scutes provide protection and create the distinctive ridged
+                            silhouette. Young sturgeon have sharper scutes that become smoother
+                            with age, a feature unique to their family.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 6: Record Breakers -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-06-record-bresaking.png"
+                                alt="Massive beluga sturgeon emerging from darkness at extreme low angle"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 06</div>
+                        <h3 class="fact-card__title">Record Breakers</h3>
+                        <p class="fact-card__text">
+                            The largest beluga sturgeon ever recorded was caught in 1827 in
+                            the Volga estuary. It measured 7.2 meters (24 feet) in length and
+                            weighed an astonishing 1,571 kilograms (3,463 pounds). It yielded
+                            nearly 300 kilograms of caviar. No fish of this size has been
+                            documented in over a century.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- Conservation Section -->
+    <section class="conservation" id="conservation">
+        <div class="container">
+            <div class="conservation__content">
+                <div class="conservation__badge" data-animate>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M12 9v4M12 17h.01" />
+                        <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+                    </svg>
+                    Critically Endangered
+                </div>
+                <h2 class="conservation__title" data-animate>A Species at the Brink</h2>
+                <p class="conservation__text" data-animate>
+                    The beluga sturgeon population has declined by over 90% in the past century.
+                    Listed as Critically Endangered on the IUCN Red List, wild populations
+                    continue to shrink despite international protections. Without immediate
+                    intervention, this ancient species could vanish within our lifetime.
+                </p>
+                <p class="conservation__text" data-animate>
+                    Conservation efforts focus on habitat restoration, breeding programs, and
+                    combating illegal poaching. The future of this prehistoric giant depends
+                    on our collective action to protect what remains of their populations
+                    and restore the river systems they have called home for millennia.
+                </p>
+                <div class="conservation__threats" data-animate>
+                    <h3 class="conservation__threats-heading">What Threatens Their Survival</h3>
+                    <div class="conservation__threats-grid">
+                    <a class="threat-tag"
+                        href="https://www.worldwildlife.org/species/beluga-sturgeon"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                        <span class="threat-tag__label">Overfishing</span>
+                        <span class="threat-tag__detail">Decades of unregulated harvest for caviar</span>
+                        <span class="sr-only">(opens in new tab)</span>
+                    </a>
+                    <a class="threat-tag"
+                        href="https://cites.org/eng/gallery/species/fish/beluga_sturgeon.html"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <rect x="3" y="8" width="18" height="12" rx="2" />
+                            <path d="M7 8V6a2 2 0 012-2h6a2 2 0 012 2v2" />
+                        </svg>
+                        <span class="threat-tag__label">Illegal Trade</span>
+                        <span class="threat-tag__detail">Black market caviar worth more than gold</span>
+                        <span class="sr-only">(opens in new tab)</span>
+                    </a>
+                    <a class="threat-tag"
+                        href="https://www.worldfishmigrationfoundation.com"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
+                            <line x1="4" y1="22" x2="4" y2="15" />
+                        </svg>
+                        <span class="threat-tag__label">Dam Construction</span>
+                        <span class="threat-tag__detail">Migration routes severed by concrete walls</span>
+                        <span class="sr-only">(opens in new tab)</span>
+                    </a>
+                    <a class="threat-tag"
+                        href="https://www.iucnredlist.org/species/10269/3187455"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                            <path d="M2 17l10 5 10-5" />
+                            <path d="M2 12l10 5 10-5" />
+                        </svg>
+                        <span class="threat-tag__label">Habitat Loss</span>
+                        <span class="threat-tag__detail">Spawning grounds erased by development</span>
+                        <span class="sr-only">(opens in new tab)</span>
+                    </a>
+                    <a class="threat-tag"
+                        href="https://www.unep.org/caspian"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M8 12h8M12 8v8" />
+                        </svg>
+                        <span class="threat-tag__label">Pollution</span>
+                        <span class="threat-tag__detail">Industrial runoff poisoning ancient waters</span>
+                        <span class="sr-only">(opens in new tab)</span>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- Closing Showcase -->
+    <section class="closing" id="closing" aria-label="Closing showcase">
+        <div class="container">
+            <div class="closing__content" data-animate>
+                <div class="closing__frame">
+                    <img src="assets/images/facts/fact-01-boneless-giant-with-custom-frame.png"
+                        alt="Beluga sturgeon translucent cartilage skeleton in ornate deep-ocean frame"
+                        class="closing__image" loading="lazy" width="1024" height="1024">
+                </div>
+                <blockquote class="closing__quote" data-animate>
+                    <p>
+                        Two hundred million years of silent perfection —
+                        built not from bone, but from patience.
+                    </p>
+                    <cite>In reverence of <em>Huso huso</em></cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M4 16c0 0 4-8 12-8s12 8 12 8-4 8-12 8-12-8-12-8z" />
+                            <circle cx="16" cy="16" r="3" />
+                        </svg>
+                        Beluga Sturgeon
+                    </div>
+                    <p class="footer__project">A digiSpace Studios production &mdash; part of the BEASTIQUE Project</p>
+                    <div class="footer__links">
+                        <a href="mailto:densmaltz4@gmail.com" class="footer__link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="M22 4L12 13 2 4" />
+                            </svg>
+                            densmaltz4@gmail.com
+                        </a>
+                        <a href="https://github.com/dnoice/BEASTIQUE" target="_blank" rel="noopener" class="footer__link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                            </svg>
+                            dnoice/BEASTIQUE
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__signature-block">
+                    <p class="footer__signature">&#xFE3B;&#x30C7;&#x2550;&#x2500;&#x2500;&#x2500; &#x2726; &#x2726; &#x2726; &#x007C; Aim Twice, Shoot Once!</p>
+                    <p class="footer__disclaimer">The signature <em>"Aim Twice, Shoot Once"</em> is a personal creative
+                        philosophy of precision and intentionality &mdash; measure twice, execute once. It represents a
+                        commitment to thoughtful craftsmanship over haste, not a reference to anything beyond that craft.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript Module -->
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

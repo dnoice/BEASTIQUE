@@ -1,0 +1,544 @@
+/* ============================================
+   Facts Section — Alternating timeline cards
+   with image galleries & per-card glow effects
+   ============================================ */
+
+.facts {
+  position: relative;
+  padding: var(--space-xl) 0;
+  background: var(--color-shadow);
+  overflow: hidden;
+}
+
+.facts__header {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.facts__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-amber);
+  margin-bottom: var(--space-xs);
+}
+
+.facts__label svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ── Center Timeline Line ── */
+.facts__list {
+  position: relative;
+}
+
+.facts__list::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--color-bark) 10%,
+    var(--color-bark) 90%,
+    transparent
+  );
+  transform: translateX(-50%);
+}
+
+/* ── Fact Card ── */
+.fact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  align-items: center;
+  margin-bottom: var(--space-xl);
+}
+
+.fact:last-child {
+  margin-bottom: 0;
+}
+
+/* Alternate direction */
+.fact:nth-child(even) {
+  direction: rtl;
+}
+
+.fact:nth-child(even) > * {
+  direction: ltr;
+}
+
+/* ── Rosette Container ── */
+.fact__rosette {
+  position: relative;
+  width: 275px;
+  height: 275px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.02);
+  overflow: hidden;
+}
+
+/* ── Animated Ring ── */
+.fact__rosette-ring {
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px solid;
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* ── Ring colors & animations per card — Forest/Nature themed ── */
+.fact:nth-child(1) .fact__rosette-ring {
+  color: #986028;
+  animation: mossPulse 4s ease-in-out infinite;
+}
+.fact:nth-child(2) .fact__rosette-ring {
+  color: #8ab0c0;
+  animation: moonBreathe 5s ease-in-out infinite;
+}
+.fact:nth-child(3) .fact__rosette-ring {
+  color: #6a8038;
+  animation: fernSway 6s ease-in-out infinite;
+}
+.fact:nth-child(4) .fact__rosette-ring {
+  color: #5a3018;
+  animation: rootGrip 3.5s ease-in-out infinite;
+}
+.fact:nth-child(5) .fact__rosette-ring {
+  color: #487080;
+  animation: biolumGlow 5.5s ease-in-out infinite;
+}
+.fact:nth-child(6) .fact__rosette-ring {
+  color: #c89040;
+  animation: boomPulse 4.5s ease-in-out infinite;
+}
+
+/* ── Image Gallery ── */
+.fact__rosette-gallery {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.fact__rosette-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 1.2s var(--ease-drift);
+  box-shadow: inset 0 0 30px var(--color-shadow);
+}
+
+.fact__rosette-img--active {
+  opacity: 1;
+}
+
+/* ── Per-card image glow pulse ── */
+.fact:nth-child(1) .fact__rosette-gallery {
+  animation: imgGlowBark 4s ease-in-out infinite;
+}
+.fact:nth-child(2) .fact__rosette-gallery {
+  animation: imgGlowMoon 5s ease-in-out infinite;
+}
+.fact:nth-child(3) .fact__rosette-gallery {
+  animation: imgGlowMoss 6s ease-in-out infinite;
+}
+.fact:nth-child(4) .fact__rosette-gallery {
+  animation: imgGlowAmber 3.5s ease-in-out infinite;
+}
+.fact:nth-child(5) .fact__rosette-gallery {
+  animation: imgGlowFern 5.5s ease-in-out infinite;
+}
+.fact:nth-child(6) .fact__rosette-gallery {
+  animation: imgGlowIvory 4.5s ease-in-out infinite;
+}
+
+/* ── Rosette Wrapper (holds rosette + hint) ── */
+.fact__rosette-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ── Indicator Dots ── */
+.fact__rosette-dots {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 4;
+}
+
+.fact__rosette-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-bark);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  transition: background var(--duration-normal) var(--ease-drift),
+              transform var(--duration-normal) var(--ease-out-back),
+              box-shadow var(--duration-normal) var(--ease-drift);
+}
+
+.fact__rosette-dot--active {
+  background: var(--color-amber);
+  transform: scale(1.4);
+  box-shadow: 0 0 8px rgba(152, 96, 40, 0.4);
+}
+
+/* ── Fallback for number-only rosettes (no images yet) ── */
+.fact__rosette-inner {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--color-ivory);
+  opacity: 0.15;
+  line-height: 1;
+  z-index: 1;
+}
+
+/* ── Boom Machine — subsonic wave rings ── */
+.fact__rosette--boom {
+  overflow: visible;  /* let waves expand beyond the circle */
+}
+
+.fact__boom-waves {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.fact__boom-ring {
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(152, 96, 40, 0.35);
+  opacity: 0;
+  animation: boomWaveExpand 7s ease-out infinite;
+}
+
+/* Stagger — each ring fires at a different point in the cycle */
+.fact__boom-ring:nth-child(1) { animation-delay: 0s; }
+.fact__boom-ring:nth-child(2) { animation-delay: 2.3s; }
+.fact__boom-ring:nth-child(3) { animation-delay: 4.6s; }
+
+/* The image subtly breathes — inflate, release, rest */
+.fact--boom .fact__rosette-img--active {
+  animation: boomBreathe 7s ease-in-out infinite;
+}
+
+/* Override the gallery glow to sync with boom rhythm */
+.fact--boom .fact__rosette-gallery {
+  animation: boomGlow 7s ease-in-out infinite !important;
+}
+
+/* ── Earthbound Heavyweight — climb & parachute descent ── */
+.fact__rosette--descent {
+  overflow: visible;
+}
+
+.fact__descent-leaves {
+  position: absolute;
+  inset: -30px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Each leaf: a small ellipse that drifts down with a sway */
+.fact__descent-leaf {
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  background: var(--color-moss, #586830);
+  border-radius: 50% 50% 50% 0;
+  opacity: 0;
+  animation: leafDrift 9s ease-in-out infinite;
+}
+
+/* Scatter leaves across the rosette width, stagger timing */
+.fact__descent-leaf:nth-child(1) {
+  left: 15%;
+  top: -8px;
+  animation-delay: 0s;
+  background: rgba(106, 128, 56, 0.6);
+}
+.fact__descent-leaf:nth-child(2) {
+  left: 55%;
+  top: -12px;
+  animation-delay: 1.8s;
+  transform: rotate(40deg);
+  background: rgba(88, 104, 48, 0.5);
+}
+.fact__descent-leaf:nth-child(3) {
+  left: 80%;
+  top: -6px;
+  animation-delay: 3.6s;
+  width: 5px;
+  height: 8px;
+  background: rgba(152, 96, 40, 0.4);
+}
+.fact__descent-leaf:nth-child(4) {
+  left: 35%;
+  top: -10px;
+  animation-delay: 5.4s;
+  transform: rotate(-30deg);
+  background: rgba(106, 128, 56, 0.45);
+}
+.fact__descent-leaf:nth-child(5) {
+  left: 68%;
+  top: -8px;
+  animation-delay: 7.2s;
+  width: 4px;
+  height: 7px;
+  background: rgba(88, 104, 48, 0.55);
+}
+
+/* The image climbs up then parachutes gently back down */
+.fact--descent .fact__rosette-img--active {
+  animation: climbAndDescent 9s ease-in-out infinite;
+}
+
+/* Override gallery glow — earthy green pulse on landing */
+.fact--descent .fact__rosette-gallery {
+  animation: descentGlow 9s ease-in-out infinite !important;
+}
+
+/* ── Owl in Parrot's Clothing — twilight scanning ── */
+.fact__rosette--owleye {
+  overflow: visible;
+}
+
+/* Rotating moonlight cone that sweeps across the facial disc */
+.fact__owleye-sweep {
+  position: absolute;
+  inset: -12px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(138, 176, 192, 0.12) 30deg,
+    rgba(138, 176, 192, 0.06) 60deg,
+    transparent 90deg,
+    transparent 360deg
+  );
+  animation: owleyeSweep 11s linear infinite;
+}
+
+/* The image: slow focus-pull — pupils dilating in twilight */
+.fact--owleye .fact__rosette-img--active {
+  animation: owleyeFocus 8s ease-in-out infinite;
+}
+
+/* Override gallery glow — cool moonlit blue */
+.fact--owleye .fact__rosette-gallery {
+  animation: owleyeGlow 8s ease-in-out infinite !important;
+}
+
+/* ── Hover: lift the image slightly ── */
+.fact__rosette:hover .fact__rosette-img--active {
+  transform: scale(1.06);
+  transition: transform 0.6s var(--ease-out-expo), opacity 1.2s var(--ease-drift);
+}
+
+/* ── Fact Content ── */
+.fact__content {
+  padding: 0 var(--space-sm);
+}
+
+.fact__number {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-amber);
+  margin-bottom: 0.5rem;
+}
+
+.fact__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 400;
+  color: var(--color-ivory);
+  margin-bottom: 0.75rem;
+}
+
+.fact__desc {
+  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+  color: var(--color-frost);
+  line-height: 1.8;
+}
+
+/* ── Gallery Interaction Hint ── */
+.fact__gallery-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--color-frost);
+  opacity: 0.55;
+}
+
+.fact__gallery-hint svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
+/* ── Responsive ── */
+
+/* Desktop — tighten spacing */
+@media (max-width: 1024px) {
+  .fact__rosette {
+    width: 240px;
+    height: 240px;
+  }
+
+  .fact {
+    margin-bottom: var(--space-lg);
+    gap: var(--space-sm);
+  }
+}
+
+/* Tablet portrait — single column */
+@media (max-width: 768px) {
+  .facts__list::before {
+    display: none;
+  }
+
+  .fact {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: var(--space-sm);
+  }
+
+  .fact:nth-child(even) {
+    direction: ltr;
+  }
+
+  .fact__rosette {
+    width: 220px;
+    height: 220px;
+  }
+
+  .fact__rosette-inner {
+    font-size: 3rem;
+  }
+
+  .fact__content {
+    padding: 0;
+  }
+}
+
+/* Phablet */
+@media (max-width: 600px) {
+  .fact__rosette {
+    width: 200px;
+    height: 200px;
+  }
+
+  .fact__desc {
+    line-height: 1.7;
+  }
+
+  .facts__header {
+    margin-bottom: var(--space-md);
+  }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+  .fact__rosette {
+    width: 176px;
+    height: 176px;
+  }
+
+  .fact__rosette-inner {
+    font-size: 2.5rem;
+  }
+}
+
+/* Small phone */
+@media (max-width: 360px) {
+  .facts {
+    padding: var(--space-lg) 0;
+  }
+
+  .fact__rosette {
+    width: 150px;
+    height: 150px;
+  }
+
+  .fact__rosette-inner {
+    font-size: 2rem;
+  }
+
+  .fact__number {
+    font-size: 0.7rem;
+  }
+
+  .fact__content {
+    padding: 0 var(--space-xs);
+  }
+
+  .fact__gallery-hint {
+    display: none;
+  }
+}
+
+/* Landscape phones — 2-col grid for horizontal space */
+@media (max-height: 500px) and (orientation: landscape) {
+  .facts {
+    padding: var(--space-md) 0;
+  }
+
+  .fact {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    margin-bottom: var(--space-md);
+  }
+
+  .fact:nth-child(even) {
+    direction: ltr;
+  }
+
+  .facts__list::before {
+    display: none;
+  }
+
+  .fact__rosette {
+    width: 160px;
+    height: 160px;
+  }
+
+  .fact__rosette-inner {
+    font-size: 2rem;
+  }
+}

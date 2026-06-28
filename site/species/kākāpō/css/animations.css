@@ -1,0 +1,503 @@
+/* ============================================
+   KAKAPO — Keyframe Animations
+   Entrance · Fireflies · Glow · Rings
+   ============================================ */
+
+/* ── Entrance Animations ── */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ── Firefly Particle Animation ── */
+@keyframes fireflyFloat {
+  0% {
+    transform: translateY(0) translateX(0) scale(0.8);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.9;
+    transform: translateY(-20px) translateX(15px) scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: translateY(-50px) translateX(-10px) scale(0.9);
+  }
+  80% {
+    opacity: 0.8;
+    transform: translateY(-80px) translateX(20px) scale(1.1);
+  }
+  100% {
+    transform: translateY(-110px) translateX(5px) scale(0.7);
+    opacity: 0;
+  }
+}
+
+@keyframes fireflyPulse {
+  0%, 100% {
+    box-shadow: 0 0 4px rgba(200, 144, 64, 0.3);
+    opacity: 0.3;
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(200, 144, 64, 0.6), 0 0 24px rgba(138, 176, 192, 0.2);
+    opacity: 0.9;
+  }
+}
+
+/* ── Ambient Glow ── */
+@keyframes ambientGlow {
+  0%, 100% {
+    opacity: 0.3;
+    filter: blur(40px);
+  }
+  50% {
+    opacity: 0.5;
+    filter: blur(60px);
+  }
+}
+
+/* ── Wave Divider ── */
+@keyframes wave {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ── Fact Ring Animations — Forest / Nature themed ── */
+@keyframes mossPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.9;
+  }
+}
+
+@keyframes moonBreathe {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+    opacity: 0.5;
+  }
+  30% {
+    transform: scale(1.05) translateY(-3px);
+    opacity: 0.8;
+  }
+  70% {
+    transform: scale(0.97) translateY(2px);
+    opacity: 0.6;
+  }
+}
+
+@keyframes fernSway {
+  0%, 100% {
+    transform: scale(1) translateX(0);
+    opacity: 0.5;
+  }
+  33% {
+    transform: scale(1.06) translateX(4px);
+    opacity: 0.75;
+  }
+  66% {
+    transform: scale(0.98) translateX(-4px);
+    opacity: 0.55;
+  }
+}
+
+@keyframes rootGrip {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  40% {
+    transform: scale(0.93);
+    opacity: 0.8;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+}
+
+@keyframes biolumGlow {
+  0%, 100% {
+    opacity: 0.4;
+    box-shadow: 0 0 15px currentColor;
+  }
+  50% {
+    opacity: 0.8;
+    box-shadow: 0 0 30px currentColor;
+  }
+}
+
+@keyframes boomPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  20% {
+    transform: scale(0.92);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.14);
+    opacity: 0.9;
+  }
+  80% {
+    transform: scale(1.02);
+    opacity: 0.65;
+  }
+}
+
+/* ── Boom Machine — subsonic wave expansion ── */
+@keyframes boomWaveExpand {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.35;
+  }
+  50% {
+    transform: scale(1.65);
+    opacity: 0.12;
+  }
+  100% {
+    transform: scale(2.1);
+    opacity: 0;
+  }
+}
+
+/* Chest inflate → boom release → rest — slow, deliberate */
+@keyframes boomBreathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  /* Slow inhale — thoracic sac filling */
+  12% {
+    transform: scale(0.96);
+  }
+  /* Boom release — chest expands */
+  22% {
+    transform: scale(1.04);
+  }
+  /* Settle back */
+  40% {
+    transform: scale(1);
+  }
+  /* Long rest before next boom */
+}
+
+/* Glow synced with boom — warm amber pulse on release */
+@keyframes boomGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(152, 96, 40, 0.12),
+                inset 0 0 20px rgba(11, 10, 5, 0.4);
+  }
+  12% {
+    box-shadow: 0 0 15px rgba(152, 96, 40, 0.08),
+                inset 0 0 25px rgba(11, 10, 5, 0.5);
+  }
+  22% {
+    box-shadow: 0 0 50px rgba(152, 96, 40, 0.4),
+                0 0 80px rgba(152, 96, 40, 0.12),
+                inset 0 0 12px rgba(11, 10, 5, 0.25);
+  }
+  40% {
+    box-shadow: 0 0 25px rgba(152, 96, 40, 0.15),
+                inset 0 0 18px rgba(11, 10, 5, 0.35);
+  }
+}
+
+/* ── Owl in Parrot's Clothing — twilight scanning ── */
+
+/* Moonlight cone rotates slowly around the facial disc */
+@keyframes owleyeSweep {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Focus-pull — pupils dilating then contracting, scanning the dark */
+@keyframes owleyeFocus {
+  0%, 100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  /* Eyes widen — taking in light */
+  20% {
+    transform: scale(1.03);
+    filter: brightness(1.08);
+  }
+  /* Hold — processing */
+  35% {
+    transform: scale(1.03);
+    filter: brightness(1.05);
+  }
+  /* Contract — snapping to focus */
+  50% {
+    transform: scale(0.98);
+    filter: brightness(0.95);
+  }
+  /* Settle back — waiting for next scan */
+  70% {
+    transform: scale(1.01);
+    filter: brightness(1.02);
+  }
+}
+
+/* Cool moonlit glow — blue-silver tones with brief warm flicker */
+@keyframes owleyeGlow {
+  0%, 100% {
+    box-shadow: 0 0 22px rgba(138, 176, 192, 0.12),
+                inset 0 0 20px rgba(11, 10, 5, 0.4);
+  }
+  /* Moonlight catches the facial disc */
+  20% {
+    box-shadow: 0 0 40px rgba(138, 176, 192, 0.3),
+                0 0 65px rgba(138, 176, 192, 0.08),
+                inset 0 0 12px rgba(11, 10, 5, 0.25);
+  }
+  /* Hold */
+  35% {
+    box-shadow: 0 0 35px rgba(138, 176, 192, 0.25),
+                inset 0 0 14px rgba(11, 10, 5, 0.3);
+  }
+  /* Brief warm flicker — whisker bristles catch firefly light */
+  50% {
+    box-shadow: 0 0 28px rgba(200, 144, 64, 0.15),
+                0 0 45px rgba(138, 176, 192, 0.1),
+                inset 0 0 18px rgba(11, 10, 5, 0.35);
+  }
+  /* Back to cool moonlight */
+  70% {
+    box-shadow: 0 0 30px rgba(138, 176, 192, 0.18),
+                inset 0 0 16px rgba(11, 10, 5, 0.32);
+  }
+}
+
+/* ── Earthbound Heavyweight — climb & parachute ── */
+
+/* Leaf drifts down with gentle sway, fades in mid-fall, dissolves at bottom */
+@keyframes leafDrift {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.5;
+  }
+  25% {
+    transform: translateY(80px) translateX(12px) rotate(45deg);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(180px) translateX(-8px) rotate(120deg);
+    opacity: 0.3;
+  }
+  75% {
+    transform: translateY(280px) translateX(10px) rotate(200deg);
+    opacity: 0.15;
+  }
+  100% {
+    transform: translateY(340px) translateX(-4px) rotate(260deg);
+    opacity: 0;
+  }
+}
+
+/* Climb: slow upward shift. Descent: gentle float back to rest. */
+@keyframes climbAndDescent {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  /* Climbing — slow, effortful rise */
+  25% {
+    transform: translateY(-6px) scale(1.02);
+  }
+  /* Peak — perched at the top */
+  35% {
+    transform: translateY(-8px) scale(1.02);
+  }
+  /* Parachute release — wings spread */
+  42% {
+    transform: translateY(-4px) scale(1.04);
+  }
+  /* Floating descent — slow, weightless drift */
+  65% {
+    transform: translateY(4px) scale(1.01);
+  }
+  /* Landing — gentle settle */
+  80% {
+    transform: translateY(2px) scale(0.99);
+  }
+}
+
+/* Glow: earthy green on climb, warm amber on descent landing */
+@keyframes descentGlow {
+  0%, 100% {
+    box-shadow: 0 0 18px rgba(88, 104, 48, 0.12),
+                inset 0 0 20px rgba(11, 10, 5, 0.4);
+  }
+  /* Climbing — forest canopy green */
+  25% {
+    box-shadow: 0 0 35px rgba(106, 128, 56, 0.3),
+                inset 0 0 12px rgba(11, 10, 5, 0.25);
+  }
+  /* Peak perch */
+  35% {
+    box-shadow: 0 0 40px rgba(106, 128, 56, 0.35),
+                0 0 60px rgba(88, 104, 48, 0.1),
+                inset 0 0 10px rgba(11, 10, 5, 0.2);
+  }
+  /* Descent — warming toward amber */
+  55% {
+    box-shadow: 0 0 30px rgba(152, 96, 40, 0.2),
+                inset 0 0 15px rgba(11, 10, 5, 0.3);
+  }
+  /* Landing — brief amber warmth */
+  80% {
+    box-shadow: 0 0 22px rgba(152, 96, 40, 0.15),
+                inset 0 0 18px rgba(11, 10, 5, 0.35);
+  }
+}
+
+/* ── Per-card Image Glow Pulses ── */
+@keyframes imgGlowBark {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(152, 96, 40, 0.15),
+                inset 0 0 20px rgba(11, 10, 5, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(152, 96, 40, 0.35),
+                inset 0 0 15px rgba(11, 10, 5, 0.3);
+  }
+}
+
+@keyframes imgGlowMoon {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(138, 176, 192, 0.15),
+                inset 0 0 20px rgba(11, 10, 5, 0.4);
+  }
+  40% {
+    box-shadow: 0 0 35px rgba(138, 176, 192, 0.3),
+                inset 0 0 15px rgba(11, 10, 5, 0.3);
+  }
+  70% {
+    box-shadow: 0 0 25px rgba(138, 176, 192, 0.2),
+                inset 0 0 18px rgba(11, 10, 5, 0.35);
+  }
+}
+
+@keyframes imgGlowMoss {
+  0%, 100% {
+    box-shadow: 0 0 18px rgba(88, 104, 48, 0.12),
+                inset 0 0 20px rgba(11, 10, 5, 0.4);
+  }
+  33% {
+    box-shadow: 0 0 38px rgba(88, 104, 48, 0.3),
+                inset 0 0 12px rgba(11, 10, 5, 0.25);
+  }
+  66% {
+    box-shadow: 0 0 22px rgba(88, 104, 48, 0.18),
+                inset 0 0 22px rgba(11, 10, 5, 0.45);
+  }
+}
+
+@keyframes imgGlowAmber {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(200, 144, 64, 0.15),
+                inset 0 0 20px rgba(11, 10, 5, 0.4);
+  }
+  35% {
+    box-shadow: 0 0 15px rgba(200, 144, 64, 0.1),
+                inset 0 0 25px rgba(11, 10, 5, 0.5);
+  }
+  65% {
+    box-shadow: 0 0 45px rgba(200, 144, 64, 0.35),
+                inset 0 0 12px rgba(11, 10, 5, 0.25);
+  }
+}
+
+@keyframes imgGlowFern {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(106, 128, 56, 0.12),
+                inset 0 0 20px rgba(11, 10, 5, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(106, 128, 56, 0.28),
+                0 0 60px rgba(106, 128, 56, 0.08),
+                inset 0 0 15px rgba(11, 10, 5, 0.3);
+  }
+}
+
+@keyframes imgGlowIvory {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(232, 220, 200, 0.1),
+                inset 0 0 20px rgba(11, 10, 5, 0.4);
+  }
+  25% {
+    box-shadow: 0 0 15px rgba(232, 220, 200, 0.06),
+                inset 0 0 22px rgba(11, 10, 5, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 42px rgba(232, 220, 200, 0.22),
+                inset 0 0 10px rgba(11, 10, 5, 0.2);
+  }
+  75% {
+    box-shadow: 0 0 28px rgba(232, 220, 200, 0.14),
+                inset 0 0 18px rgba(11, 10, 5, 0.35);
+  }
+}

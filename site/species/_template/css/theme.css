@@ -1,0 +1,41 @@
+/* ============================================
+   {SPECIES NAME} — Design System Variables
+   Theme: "{THEME NAME}"
+   {Brief color description}
+   ============================================ */
+
+:root {
+  /* ── Color Palette ── */
+  --color-shadow:       #0a0a0a;   /* Deepest background */
+  --color-dusk:         #151515;   /* Dark surface */
+  --color-umber:        #2a2a2a;   /* Medium dark */
+  --color-bark:         #404040;   /* Border/muted */
+  --color-amber:        #c8a45c;   /* Primary accent — CUSTOMIZE */
+  --color-amber-soft:   #d4b870;   /* Soft accent */
+  --color-amber-bright: #e0c880;   /* Bright accent */
+  --color-ivory:        #e8e4dc;   /* Primary text */
+  --color-frost:        #a8a4a0;   /* Secondary text */
+  --color-mist:         rgba(255, 255, 255, 0.07);
+
+  /* ── Typography ── */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'Raleway', 'Segoe UI', sans-serif;
+
+  /* ── Fluid Spacing ── */
+  --space-xs: clamp(0.5rem, 1vw, 0.75rem);
+  --space-sm: clamp(1rem, 2vw, 1.5rem);
+  --space-md: clamp(2rem, 4vw, 3rem);
+  --space-lg: clamp(4rem, 8vw, 6rem);
+  --space-xl: clamp(6rem, 12vw, 10rem);
+
+  /* ── Motion ── */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast:   200ms;
+  --duration-normal: 400ms;
+  --duration-slow:   800ms;
+
+  /* ── Layout ── */
+  --max-width: 1400px;
+  --nav-height: 70px;
+}

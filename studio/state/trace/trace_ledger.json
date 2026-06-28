@@ -1,0 +1,7260 @@
+{
+  "aquatic-beasts/linocut/barracuda_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "barracuda_linocut-bw_01.svg",
+        "nodes": 6186,
+        "subpaths": 834
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782443410
+  },
+  "aquatic-beasts/linocut/anglerfish_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "anglerfish_linocut-bw_01.svg",
+        "nodes": 5886,
+        "subpaths": 683
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782443410
+  },
+  "aquatic-beasts/linocut/atlantic-salmon_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "atlantic-salmon_linocut-bw_01.svg",
+        "nodes": 9173,
+        "subpaths": 1256
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782443410
+  },
+  "aquatic-beasts/linocut/medium/common-dolphin_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "common-dolphin_linocut-bw_01.svg",
+        "nodes": 625,
+        "subpaths": 61
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470329
+  },
+  "aquatic-beasts/linocut/medium/beluga-whale_linocut-bw_01.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "beluga-whale_linocut-bw_01.svg",
+        "nodes": 1359,
+        "subpaths": 158
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470329
+  },
+  "aquatic-beasts/linocut/medium/clownfish_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "clownfish_linocut-bw_01.svg",
+        "nodes": 1236,
+        "subpaths": 103
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/dugong_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dugong_linocut-bw_01.svg",
+        "nodes": 2562,
+        "subpaths": 252
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/blue-marlin_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "blue-marlin_linocut-bw_01.svg",
+        "nodes": 3829,
+        "subpaths": 434
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/bottlenose-dolphin_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bottlenose-dolphin_linocut-bw_01.svg",
+        "nodes": 1724,
+        "subpaths": 177
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/blue-whale_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "blue-whale_linocut-bw_01.svg",
+        "nodes": 4526,
+        "subpaths": 583
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/cuttlefish_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "cuttlefish_linocut-bw_01.svg",
+        "nodes": 6950,
+        "subpaths": 671
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/great-white-shark_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "great-white-shark_linocut-bw_01.svg",
+        "nodes": 3552,
+        "subpaths": 398
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/harbor-seal_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "harbor-seal_linocut-bw_01.svg",
+        "nodes": 3589,
+        "subpaths": 433
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/hammerhead-shark_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hammerhead-shark_linocut-bw_01.svg",
+        "nodes": 3320,
+        "subpaths": 336
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/elephant-seal_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "elephant-seal_linocut-bw_01.svg",
+        "nodes": 10540,
+        "subpaths": 1182
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/humpback-whale_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "humpback-whale_linocut-bw_01.svg",
+        "nodes": 5654,
+        "subpaths": 803
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/giant-squid_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "giant-squid_linocut-bw_01.svg",
+        "nodes": 9073,
+        "subpaths": 862
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/green-sea-turtle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-sea-turtle_linocut-bw_01.svg",
+        "nodes": 6131,
+        "subpaths": 718
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/giant-pacific-octopus_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "giant-pacific-octopus_linocut-bw_01.svg",
+        "nodes": 15080,
+        "subpaths": 1867
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/jellyfish_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "jellyfish_linocut-bw_01.svg",
+        "nodes": 4502,
+        "subpaths": 415
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/koi_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "koi_linocut-bw_01.svg",
+        "nodes": 2758,
+        "subpaths": 201
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/leopard-seal_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "leopard-seal_linocut-bw_01.svg",
+        "nodes": 9628,
+        "subpaths": 1277
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/leatherback-turtle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "leatherback-turtle_linocut-bw_01.svg",
+        "nodes": 11897,
+        "subpaths": 2181
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/lionfish_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "lionfish_linocut-bw_01.svg",
+        "nodes": 4317,
+        "subpaths": 248
+      }
+    },
+    "secs": 0.23,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/king-crab_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "king-crab_linocut-bw_01.svg",
+        "nodes": 19779,
+        "subpaths": 2348
+      }
+    },
+    "secs": 0.27,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/manatee_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "manatee_linocut-bw_01.svg",
+        "nodes": 6882,
+        "subpaths": 874
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/lobster_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "lobster_linocut-bw_01.svg",
+        "nodes": 14153,
+        "subpaths": 1456
+      }
+    },
+    "secs": 0.23,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/manta-ray_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "manta-ray_linocut-bw_01.svg",
+        "nodes": 4309,
+        "subpaths": 460
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/narwhal_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "narwhal_linocut-bw_01.svg",
+        "nodes": 2231,
+        "subpaths": 282
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/orca_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "orca_linocut-bw_01.svg",
+        "nodes": 184,
+        "subpaths": 14
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/mantis-shrimp_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mantis-shrimp_linocut-bw_01.svg",
+        "nodes": 8272,
+        "subpaths": 758
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/nudibranch_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "nudibranch_linocut-bw_01.svg",
+        "nodes": 2615,
+        "subpaths": 109
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/nautilus_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "nautilus_linocut-bw_01.svg",
+        "nodes": 2885,
+        "subpaths": 258
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/moray-eel_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "moray-eel_linocut-bw_01.svg",
+        "nodes": 7574,
+        "subpaths": 762
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/ocean-sunfish_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "ocean-sunfish_linocut-bw_01.svg",
+        "nodes": 8481,
+        "subpaths": 1387
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/piranha_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "piranha_linocut-bw_01.svg",
+        "nodes": 11024,
+        "subpaths": 1612
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/pufferfish_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "pufferfish_linocut-bw_01.svg",
+        "nodes": 6342,
+        "subpaths": 828
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/sea-lion_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sea-lion_linocut-bw_01.svg",
+        "nodes": 4786,
+        "subpaths": 419
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/seahorse_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "seahorse_linocut-bw_01.svg",
+        "nodes": 4796,
+        "subpaths": 325
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/sperm-whale_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sperm-whale_linocut-bw_01.svg",
+        "nodes": 6584,
+        "subpaths": 644
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/sea-otter_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sea-otter_linocut-bw_01.svg",
+        "nodes": 8417,
+        "subpaths": 864
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/sea-star_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sea-star_linocut-bw_01.svg",
+        "nodes": 14745,
+        "subpaths": 2052
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/stingray_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "stingray_linocut-bw_01.svg",
+        "nodes": 7414,
+        "subpaths": 1130
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/sea-urchin_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sea-urchin_linocut-bw_01.svg",
+        "nodes": 13010,
+        "subpaths": 1813
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/sturgeon_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sturgeon_linocut-bw_01.svg",
+        "nodes": 12027,
+        "subpaths": 1728
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/whale-shark_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "whale-shark_linocut-bw_01.svg",
+        "nodes": 1886,
+        "subpaths": 367
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/swordfish_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "swordfish_linocut-bw_01.svg",
+        "nodes": 1761,
+        "subpaths": 223
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "avian-beasts/linocut/medium/atlantic-puffin_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "atlantic-puffin_linocut-bw_01.svg",
+        "nodes": 1993,
+        "subpaths": 215
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/tiger-shark_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "tiger-shark_linocut-bw_01.svg",
+        "nodes": 2652,
+        "subpaths": 267
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "avian-beasts/linocut/medium/american-robin_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "american-robin_linocut-bw_01.svg",
+        "nodes": 4184,
+        "subpaths": 550
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "avian-beasts/linocut/medium/andean-condor_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "andean-condor_linocut-bw_01.svg",
+        "nodes": 6962,
+        "subpaths": 777
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "avian-beasts/linocut/medium/african-grey-parrot_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-grey-parrot_linocut-bw_01.svg",
+        "nodes": 10958,
+        "subpaths": 1203
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "aquatic-beasts/linocut/medium/walrus_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "walrus_linocut-bw_01.svg",
+        "nodes": 11501,
+        "subpaths": 1274
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "avian-beasts/linocut/medium/barn-swallow_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "barn-swallow_linocut-bw_01.svg",
+        "nodes": 2125,
+        "subpaths": 240
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "avian-beasts/linocut/medium/bald-eagle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bald-eagle_linocut-bw_01.svg",
+        "nodes": 3151,
+        "subpaths": 358
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "avian-beasts/linocut/medium/belted-kingfisher_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "belted-kingfisher_linocut-bw_01.svg",
+        "nodes": 4658,
+        "subpaths": 655
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470330
+  },
+  "avian-beasts/linocut/medium/barn-owl_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "barn-owl_linocut-bw_01.svg",
+        "nodes": 4146,
+        "subpaths": 448
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/blue-jay_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "blue-jay_linocut-bw_01.svg",
+        "nodes": 2954,
+        "subpaths": 294
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/common-ostrich_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "common-ostrich_linocut-bw_01.svg",
+        "nodes": 5778,
+        "subpaths": 542
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/canada-goose_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "canada-goose_linocut-bw_01.svg",
+        "nodes": 6388,
+        "subpaths": 565
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/emperor-penguin_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "emperor-penguin_linocut-bw_01.svg",
+        "nodes": 783,
+        "subpaths": 68
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/common-raven_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "common-raven_linocut-bw_01.svg",
+        "nodes": 2066,
+        "subpaths": 181
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/brown-pelican_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "brown-pelican_linocut-bw_01.svg",
+        "nodes": 7555,
+        "subpaths": 833
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/eurasian-magpie_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "eurasian-magpie_linocut-bw_01.svg",
+        "nodes": 930,
+        "subpaths": 69
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/european-goldfinch_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "european-goldfinch_linocut-bw_01.svg",
+        "nodes": 3524,
+        "subpaths": 399
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/great-blue-heron_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "great-blue-heron_linocut-bw_01.svg",
+        "nodes": 4227,
+        "subpaths": 380
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/greater-flamingo_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "greater-flamingo_linocut-bw_01.svg",
+        "nodes": 1296,
+        "subpaths": 153
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/golden-eagle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "golden-eagle_linocut-bw_01.svg",
+        "nodes": 8113,
+        "subpaths": 857
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/great-horned-owl_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "great-horned-owl_linocut-bw_01.svg",
+        "nodes": 10317,
+        "subpaths": 682
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/emu_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "emu_linocut-bw_01.svg",
+        "nodes": 8895,
+        "subpaths": 907
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/greater-bird-of-paradise_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "greater-bird-of-paradise_linocut-bw_01.svg",
+        "nodes": 5614,
+        "subpaths": 397
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/mute-swan_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mute-swan_linocut-bw_01.svg",
+        "nodes": 632,
+        "subpaths": 43
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/grey-crowned-crane_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "grey-crowned-crane_linocut-bw_01.svg",
+        "nodes": 2753,
+        "subpaths": 282
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/mandarin-duck_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mandarin-duck_linocut-bw_01.svg",
+        "nodes": 2775,
+        "subpaths": 237
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/northern-gannet_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "northern-gannet_linocut-bw_01.svg",
+        "nodes": 1515,
+        "subpaths": 181
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/northern-cardinal_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "northern-cardinal_linocut-bw_01.svg",
+        "nodes": 4590,
+        "subpaths": 516
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/mallard_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mallard_linocut-bw_01.svg",
+        "nodes": 5643,
+        "subpaths": 868
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/kakapo_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "kakapo_linocut-bw_01.svg",
+        "nodes": 14830,
+        "subpaths": 1124
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/indian-peafowl_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "indian-peafowl_linocut-bw_01.svg",
+        "nodes": 18606,
+        "subpaths": 1220
+      }
+    },
+    "secs": 0.27,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/osprey_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "osprey_linocut-bw_01.svg",
+        "nodes": 6187,
+        "subpaths": 895
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/peregrine-falcon_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "peregrine-falcon_linocut-bw_01.svg",
+        "nodes": 5141,
+        "subpaths": 543
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/pileated-woodpecker_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "pileated-woodpecker_linocut-bw_01.svg",
+        "nodes": 2732,
+        "subpaths": 247
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/red-junglefowl_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-junglefowl_linocut-bw_01.svg",
+        "nodes": 7211,
+        "subpaths": 879
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/red-tailed-hawk_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-tailed-hawk_linocut-bw_01.svg",
+        "nodes": 4126,
+        "subpaths": 324
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/resplendent-quetzal_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "resplendent-quetzal_linocut-bw_01.svg",
+        "nodes": 3866,
+        "subpaths": 480
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/ring-necked-pheasant_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "ring-necked-pheasant_linocut-bw_01.svg",
+        "nodes": 5817,
+        "subpaths": 663
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/roseate-spoonbill_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "roseate-spoonbill_linocut-bw_01.svg",
+        "nodes": 7509,
+        "subpaths": 753
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/scarlet-macaw_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "scarlet-macaw_linocut-bw_01.svg",
+        "nodes": 2888,
+        "subpaths": 318
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/sulphur-crested-cockatoo_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sulphur-crested-cockatoo_linocut-bw_01.svg",
+        "nodes": 1583,
+        "subpaths": 144
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/snowy-owl_linocut-bw_01.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "snowy-owl_linocut-bw_01.svg",
+        "nodes": 5086,
+        "subpaths": 639
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/ruby-throated-hummingbird_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "ruby-throated-hummingbird_linocut-bw_01.svg",
+        "nodes": 4059,
+        "subpaths": 433
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/shoebill_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "shoebill_linocut-bw_01.svg",
+        "nodes": 9655,
+        "subpaths": 1028
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/southern-brown-kiwi_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "southern-brown-kiwi_linocut-bw_01.svg",
+        "nodes": 6661,
+        "subpaths": 582
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/southern-cassowary_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "southern-cassowary_linocut-bw_01.svg",
+        "nodes": 7063,
+        "subpaths": 930
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/toco-toucan_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "toco-toucan_linocut-bw_01.svg",
+        "nodes": 2692,
+        "subpaths": 317
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/wandering-albatross_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wandering-albatross_linocut-bw_01.svg",
+        "nodes": 1937,
+        "subpaths": 216
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/white-stork_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "white-stork_linocut-bw_01.svg",
+        "nodes": 1687,
+        "subpaths": 158
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/black-widow_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "black-widow_linocut-bw_01.svg",
+        "nodes": 1394,
+        "subpaths": 110
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/blue-morpho_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "blue-morpho_linocut-bw_01.svg",
+        "nodes": 2289,
+        "subpaths": 184
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/banded-demoiselle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "banded-demoiselle_linocut-bw_01.svg",
+        "nodes": 4703,
+        "subpaths": 525
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/atlas-moth_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "atlas-moth_linocut-bw_01.svg",
+        "nodes": 8845,
+        "subpaths": 546
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "avian-beasts/linocut/medium/wild-turkey_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wild-turkey_linocut-bw_01.svg",
+        "nodes": 15641,
+        "subpaths": 1449
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/bullet-ant_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bullet-ant_linocut-bw_01.svg",
+        "nodes": 3813,
+        "subpaths": 361
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/bumblebee_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bumblebee_linocut-bw_01.svg",
+        "nodes": 5086,
+        "subpaths": 368
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/common-green-darner_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "common-green-darner_linocut-bw_01.svg",
+        "nodes": 12902,
+        "subpaths": 1256
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/camel-spider_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "camel-spider_linocut-bw_01.svg",
+        "nodes": 11207,
+        "subpaths": 857
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/emperor-scorpion_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "emperor-scorpion_linocut-bw_01.svg",
+        "nodes": 9622,
+        "subpaths": 1098
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/desert-locust_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "desert-locust_linocut-bw_01.svg",
+        "nodes": 5029,
+        "subpaths": 665
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/deaths-head-hawkmoth_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "deaths-head-hawkmoth_linocut-bw_01.svg",
+        "nodes": 5212,
+        "subpaths": 428
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/deathstalker-scorpion_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "deathstalker-scorpion_linocut-bw_01.svg",
+        "nodes": 3211,
+        "subpaths": 263
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/dung-beetle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dung-beetle_linocut-bw_01.svg",
+        "nodes": 5466,
+        "subpaths": 691
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470331
+  },
+  "insecta-beasts/linocut/medium/giant-walking-stick_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "giant-walking-stick_linocut-bw_01.svg",
+        "nodes": 1800,
+        "subpaths": 189
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/harvestman_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "harvestman_linocut-bw_01.svg",
+        "nodes": 1470,
+        "subpaths": 125
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/goliath-beetle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "goliath-beetle_linocut-bw_01.svg",
+        "nodes": 4080,
+        "subpaths": 259
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/field-cricket_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "field-cricket_linocut-bw_01.svg",
+        "nodes": 3071,
+        "subpaths": 215
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/honeybee_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "honeybee_linocut-bw_01.svg",
+        "nodes": 5314,
+        "subpaths": 406
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/hercules-beetle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hercules-beetle_linocut-bw_01.svg",
+        "nodes": 2903,
+        "subpaths": 278
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/firefly_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "firefly_linocut-bw_01.svg",
+        "nodes": 2163,
+        "subpaths": 197
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/giant-cicada_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "giant-cicada_linocut-bw_01.svg",
+        "nodes": 4882,
+        "subpaths": 345
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/jewel-beetle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "jewel-beetle_linocut-bw_01.svg",
+        "nodes": 1789,
+        "subpaths": 105
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/ladybug_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "ladybug_linocut-bw_01.svg",
+        "nodes": 899,
+        "subpaths": 76
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/leaf-insect_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "leaf-insect_linocut-bw_01.svg",
+        "nodes": 4883,
+        "subpaths": 506
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/madagascan-sunset-moth_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "madagascan-sunset-moth_linocut-bw_01.svg",
+        "nodes": 4708,
+        "subpaths": 157
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/io-moth_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "io-moth_linocut-bw_01.svg",
+        "nodes": 6544,
+        "subpaths": 186
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/luna-moth_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "luna-moth_linocut-bw_01.svg",
+        "nodes": 2899,
+        "subpaths": 303
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/horseshoe-crab_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "horseshoe-crab_linocut-bw_01.svg",
+        "nodes": 4660,
+        "subpaths": 579
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/jumping-spider_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "jumping-spider_linocut-bw_01.svg",
+        "nodes": 9105,
+        "subpaths": 627
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/stag-beetle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "stag-beetle_linocut-bw_01.svg",
+        "nodes": 2478,
+        "subpaths": 153
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/rhinoceros-beetle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "rhinoceros-beetle_linocut-bw_01.svg",
+        "nodes": 3174,
+        "subpaths": 291
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/weevil_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "weevil_linocut-bw_01.svg",
+        "nodes": 5531,
+        "subpaths": 562
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/mole-cricket_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mole-cricket_linocut-bw_01.svg",
+        "nodes": 8305,
+        "subpaths": 1198
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/vinegaroon_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "vinegaroon_linocut-bw_01.svg",
+        "nodes": 5239,
+        "subpaths": 428
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/tick_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "tick_linocut-bw_01.svg",
+        "nodes": 5509,
+        "subpaths": 686
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/wolf-spider_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wolf-spider_linocut-bw_01.svg",
+        "nodes": 10539,
+        "subpaths": 981
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "insecta-beasts/linocut/medium/tarantula_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "tarantula_linocut-bw_01.svg",
+        "nodes": 22292,
+        "subpaths": 1852
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/bengal-tiger_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bengal-tiger_linocut-bw_01.svg",
+        "nodes": 3375,
+        "subpaths": 194
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/armadillo_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "armadillo_linocut-bw_01.svg",
+        "nodes": 9908,
+        "subpaths": 1541
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/bighorn-sheep_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bighorn-sheep_linocut-bw_01.svg",
+        "nodes": 8378,
+        "subpaths": 990
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/beaver_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "beaver_linocut-bw_01.svg",
+        "nodes": 9939,
+        "subpaths": 1163
+      }
+    },
+    "secs": 0.24,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/american-bison_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "american-bison_linocut-bw_01.svg",
+        "nodes": 11807,
+        "subpaths": 1360
+      }
+    },
+    "secs": 0.26,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/bornean-orangutan_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bornean-orangutan_linocut-bw_01.svg",
+        "nodes": 11327,
+        "subpaths": 1137
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/aardvark_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "aardvark_linocut-bw_01.svg",
+        "nodes": 12263,
+        "subpaths": 1372
+      }
+    },
+    "secs": 0.3,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/african-elephant_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-elephant_linocut-bw_01.svg",
+        "nodes": 19733,
+        "subpaths": 2072
+      }
+    },
+    "secs": 0.26,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/cheetah_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "cheetah_linocut-bw_01.svg",
+        "nodes": 3120,
+        "subpaths": 530
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/elk_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "elk_linocut-bw_01.svg",
+        "nodes": 6643,
+        "subpaths": 773
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/european-badger_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "european-badger_linocut-bw_01.svg",
+        "nodes": 7880,
+        "subpaths": 834
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/chimpanzee_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "chimpanzee_linocut-bw_01.svg",
+        "nodes": 8565,
+        "subpaths": 597
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/dromedary-camel_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dromedary-camel_linocut-bw_01.svg",
+        "nodes": 6859,
+        "subpaths": 892
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/european-rabbit_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "european-rabbit_linocut-bw_01.svg",
+        "nodes": 10705,
+        "subpaths": 1384
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/caribou_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "caribou_linocut-bw_01.svg",
+        "nodes": 13844,
+        "subpaths": 1539
+      }
+    },
+    "secs": 0.26,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/cape-buffalo_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "cape-buffalo_linocut-bw_01.svg",
+        "nodes": 18920,
+        "subpaths": 2094
+      }
+    },
+    "secs": 0.31,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/giant-panda_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "giant-panda_linocut-bw_01.svg",
+        "nodes": 2993,
+        "subpaths": 346
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/gray-wolf_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gray-wolf_linocut-bw_01.svg",
+        "nodes": 7480,
+        "subpaths": 880
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/flying-fox_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "flying-fox_linocut-bw_01.svg",
+        "nodes": 7977,
+        "subpaths": 399
+      }
+    },
+    "secs": 0.24,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/hippopotamus_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hippopotamus_linocut-bw_01.svg",
+        "nodes": 6071,
+        "subpaths": 675
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/giant-anteater_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "giant-anteater_linocut-bw_01.svg",
+        "nodes": 12665,
+        "subpaths": 1391
+      }
+    },
+    "secs": 0.26,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/grizzly-bear_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "grizzly-bear_linocut-bw_01.svg",
+        "nodes": 9316,
+        "subpaths": 933
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/hedgehog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hedgehog_linocut-bw_01.svg",
+        "nodes": 7942,
+        "subpaths": 822
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/gray-squirrel_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gray-squirrel_linocut-bw_01.svg",
+        "nodes": 14402,
+        "subpaths": 1532
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470332
+  },
+  "mammalian-beasts/linocut/high/jackrabbit_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "jackrabbit_linocut-bw_01.svg",
+        "nodes": 5272,
+        "subpaths": 763
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/high/jaguar_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "jaguar_linocut-bw_01.svg",
+        "nodes": 3562,
+        "subpaths": 494
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/high/leopard_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "leopard_linocut-bw_01.svg",
+        "nodes": 6955,
+        "subpaths": 672
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/high/lion_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "lion_linocut-bw_01.svg",
+        "nodes": 4701,
+        "subpaths": 503
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/high/koala_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "koala_linocut-bw_01.svg",
+        "nodes": 11013,
+        "subpaths": 1633
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/aardvark_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "aardvark_linocut-bw_01.svg",
+        "nodes": 10148,
+        "subpaths": 1030
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/american-bison_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "american-bison_linocut-bw_01.svg",
+        "nodes": 8815,
+        "subpaths": 902
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/armadillo_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "armadillo_linocut-bw_01.svg",
+        "nodes": 8366,
+        "subpaths": 1172
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/african-elephant_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-elephant_linocut-bw_01.svg",
+        "nodes": 18162,
+        "subpaths": 2179
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/beaver_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "beaver_linocut-bw_01.svg",
+        "nodes": 8888,
+        "subpaths": 921
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/cheetah_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "cheetah_linocut-bw_01.svg",
+        "nodes": 2582,
+        "subpaths": 460
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/bengal-tiger_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bengal-tiger_linocut-bw_01.svg",
+        "nodes": 3042,
+        "subpaths": 215
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/bighorn-sheep_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bighorn-sheep_linocut-bw_01.svg",
+        "nodes": 8689,
+        "subpaths": 777
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/caribou_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "caribou_linocut-bw_01.svg",
+        "nodes": 7838,
+        "subpaths": 800
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/bornean-orangutan_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bornean-orangutan_linocut-bw_01.svg",
+        "nodes": 8622,
+        "subpaths": 759
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/cape-buffalo_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "cape-buffalo_linocut-bw_01.svg",
+        "nodes": 11605,
+        "subpaths": 1285
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/chimpanzee_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "chimpanzee_linocut-bw_01.svg",
+        "nodes": 7919,
+        "subpaths": 687
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/european-badger_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "european-badger_linocut-bw_01.svg",
+        "nodes": 6099,
+        "subpaths": 737
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/elk_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "elk_linocut-bw_01.svg",
+        "nodes": 5937,
+        "subpaths": 743
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/giant-panda_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "giant-panda_linocut-bw_01.svg",
+        "nodes": 2637,
+        "subpaths": 170
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/dromedary-camel_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dromedary-camel_linocut-bw_01.svg",
+        "nodes": 5360,
+        "subpaths": 744
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/european-rabbit_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "european-rabbit_linocut-bw_01.svg",
+        "nodes": 5330,
+        "subpaths": 625
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/giant-anteater_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "giant-anteater_linocut-bw_01.svg",
+        "nodes": 8937,
+        "subpaths": 948
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/flying-fox_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "flying-fox_linocut-bw_01.svg",
+        "nodes": 6008,
+        "subpaths": 487
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/gray-squirrel_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gray-squirrel_linocut-bw_01.svg",
+        "nodes": 10978,
+        "subpaths": 965
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/jackrabbit_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "jackrabbit_linocut-bw_01.svg",
+        "nodes": 5324,
+        "subpaths": 647
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/jaguar_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "jaguar_linocut-bw_01.svg",
+        "nodes": 3406,
+        "subpaths": 430
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/gray-wolf_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gray-wolf_linocut-bw_01.svg",
+        "nodes": 7589,
+        "subpaths": 808
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/leopard_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "leopard_linocut-bw_01.svg",
+        "nodes": 4348,
+        "subpaths": 586
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/hippopotamus_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hippopotamus_linocut-bw_01.svg",
+        "nodes": 6188,
+        "subpaths": 777
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/grizzly-bear_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "grizzly-bear_linocut-bw_01.svg",
+        "nodes": 7769,
+        "subpaths": 763
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/koala_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "koala_linocut-bw_01.svg",
+        "nodes": 9530,
+        "subpaths": 1285
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/hedgehog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hedgehog_linocut-bw_01.svg",
+        "nodes": 7908,
+        "subpaths": 776
+      }
+    },
+    "secs": 0.23,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/mountain-goat_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mountain-goat_linocut-bw_01.svg",
+        "nodes": 3559,
+        "subpaths": 309
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/lion_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "lion_linocut-bw_01.svg",
+        "nodes": 4208,
+        "subpaths": 453
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/meerkat_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "meerkat_linocut-bw_01.svg",
+        "nodes": 5203,
+        "subpaths": 633
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/moose_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "moose_linocut-bw_01.svg",
+        "nodes": 7059,
+        "subpaths": 818
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/polar-bear_linocut-bw_01.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "polar-bear_linocut-bw_01.svg",
+        "nodes": 3579,
+        "subpaths": 355
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/plains-zebra_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "plains-zebra_linocut-bw_01.svg",
+        "nodes": 1842,
+        "subpaths": 129
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/pronghorn_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "pronghorn_linocut-bw_01.svg",
+        "nodes": 4895,
+        "subpaths": 653
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/raccoon_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "raccoon_linocut-bw_01.svg",
+        "nodes": 10558,
+        "subpaths": 889
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/red-kangaroo_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-kangaroo_linocut-bw_01.svg",
+        "nodes": 4113,
+        "subpaths": 428
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/red-fox_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-fox_linocut-bw_01.svg",
+        "nodes": 5898,
+        "subpaths": 729
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/striped-skunk_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "striped-skunk_linocut-bw_01.svg",
+        "nodes": 2624,
+        "subpaths": 168
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/ring-tailed-lemur_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "ring-tailed-lemur_linocut-bw_01.svg",
+        "nodes": 7304,
+        "subpaths": 816
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/reticulated-giraffe_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "reticulated-giraffe_linocut-bw_01.svg",
+        "nodes": 2111,
+        "subpaths": 274
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470333
+  },
+  "mammalian-beasts/linocut/medium/snow-leopard_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "snow-leopard_linocut-bw_01.svg",
+        "nodes": 13545,
+        "subpaths": 915
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/medium/river-otter_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "river-otter_linocut-bw_01.svg",
+        "nodes": 6889,
+        "subpaths": 685
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/medium/three-toed-sloth_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "three-toed-sloth_linocut-bw_01.svg",
+        "nodes": 8016,
+        "subpaths": 810
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/medium/white-tailed-deer_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "white-tailed-deer_linocut-bw_01.svg",
+        "nodes": 2477,
+        "subpaths": 290
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/medium/wild-horse_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wild-horse_linocut-bw_01.svg",
+        "nodes": 4732,
+        "subpaths": 413
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/meerkat_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "meerkat_linocut-bw_01.svg",
+        "nodes": 5091,
+        "subpaths": 549
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/moose_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "moose_linocut-bw_01.svg",
+        "nodes": 9538,
+        "subpaths": 1034
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/medium/western-gorilla_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "western-gorilla_linocut-bw_01.svg",
+        "nodes": 7939,
+        "subpaths": 786
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/medium/wolverine_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wolverine_linocut-bw_01.svg",
+        "nodes": 8377,
+        "subpaths": 999
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/medium/wild-boar_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wild-boar_linocut-bw_01.svg",
+        "nodes": 12497,
+        "subpaths": 1224
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/medium/white-rhinoceros_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "white-rhinoceros_linocut-bw_01.svg",
+        "nodes": 12733,
+        "subpaths": 1593
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/mountain-goat_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mountain-goat_linocut-bw_01.svg",
+        "nodes": 4009,
+        "subpaths": 339
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/polar-bear_linocut-bw_01.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "polar-bear_linocut-bw_01.svg",
+        "nodes": 4192,
+        "subpaths": 438
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/plains-zebra_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "plains-zebra_linocut-bw_01.svg",
+        "nodes": 2084,
+        "subpaths": 131
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/reticulated-giraffe_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "reticulated-giraffe_linocut-bw_01.svg",
+        "nodes": 2709,
+        "subpaths": 349
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/pronghorn_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "pronghorn_linocut-bw_01.svg",
+        "nodes": 5797,
+        "subpaths": 781
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/red-kangaroo_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-kangaroo_linocut-bw_01.svg",
+        "nodes": 7558,
+        "subpaths": 778
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/red-fox_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-fox_linocut-bw_01.svg",
+        "nodes": 5714,
+        "subpaths": 691
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/raccoon_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "raccoon_linocut-bw_01.svg",
+        "nodes": 10921,
+        "subpaths": 808
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/ring-tailed-lemur_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "ring-tailed-lemur_linocut-bw_01.svg",
+        "nodes": 14517,
+        "subpaths": 1680
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/striped-skunk_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "striped-skunk_linocut-bw_01.svg",
+        "nodes": 3090,
+        "subpaths": 182
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/three-toed-sloth_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "three-toed-sloth_linocut-bw_01.svg",
+        "nodes": 6145,
+        "subpaths": 504
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/white-tailed-deer_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "white-tailed-deer_linocut-bw_01.svg",
+        "nodes": 3950,
+        "subpaths": 549
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/snow-leopard_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "snow-leopard_linocut-bw_01.svg",
+        "nodes": 16645,
+        "subpaths": 756
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/river-otter_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "river-otter_linocut-bw_01.svg",
+        "nodes": 7700,
+        "subpaths": 854
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/western-gorilla_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "western-gorilla_linocut-bw_01.svg",
+        "nodes": 12940,
+        "subpaths": 1437
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/white-rhinoceros_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "white-rhinoceros_linocut-bw_01.svg",
+        "nodes": 15876,
+        "subpaths": 1915
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/wild-boar_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wild-boar_linocut-bw_01.svg",
+        "nodes": 10432,
+        "subpaths": 1261
+      }
+    },
+    "secs": 0.16,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/wild-horse_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wild-horse_linocut-bw_01.svg",
+        "nodes": 6382,
+        "subpaths": 718
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/axolotl_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "axolotl_linocut-bw_01.svg",
+        "nodes": 5402,
+        "subpaths": 554
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/african-bullfrog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-bullfrog_linocut-bw_01.svg",
+        "nodes": 12748,
+        "subpaths": 1323
+      }
+    },
+    "secs": 0.24,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "mammalian-beasts/linocut/high/wolverine_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wolverine_linocut-bw_01.svg",
+        "nodes": 9493,
+        "subpaths": 1135
+      }
+    },
+    "secs": 0.27,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/argentine-horned-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "argentine-horned-frog_linocut-bw_01.svg",
+        "nodes": 10088,
+        "subpaths": 1455
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/american-alligator_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "american-alligator_linocut-bw_01.svg",
+        "nodes": 14111,
+        "subpaths": 1986
+      }
+    },
+    "secs": 0.24,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/cane-toad_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "cane-toad_linocut-bw_01.svg",
+        "nodes": 20102,
+        "subpaths": 2643
+      }
+    },
+    "secs": 0.23,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/alligator-snapping-turtle_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "alligator-snapping-turtle_linocut-bw_01.svg",
+        "nodes": 21997,
+        "subpaths": 2606
+      }
+    },
+    "secs": 0.26,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/fire-salamander_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "fire-salamander_linocut-bw_01.svg",
+        "nodes": 3120,
+        "subpaths": 318
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/dyeing-poison-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dyeing-poison-frog_linocut-bw_01.svg",
+        "nodes": 1798,
+        "subpaths": 202
+      }
+    },
+    "secs": 0.23,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/chinese-giant-salamander_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "chinese-giant-salamander_linocut-bw_01.svg",
+        "nodes": 16758,
+        "subpaths": 2808
+      }
+    },
+    "secs": 0.28,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/darwins-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "darwins-frog_linocut-bw_01.svg",
+        "nodes": 8687,
+        "subpaths": 1275
+      }
+    },
+    "secs": 0.27,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/eyelash-viper_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "eyelash-viper_linocut-bw_01.svg",
+        "nodes": 9318,
+        "subpaths": 1080
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/gaboon-viper_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gaboon-viper_linocut-bw_01.svg",
+        "nodes": 10472,
+        "subpaths": 1302
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/frilled-lizard_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "frilled-lizard_linocut-bw_01.svg",
+        "nodes": 13996,
+        "subpaths": 2088
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470334
+  },
+  "reptilian-beasts/linocut/medium/galapagos-giant-tortoise_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "galapagos-giant-tortoise_linocut-bw_01.svg",
+        "nodes": 23068,
+        "subpaths": 2933
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/glass-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "glass-frog_linocut-bw_01.svg",
+        "nodes": 4527,
+        "subpaths": 579
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/gharial_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gharial_linocut-bw_01.svg",
+        "nodes": 12786,
+        "subpaths": 1822
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/golden-poison-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "golden-poison-frog_linocut-bw_01.svg",
+        "nodes": 7040,
+        "subpaths": 1040
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/gila-monster_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gila-monster_linocut-bw_01.svg",
+        "nodes": 17908,
+        "subpaths": 2796
+      }
+    },
+    "secs": 0.23,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/great-crested-newt_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "great-crested-newt_linocut-bw_01.svg",
+        "nodes": 11637,
+        "subpaths": 1599
+      }
+    },
+    "secs": 0.23,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/goliath-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "goliath-frog_linocut-bw_01.svg",
+        "nodes": 21111,
+        "subpaths": 2331
+      }
+    },
+    "secs": 0.27,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/green-anaconda_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-anaconda_linocut-bw_01.svg",
+        "nodes": 20293,
+        "subpaths": 2624
+      }
+    },
+    "secs": 0.26,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/green-basilisk_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-basilisk_linocut-bw_01.svg",
+        "nodes": 18493,
+        "subpaths": 2587
+      }
+    },
+    "secs": 0.23,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/marbled-salamander_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "marbled-salamander_linocut-bw_01.svg",
+        "nodes": 3378,
+        "subpaths": 314
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/king-cobra_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "king-cobra_linocut-bw_01.svg",
+        "nodes": 6021,
+        "subpaths": 867
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/malayan-horned-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "malayan-horned-frog_linocut-bw_01.svg",
+        "nodes": 5730,
+        "subpaths": 883
+      }
+    },
+    "secs": 0.14,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/green-iguana_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-iguana_linocut-bw_01.svg",
+        "nodes": 17871,
+        "subpaths": 2326
+      }
+    },
+    "secs": 0.32,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/komodo-dragon_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "komodo-dragon_linocut-bw_01.svg",
+        "nodes": 19627,
+        "subpaths": 3417
+      }
+    },
+    "secs": 0.23,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/hairy-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hairy-frog_linocut-bw_01.svg",
+        "nodes": 18072,
+        "subpaths": 2132
+      }
+    },
+    "secs": 0.28,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/green-tree-python_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-tree-python_linocut-bw_01.svg",
+        "nodes": 26553,
+        "subpaths": 4121
+      }
+    },
+    "secs": 0.36,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/marine-iguana_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "marine-iguana_linocut-bw_01.svg",
+        "nodes": 24578,
+        "subpaths": 3799
+      }
+    },
+    "secs": 0.26,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/olm_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "olm_linocut-bw_01.svg",
+        "nodes": 2795,
+        "subpaths": 286
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/ringed-caecilian_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "ringed-caecilian_linocut-bw_01.svg",
+        "nodes": 1898,
+        "subpaths": 106
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/matamata_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "matamata_linocut-bw_01.svg",
+        "nodes": 20809,
+        "subpaths": 2589
+      }
+    },
+    "secs": 0.3,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/purple-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "purple-frog_linocut-bw_01.svg",
+        "nodes": 4944,
+        "subpaths": 545
+      }
+    },
+    "secs": 0.26,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/red-eyed-tree-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-eyed-tree-frog_linocut-bw_01.svg",
+        "nodes": 5790,
+        "subpaths": 918
+      }
+    },
+    "secs": 0.25,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/saltwater-crocodile_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "saltwater-crocodile_linocut-bw_01.svg",
+        "nodes": 13022,
+        "subpaths": 1767
+      }
+    },
+    "secs": 0.22,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/radiated-tortoise_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "radiated-tortoise_linocut-bw_01.svg",
+        "nodes": 12488,
+        "subpaths": 1371
+      }
+    },
+    "secs": 0.27,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/panther-chameleon_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "panther-chameleon_linocut-bw_01.svg",
+        "nodes": 22606,
+        "subpaths": 3882
+      }
+    },
+    "secs": 0.35,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/surinam-toad_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "surinam-toad_linocut-bw_01.svg",
+        "nodes": 8673,
+        "subpaths": 1195
+      }
+    },
+    "secs": 0.15,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/whites-tree-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "whites-tree-frog_linocut-bw_01.svg",
+        "nodes": 4344,
+        "subpaths": 549
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/thorny-devil_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "thorny-devil_linocut-bw_01.svg",
+        "nodes": 13723,
+        "subpaths": 1885
+      }
+    },
+    "secs": 0.3,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/wallaces-flying-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "wallaces-flying-frog_linocut-bw_01.svg",
+        "nodes": 8582,
+        "subpaths": 1049
+      }
+    },
+    "secs": 0.2,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/tokay-gecko_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "tokay-gecko_linocut-bw_01.svg",
+        "nodes": 13955,
+        "subpaths": 1408
+      }
+    },
+    "secs": 0.32,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/tuatara_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "tuatara_linocut-bw_01.svg",
+        "nodes": 24628,
+        "subpaths": 4110
+      }
+    },
+    "secs": 0.3,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/western-diamondback-rattlesnake_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "western-diamondback-rattlesnake_linocut-bw_01.svg",
+        "nodes": 12493,
+        "subpaths": 1213
+      }
+    },
+    "secs": 0.27,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "reptilian-beasts/linocut/medium/vietnamese-mossy-frog_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "vietnamese-mossy-frog_linocut-bw_01.svg",
+        "nodes": 17046,
+        "subpaths": 1509
+      }
+    },
+    "secs": 0.29,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782470335
+  },
+  "aquatic-beasts/linocut/medium/anglerfish_linocut-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "anglerfish_linocut-bw_01.svg",
+        "nodes": 5886,
+        "subpaths": 683
+      }
+    },
+    "secs": 0.21,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782553232
+  },
+  "aquatic-beasts/silhouette/medium/blue-whale_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "blue-whale_silhouette-bw_01.svg",
+        "nodes": 42,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "aquatic-beasts/silhouette/medium/manta-ray_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "manta-ray_silhouette-bw_01.svg",
+        "nodes": 36,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "aquatic-beasts/silhouette/medium/hammerhead-shark_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hammerhead-shark_silhouette-bw_01.svg",
+        "nodes": 51,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "aquatic-beasts/silhouette/medium/great-white-shark_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "great-white-shark_silhouette-bw_01.svg",
+        "nodes": 54,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.19,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "avian-beasts/silhouette/medium/bald-eagle_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bald-eagle_silhouette-bw_01.svg",
+        "nodes": 278,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "aquatic-beasts/silhouette/medium/orca_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "orca_silhouette-bw_01.svg",
+        "nodes": 37,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "avian-beasts/silhouette/medium/scarlet-macaw_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "scarlet-macaw_silhouette-bw_01.svg",
+        "nodes": 50,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "avian-beasts/silhouette/medium/flamingo_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "flamingo_silhouette-bw_01.svg",
+        "nodes": 68,
+        "subpaths": 2
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "avian-beasts/silhouette/medium/snowy-owl_silhouette-bw_01.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "snowy-owl_silhouette-bw_01.svg",
+        "nodes": 132,
+        "subpaths": 7
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "avian-beasts/silhouette/medium/shoebill_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "shoebill_silhouette-bw_01.svg",
+        "nodes": 121,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "insecta-beasts/silhouette/medium/hercules-beetle_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hercules-beetle_silhouette-bw_01.svg",
+        "nodes": 222,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "insecta-beasts/silhouette/medium/dragonfly_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dragonfly_silhouette-bw_01.svg",
+        "nodes": 78,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "insecta-beasts/silhouette/medium/praying-mantis_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "praying-mantis_silhouette-bw_01.svg",
+        "nodes": 223,
+        "subpaths": 2
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "insecta-beasts/silhouette/medium/monarch-butterfly_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "monarch-butterfly_silhouette-bw_01.svg",
+        "nodes": 102,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "mammalian-beasts/silhouette/medium/african-elephant_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-elephant_silhouette-bw_01.svg",
+        "nodes": 103,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "mammalian-beasts/silhouette/medium/gray-wolf_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gray-wolf_silhouette-bw_01.svg",
+        "nodes": 255,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "mammalian-beasts/silhouette/medium/lion_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "lion_silhouette-bw_01.svg",
+        "nodes": 152,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "insecta-beasts/silhouette/medium/stag-beetle_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "stag-beetle_silhouette-bw_01.svg",
+        "nodes": 307,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "mammalian-beasts/silhouette/medium/red-fox_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-fox_silhouette-bw_01.svg",
+        "nodes": 134,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "mammalian-beasts/silhouette/medium/mountain-gorilla_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mountain-gorilla_silhouette-bw_01.svg",
+        "nodes": 82,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "reptilian-beasts/silhouette/medium/king-cobra_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "king-cobra_silhouette-bw_01.svg",
+        "nodes": 37,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "reptilian-beasts/silhouette/medium/green-iguana_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-iguana_silhouette-bw_01.svg",
+        "nodes": 254,
+        "subpaths": 6
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "reptilian-beasts/silhouette/medium/panther-chameleon_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "panther-chameleon_silhouette-bw_01.svg",
+        "nodes": 228,
+        "subpaths": 4
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "reptilian-beasts/silhouette/medium/komodo-dragon_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "komodo-dragon_silhouette-bw_01.svg",
+        "nodes": 134,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "reptilian-beasts/silhouette/medium/saltwater-crocodile_silhouette-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "saltwater-crocodile_silhouette-bw_01.svg",
+        "nodes": 203,
+        "subpaths": 1
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569963
+  },
+  "aquatic-beasts/line-art/medium/manta-ray_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "manta-ray_line-art-bw_01.svg",
+        "nodes": 199,
+        "subpaths": 21
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "aquatic-beasts/line-art/medium/great-white-shark_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "great-white-shark_line-art-bw_01.svg",
+        "nodes": 231,
+        "subpaths": 22
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "aquatic-beasts/line-art/medium/hammerhead-shark_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hammerhead-shark_line-art-bw_01.svg",
+        "nodes": 227,
+        "subpaths": 9
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "aquatic-beasts/line-art/medium/blue-whale_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "blue-whale_line-art-bw_01.svg",
+        "nodes": 181,
+        "subpaths": 6
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "avian-beasts/line-art/medium/scarlet-macaw_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "scarlet-macaw_line-art-bw_01.svg",
+        "nodes": 272,
+        "subpaths": 21
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "avian-beasts/line-art/medium/flamingo_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "flamingo_line-art-bw_01.svg",
+        "nodes": 177,
+        "subpaths": 10
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "aquatic-beasts/line-art/medium/orca_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "orca_line-art-bw_01.svg",
+        "nodes": 149,
+        "subpaths": 12
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "avian-beasts/line-art/medium/bald-eagle_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bald-eagle_line-art-bw_01.svg",
+        "nodes": 452,
+        "subpaths": 15
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "avian-beasts/line-art/medium/shoebill_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "shoebill_line-art-bw_01.svg",
+        "nodes": 487,
+        "subpaths": 26
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "insecta-beasts/line-art/medium/hercules-beetle_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hercules-beetle_line-art-bw_01.svg",
+        "nodes": 621,
+        "subpaths": 49
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "insecta-beasts/line-art/medium/dragonfly_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dragonfly_line-art-bw_01.svg",
+        "nodes": 873,
+        "subpaths": 78
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "avian-beasts/line-art/medium/snowy-owl_line-art-bw_01.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "snowy-owl_line-art-bw_01.svg",
+        "nodes": 269,
+        "subpaths": 23
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "insecta-beasts/line-art/medium/monarch-butterfly_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "monarch-butterfly_line-art-bw_01.svg",
+        "nodes": 1096,
+        "subpaths": 118
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "insecta-beasts/line-art/medium/stag-beetle_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "stag-beetle_line-art-bw_01.svg",
+        "nodes": 701,
+        "subpaths": 44
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "mammalian-beasts/line-art/medium/african-elephant_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-elephant_line-art-bw_01.svg",
+        "nodes": 585,
+        "subpaths": 54
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "insecta-beasts/line-art/medium/praying-mantis_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "praying-mantis_line-art-bw_01.svg",
+        "nodes": 736,
+        "subpaths": 58
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "mammalian-beasts/line-art/medium/gray-wolf_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gray-wolf_line-art-bw_01.svg",
+        "nodes": 511,
+        "subpaths": 17
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "mammalian-beasts/line-art/medium/mountain-gorilla_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mountain-gorilla_line-art-bw_01.svg",
+        "nodes": 397,
+        "subpaths": 23
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "mammalian-beasts/line-art/medium/lion_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "lion_line-art-bw_01.svg",
+        "nodes": 1049,
+        "subpaths": 54
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "mammalian-beasts/line-art/medium/red-fox_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-fox_line-art-bw_01.svg",
+        "nodes": 429,
+        "subpaths": 13
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "reptilian-beasts/line-art/medium/green-iguana_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-iguana_line-art-bw_01.svg",
+        "nodes": 786,
+        "subpaths": 60
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "reptilian-beasts/line-art/medium/king-cobra_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "king-cobra_line-art-bw_01.svg",
+        "nodes": 604,
+        "subpaths": 59
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "reptilian-beasts/line-art/medium/komodo-dragon_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "komodo-dragon_line-art-bw_01.svg",
+        "nodes": 497,
+        "subpaths": 23
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "reptilian-beasts/line-art/medium/panther-chameleon_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "panther-chameleon_line-art-bw_01.svg",
+        "nodes": 488,
+        "subpaths": 37
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "reptilian-beasts/line-art/medium/saltwater-crocodile_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "saltwater-crocodile_line-art-bw_01.svg",
+        "nodes": 627,
+        "subpaths": 34
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569964
+  },
+  "aquatic-beasts/low-poly/medium/blue-whale_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "blue-whale_low-poly-bw_01.svg",
+        "nodes": 677,
+        "subpaths": 54
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "aquatic-beasts/low-poly/medium/hammerhead-shark_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hammerhead-shark_low-poly-bw_01.svg",
+        "nodes": 866,
+        "subpaths": 57
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "aquatic-beasts/low-poly/medium/manta-ray_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "manta-ray_low-poly-bw_01.svg",
+        "nodes": 751,
+        "subpaths": 50
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "aquatic-beasts/low-poly/medium/great-white-shark_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "great-white-shark_low-poly-bw_01.svg",
+        "nodes": 859,
+        "subpaths": 83
+      }
+    },
+    "secs": 0.13,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "aquatic-beasts/low-poly/medium/orca_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "orca_low-poly-bw_01.svg",
+        "nodes": 168,
+        "subpaths": 8
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "avian-beasts/low-poly/medium/scarlet-macaw_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "scarlet-macaw_low-poly-bw_01.svg",
+        "nodes": 415,
+        "subpaths": 29
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "avian-beasts/low-poly/medium/flamingo_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "flamingo_low-poly-bw_01.svg",
+        "nodes": 542,
+        "subpaths": 45
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "avian-beasts/low-poly/medium/bald-eagle_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bald-eagle_low-poly-bw_01.svg",
+        "nodes": 801,
+        "subpaths": 48
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "avian-beasts/low-poly/medium/shoebill_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "shoebill_low-poly-bw_01.svg",
+        "nodes": 1151,
+        "subpaths": 70
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "avian-beasts/low-poly/medium/snowy-owl_low-poly-bw_01.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "snowy-owl_low-poly-bw_01.svg",
+        "nodes": 674,
+        "subpaths": 75
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "insecta-beasts/low-poly/medium/dragonfly_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dragonfly_low-poly-bw_01.svg",
+        "nodes": 1919,
+        "subpaths": 196
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "insecta-beasts/low-poly/medium/hercules-beetle_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hercules-beetle_low-poly-bw_01.svg",
+        "nodes": 1157,
+        "subpaths": 97
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "insecta-beasts/low-poly/medium/monarch-butterfly_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "monarch-butterfly_low-poly-bw_01.svg",
+        "nodes": 1269,
+        "subpaths": 111
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "insecta-beasts/low-poly/medium/praying-mantis_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "praying-mantis_low-poly-bw_01.svg",
+        "nodes": 851,
+        "subpaths": 56
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "insecta-beasts/low-poly/medium/stag-beetle_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "stag-beetle_low-poly-bw_01.svg",
+        "nodes": 868,
+        "subpaths": 102
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "mammalian-beasts/low-poly/medium/african-elephant_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-elephant_low-poly-bw_01.svg",
+        "nodes": 1583,
+        "subpaths": 117
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "mammalian-beasts/low-poly/medium/lion_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "lion_low-poly-bw_01.svg",
+        "nodes": 993,
+        "subpaths": 100
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "mammalian-beasts/low-poly/medium/gray-wolf_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gray-wolf_low-poly-bw_01.svg",
+        "nodes": 654,
+        "subpaths": 44
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "mammalian-beasts/low-poly/medium/mountain-gorilla_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mountain-gorilla_low-poly-bw_01.svg",
+        "nodes": 920,
+        "subpaths": 69
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "mammalian-beasts/low-poly/medium/red-fox_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-fox_low-poly-bw_01.svg",
+        "nodes": 481,
+        "subpaths": 42
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "reptilian-beasts/low-poly/medium/komodo-dragon_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "komodo-dragon_low-poly-bw_01.svg",
+        "nodes": 1005,
+        "subpaths": 50
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "reptilian-beasts/low-poly/medium/king-cobra_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "king-cobra_low-poly-bw_01.svg",
+        "nodes": 901,
+        "subpaths": 53
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "reptilian-beasts/low-poly/medium/green-iguana_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-iguana_low-poly-bw_01.svg",
+        "nodes": 1219,
+        "subpaths": 103
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "reptilian-beasts/low-poly/medium/panther-chameleon_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "panther-chameleon_low-poly-bw_01.svg",
+        "nodes": 1552,
+        "subpaths": 128
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "reptilian-beasts/low-poly/medium/saltwater-crocodile_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "saltwater-crocodile_low-poly-bw_01.svg",
+        "nodes": 1659,
+        "subpaths": 155
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782569965
+  },
+  "aquatic-beasts/stencil/medium/manta-ray_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "manta-ray_stencil-bw_01.svg",
+        "nodes": 99,
+        "subpaths": 11
+      }
+    },
+    "secs": 0.17,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "aquatic-beasts/stencil/medium/blue-whale_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "blue-whale_stencil-bw_01.svg",
+        "nodes": 73,
+        "subpaths": 5
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "aquatic-beasts/stencil/medium/hammerhead-shark_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hammerhead-shark_stencil-bw_01.svg",
+        "nodes": 111,
+        "subpaths": 9
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "aquatic-beasts/stencil/medium/great-white-shark_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "great-white-shark_stencil-bw_01.svg",
+        "nodes": 100,
+        "subpaths": 8
+      }
+    },
+    "secs": 0.18,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "aquatic-beasts/stencil/medium/orca_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "orca_stencil-bw_01.svg",
+        "nodes": 58,
+        "subpaths": 3
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "avian-beasts/stencil/medium/flamingo_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "flamingo_stencil-bw_01.svg",
+        "nodes": 73,
+        "subpaths": 5
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "avian-beasts/stencil/medium/scarlet-macaw_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "scarlet-macaw_stencil-bw_01.svg",
+        "nodes": 148,
+        "subpaths": 14
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "avian-beasts/stencil/medium/bald-eagle_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bald-eagle_stencil-bw_01.svg",
+        "nodes": 165,
+        "subpaths": 5
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "avian-beasts/stencil/medium/shoebill_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "shoebill_stencil-bw_01.svg",
+        "nodes": 188,
+        "subpaths": 15
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "avian-beasts/stencil/medium/snowy-owl_stencil-bw_01.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "snowy-owl_stencil-bw_01.svg",
+        "nodes": 213,
+        "subpaths": 13
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "insecta-beasts/stencil/medium/hercules-beetle_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hercules-beetle_stencil-bw_01.svg",
+        "nodes": 269,
+        "subpaths": 25
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "insecta-beasts/stencil/medium/dragonfly_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dragonfly_stencil-bw_01.svg",
+        "nodes": 645,
+        "subpaths": 90
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "insecta-beasts/stencil/medium/praying-mantis_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "praying-mantis_stencil-bw_01.svg",
+        "nodes": 165,
+        "subpaths": 12
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "insecta-beasts/stencil/medium/monarch-butterfly_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "monarch-butterfly_stencil-bw_01.svg",
+        "nodes": 518,
+        "subpaths": 98
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "insecta-beasts/stencil/medium/stag-beetle_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "stag-beetle_stencil-bw_01.svg",
+        "nodes": 263,
+        "subpaths": 24
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "mammalian-beasts/stencil/medium/african-elephant_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-elephant_stencil-bw_01.svg",
+        "nodes": 166,
+        "subpaths": 11
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "mammalian-beasts/stencil/medium/gray-wolf_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gray-wolf_stencil-bw_01.svg",
+        "nodes": 331,
+        "subpaths": 13
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "mammalian-beasts/stencil/medium/lion_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "lion_stencil-bw_01.svg",
+        "nodes": 393,
+        "subpaths": 21
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "mammalian-beasts/stencil/medium/mountain-gorilla_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mountain-gorilla_stencil-bw_01.svg",
+        "nodes": 236,
+        "subpaths": 12
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "mammalian-beasts/stencil/medium/red-fox_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-fox_stencil-bw_01.svg",
+        "nodes": 144,
+        "subpaths": 8
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "reptilian-beasts/stencil/medium/green-iguana_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-iguana_stencil-bw_01.svg",
+        "nodes": 347,
+        "subpaths": 16
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "reptilian-beasts/stencil/medium/king-cobra_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "king-cobra_stencil-bw_01.svg",
+        "nodes": 250,
+        "subpaths": 23
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "reptilian-beasts/stencil/medium/komodo-dragon_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "komodo-dragon_stencil-bw_01.svg",
+        "nodes": 173,
+        "subpaths": 7
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "reptilian-beasts/stencil/medium/panther-chameleon_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "panther-chameleon_stencil-bw_01.svg",
+        "nodes": 241,
+        "subpaths": 14
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  },
+  "reptilian-beasts/stencil/medium/saltwater-crocodile_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "saltwater-crocodile_stencil-bw_01.svg",
+        "nodes": 310,
+        "subpaths": 11
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1782583096
+  }
+}

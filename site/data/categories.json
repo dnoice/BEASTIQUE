@@ -1,0 +1,72 @@
+[
+  {
+    "id": "aquatic",
+    "name": "Aquatic",
+    "tagline": "Guardians of the Deep",
+    "description": "From ancient sturgeon to vanishing reef dwellers, the oceans hold creatures that predate our species by millions of years. We drain their seas, poison their waters, and harvest their bodies for luxury goods. What surfaces is extinction.",
+    "colors": {
+      "primary": "#143a52",
+      "accent": "#d4565c",
+      "bg": "#0a1628",
+      "text": "#f5f0e8"
+    },
+    "heroSpecies": "beluga-sturgeon",
+    "imageDir": "assets/images/aquatic/"
+  },
+  {
+    "id": "avian",
+    "name": "Avian",
+    "tagline": "Voices of the Vanishing Sky",
+    "description": "They mapped the Earth before we drew our first border. Migratory routes carved over millennia are severed by glass towers, poisoned fields, and stripped forests. Each silenced song is a frequency the planet will never recover.",
+    "colors": {
+      "primary": "#2a3a4a",
+      "accent": "#7eb8c9",
+      "bg": "#0c1420",
+      "text": "#e8eef2"
+    },
+    "heroSpecies": "philippine-eagle",
+    "imageDir": "assets/images/avian/"
+  },
+  {
+    "id": "insecta",
+    "name": "Insecta",
+    "tagline": "The Invisible Architecture of Life",
+    "description": "They pollinate our crops, decompose our waste, and feed the chains that sustain every ecosystem on Earth. We repay them with pesticides, monocultures, and light pollution. The collapse of insect populations is not a warning. It is an earthquake beneath our feet.",
+    "colors": {
+      "primary": "#3a4a2a",
+      "accent": "#c9a84e",
+      "bg": "#0a1208",
+      "text": "#f0e8d6"
+    },
+    "heroSpecies": "monarch-butterfly",
+    "imageDir": "assets/images/insecta/"
+  },
+  {
+    "id": "mammalian",
+    "name": "Mammalian",
+    "tagline": "Bloodlines Running Out",
+    "description": "The megafauna we share this planet with are disappearing at a rate not seen since the end of the Pleistocene. Poaching, habitat fragmentation, and climate destabilization are erasing species that took millions of years to evolve. Every extinction is a closed door we cannot reopen.",
+    "colors": {
+      "primary": "#4a3526",
+      "accent": "#d4944a",
+      "bg": "#0a0806",
+      "text": "#f0e6d6"
+    },
+    "heroSpecies": "amur-leopard",
+    "imageDir": "assets/images/mammalian/"
+  },
+  {
+    "id": "reptilian",
+    "name": "Reptilian",
+    "tagline": "Ancient Scales, Modern Graves",
+    "description": "Survivors of every mass extinction event in Earth's history now face one they cannot outlast. Habitat destruction, illegal trade, and climate change are dismantling lineages that stretch back to the age of dinosaurs. The oldest blueprints on Earth are being shredded.",
+    "colors": {
+      "primary": "#2a4a3a",
+      "accent": "#8fae6e",
+      "bg": "#080c0a",
+      "text": "#e0eed6"
+    },
+    "heroSpecies": "komodo-dragon",
+    "imageDir": "assets/images/reptilian/"
+  }
+]

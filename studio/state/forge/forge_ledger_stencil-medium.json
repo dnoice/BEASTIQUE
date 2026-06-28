@@ -1,0 +1,377 @@
+{
+  "BQ-STEN-AQU-003__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\stencil\\medium\\manta-ray_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 38.12,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 213,
+      "output_tokens": 1372,
+      "total_tokens": 1585
+    },
+    "ts": 1782570170
+  },
+  "BQ-STEN-AQU-001__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\stencil\\medium\\blue-whale_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 38.83,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 219,
+      "output_tokens": 1372,
+      "total_tokens": 1591
+    },
+    "ts": 1782570170
+  },
+  "BQ-STEN-AQU-004__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\stencil\\medium\\orca_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.46,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 217,
+      "output_tokens": 1372,
+      "total_tokens": 1589
+    },
+    "ts": 1782570171
+  },
+  "BQ-STEN-AQU-002__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\stencil\\medium\\great-white-shark_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 40.37,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 222,
+      "output_tokens": 1372,
+      "total_tokens": 1594
+    },
+    "ts": 1782570172
+  },
+  "BQ-STEN-AQU-005__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\stencil\\medium\\hammerhead-shark_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 32.59,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 208,
+      "output_tokens": 1372,
+      "total_tokens": 1580
+    },
+    "ts": 1782570202
+  },
+  "BQ-STEN-AVI-003__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\stencil\\medium\\flamingo_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 30.4,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 232,
+      "output_tokens": 1372,
+      "total_tokens": 1604
+    },
+    "ts": 1782570202
+  },
+  "BQ-STEN-AVI-001__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\stencil\\medium\\bald-eagle_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 37.75,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 216,
+      "output_tokens": 1372,
+      "total_tokens": 1588
+    },
+    "ts": 1782570208
+  },
+  "BQ-STEN-AVI-002__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\stencil\\medium\\snowy-owl_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 37.61,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 223,
+      "output_tokens": 1372,
+      "total_tokens": 1595
+    },
+    "ts": 1782570209
+  },
+  "BQ-STEN-AVI-004__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\stencil\\medium\\scarlet-macaw_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 34.38,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 223,
+      "output_tokens": 1372,
+      "total_tokens": 1595
+    },
+    "ts": 1782570237
+  },
+  "BQ-STEN-AVI-005__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\stencil\\medium\\shoebill_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.44,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 217,
+      "output_tokens": 1372,
+      "total_tokens": 1589
+    },
+    "ts": 1782570242
+  },
+  "BQ-STEN-INS-002__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\stencil\\medium\\hercules-beetle_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 37.01,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 227,
+      "output_tokens": 1372,
+      "total_tokens": 1599
+    },
+    "ts": 1782570246
+  },
+  "BQ-STEN-INS-001__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\stencil\\medium\\monarch-butterfly_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 39.08,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 220,
+      "output_tokens": 1372,
+      "total_tokens": 1592
+    },
+    "ts": 1782570247
+  },
+  "BQ-STEN-INS-003__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\stencil\\medium\\praying-mantis_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 33.59,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 217,
+      "output_tokens": 1372,
+      "total_tokens": 1589
+    },
+    "ts": 1782570270
+  },
+  "BQ-STEN-INS-004__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\stencil\\medium\\dragonfly_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 35.86,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 217,
+      "output_tokens": 1372,
+      "total_tokens": 1589
+    },
+    "ts": 1782570278
+  },
+  "BQ-STEN-INS-005__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\stencil\\medium\\stag-beetle_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 35.28,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 220,
+      "output_tokens": 1372,
+      "total_tokens": 1592
+    },
+    "ts": 1782570281
+  },
+  "BQ-STEN-MAM-001__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\stencil\\medium\\gray-wolf_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 38.24,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 214,
+      "output_tokens": 1372,
+      "total_tokens": 1586
+    },
+    "ts": 1782570286
+  },
+  "BQ-STEN-MAM-003__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\stencil\\medium\\red-fox_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 33.92,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 203,
+      "output_tokens": 1372,
+      "total_tokens": 1575
+    },
+    "ts": 1782570312
+  },
+  "BQ-STEN-MAM-002__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\stencil\\medium\\lion_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 43.37,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 220,
+      "output_tokens": 1372,
+      "total_tokens": 1592
+    },
+    "ts": 1782570314
+  },
+  "BQ-STEN-MAM-004__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\stencil\\medium\\african-elephant_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 34.88,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 210,
+      "output_tokens": 1372,
+      "total_tokens": 1582
+    },
+    "ts": 1782570316
+  },
+  "BQ-STEN-MAM-005__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\stencil\\medium\\mountain-gorilla_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 37.37,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 216,
+      "output_tokens": 1372,
+      "total_tokens": 1588
+    },
+    "ts": 1782570323
+  },
+  "BQ-STEN-REP-001__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\stencil\\medium\\panther-chameleon_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 37.87,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 227,
+      "output_tokens": 1372,
+      "total_tokens": 1599
+    },
+    "ts": 1782570350
+  },
+  "BQ-STEN-REP-002__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\stencil\\medium\\komodo-dragon_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 36.0,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 220,
+      "output_tokens": 1372,
+      "total_tokens": 1592
+    },
+    "ts": 1782570350
+  },
+  "BQ-STEN-REP-004__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\stencil\\medium\\saltwater-crocodile_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 38.34,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 224,
+      "output_tokens": 1372,
+      "total_tokens": 1596
+    },
+    "ts": 1782570361
+  },
+  "BQ-STEN-REP-003__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\stencil\\medium\\king-cobra_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 53.18,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 216,
+      "output_tokens": 1372,
+      "total_tokens": 1588
+    },
+    "ts": 1782570369
+  },
+  "BQ-STEN-REP-005__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\stencil\\medium\\green-iguana_stencil-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 37.46,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 232,
+      "output_tokens": 1372,
+      "total_tokens": 1604
+    },
+    "ts": 1782570387
+  }
+}

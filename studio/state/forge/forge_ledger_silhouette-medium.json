@@ -1,0 +1,377 @@
+{
+  "BQ-SILH-AQU-002__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\silhouette\\medium\\great-white-shark_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 29.09,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 200,
+      "output_tokens": 1372,
+      "total_tokens": 1572
+    },
+    "ts": 1782536503
+  },
+  "BQ-SILH-AQU-003__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\silhouette\\medium\\manta-ray_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 29.48,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 188,
+      "output_tokens": 1372,
+      "total_tokens": 1560
+    },
+    "ts": 1782536504
+  },
+  "BQ-SILH-AQU-001__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\silhouette\\medium\\blue-whale_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 30.07,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 202,
+      "output_tokens": 1372,
+      "total_tokens": 1574
+    },
+    "ts": 1782536504
+  },
+  "BQ-SILH-AQU-004__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\silhouette\\medium\\orca_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 30.82,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 215,
+      "output_tokens": 1372,
+      "total_tokens": 1587
+    },
+    "ts": 1782536505
+  },
+  "BQ-SILH-AQU-005__v1": {
+    "status": "done",
+    "file": "collections\\aquatic-beasts\\silhouette\\medium\\hammerhead-shark_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 31.29,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 197,
+      "output_tokens": 1372,
+      "total_tokens": 1569
+    },
+    "ts": 1782536535
+  },
+  "BQ-SILH-AVI-001__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\silhouette\\medium\\bald-eagle_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 31.31,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 196,
+      "output_tokens": 1372,
+      "total_tokens": 1568
+    },
+    "ts": 1782536535
+  },
+  "BQ-SILH-AVI-002__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\silhouette\\medium\\snowy-owl_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 31.56,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 191,
+      "output_tokens": 1372,
+      "total_tokens": 1563
+    },
+    "ts": 1782536536
+  },
+  "BQ-SILH-AVI-003__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\silhouette\\medium\\flamingo_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 34.06,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 199,
+      "output_tokens": 1372,
+      "total_tokens": 1571
+    },
+    "ts": 1782536539
+  },
+  "BQ-SILH-AVI-004__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\silhouette\\medium\\scarlet-macaw_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 32.97,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 190,
+      "output_tokens": 1372,
+      "total_tokens": 1562
+    },
+    "ts": 1782536568
+  },
+  "BQ-SILH-AVI-005__v1": {
+    "status": "done",
+    "file": "collections\\avian-beasts\\silhouette\\medium\\shoebill_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 32.77,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 190,
+      "output_tokens": 1372,
+      "total_tokens": 1562
+    },
+    "ts": 1782536568
+  },
+  "BQ-SILH-INS-001__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\silhouette\\medium\\monarch-butterfly_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 34.73,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 203,
+      "output_tokens": 1372,
+      "total_tokens": 1575
+    },
+    "ts": 1782536571
+  },
+  "BQ-SILH-INS-002__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\silhouette\\medium\\hercules-beetle_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 34.25,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 187,
+      "output_tokens": 1372,
+      "total_tokens": 1559
+    },
+    "ts": 1782536573
+  },
+  "BQ-SILH-INS-004__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\silhouette\\medium\\dragonfly_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 31.31,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 195,
+      "output_tokens": 1372,
+      "total_tokens": 1567
+    },
+    "ts": 1782536599
+  },
+  "BQ-SILH-INS-003__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\silhouette\\medium\\praying-mantis_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 31.6,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 197,
+      "output_tokens": 1372,
+      "total_tokens": 1569
+    },
+    "ts": 1782536599
+  },
+  "BQ-SILH-INS-005__v1": {
+    "status": "done",
+    "file": "collections\\insecta-beasts\\silhouette\\medium\\stag-beetle_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 32.66,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 188,
+      "output_tokens": 1372,
+      "total_tokens": 1560
+    },
+    "ts": 1782536603
+  },
+  "BQ-SILH-MAM-001__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\silhouette\\medium\\gray-wolf_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 30.27,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 193,
+      "output_tokens": 1372,
+      "total_tokens": 1565
+    },
+    "ts": 1782536604
+  },
+  "BQ-SILH-MAM-003__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\silhouette\\medium\\red-fox_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 31.67,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 199,
+      "output_tokens": 1372,
+      "total_tokens": 1571
+    },
+    "ts": 1782536631
+  },
+  "BQ-SILH-MAM-002__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\silhouette\\medium\\lion_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 32.31,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 198,
+      "output_tokens": 1372,
+      "total_tokens": 1570
+    },
+    "ts": 1782536632
+  },
+  "BQ-SILH-MAM-005__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\silhouette\\medium\\mountain-gorilla_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 32.29,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 204,
+      "output_tokens": 1372,
+      "total_tokens": 1576
+    },
+    "ts": 1782536636
+  },
+  "BQ-SILH-MAM-004__v1": {
+    "status": "done",
+    "file": "collections\\mammalian-beasts\\silhouette\\medium\\african-elephant_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 45.88,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 190,
+      "output_tokens": 1372,
+      "total_tokens": 1562
+    },
+    "ts": 1782536649
+  },
+  "BQ-SILH-REP-002__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\silhouette\\medium\\komodo-dragon_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 32.0,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 201,
+      "output_tokens": 1372,
+      "total_tokens": 1573
+    },
+    "ts": 1782536664
+  },
+  "BQ-SILH-REP-003__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\silhouette\\medium\\king-cobra_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 30.16,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 209,
+      "output_tokens": 1372,
+      "total_tokens": 1581
+    },
+    "ts": 1782536666
+  },
+  "BQ-SILH-REP-001__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\silhouette\\medium\\panther-chameleon_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 35.87,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 205,
+      "output_tokens": 1372,
+      "total_tokens": 1577
+    },
+    "ts": 1782536667
+  },
+  "BQ-SILH-REP-004__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\silhouette\\medium\\saltwater-crocodile_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 30.12,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 209,
+      "output_tokens": 1372,
+      "total_tokens": 1581
+    },
+    "ts": 1782536679
+  },
+  "BQ-SILH-REP-005__v1": {
+    "status": "done",
+    "file": "collections\\reptilian-beasts\\silhouette\\medium\\green-iguana_silhouette-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "size": "1536x1024",
+    "secs": 36.57,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 213,
+      "output_tokens": 1372,
+      "total_tokens": 1585
+    },
+    "ts": 1782536700
+  }
+}

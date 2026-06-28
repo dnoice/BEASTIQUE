@@ -1,0 +1,66 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * ✒ Metadata
+ *    - Title: Design System Variables (BEASTIQUE Edition - v1.0)
+ *    - File Name: variables.css
+ *    - Relative Path: css/variables.css
+ *    - Artifact Type: config
+ *    - Version: 1.0.0
+ *    - Date: 2025-01-04
+ *    - Update: Saturday, January 04, 2025
+ *    - Author: Dennis 'dnoice' Smaltz
+ *    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+ *    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+ *
+ * ✒ Description:
+ *    CSS custom properties defining the design system for the Beluga Sturgeon
+ *    showcase page. Contains color palette, typography, spacing, and transitions.
+ *
+ * ✒ Key Features:
+ *    - Feature 1: Deep ocean color palette with coral accents
+ *    - Feature 2: Fluid typography scale using clamp()
+ *    - Feature 3: Consistent spacing scale
+ *    - Feature 4: Reusable easing functions
+ *    - Feature 5: Duration tokens for animations
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
+
+:root {
+    /* ─────────────────────────────────────────────────────────────────────────
+       Color Palette — Deep Ocean & Coral
+       ───────────────────────────────────────────────────────────────────────── */
+    --color-abyss: #0a1628;
+    --color-deep: #0d1f35;
+    --color-ocean: #143a52;
+    --color-teal: #1a5f6a;
+    --color-coral: #d4565c;
+    --color-coral-soft: #e07a7f;
+    --color-coral-bright: #ff6b6b;
+    --color-pearl: #f5f0e8;
+    --color-silver: #c4d4dc;
+    --color-foam: rgba(255, 255, 255, 0.08);
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Typography
+       ───────────────────────────────────────────────────────────────────────── */
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'Josefin Sans', 'Helvetica Neue', sans-serif;
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Spacing Scale
+       ───────────────────────────────────────────────────────────────────────── */
+    --space-xs: clamp(0.5rem, 1vw, 0.75rem);
+    --space-sm: clamp(1rem, 2vw, 1.5rem);
+    --space-md: clamp(2rem, 4vw, 3rem);
+    --space-lg: clamp(4rem, 8vw, 6rem);
+    --space-xl: clamp(6rem, 12vw, 10rem);
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Transitions & Easing
+       ───────────────────────────────────────────────────────────────────────── */
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --duration-fast: 200ms;
+    --duration-normal: 400ms;
+    --duration-slow: 800ms;
+}

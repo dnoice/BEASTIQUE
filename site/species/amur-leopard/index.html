@@ -1,0 +1,697 @@
+<!--
+✒ Metadata
+    - Title: Amur Leopard Showcase (BEASTIQUE Edition - v1.0)
+    - File Name: index.html
+    - Relative Path: index.html
+    - Artifact Type: other
+    - Version: 1.0.0
+    - Date: 2026-02-17
+    - Update: Tuesday, February 17, 2026
+    - Author: Dennis 'dnoice' Smaltz
+    - A.I. Acknowledgement: Anthropic - Claude Opus 4.6
+    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+
+✒ Description:
+    A stunning, immersive webpage dedicated to the Amur leopard (Panthera pardus orientalis).
+    Features a dramatic hero section with falling snow, animated facts, and advanced CSS/JS
+    techniques. Designed with a warm Siberian twilight aesthetic honoring this critically
+    endangered big cat — the rarest in the world.
+
+✒ Key Features:
+    - Feature 1: Dramatic hero section with parallax depth effect
+    - Feature 2: Custom SVG icons throughout (no emojis)
+    - Feature 3: Scroll-triggered animations using Intersection Observer
+    - Feature 4: Advanced CSS gradients and backdrop filters
+    - Feature 5: Fluid typography scaling with clamp()
+    - Feature 6: Falling snowflake particles reflecting Siberian habitat
+    - Feature 7: Staggered reveal animations on page load
+    - Feature 8: Responsive design with mobile-first approach
+    - Feature 9: CSS custom properties for theming consistency
+    - Feature 10: Animated SVG wave patterns
+    - Feature 11: Modular CSS architecture
+    - Feature 12: ES Module JavaScript structure
+
+✒ Other Important Information:
+    - Dependencies: None (vanilla HTML/CSS/JS)
+    - Compatible platforms: Modern browsers (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)
+    - Accessibility: Reduced motion support, semantic HTML
+    - Performance notes: Hardware-accelerated animations, optimized repaints
+---------
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amur Leopard — Ghost of the Siberian Forest</title>
+
+    <!-- Google Fonts: Distinctive Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main navigation">
+        <div class="container nav__inner">
+            <a href="../../index.html" class="nav__logo">
+                <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+                    <path d="M20 4L8 14v16l12 8 12-8V14L20 4z"/>
+                    <path d="M20 10l-6 5v8l6 4 6-4v-8l-6-5z" stroke-width="0.8" opacity="0.6"/>
+                    <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.8"/>
+                </svg>
+                <span class="nav__logo-text">BEASTIQUE</span>
+            </a>
+            <div class="nav__breadcrumb">
+                <a href="../../index.html">Home</a>
+                <span class="nav__breadcrumb-sep">/</span>
+                <a href="../../categories/mammalian.html">Mammalian</a>
+                <span class="nav__breadcrumb-sep">/</span>
+                <span>Amur Leopard</span>
+            </div>
+            <ul class="nav__links">
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#facts" class="nav__link">Facts</a></li>
+                <li><a href="#conservation" class="nav__link">Conservation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Ambient Snowfall — persists across entire page, falls from nav -->
+    <div class="ambient-snow" id="ambient-snow" aria-hidden="true"></div>
+
+    <!-- Main Content -->
+    <main id="main">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Hero">
+        <div class="hero__snowflakes" id="snowflakes"></div>
+
+        <div class="hero__image-container">
+            <img src="assets/hero.png"
+                alt="Amur leopard in a snowy Siberian forest, golden spotted coat against white landscape"
+                class="hero__image">
+        </div>
+
+        <!-- Title Block - Top left, over image -->
+        <div class="hero__title-block">
+            <h1 class="hero__title">Amur <span>Leopard</span></h1>
+            <p class="hero__subtitle">Panthera pardus orientalis</p>
+        </div>
+
+        <!-- Description Block - Bottom right -->
+        <div class="hero__desc-block">
+            <p>
+                The rarest big cat on Earth, silently stalking the frozen forests
+                of the Russian Far East. Fewer than 120 remain in the wild —
+                a ghost clinging to existence in a vanishing world.
+            </p>
+            <a href="#facts" class="hero__cta">
+                <span>Discover More</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+
+        <!-- Wave Divider -->
+        <div class="hero__wave-divider" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="var(--color-shadow)">
+                <path d="M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z" />
+            </svg>
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="var(--color-shadow)">
+                <path d="M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" aria-label="Key statistics">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stat" data-animate>
+                    <div class="stat__icon">
+                        <!-- Population icon -->
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <circle cx="24" cy="14" r="8" />
+                            <path d="M8 42c0-8 7-14 16-14s16 6 16 14" />
+                            <circle cx="38" cy="18" r="5" />
+                            <path d="M42 42c0-5-3-9-7-10" />
+                        </svg>
+                    </div>
+                    <div class="stat__number">~120</div>
+                    <div class="stat__label">Wild Population</div>
+                </div>
+                <div class="stat" data-animate>
+                    <div class="stat__icon">
+                        <!-- Speed icon -->
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <circle cx="24" cy="24" r="18" />
+                            <path d="M24 12v12l10 6" />
+                            <path d="M14 8l2 4M34 8l-2 4" />
+                        </svg>
+                    </div>
+                    <div class="stat__number">37mph</div>
+                    <div class="stat__label">Top Speed</div>
+                </div>
+                <div class="stat" data-animate>
+                    <div class="stat__icon">
+                        <!-- Leap icon -->
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M6 38c8-2 12-20 18-24s12-2 18 4" />
+                            <path d="M6 38h36" />
+                            <path d="M38 18l4-4M38 18l4 2" />
+                        </svg>
+                    </div>
+                    <div class="stat__number">19ft</div>
+                    <div class="stat__label">Leap Distance</div>
+                </div>
+                <div class="stat" data-animate>
+                    <div class="stat__icon">
+                        <!-- Lifespan icon -->
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M24 4v4M24 40v4M4 24h4M40 24h4" />
+                            <circle cx="24" cy="24" r="16" />
+                            <path d="M24 14v10l7 7" />
+                        </svg>
+                    </div>
+                    <div class="stat__number">15</div>
+                    <div class="stat__label">Years Lifespan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__content" data-animate>
+                    <div class="about__label">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M12 2l2 7h7l-6 4 2 7-6-4-6 4 2-7-6-4h7z" />
+                        </svg>
+                        Species Profile
+                    </div>
+                    <h2 class="about__title">Siberia's Rarest Predator</h2>
+                    <p class="about__text">
+                        The Amur leopard (<em>Panthera pardus orientalis</em>) is the world's
+                        rarest big cat and one of the most endangered animals on Earth. Named
+                        after the Amur River that marks the border between Russia and China,
+                        this solitary predator roams the temperate forests of Primorsky Krai
+                        in the Russian Far East.
+                    </p>
+                    <p class="about__text">
+                        Unlike its African and Indian cousins, the Amur leopard has adapted
+                        to life in one of the harshest climates any big cat endures. It grows
+                        a thick, pale coat in winter — up to 7 centimeters long — that
+                        lightens to blend with snow-covered landscapes. Its legs are
+                        proportionally longer than other leopard subspecies, an adaptation
+                        for wading through deep snow.
+                    </p>
+                    <p class="about__text">
+                        Each Amur leopard carries a unique pattern of rosettes — irregular
+                        dark rings with lighter centers — that serves as a natural fingerprint.
+                        Researchers use these patterns to identify and track individuals in
+                        camera trap surveys across the leopard's remaining range.
+                    </p>
+                </div>
+                <div class="about__visual" data-animate>
+                    <div class="about__taxonomy">
+                        <div class="about__taxonomy-header">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor"
+                                stroke-width="1.5" aria-hidden="true">
+                                <rect x="6" y="6" width="36" height="36" rx="4" />
+                                <path d="M6 18h36M18 18v24" />
+                                <circle cx="12" cy="12" r="2" />
+                            </svg>
+                            <h3>Scientific Classification</h3>
+                        </div>
+                        <ul class="about__taxonomy-list">
+                            <li class="about__taxonomy-item">
+                                <span class="about__taxonomy-key">Kingdom</span>
+                                <span class="about__taxonomy-value">Animalia</span>
+                            </li>
+                            <li class="about__taxonomy-item">
+                                <span class="about__taxonomy-key">Phylum</span>
+                                <span class="about__taxonomy-value">Chordata</span>
+                            </li>
+                            <li class="about__taxonomy-item">
+                                <span class="about__taxonomy-key">Class</span>
+                                <span class="about__taxonomy-value">Mammalia</span>
+                            </li>
+                            <li class="about__taxonomy-item">
+                                <span class="about__taxonomy-key">Order</span>
+                                <span class="about__taxonomy-value">Carnivora</span>
+                            </li>
+                            <li class="about__taxonomy-item">
+                                <span class="about__taxonomy-key">Family</span>
+                                <span class="about__taxonomy-value">Felidae</span>
+                            </li>
+                            <li class="about__taxonomy-item">
+                                <span class="about__taxonomy-key">Genus</span>
+                                <span class="about__taxonomy-value">Panthera</span>
+                            </li>
+                            <li class="about__taxonomy-item">
+                                <span class="about__taxonomy-key">Species</span>
+                                <span class="about__taxonomy-value">P. pardus</span>
+                            </li>
+                            <li class="about__taxonomy-item">
+                                <span class="about__taxonomy-key">Subspecies</span>
+                                <span class="about__taxonomy-value">P. p. orientalis</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facts Section -->
+    <section class="facts" id="facts">
+        <div class="container">
+            <header class="facts__header" data-animate>
+                <div class="facts__label">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M12 6v6l4 2" />
+                    </svg>
+                    Remarkable Facts
+                </div>
+                <h2>Predator Unveiled</h2>
+            </header>
+
+            <div class="facts__list">
+                <!-- Fact 1: Ghost of the Forest -->
+                <article class="fact" data-animate>
+                    <div class="fact__rosette">
+                        <div class="fact__rosette-ring"></div>
+                        <div class="fact__rosette-gallery" data-gallery>
+                            <img src="assets/images/facts/fact-01-ghost-of-the-forest.png"
+                                alt="Amur leopard eyes glowing from total forest darkness"
+                                class="fact__rosette-img fact__rosette-img--active"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-01-alt-a-camera-trap-snapshot.png"
+                                alt="Amur leopard caught by infrared camera trap in snowy forest"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-01-alt-b-territory-map.png"
+                                alt="Aerial view of leopard patrol route through dark Siberian forest"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                        </div>
+                        <div class="fact__rosette-dots" aria-hidden="true">
+                            <span class="fact__rosette-dot fact__rosette-dot--active"></span>
+                            <span class="fact__rosette-dot"></span>
+                            <span class="fact__rosette-dot"></span>
+                        </div>
+                    </div>
+                    <div class="fact__content">
+                        <div class="fact__number">Fact 01</div>
+                        <h3 class="fact__title">Ghost of the Forest</h3>
+                        <p class="fact__desc">
+                            The Amur leopard is one of the most elusive predators on the planet.
+                            Strictly nocturnal and fiercely solitary, it patrols territories of
+                            up to 120 square miles through dense taiga forest. Camera traps remain
+                            the primary means of studying these phantoms — some individuals go
+                            years without a single confirmed sighting by human eyes.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 2: Olympic Athlete -->
+                <article class="fact" data-animate>
+                    <div class="fact__rosette">
+                        <div class="fact__rosette-ring"></div>
+                        <div class="fact__rosette-gallery" data-gallery>
+                            <img src="assets/images/facts/fact-02-olympic-athlete.png"
+                                alt="Amur leopard frozen mid-leap, fully airborne between snow-dusted boulders"
+                                class="fact__rosette-img fact__rosette-img--active"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-02-alt-a-vertical-ascent.png"
+                                alt="Amur leopard leaping vertically up a birch tree trunk, paws outstretched"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-02-alt-b-speed-ghost.png"
+                                alt="Triple-exposure of an Amur leopard in three phases of a full-speed sprint"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                        </div>
+                        <div class="fact__rosette-dots" aria-hidden="true">
+                            <span class="fact__rosette-dot fact__rosette-dot--active"></span>
+                            <span class="fact__rosette-dot"></span>
+                            <span class="fact__rosette-dot"></span>
+                        </div>
+                    </div>
+                    <div class="fact__content">
+                        <div class="fact__number">Fact 02</div>
+                        <h3 class="fact__title">Olympic Athlete</h3>
+                        <p class="fact__desc">
+                            Built for explosive power, the Amur leopard can leap up to 19 feet
+                            horizontally and 10 feet vertically from a standing position. At full
+                            sprint, it reaches 37 miles per hour — fast enough to chase down a
+                            deer in open terrain. This combination of agility and raw strength
+                            makes it one of the most formidable ambush predators in the wild.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 3: Unique Identity -->
+                <article class="fact" data-animate>
+                    <div class="fact__rosette">
+                        <div class="fact__rosette-ring"></div>
+                        <div class="fact__rosette-gallery" data-gallery>
+                            <img src="assets/images/facts/fact-03-unique-identity.png"
+                                alt="Extreme close-up of Amur leopard flank showing unique rosette pattern in extraordinary detail"
+                                class="fact__rosette-img fact__rosette-img--active"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-03-alt-a-the-database-widescreen-version.png"
+                                alt="Grid of six Amur leopard flank photographs showing different individuals' rosette patterns"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-03-alt-b-fingerprint-parallel.png"
+                                alt="Split comparison of leopard rosette pattern and human fingerprint whorls"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                        </div>
+                        <div class="fact__rosette-dots" aria-hidden="true">
+                            <span class="fact__rosette-dot fact__rosette-dot--active"></span>
+                            <span class="fact__rosette-dot"></span>
+                            <span class="fact__rosette-dot"></span>
+                        </div>
+                    </div>
+                    <div class="fact__content">
+                        <div class="fact__number">Fact 03</div>
+                        <h3 class="fact__title">Unique Identity</h3>
+                        <p class="fact__desc">
+                            Every Amur leopard wears a coat as distinctive as a human fingerprint.
+                            The arrangement of rosettes — irregular dark rings encircling lighter
+                            patches — is unique to each individual. Conservation scientists photograph
+                            both flanks of every leopard encountered, building visual databases that
+                            allow them to identify, track, and monitor the health of the
+                            entire population.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 4: Winter Warrior -->
+                <article class="fact" data-animate>
+                    <div class="fact__rosette">
+                        <div class="fact__rosette-ring"></div>
+                        <div class="fact__rosette-gallery" data-gallery>
+                            <img src="assets/images/facts/fact-04-waroir-winter.png"
+                                alt="Split-season portrait of an Amur leopard — summer coat on the left, pale winter coat on the right"
+                                class="fact__rosette-img fact__rosette-img--active"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-04-alt-a-fur-architecture.png"
+                                alt="Extreme macro cross-section of Amur leopard winter fur showing layered insulating architecture"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-04-alt-b-forty-below.png"
+                                alt="Amur leopard face in deep winter, breath crystallizing with ice clinging to whiskers"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                        </div>
+                        <div class="fact__rosette-dots">
+                            <span class="fact__rosette-dot fact__rosette-dot--active"></span>
+                            <span class="fact__rosette-dot"></span>
+                            <span class="fact__rosette-dot"></span>
+                        </div>
+                    </div>
+                    <div class="fact__content">
+                        <div class="fact__number">Fact 04</div>
+                        <h3 class="fact__title">Winter Warrior</h3>
+                        <p class="fact__desc">
+                            Temperatures in the Amur leopard's homeland plunge to -40&deg;F in
+                            winter. To survive, it grows a dense winter coat up to 7 centimeters
+                            long — more than double its summer fur. This coat shifts from a rich
+                            reddish-yellow in summer to a pale, creamy gold in winter, providing
+                            seasonal camouflage against snow-dusted forests and frozen riverbeds.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 5: Tree Vault -->
+                <article class="fact" data-animate>
+                    <div class="fact__rosette">
+                        <div class="fact__rosette-ring"></div>
+                        <div class="fact__rosette-gallery" data-gallery>
+                            <img src="assets/images/facts/fact-05-tree-vault.png"
+                                alt="Amur leopard perched on a high branch with a sika deer draped beside it"
+                                class="fact__rosette-img fact__rosette-img--active"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-05-alt-a-the-ascent.png"
+                                alt="Amur leopard climbing vertically up a tree trunk while carrying a deer in its jaws"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-05-alt-b-canpoy-larder.png"
+                                alt="Wide silhouette of a bare Siberian tree with a leopard and its prey glowing high in the branches"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                        </div>
+                        <div class="fact__rosette-dots">
+                            <span class="fact__rosette-dot fact__rosette-dot--active"></span>
+                            <span class="fact__rosette-dot"></span>
+                            <span class="fact__rosette-dot"></span>
+                        </div>
+                    </div>
+                    <div class="fact__content">
+                        <div class="fact__number">Fact 05</div>
+                        <h3 class="fact__title">Tree Vault</h3>
+                        <p class="fact__desc">
+                            After making a kill, the Amur leopard drags its prey — often two
+                            to three times its own body weight — high into the branches of a tree.
+                            This extraordinary feat of strength protects the meal from scavengers
+                            like bears and tigers. A single deer carcass cached in the canopy can
+                            sustain a leopard for over a week.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 6: Living Relic -->
+                <article class="fact" data-animate>
+                    <div class="fact__rosette">
+                        <div class="fact__rosette-ring"></div>
+                        <div class="fact__rosette-gallery" data-gallery>
+                            <img src="assets/images/facts/fact-06-living-relic.png"
+                                alt="Amur leopard standing on a snowy ridge with ghostly silhouettes of extinct Pleistocene megafauna fading behind it"
+                                class="fact__rosette-img fact__rosette-img--active"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-06-alt-a-ice-age-ice.png"
+                                alt="Extreme macro of an Amur leopard eye with a Pleistocene landscape reflected in its ice-blue iris"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                            <img src="assets/images/facts/fact-06-alt-b-fossil-and-living.png"
+                                alt="Split composition of a leopard fossil impression in limestone beside a living Amur leopard face"
+                                class="fact__rosette-img"
+                                loading="lazy" width="440" height="440">
+                        </div>
+                        <div class="fact__rosette-dots">
+                            <span class="fact__rosette-dot fact__rosette-dot--active"></span>
+                            <span class="fact__rosette-dot"></span>
+                            <span class="fact__rosette-dot"></span>
+                        </div>
+                    </div>
+                    <div class="fact__content">
+                        <div class="fact__number">Fact 06</div>
+                        <h3 class="fact__title">Living Relic</h3>
+                        <p class="fact__desc">
+                            The Amur leopard's lineage stretches back to the Pleistocene epoch,
+                            when great ice sheets sculpted the land it still calls home. While
+                            saber-toothed cats, cave lions, and woolly mammoths vanished, this
+                            leopard subspecies endured through sheer adaptability. It is the
+                            northernmost leopard population on Earth and the only one evolved
+                            to thrive in boreal snowscapes.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conservation Section -->
+    <section class="conservation" id="conservation">
+        <div class="container">
+            <div class="conservation__inner">
+                <div class="conservation__badge" data-animate>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M12 9v4M12 17h.01" />
+                        <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+                    </svg>
+                    <span>Critically Endangered</span>
+                </div>
+                <h2 class="conservation__title" data-animate>On the Edge of Forever</h2>
+                <p class="conservation__text" data-animate>
+                    With fewer than 120 individuals left in the wild, the Amur leopard holds
+                    the grim distinction of being the world's rarest big cat. Its entire
+                    population is confined to a narrow strip of temperate forest in Russia's
+                    Primorsky Krai and the borderlands of northeastern China &mdash; a range
+                    smaller than most national parks. One disease outbreak, one severe fire
+                    season, or one infrastructure project could erase what remains.
+                </p>
+                <p class="conservation__text" data-animate>
+                    The establishment of Land of the Leopard National Park in 2012 marked
+                    a turning point, uniting fragmented habitat under formal protection.
+                    Camera-trap surveys show numbers have slowly climbed from a low of
+                    roughly 30 in the early 2000s, but the species remains critically
+                    endangered, and long-term survival depends on corridor connectivity,
+                    anti-poaching enforcement, and genetic rescue programs.
+                </p>
+                <div class="conservation__threats" data-animate>
+                    <h3 class="conservation__threats-heading">What Threatens Their Survival</h3>
+                    <div class="conservation__threats-grid">
+                        <a class="threat-tag"
+                            href="https://www.worldwildlife.org/species/amur-leopard"
+                            target="_blank" rel="noopener">
+                            <span class="threat-tag__glyph" aria-hidden="true">N&minus;k</span>
+                            <span class="threat-tag__label">Poaching</span>
+                            <span class="threat-tag__detail">Amur leopard pelts sell on the black market for up to $1,000, making them a high-value target. Anti-poaching patrols have reduced incidents, but illegal hunting remains a persistent threat in border regions.</span>
+                            <span class="threat-tag__source">
+                                World Wildlife Fund
+                                <svg class="threat-tag__source-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                    <path d="M6 3h7v7" />
+                                    <path d="M13 3L6 10" />
+                                </svg>
+                            </span>
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                        <a class="threat-tag"
+                            href="https://www.iucnredlist.org/species/15957/160695029"
+                            target="_blank" rel="noopener">
+                            <span class="threat-tag__glyph" aria-hidden="true">|&Omega;|&darr;</span>
+                            <span class="threat-tag__label">Habitat Loss</span>
+                            <span class="threat-tag__detail">Logging, agricultural expansion, and road construction have fragmented the leopard's forest into isolated patches. Without connected wildlife corridors, populations become stranded in shrinking islands of suitable terrain.</span>
+                            <span class="threat-tag__source">
+                                IUCN Red List
+                                <svg class="threat-tag__source-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                    <path d="M6 3h7v7" />
+                                    <path d="M13 3L6 10" />
+                                </svg>
+                            </span>
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                        <a class="threat-tag"
+                            href="https://link.springer.com/journal/10592"
+                            target="_blank" rel="noopener">
+                            <span class="threat-tag__glyph" aria-hidden="true">N<sub>e</sub>&darr;</span>
+                            <span class="threat-tag__label">Inbreeding</span>
+                            <span class="threat-tag__detail">With fewer than 120 individuals, the gene pool is dangerously shallow. Low genetic diversity weakens immune response and reduces reproductive success, leaving the population vulnerable to disease.</span>
+                            <span class="threat-tag__source">
+                                Conservation Genetics
+                                <svg class="threat-tag__source-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                    <path d="M6 3h7v7" />
+                                    <path d="M13 3L6 10" />
+                                </svg>
+                            </span>
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                        <a class="threat-tag"
+                            href="https://wwf.panda.org/discover/knowledge_hub/endangered_species/big_cats/leopards/amur_leopard/"
+                            target="_blank" rel="noopener">
+                            <span class="threat-tag__glyph" aria-hidden="true">&Delta;&Omega;&lt;&theta;</span>
+                            <span class="threat-tag__label">Forest Fires</span>
+                            <span class="threat-tag__detail">Seasonal fires &mdash; often set deliberately to clear land for farming &mdash; destroy critical habitat and prey populations. A single large blaze in the leopard's small range can undo years of conservation progress.</span>
+                            <span class="threat-tag__source">
+                                WWF Global
+                                <svg class="threat-tag__source-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                    <path d="M6 3h7v7" />
+                                    <path d="M13 3L6 10" />
+                                </svg>
+                            </span>
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                        <a class="threat-tag"
+                            href="https://www.panthera.org/cat/amur-leopard"
+                            target="_blank" rel="noopener">
+                            <span class="threat-tag__glyph" aria-hidden="true">R&darr;</span>
+                            <span class="threat-tag__label">Prey Scarcity</span>
+                            <span class="threat-tag__detail">Declining populations of sika deer, roe deer, and wild boar &mdash; driven by overhunting and habitat loss &mdash; leave leopards without adequate food. Hungry leopards range further and face higher conflict with humans.</span>
+                            <span class="threat-tag__source">
+                                Panthera
+                                <svg class="threat-tag__source-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                    <path d="M6 3h7v7" />
+                                    <path d="M13 3L6 10" />
+                                </svg>
+                            </span>
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Showcase -->
+    <section class="closing" id="closing" aria-label="Closing showcase">
+        <div class="container">
+            <div class="closing__grid">
+                <div class="closing__image-frame" data-animate>
+                    <img src="assets/closing.png"
+                        alt="Amur leopard portrait in golden light, showing distinctive rosette pattern"
+                        class="closing__image" loading="lazy">
+                </div>
+                <div class="closing__quote-block" data-animate>
+                    <blockquote class="closing__quote">
+                        <p>
+                            A hundred souls in a frozen forest, carrying
+                            the last embers of a lineage older than ice —
+                            proof that survival itself is a form of defiance.
+                        </p>
+                        <cite class="closing__cite">In reverence of <em>Panthera pardus orientalis</em></cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <!-- Leopard paw SVG -->
+                        <svg viewBox="0 0 32 32" aria-hidden="true">
+                            <circle cx="10" cy="7" r="3" />
+                            <circle cx="22" cy="7" r="3" />
+                            <circle cx="5" cy="14" r="2.5" />
+                            <circle cx="27" cy="14" r="2.5" />
+                            <ellipse cx="16" cy="21" rx="8" ry="7" />
+                        </svg>
+                        Amur Leopard
+                    </div>
+                    <p class="footer__project">A digiSpace Studios production &mdash; part of the <a href="https://github.com/dnoice/BEASTIQUE">BEASTIQUE</a> Project</p>
+                    <div class="footer__links">
+                        <a href="mailto:densmaltz4@gmail.com" class="footer__link">densmaltz4@gmail.com</a>
+                        <a href="https://github.com/dnoice/BEASTIQUE" target="_blank" rel="noopener" class="footer__link">
+                            dnoice/BEASTIQUE
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__signature">
+                    <p class="footer__sig-line">&#xFE3B;&#x30C7;&#x2550;&#x2500;&#x2500;&#x2500; &#x2726; &#x2726; &#x2726; &#x007C; Aim Twice, Shoot Once!</p>
+                    <p class="footer__sig-desc">The signature <em>"Aim Twice, Shoot Once"</em> is a personal creative
+                        philosophy of precision and intentionality &mdash; measure twice, execute once.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript Module -->
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+<!--
+  BEASTIQUE Species Page Template
+  Copy this directory to species/{species-slug}/ and customize.
+  See SPECIES-GUIDE.md for full documentation.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{Common Name} — {Tagline}</title>
+
+    <!-- Google Fonts: Pick your pair -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main navigation">
+        <div class="container nav__inner">
+            <a href="../../index.html" class="nav__logo">
+                <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+                    <path d="M20 4L8 14v16l12 8 12-8V14L20 4z"/>
+                    <path d="M20 10l-6 5v8l6 4 6-4v-8l-6-5z" stroke-width="0.8" opacity="0.6"/>
+                    <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.8"/>
+                </svg>
+                BEASTIQUE
+            </a>
+            <div class="nav__breadcrumb">
+                <a href="../../index.html">Home</a>
+                <span class="nav__breadcrumb-sep">/</span>
+                <a href="../../categories/{category}.html">{Category Name}</a>
+                <span class="nav__breadcrumb-sep">/</span>
+                <span>{Common Name}</span>
+            </div>
+            <ul class="nav__links">
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#facts" class="nav__link">Facts</a></li>
+                <li><a href="#conservation" class="nav__link">Conservation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Hero">
+        <!-- Non negoitable: species-specific particle container -->
+        <div class="hero__particles" id="particles" aria-hidden="true"></div>
+
+        <div class="hero__image-container">
+            <img src="assets/hero.png"
+                alt="{Common name} — {brief visual description}"
+                class="hero__image">
+        </div>
+
+        <div class="hero__title-block">
+            <h1 class="hero__title">{Common} <span>{Name}</span></h1>
+            <p class="hero__subtitle">{Scientific name}</p>
+        </div>
+
+        <div class="hero__desc-block">
+            <p>{2-3 sentence hero description}</p>
+            <a href="#facts" class="hero__cta">
+                <span>Discover More</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Wave Divider -->
+        <div class="hero__wave-divider" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="var(--color-shadow)">
+                <path d="M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z"/>
+            </svg>
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="var(--color-shadow)">
+                <path d="M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Stats Section (4 key numbers) -->
+    <section class="stats" aria-label="Key statistics">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stat" data-animate>
+                    <div class="stat__icon">
+                        <!-- SVG icon here -->
+                    </div>
+                    <div class="stat__number">{NUMBER}</div>
+                    <div class="stat__label">{Label}</div>
+                </div>
+                <!-- Repeat 3 more stat blocks -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__content" data-animate>
+                    <div class="about__label">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M12 2l2 7h7l-6 4 2 7-6-4-6 4 2-7-6-4h7z"/>
+                        </svg>
+                        Species Profile
+                    </div>
+                    <h2 class="about__title">{About section title}</h2>
+                    <p class="about__text">{Paragraph 1}</p>
+                    <p class="about__text">{Paragraph 2}</p>
+                    <p class="about__text">{Paragraph 3}</p>
+                </div>
+                <div class="about__visual" data-animate>
+                    <div class="about__taxonomy">
+                        <div class="about__taxonomy-header">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <rect x="6" y="6" width="36" height="36" rx="4"/>
+                                <path d="M6 18h36M18 18v24"/>
+                                <circle cx="12" cy="12" r="2"/>
+                            </svg>
+                            <h3>Scientific Classification</h3>
+                        </div>
+                        <ul class="about__taxonomy-list">
+                            <li class="about__taxonomy-item">
+                                <span class="about__taxonomy-key">Kingdom</span>
+                                <span class="about__taxonomy-value">Animalia</span>
+                            </li>
+                            <!-- Add: Phylum, Class, Order, Family, Genus, Species -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facts Section (6 facts) -->
+    <section class="facts" id="facts">
+        <div class="container">
+            <header class="facts__header" data-animate>
+                <div class="facts__label">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 6v6l4 2"/>
+                    </svg>
+                    Remarkable Facts
+                </div>
+                <h2>{Facts section title}</h2>
+            </header>
+
+            <div class="facts__list">
+                <!-- Repeat 6 times with unique content -->
+                <article class="fact" data-animate>
+                    <div class="fact__rosette">
+                        <div class="fact__rosette-ring"></div>
+                        <div class="fact__rosette-gallery" data-gallery>
+                            <img src="assets/images/facts/fact-01-{name}.png"
+                                alt="{Description}"
+                                class="fact__rosette-img fact__rosette-img--active"
+                                loading="lazy" width="440" height="440">
+                        </div>
+                    </div>
+                    <div class="fact__content">
+                        <div class="fact__number">Fact 01</div>
+                        <h3 class="fact__title">{Fact Title}</h3>
+                        <p class="fact__desc">{Fact description paragraph}</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conservation Section -->
+    <section class="conservation" id="conservation">
+        <div class="container">
+            <div class="conservation__inner">
+                <div class="conservation__badge" data-animate>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M12 9v4M12 17h.01"/>
+                        <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+                    </svg>
+                    <span>{Conservation Status}</span>
+                </div>
+                <h2 class="conservation__title" data-animate>{Conservation title}</h2>
+                <p class="conservation__text" data-animate>{Conservation paragraph 1}</p>
+                <p class="conservation__text" data-animate>{Conservation paragraph 2}</p>
+                <div class="conservation__threats" data-animate>
+                    <h3 class="conservation__threats-heading">What Threatens Their Survival</h3>
+                    <div class="conservation__threats-grid">
+                        <!-- Repeat 3-5 threat tags -->
+                        <a class="threat-tag" href="{SOURCE_URL}" target="_blank" rel="noopener">
+                            <span class="threat-tag__label">{Threat Name}</span>
+                            <span class="threat-tag__detail">{1-2 sentence detail}</span>
+                            <span class="threat-tag__source">{Source Name}</span>
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Showcase -->
+    <section class="closing" id="closing" aria-label="Closing showcase">
+        <div class="container">
+            <div class="closing__grid">
+                <div class="closing__image-frame" data-animate>
+                    <img src="assets/closing.png"
+                        alt="{Species closing image description}"
+                        class="closing__image" loading="lazy">
+                </div>
+                <div class="closing__quote-block" data-animate>
+                    <blockquote class="closing__quote">
+                        <p>{Poetic closing quote, 2-3 lines}</p>
+                        <cite class="closing__cite">In reverence of <em>{Scientific name}</em></cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+                            <path d="M20 4L8 14v16l12 8 12-8V14L20 4z"/>
+                            <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.8"/>
+                        </svg>
+                        {Common Name}
+                    </div>
+                    <p class="footer__project">A digiSpace Studios production &mdash; part of the <a href="https://github.com/dnoice/BEASTIQUE">BEASTIQUE</a> Project</p>
+                    <div class="footer__links">
+                        <a href="mailto:densmaltz4@gmail.com" class="footer__link">densmaltz4@gmail.com</a>
+                        <a href="https://github.com/dnoice/BEASTIQUE" target="_blank" rel="noopener" class="footer__link">
+                            dnoice/BEASTIQUE
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__signature">
+                    <p class="footer__sig-line">&#xFE3B;&#x30C7;&#x2550;&#x2500;&#x2500;&#x2500; &#x2726; &#x2726; &#x2726; &#x007C; Aim Twice, Shoot Once!</p>
+                    <p class="footer__sig-desc">The signature <em>"Aim Twice, Shoot Once"</em> is a personal creative
+                        philosophy of precision and intentionality &mdash; measure twice, execute once.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

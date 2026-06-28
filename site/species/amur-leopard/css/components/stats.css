@@ -1,0 +1,110 @@
+/* ============================================
+   Stats Section — Key metrics grid
+   ============================================ */
+
+.stats {
+  position: relative;
+  padding: var(--space-lg) 0;
+  background: var(--color-shadow);
+  z-index: 5;
+}
+
+.stats__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-sm);
+}
+
+/* ── Individual Stat Card ── */
+.stat {
+  position: relative;
+  padding: var(--space-md) var(--space-sm);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--color-mist);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform var(--duration-normal) var(--ease-out-expo),
+              box-shadow var(--duration-normal) var(--ease-out-expo);
+}
+
+.stat::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-amber), var(--color-amber-bright));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-slow) var(--ease-out-expo);
+}
+
+.stat:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(212, 148, 74, 0.1);
+}
+
+.stat:hover::before {
+  transform: scaleX(1);
+}
+
+/* ── Icon ── */
+.stat__icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-xs);
+}
+
+.stat__icon svg {
+  width: 44px;
+  height: 44px;
+  color: var(--color-amber);
+}
+
+/* ── Number ── */
+.stat__number {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  color: var(--color-ivory);
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+/* ── Label ── */
+.stat__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-frost);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .stat {
+    padding: var(--space-sm);
+  }
+
+  .stat__icon svg {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .stat__number {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+  }
+
+  .stat__label {
+    font-size: 0.7rem;
+  }
+}
