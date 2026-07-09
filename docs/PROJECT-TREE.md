@@ -93,6 +93,13 @@ The measured tables below are the June 27 data. Structural changes since:
   was intentionally deleted by Dennis on 2026-07-07 — its ideas live on in
   the built exhibits; do not restore. Sandbox now holds only
   `sos-frame-module-test/`.
+- **source-art pass two (2026-07-09).** masters/source-images verified
+  (0 of 63 were duplicates — 51 unique species, 12 variants) and promoted
+  into `site/assets/images/<category>/` with collision-renumbering;
+  generators gained an `input/` staging pool (14 scripts repointed);
+  concepts/ideas dissolved; mixed dirs sorted into png/svg/webp type
+  subfolders. Stencil prompt libraries re-voiced to the master-printmaker
+  hand (v1.1) pending full re-render.
 - **source-art reorganized (2026-07-08).** The custom-designs / holding-area /
   homepage-assets / icons / prompts jumble was refiled into a function-first
   taxonomy: `brand/`, `display/`, `frames/`, `generators/` (the procedural

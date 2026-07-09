@@ -3826,13 +3826,17 @@
   "BQ-SILH-MAM-201__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\mammalian-banner-letters_silhouette-bw_01.png",
-    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 94.57,
+    "retries": 0,
     "tokens": {
-      "input_tokens": 296,
+      "input_tokens": 338,
       "output_tokens": 5488,
-      "total_tokens": 5784
+      "total_tokens": 5826
     },
-    "ts": 1783634641
+    "ts": 1783635717
   },
   "BQ-SILH-MAM-202__v1": {
     "status": "done",
@@ -3848,13 +3852,17 @@
   "BQ-SILH-MAM-203__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\mammalian-banner-breakout_silhouette-bw_01.png",
-    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 90.04,
+    "retries": 0,
     "tokens": {
-      "input_tokens": 216,
+      "input_tokens": 234,
       "output_tokens": 5488,
-      "total_tokens": 5704
+      "total_tokens": 5722
     },
-    "ts": 1783634641
+    "ts": 1783635712
   },
   "BQ-SILH-REP-201__v1": {
     "status": "done",
@@ -3870,13 +3878,17 @@
   "BQ-SILH-REP-202__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\reptilian-banner-frieze_silhouette-bw_01.png",
-    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 88.31,
+    "retries": 0,
     "tokens": {
-      "input_tokens": 238,
+      "input_tokens": 284,
       "output_tokens": 5488,
-      "total_tokens": 5726
+      "total_tokens": 5772
     },
-    "ts": 1783634641
+    "ts": 1783635711
   },
   "BQ-SILH-REP-203__v1": {
     "status": "done",

@@ -12,3 +12,4 @@
 {"ts": 1783634617, "iso": "2026-07-09T15:03:37", "mode": "fetch", "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2", "generated": 25, "errors": 0, "output_tokens": 137200}
 {"ts": 1783634638, "iso": "2026-07-09T15:03:58", "mode": "fetch", "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e", "generated": 25, "errors": 0, "output_tokens": 137200}
 {"ts": 1783634641, "iso": "2026-07-09T15:04:01", "mode": "fetch", "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af", "generated": 15, "errors": 0, "output_tokens": 82320}
+{"ts": 1783635717, "iso": "2026-07-09T15:21:57", "mode": "sync", "model": "gpt-image-2", "quality": "high", "size": "1536x1024", "background": "opaque", "variants": 1, "only": "MAM-201,MAM-203,REP-202", "collections": null, "requested": 3, "generated": 3, "errors": 0, "interrupted": false, "wall_secs": 94.6, "sum_gen_secs": 272.9, "retries": 0, "output_tokens": 16464, "est_cost_usd": 0.495}
