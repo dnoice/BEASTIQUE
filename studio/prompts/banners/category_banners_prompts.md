@@ -1,15 +1,24 @@
 <!--
 ✒ Metadata
-    - Title: Category Banner Prompt Library (BEASTIQUE Edition - v1.0)
+    - Title: Category Banner Prompt Library (BEASTIQUE Edition - v1.1)
     - File Name: category_banners_prompts.md
     - Relative Path: studio/prompts/banners/category_banners_prompts.md
     - Artifact Type: data
-    - Version: 1.0.0
+    - Version: 1.1.0
     - Date: 2026-07-09
     - Update: Thursday, July 09, 2026
     - Author: Dennis 'dendogg' Smaltz
     - A.I. Acknowledgement: Anthropic - Claude Fable 5
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+
+✒ Changelog:
+    - 1.1.0 (2026-07-09) [Anthropic - Claude Fable 5] — First-render review
+      fixes: MAMMALIAN double-M spelling inventory hardened in the letters
+      (201) and breakout (203) prompts (renders dropped/duplicated an M);
+      reptilian frieze (202) now pins the word ABOVE the crocodile and bans
+      humanoid figures (render produced lizard-folk standing on its back —
+      magnificent, but not the assignment).
+    - 1.0.0 (2026-07-09) — Initial 15-prompt library.
 
 ✒ Description:
     Fifteen black-on-white banner prompts — three concepts per category —
@@ -137,7 +146,7 @@ Negative prompt: no color, no grayscale tones, no gradients, no gray fills, no s
 Category banner · concept letters · slug `mammalian-banner-letters` · output `mammalian-banner-letters_silhouette-bw_01.{png,svg}`
 
 ```text
-Design a wide horizontal BANNER, pure black on a PURE WHITE background: the single word "MAMMALIAN" in massive, bold, solid-black capital letters spanning the full width, spelled exactly M-A-M-M-A-L-I-A-N. Inside the letters, a different mammal carved in clean white line inside each letter: an elephant in the M, a lion face in the A, a howling wolf in the second M, a giraffe neck in the second A, a standing bear in the L, a rabbit in the I, a kangaroo in the third A, a hanging bat in the second I, and a fox in the N. Each creature is drawn as elegant fine WHITE line work carved out of its solid black letter, in the manner of an engraved letterpress plate. Letters bold, geometric, evenly spaced and perfectly legible; the creatures live INSIDE the strokes and never break the letter edges. Flat graphic black and white only, crisp edges, generous margin around the word. Wide banner composition.
+Design a wide horizontal BANNER, pure black on a PURE WHITE background: the single word "MAMMALIAN" in massive, bold, solid-black capital letters spanning the full width, spelled exactly M-A-M-M-A-L-I-A-N — nine letters, with a DOUBLE M as letters three and four (M, A, M, M, A, L, I, A, N), no letters missing, none repeated beyond that double M. Inside the letters, a different mammal carved in clean white line inside each letter: an elephant in the M, a lion face in the A, a howling wolf in the second M, a giraffe neck in the second A, a standing bear in the L, a rabbit in the I, a kangaroo in the third A, a hanging bat in the second I, and a fox in the N. Each creature is drawn as elegant fine WHITE line work carved out of its solid black letter, in the manner of an engraved letterpress plate. Letters bold, geometric, evenly spaced and perfectly legible; the creatures live INSIDE the strokes and never break the letter edges. Flat graphic black and white only, crisp edges, generous margin around the word. Wide banner composition.
 Negative prompt: no color, no grayscale tones, no gradients, no gray fills, no shading, no photorealism, no 3D, no texture noise, no extra words, no additional text beyond the single category word, no misspelled or missing or extra letters, no watermark, no signature, no border artifacts, no blurry edges.
 ```
 
@@ -155,7 +164,7 @@ Negative prompt: no color, no grayscale tones, no gradients, no gray fills, no s
 Category banner · concept breakout · slug `mammalian-banner-breakout` · output `mammalian-banner-breakout_silhouette-bw_01.{png,svg}`
 
 ```text
-Design a wide horizontal BANNER, pure black on a PURE WHITE background: the single word "MAMMALIAN" in giant capital letters spanning the width, spelled exactly M-A-M-M-A-L-I-A-N, drawn as clean bold OUTLINE letterforms — and a great elephant in bold solid black silhouette walking through the center of the word, its back and trunk carrying the middle letters like cargo while the outer letters stand as clean bold outlines. The interplay between the solid black beast and the outline letters is the drama of the composition. Flat graphic black and white only, crisp edges, confident shapes, generous margin. Wide banner composition.
+Design a wide horizontal BANNER, pure black on a PURE WHITE background: the single word "MAMMALIAN" in giant capital letters spanning the width, spelled exactly M-A-M-M-A-L-I-A-N — nine letters with a DOUBLE M as letters three and four, no extra letters anywhere —, drawn as clean bold OUTLINE letterforms — and a great elephant in bold solid black silhouette walking through the center of the word, its back and trunk carrying the middle letters like cargo while the outer letters stand as clean bold outlines. The interplay between the solid black beast and the outline letters is the drama of the composition. Flat graphic black and white only, crisp edges, confident shapes, generous margin. Wide banner composition.
 Negative prompt: no color, no grayscale tones, no gradients, no gray fills, no shading, no photorealism, no 3D, no texture noise, no extra words, no additional text beyond the single category word, no misspelled or missing or extra letters, no watermark, no signature, no border artifacts, no blurry edges.
 ```
 
@@ -175,8 +184,8 @@ Negative prompt: no color, no grayscale tones, no gradients, no gray fills, no s
 Category banner · concept frieze · slug `reptilian-banner-frieze` · output `reptilian-banner-frieze_silhouette-bw_01.{png,svg}`
 
 ```text
-Design a wide horizontal BANNER, pure black on a PURE WHITE background, composed as a museum frieze: a long crocodile in bold solid black silhouette stretched as the living baseline of the banner, its jagged back ridge running the full width, with the word standing on its back in clean bold letterspaced capitals. Beneath the procession, the single word "REPTILIAN" set small in clean, bold, widely letterspaced capital letters, spelled exactly R-E-P-T-I-L-I-A-N, centered like an exhibition label. One thin horizontal rule line separates the procession band from the word. Flat graphic black and white only, solid silhouettes with crisp edges, generous white space, elegant museum composure. Wide banner composition.
-Negative prompt: no color, no grayscale tones, no gradients, no gray fills, no shading, no photorealism, no 3D, no texture noise, no extra words, no additional text beyond the single category word, no misspelled or missing or extra letters, no watermark, no signature, no border artifacts, no blurry edges.
+Design a wide horizontal BANNER, pure black on a PURE WHITE background, composed as a museum frieze: a long crocodile in bold solid black silhouette stretched as the living baseline of the banner, its jagged back ridge running the full width, with the word floating in clean bold letterspaced capitals in the white space ABOVE its back — plain typographic letters only, nothing and no one standing on the crocodile. Beneath the procession, the single word "REPTILIAN" set small in clean, bold, widely letterspaced capital letters, spelled exactly R-E-P-T-I-L-I-A-N, centered like an exhibition label. One thin horizontal rule line separates the procession band from the word. Flat graphic black and white only, solid silhouettes with crisp edges, generous white space, elegant museum composure. Wide banner composition.
+Negative prompt: no color, no grayscale tones, no gradients, no gray fills, no shading, no photorealism, no 3D, no texture noise, no extra words, no additional text beyond the single category word, no misspelled or missing or extra letters, no people, no humanoid figures, no lizard-men, no walking figures, no animals other than the single crocodile, no watermark, no signature, no border artifacts, no blurry edges.
 ```
 
 ### BQ-SILH-REP-203 · Reptilian Banner — The Breakout
