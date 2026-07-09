@@ -1,7 +1,7 @@
 {
   "BQ-SILH-AQU-103__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\aquatic-icon-glyph_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\icons\\aquatic-icon-glyph_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -16,7 +16,7 @@
   },
   "BQ-SILH-AQU-101__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\aquatic-icon-sigil_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\icons\\aquatic-icon-sigil_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -31,7 +31,7 @@
   },
   "BQ-SILH-AVI-101__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\avian-icon-sigil_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\icons\\avian-icon-sigil_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -46,7 +46,7 @@
   },
   "BQ-SILH-AQU-102__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\aquatic-icon-crest_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\icons\\aquatic-icon-crest_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -61,7 +61,7 @@
   },
   "BQ-SILH-AVI-103__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\avian-icon-glyph_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\icons\\avian-icon-glyph_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -76,7 +76,7 @@
   },
   "BQ-SILH-AVI-102__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\avian-icon-crest_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\icons\\avian-icon-crest_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -91,7 +91,7 @@
   },
   "BQ-SILH-INS-101__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\insecta-icon-sigil_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\icons\\insecta-icon-sigil_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -106,7 +106,7 @@
   },
   "BQ-SILH-INS-102__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\insecta-icon-crest_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\icons\\insecta-icon-crest_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -121,7 +121,7 @@
   },
   "BQ-SILH-INS-103__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\insecta-icon-glyph_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\icons\\insecta-icon-glyph_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -136,7 +136,7 @@
   },
   "BQ-SILH-MAM-101__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\mammalian-icon-sigil_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\icons\\mammalian-icon-sigil_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -151,7 +151,7 @@
   },
   "BQ-SILH-MAM-103__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\mammalian-icon-glyph_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\icons\\mammalian-icon-glyph_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -166,7 +166,7 @@
   },
   "BQ-SILH-MAM-102__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\mammalian-icon-crest_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\icons\\mammalian-icon-crest_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -181,7 +181,7 @@
   },
   "BQ-SILH-REP-101__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\reptilian-icon-sigil_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\icons\\reptilian-icon-sigil_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -196,7 +196,7 @@
   },
   "BQ-SILH-REP-103__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\reptilian-icon-glyph_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\icons\\reptilian-icon-glyph_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -211,7 +211,7 @@
   },
   "BQ-SILH-REP-102__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\reptilian-icon-crest_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\icons\\reptilian-icon-crest_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
@@ -3726,7 +3726,7 @@
   },
   "BQ-SILH-AQU-201__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\aquatic-banner-letters_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\banners\\aquatic-banner-letters_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 279,
@@ -3737,7 +3737,7 @@
   },
   "BQ-SILH-AQU-202__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\aquatic-banner-frieze_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\banners\\aquatic-banner-frieze_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 241,
@@ -3748,7 +3748,7 @@
   },
   "BQ-SILH-AQU-203__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\aquatic-banner-breakout_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\banners\\aquatic-banner-breakout_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 209,
@@ -3759,7 +3759,7 @@
   },
   "BQ-SILH-AVI-201__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\avian-banner-letters_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\banners\\avian-banner-letters_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 264,
@@ -3770,7 +3770,7 @@
   },
   "BQ-SILH-AVI-202__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\avian-banner-frieze_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\banners\\avian-banner-frieze_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 240,
@@ -3781,7 +3781,7 @@
   },
   "BQ-SILH-AVI-203__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\avian-banner-breakout_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\banners\\avian-banner-breakout_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 206,
@@ -3792,7 +3792,7 @@
   },
   "BQ-SILH-INS-201__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\insecta-banner-letters_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\banners\\insecta-banner-letters_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 276,
@@ -3803,7 +3803,7 @@
   },
   "BQ-SILH-INS-202__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\insecta-banner-frieze_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\banners\\insecta-banner-frieze_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 233,
@@ -3814,7 +3814,7 @@
   },
   "BQ-SILH-INS-203__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\insecta-banner-breakout_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\banners\\insecta-banner-breakout_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 211,
@@ -3825,7 +3825,7 @@
   },
   "BQ-SILH-MAM-201__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\mammalian-banner-letters_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\banners\\mammalian-banner-letters_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1536x1024",
@@ -3840,7 +3840,7 @@
   },
   "BQ-SILH-MAM-202__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\mammalian-banner-frieze_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\banners\\mammalian-banner-frieze_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 245,
@@ -3851,7 +3851,7 @@
   },
   "BQ-SILH-MAM-203__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\mammalian-banner-breakout_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\banners\\mammalian-banner-breakout_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1536x1024",
@@ -3866,7 +3866,7 @@
   },
   "BQ-SILH-REP-201__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\reptilian-banner-letters_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\banners\\reptilian-banner-letters_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 305,
@@ -3877,7 +3877,7 @@
   },
   "BQ-SILH-REP-202__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\reptilian-banner-frieze_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\banners\\reptilian-banner-frieze_silhouette-bw_01.png",
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1536x1024",
@@ -3892,7 +3892,7 @@
   },
   "BQ-SILH-REP-203__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\reptilian-banner-breakout_silhouette-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\banners\\reptilian-banner-breakout_silhouette-bw_01.png",
     "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
     "tokens": {
       "input_tokens": 227,

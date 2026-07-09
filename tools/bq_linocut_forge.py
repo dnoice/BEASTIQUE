@@ -2,18 +2,25 @@
 # -*- coding: utf-8 -*-
 """
 ✒ Metadata
-    - Title: BQ Render Forge (BEASTIQUE Edition - v1.8)
+    - Title: BQ Render Forge (BEASTIQUE Edition - v1.9)
     - File Name: bq_linocut_forge.py
     - Relative Path: BEASTIQUE/tools/bq_linocut_forge.py
     - Artifact Type: CLI
-    - Version: 1.8.0
-    - Date: 2026-06-27
-    - Update: Saturday, June 27, 2026
+    - Version: 1.9.0
+    - Date: 2026-07-09
+    - Update: Thursday, July 09, 2026
     - Author: Dennis 'dendogg' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.8
+    - A.I. Acknowledgement: Anthropic - Claude Fable 5
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Changelog:
+    - 1.9.0 (2026-07-09) [Anthropic - Claude Fable 5] — Brand-work routing.
+      Entry.out_path now files ID blocks into their own leaf folders under
+      <style>/<quality>/: 1xx (icons) → icons/, 2xx (banners) → banners/;
+      species renders (0xx) stay flat. Existing icon/banner renders were moved
+      to match and their ledger file paths rewritten, so skip logic (ledger OR
+      on-disk) stays airtight. mkdir(parents=True) at every write site already
+      covers the new leaves — fetch/sync/batch land routed with no flag changes.
     - 1.8.0 (2026-06-27) [Anthropic - Claude Opus 4.8] — Repo restructure +
       material retirement. Paths repointed to the new pro layout: renders now
       live under studio/collections/ (was collections/) and bookkeeping under
@@ -352,8 +359,15 @@ class Entry:
         # studio/collections):
         # <out>/{gallery}-beasts/{style}/{quality}/{slug}_{style}-bw_{NN}.png
         # so different art styles and quality passes never collide flat.
-        return (out_root / f"{self.gallery}-beasts" / style
-                / quality / self.out_name(variant))
+        # ID blocks route brand work into their own leaf folders so icons and
+        # banners never mix with the species renders: 1xx → icons/, 2xx →
+        # banners/. Species (0xx) stay flat.
+        leaf = out_root / f"{self.gallery}-beasts" / style / quality
+        if 100 <= self.num <= 199:
+            leaf = leaf / "icons"
+        elif 200 <= self.num <= 299:
+            leaf = leaf / "banners"
+        return leaf / self.out_name(variant)
 
     def ledger_key(self, variant: int) -> str:
         return f"{self.bq_id}__v{variant}"
