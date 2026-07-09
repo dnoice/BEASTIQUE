@@ -20,14 +20,14 @@
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
-    "secs": 141.79,
+    "secs": 125.21,
     "retries": 0,
     "tokens": {
-      "input_tokens": 193,
+      "input_tokens": 262,
       "output_tokens": 7024,
-      "total_tokens": 7217
+      "total_tokens": 7286
     },
-    "ts": 1783494081
+    "ts": 1783641165
   },
   "BQ-SILH-AVI-101__v1": {
     "status": "done",
@@ -125,14 +125,14 @@
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
-    "secs": 130.71,
+    "secs": 120.54,
     "retries": 0,
     "tokens": {
-      "input_tokens": 188,
+      "input_tokens": 293,
       "output_tokens": 7024,
-      "total_tokens": 7212
+      "total_tokens": 7317
     },
-    "ts": 1783494342
+    "ts": 1783641160
   },
   "BQ-SILH-MAM-101__v1": {
     "status": "done",
@@ -140,14 +140,14 @@
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
-    "secs": 145.84,
+    "secs": 134.46,
     "retries": 0,
     "tokens": {
-      "input_tokens": 213,
+      "input_tokens": 305,
       "output_tokens": 7024,
-      "total_tokens": 7237
+      "total_tokens": 7329
     },
-    "ts": 1783494362
+    "ts": 1783641174
   },
   "BQ-SILH-MAM-103__v1": {
     "status": "done",
@@ -155,14 +155,14 @@
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
-    "secs": 130.74,
+    "secs": 115.8,
     "retries": 0,
     "tokens": {
-      "input_tokens": 175,
+      "input_tokens": 270,
       "output_tokens": 7024,
-      "total_tokens": 7199
+      "total_tokens": 7294
     },
-    "ts": 1783494364
+    "ts": 1783641156
   },
   "BQ-SILH-MAM-102__v1": {
     "status": "done",
@@ -185,14 +185,14 @@
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
-    "secs": 142.79,
+    "secs": 125.43,
     "retries": 0,
     "tokens": {
-      "input_tokens": 209,
+      "input_tokens": 286,
       "output_tokens": 7024,
-      "total_tokens": 7233
+      "total_tokens": 7310
     },
-    "ts": 1783494485
+    "ts": 1783641281
   },
   "BQ-SILH-REP-103__v1": {
     "status": "done",
@@ -200,14 +200,14 @@
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
-    "secs": 145.29,
+    "secs": 116.96,
     "retries": 0,
     "tokens": {
-      "input_tokens": 189,
+      "input_tokens": 279,
       "output_tokens": 7024,
-      "total_tokens": 7213
+      "total_tokens": 7303
     },
-    "ts": 1783494510
+    "ts": 1783641277
   },
   "BQ-SILH-REP-102__v1": {
     "status": "done",
