@@ -1,7 +1,7 @@
 {
   "BQ-WOOD-AQU-004__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\woodcut\\medium\\orca_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\woodcut\\high\\orca_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -16,7 +16,7 @@
   },
   "BQ-WOOD-AQU-001__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\woodcut\\medium\\blue-whale_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\woodcut\\high\\blue-whale_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -31,7 +31,7 @@
   },
   "BQ-WOOD-AQU-002__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\woodcut\\medium\\great-white-shark_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\woodcut\\high\\great-white-shark_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -46,7 +46,7 @@
   },
   "BQ-WOOD-AQU-003__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\woodcut\\medium\\manta-ray_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\woodcut\\high\\manta-ray_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -61,7 +61,7 @@
   },
   "BQ-WOOD-AQU-005__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\woodcut\\medium\\hammerhead-shark_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\woodcut\\high\\hammerhead-shark_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -76,7 +76,7 @@
   },
   "BQ-WOOD-AVI-002__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\woodcut\\medium\\snowy-owl_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\woodcut\\high\\snowy-owl_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -91,7 +91,7 @@
   },
   "BQ-WOOD-AVI-001__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\woodcut\\medium\\bald-eagle_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\woodcut\\high\\bald-eagle_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -106,7 +106,7 @@
   },
   "BQ-WOOD-AVI-003__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\woodcut\\medium\\flamingo_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\woodcut\\high\\flamingo_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -121,7 +121,7 @@
   },
   "BQ-WOOD-AVI-004__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\woodcut\\medium\\scarlet-macaw_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\woodcut\\high\\scarlet-macaw_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -136,7 +136,7 @@
   },
   "BQ-WOOD-AVI-005__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\woodcut\\medium\\shoebill_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\woodcut\\high\\shoebill_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -151,7 +151,7 @@
   },
   "BQ-WOOD-INS-001__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\woodcut\\medium\\monarch-butterfly_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\woodcut\\high\\monarch-butterfly_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -166,7 +166,7 @@
   },
   "BQ-WOOD-INS-002__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\woodcut\\medium\\hercules-beetle_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\woodcut\\high\\hercules-beetle_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -181,7 +181,7 @@
   },
   "BQ-WOOD-INS-003__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\woodcut\\medium\\praying-mantis_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\woodcut\\high\\praying-mantis_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -196,7 +196,7 @@
   },
   "BQ-WOOD-INS-004__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\woodcut\\medium\\dragonfly_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\woodcut\\high\\dragonfly_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -211,7 +211,7 @@
   },
   "BQ-WOOD-INS-005__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\woodcut\\medium\\stag-beetle_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\woodcut\\high\\stag-beetle_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -226,7 +226,7 @@
   },
   "BQ-WOOD-MAM-001__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\woodcut\\medium\\gray-wolf_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\woodcut\\high\\gray-wolf_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -241,7 +241,7 @@
   },
   "BQ-WOOD-MAM-002__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\woodcut\\medium\\lion_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\woodcut\\high\\lion_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -256,7 +256,7 @@
   },
   "BQ-WOOD-MAM-003__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\woodcut\\medium\\red-fox_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\woodcut\\high\\red-fox_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -271,7 +271,7 @@
   },
   "BQ-WOOD-MAM-005__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\woodcut\\medium\\mountain-gorilla_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\woodcut\\high\\mountain-gorilla_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -286,7 +286,7 @@
   },
   "BQ-WOOD-MAM-004__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\woodcut\\medium\\african-elephant_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\woodcut\\high\\african-elephant_woodcut-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -301,7 +301,7 @@
   },
   "BQ-WOOD-REP-003__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\woodcut\\medium\\king-cobra_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\woodcut\\high\\king-cobra_woodcut-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -316,7 +316,7 @@
   },
   "BQ-WOOD-REP-001__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\woodcut\\medium\\panther-chameleon_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\woodcut\\high\\panther-chameleon_woodcut-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -331,7 +331,7 @@
   },
   "BQ-WOOD-REP-002__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\woodcut\\medium\\komodo-dragon_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\woodcut\\high\\komodo-dragon_woodcut-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -346,7 +346,7 @@
   },
   "BQ-WOOD-REP-004__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\woodcut\\medium\\saltwater-crocodile_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\woodcut\\high\\saltwater-crocodile_woodcut-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -361,7 +361,7 @@
   },
   "BQ-WOOD-REP-005__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\woodcut\\medium\\green-iguana_woodcut-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\woodcut\\high\\green-iguana_woodcut-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",

@@ -1,7 +1,7 @@
 {
   "BQ-LOPO-AQU-003__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\low-poly\\medium\\manta-ray_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\low-poly\\high\\manta-ray_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -16,7 +16,7 @@
   },
   "BQ-LOPO-AQU-004__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\low-poly\\medium\\orca_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\low-poly\\high\\orca_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -31,7 +31,7 @@
   },
   "BQ-LOPO-AQU-001__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\low-poly\\medium\\blue-whale_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\low-poly\\high\\blue-whale_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -46,7 +46,7 @@
   },
   "BQ-LOPO-AQU-002__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\low-poly\\medium\\great-white-shark_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\low-poly\\high\\great-white-shark_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -61,7 +61,7 @@
   },
   "BQ-LOPO-AQU-005__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\low-poly\\medium\\hammerhead-shark_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\low-poly\\high\\hammerhead-shark_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -76,7 +76,7 @@
   },
   "BQ-LOPO-AVI-002__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\low-poly\\medium\\snowy-owl_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\snowy-owl_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -91,7 +91,7 @@
   },
   "BQ-LOPO-AVI-001__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\low-poly\\medium\\bald-eagle_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\bald-eagle_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -106,7 +106,7 @@
   },
   "BQ-LOPO-AVI-003__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\low-poly\\medium\\flamingo_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\flamingo_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -121,7 +121,7 @@
   },
   "BQ-LOPO-AVI-004__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\low-poly\\medium\\scarlet-macaw_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\scarlet-macaw_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -136,7 +136,7 @@
   },
   "BQ-LOPO-AVI-005__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\low-poly\\medium\\shoebill_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\shoebill_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -151,7 +151,7 @@
   },
   "BQ-LOPO-INS-002__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\low-poly\\medium\\hercules-beetle_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\low-poly\\high\\hercules-beetle_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -166,7 +166,7 @@
   },
   "BQ-LOPO-INS-001__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\low-poly\\medium\\monarch-butterfly_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\low-poly\\high\\monarch-butterfly_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -181,7 +181,7 @@
   },
   "BQ-LOPO-INS-003__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\low-poly\\medium\\praying-mantis_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\low-poly\\high\\praying-mantis_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -196,7 +196,7 @@
   },
   "BQ-LOPO-INS-004__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\low-poly\\medium\\dragonfly_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\low-poly\\high\\dragonfly_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -211,7 +211,7 @@
   },
   "BQ-LOPO-INS-005__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\low-poly\\medium\\stag-beetle_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\low-poly\\high\\stag-beetle_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -226,7 +226,7 @@
   },
   "BQ-LOPO-MAM-001__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\low-poly\\medium\\gray-wolf_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\low-poly\\high\\gray-wolf_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -241,7 +241,7 @@
   },
   "BQ-LOPO-MAM-002__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\low-poly\\medium\\lion_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\low-poly\\high\\lion_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -256,7 +256,7 @@
   },
   "BQ-LOPO-MAM-003__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\low-poly\\medium\\red-fox_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\low-poly\\high\\red-fox_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -271,7 +271,7 @@
   },
   "BQ-LOPO-MAM-004__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\low-poly\\medium\\african-elephant_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\low-poly\\high\\african-elephant_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -286,7 +286,7 @@
   },
   "BQ-LOPO-MAM-005__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\low-poly\\medium\\mountain-gorilla_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\low-poly\\high\\mountain-gorilla_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -301,7 +301,7 @@
   },
   "BQ-LOPO-REP-001__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\low-poly\\medium\\panther-chameleon_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\panther-chameleon_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -316,7 +316,7 @@
   },
   "BQ-LOPO-REP-002__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\low-poly\\medium\\komodo-dragon_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\komodo-dragon_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -331,7 +331,7 @@
   },
   "BQ-LOPO-REP-003__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\low-poly\\medium\\king-cobra_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\king-cobra_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -346,7 +346,7 @@
   },
   "BQ-LOPO-REP-004__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\low-poly\\medium\\saltwater-crocodile_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\saltwater-crocodile_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -361,7 +361,7 @@
   },
   "BQ-LOPO-REP-005__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\low-poly\\medium\\green-iguana_low-poly-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\green-iguana_low-poly-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",

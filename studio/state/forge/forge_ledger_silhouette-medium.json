@@ -1,7 +1,7 @@
 {
   "BQ-SILH-AQU-002__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\silhouette\\medium\\great-white-shark_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\great-white-shark_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -16,7 +16,7 @@
   },
   "BQ-SILH-AQU-003__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\silhouette\\medium\\manta-ray_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\manta-ray_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -31,7 +31,7 @@
   },
   "BQ-SILH-AQU-001__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\silhouette\\medium\\blue-whale_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\blue-whale_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -46,7 +46,7 @@
   },
   "BQ-SILH-AQU-004__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\silhouette\\medium\\orca_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\orca_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -61,7 +61,7 @@
   },
   "BQ-SILH-AQU-005__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\silhouette\\medium\\hammerhead-shark_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\hammerhead-shark_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -76,7 +76,7 @@
   },
   "BQ-SILH-AVI-001__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\silhouette\\medium\\bald-eagle_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\bald-eagle_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -91,7 +91,7 @@
   },
   "BQ-SILH-AVI-002__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\silhouette\\medium\\snowy-owl_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\snowy-owl_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -106,7 +106,7 @@
   },
   "BQ-SILH-AVI-003__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\silhouette\\medium\\flamingo_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\flamingo_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -121,7 +121,7 @@
   },
   "BQ-SILH-AVI-004__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\silhouette\\medium\\scarlet-macaw_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\scarlet-macaw_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -136,7 +136,7 @@
   },
   "BQ-SILH-AVI-005__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\silhouette\\medium\\shoebill_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\silhouette\\high\\shoebill_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -151,7 +151,7 @@
   },
   "BQ-SILH-INS-001__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\silhouette\\medium\\monarch-butterfly_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\monarch-butterfly_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -166,7 +166,7 @@
   },
   "BQ-SILH-INS-002__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\silhouette\\medium\\hercules-beetle_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\hercules-beetle_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -181,7 +181,7 @@
   },
   "BQ-SILH-INS-004__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\silhouette\\medium\\dragonfly_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\dragonfly_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -196,7 +196,7 @@
   },
   "BQ-SILH-INS-003__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\silhouette\\medium\\praying-mantis_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\praying-mantis_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -211,7 +211,7 @@
   },
   "BQ-SILH-INS-005__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\silhouette\\medium\\stag-beetle_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\stag-beetle_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -226,7 +226,7 @@
   },
   "BQ-SILH-MAM-001__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\silhouette\\medium\\gray-wolf_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\gray-wolf_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -241,7 +241,7 @@
   },
   "BQ-SILH-MAM-003__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\silhouette\\medium\\red-fox_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\red-fox_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -256,7 +256,7 @@
   },
   "BQ-SILH-MAM-002__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\silhouette\\medium\\lion_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\lion_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -271,7 +271,7 @@
   },
   "BQ-SILH-MAM-005__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\silhouette\\medium\\mountain-gorilla_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\mountain-gorilla_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -286,7 +286,7 @@
   },
   "BQ-SILH-MAM-004__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\silhouette\\medium\\african-elephant_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\silhouette\\high\\african-elephant_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -301,7 +301,7 @@
   },
   "BQ-SILH-REP-002__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\silhouette\\medium\\komodo-dragon_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\komodo-dragon_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -316,7 +316,7 @@
   },
   "BQ-SILH-REP-003__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\silhouette\\medium\\king-cobra_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\king-cobra_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -331,7 +331,7 @@
   },
   "BQ-SILH-REP-001__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\silhouette\\medium\\panther-chameleon_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\panther-chameleon_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -346,7 +346,7 @@
   },
   "BQ-SILH-REP-004__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\silhouette\\medium\\saltwater-crocodile_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\saltwater-crocodile_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -361,7 +361,7 @@
   },
   "BQ-SILH-REP-005__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\silhouette\\medium\\green-iguana_silhouette-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\green-iguana_silhouette-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",

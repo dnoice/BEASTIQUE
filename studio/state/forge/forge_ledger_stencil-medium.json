@@ -1,7 +1,7 @@
 {
   "BQ-STEN-AQU-003__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\stencil\\medium\\manta-ray_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\manta-ray_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -16,7 +16,7 @@
   },
   "BQ-STEN-AQU-001__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\stencil\\medium\\blue-whale_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\blue-whale_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -31,7 +31,7 @@
   },
   "BQ-STEN-AQU-004__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\stencil\\medium\\orca_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\orca_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -46,7 +46,7 @@
   },
   "BQ-STEN-AQU-002__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\stencil\\medium\\great-white-shark_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\great-white-shark_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -61,7 +61,7 @@
   },
   "BQ-STEN-AQU-005__v1": {
     "status": "done",
-    "file": "collections\\aquatic-beasts\\stencil\\medium\\hammerhead-shark_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\hammerhead-shark_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -76,7 +76,7 @@
   },
   "BQ-STEN-AVI-003__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\stencil\\medium\\flamingo_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\flamingo_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -91,7 +91,7 @@
   },
   "BQ-STEN-AVI-001__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\stencil\\medium\\bald-eagle_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\bald-eagle_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -106,7 +106,7 @@
   },
   "BQ-STEN-AVI-002__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\stencil\\medium\\snowy-owl_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\snowy-owl_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -121,7 +121,7 @@
   },
   "BQ-STEN-AVI-004__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\stencil\\medium\\scarlet-macaw_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\scarlet-macaw_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -136,7 +136,7 @@
   },
   "BQ-STEN-AVI-005__v1": {
     "status": "done",
-    "file": "collections\\avian-beasts\\stencil\\medium\\shoebill_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\shoebill_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -151,7 +151,7 @@
   },
   "BQ-STEN-INS-002__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\stencil\\medium\\hercules-beetle_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\hercules-beetle_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -166,7 +166,7 @@
   },
   "BQ-STEN-INS-001__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\stencil\\medium\\monarch-butterfly_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\monarch-butterfly_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -181,7 +181,7 @@
   },
   "BQ-STEN-INS-003__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\stencil\\medium\\praying-mantis_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\praying-mantis_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -196,7 +196,7 @@
   },
   "BQ-STEN-INS-004__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\stencil\\medium\\dragonfly_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\dragonfly_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -211,7 +211,7 @@
   },
   "BQ-STEN-INS-005__v1": {
     "status": "done",
-    "file": "collections\\insecta-beasts\\stencil\\medium\\stag-beetle_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\stag-beetle_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -226,7 +226,7 @@
   },
   "BQ-STEN-MAM-001__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\stencil\\medium\\gray-wolf_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\gray-wolf_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -241,7 +241,7 @@
   },
   "BQ-STEN-MAM-003__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\stencil\\medium\\red-fox_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\red-fox_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -256,7 +256,7 @@
   },
   "BQ-STEN-MAM-002__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\stencil\\medium\\lion_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\lion_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -271,7 +271,7 @@
   },
   "BQ-STEN-MAM-004__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\stencil\\medium\\african-elephant_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\african-elephant_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -286,7 +286,7 @@
   },
   "BQ-STEN-MAM-005__v1": {
     "status": "done",
-    "file": "collections\\mammalian-beasts\\stencil\\medium\\mountain-gorilla_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\mountain-gorilla_stencil-bw_01-med.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -301,7 +301,7 @@
   },
   "BQ-STEN-REP-001__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\stencil\\medium\\panther-chameleon_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\panther-chameleon_stencil-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -316,7 +316,7 @@
   },
   "BQ-STEN-REP-002__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\stencil\\medium\\komodo-dragon_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\komodo-dragon_stencil-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -331,7 +331,7 @@
   },
   "BQ-STEN-REP-004__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\stencil\\medium\\saltwater-crocodile_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\saltwater-crocodile_stencil-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -346,7 +346,7 @@
   },
   "BQ-STEN-REP-003__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\stencil\\medium\\king-cobra_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\king-cobra_stencil-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",
@@ -361,7 +361,7 @@
   },
   "BQ-STEN-REP-005__v1": {
     "status": "done",
-    "file": "collections\\reptilian-beasts\\stencil\\medium\\green-iguana_stencil-bw_01.png",
+    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\green-iguana_stencil-bw_01.png",
     "model": "gpt-image-2",
     "quality": "medium",
     "size": "1536x1024",

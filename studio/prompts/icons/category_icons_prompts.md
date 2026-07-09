@@ -1,17 +1,27 @@
 <!--
 ✒ Metadata
-    - Title: Category Icon Prompt Library (BEASTIQUE Edition - v1.1)
+    - Title: Category Icon Prompt Library (BEASTIQUE Edition - v1.2)
     - File Name: category_icons_prompts.md
     - Relative Path: studio/prompts/icons/category_icons_prompts.md
     - Artifact Type: data
-    - Version: 1.1.0
-    - Date: 2026-07-08
-    - Update: Wednesday, July 08, 2026
+    - Version: 1.2.0
+    - Date: 2026-07-09
+    - Update: Thursday, July 09, 2026
     - Author: Dennis 'dendogg' Smaltz
     - A.I. Acknowledgement: Anthropic - Claude Fable 5
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Changelog:
+    - 1.2.0 (2026-07-09) [Anthropic - Claude Fable 5] — Six marks re-voiced
+      after the full 30-piece curation review flagged them as cartoonish or
+      stock (AQU-101, MAM-101, MAM-103, INS-103, REP-101, REP-103). The
+      failures were prompt-authored: MAM-101 asked for "two dot eyes",
+      REP-103 for a "gentle comma" gecko. All six now carry the heraldic
+      re-voice — "austere, heraldic, gallery-grade, never cute, never
+      mascot-like" — with negatives banning dot eyes, mascot look,
+      children's-book cuteness, clip-art, and tattoo flash. The nine
+      unflagged marks (all five crests, all avian, insecta sigil, aquatic
+      crest/glyph) are untouched.
     - 1.1.0 (2026-07-08) [Anthropic - Claude Fable 5] — AQU-103 rewritten
       after first render review: the "sweeping double-curve" abstraction
       rendered as a mustache. Now anchored to top-down manta anatomy
@@ -87,8 +97,8 @@ for the Archive wings — not portraits, *insignia*.
 Category emblem · type sigil · slug `aquatic-icon-sigil` · output `aquatic-icon-sigil_silhouette-bw_01.{png,svg}`
 
 ```text
-Design a flat LOGO ICON: a circular museum-seal emblem for an ocean-life collection, centered on a PURE WHITE background. Inside a bold solid-black circular ring, a great whale tail fluke rises SOLID BLACK from a calm horizontal waterline, water drips reduced to two or three simple teardrop shapes. Perfect radial composure, strong symmetry, thick confident shapes, generous white margin around the ring. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible as a favicon at 32 pixels.
-Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no thin fragile linework, no interior detail, no scene, no sky, no fish school, no text, no letters, no watermark, no border beyond the seal ring, no blurry edges.
+Design a flat LOGO ICON: a circular museum-seal emblem for an ocean-life collection, centered on a PURE WHITE background, in the manner of a master brand mark — austere, heraldic, gallery-grade, never cute, never mascot-like. Inside a bold solid-black circular ring, a great whale tail fluke rises SOLID BLACK from a calm horizontal waterline, its trailing edge subtly notched and asymmetric like a real fluke mid-dive; below the waterline, two thin concentric ripple arcs — nothing else. Monumental composure, thick confident shapes, generous white margin around the ring. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible as a favicon at 32 pixels.
+Negative prompt: no water drops, no teardrops, no droplets, no splash, no cartoon style, no mascot look, no children's-book cuteness, no clip-art, no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no thin fragile linework, no scene, no sky, no fish school, no text, no letters, no watermark, no border beyond the seal ring, no blurry edges.
 ```
 
 ### BQ-SILH-AQU-102 · Aquatic Crest — Wave Shield
@@ -167,8 +177,8 @@ Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, n
 Category emblem · type glyph · slug `insecta-icon-glyph` · output `insecta-icon-glyph_silhouette-bw_01.{png,svg}`
 
 ```text
-Design a flat LOGO ICON: an ultra-minimal glyph for an insect-life collection, centered on a PURE WHITE background. One compact SOLID BLACK scarab beetle seen from above, abstracted to essentials: an oval body split by one clean WHITE center line where the wing cases meet, a small head crescent, and six short legs reduced to simple angled strokes. Nothing else on the canvas. Absolute economy, generous white margin. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible at 16 pixels.
-Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no leg-joint detail, no antennae clutter, no second insect, no scene, no text, no letters, no watermark, no border, no blurry edges.
+Design a flat LOGO ICON: an ultra-minimal glyph for an insect-life collection, centered on a PURE WHITE background, in the manner of a master brand mark — austere, gallery-grade, never cute, never mascot-like: an EGYPTIAN SACRED SCARAB with the authority of a carved amulet in a museum case. One compact SOLID BLACK scarab seen from above with true scarab architecture: a serrated crescent clypeus at the head, a clean trapezoidal pronotum, the elytra split by one WHITE center seam and squared at the shoulders, and six angular sculpted legs — forelegs raked forward, hind legs swept back — carved, not doodled. Nothing else on the canvas. Absolute economy, generous white margin. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible at 16 pixels.
+Negative prompt: no ladybug roundness, no blob body, no stick legs, no pest-control-logo look, no cartoon style, no mascot look, no clip-art, no rounded toy-like shapes, no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no antennae clutter, no second insect, no scene, no text, no letters, no watermark, no border, no blurry edges.
 ```
 
 ---
@@ -180,8 +190,8 @@ Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, n
 Category emblem · type sigil · slug `mammalian-icon-sigil` · output `mammalian-icon-sigil_silhouette-bw_01.{png,svg}`
 
 ```text
-Design a flat LOGO ICON: a circular museum-seal emblem for a mammal collection, centered on a PURE WHITE background. Inside a bold solid-black circular ring, a front-facing lion head rendered SOLID BLACK, the mane stylized into a clean radiating crown of eight to ten thick flame-like points, the face carried in WHITE NEGATIVE SPACE with minimal features: two dot eyes, a simple triangular nose, calm symmetry. Regal, heraldic, thick confident shapes, generous white margin around the ring. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible as a favicon at 32 pixels.
-Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no fur strand detail, no whiskers, no thin linework, no full body, no scene, no text, no letters, no watermark, no border beyond the seal ring, no blurry edges.
+Design a flat LOGO ICON: a circular museum-seal emblem for a mammal collection, centered on a PURE WHITE background, in the manner of a master brand mark — austere, heraldic, gallery-grade, never cute, never mascot-like. Inside a bold solid-black circular ring, a front-facing heraldic lion head rendered SOLID BLACK in the tradition of venetian and bank-crest lions: the mane a stern radiating crown of thick asymmetric flame-tongues, the face carved by a few severe WHITE negative-space cuts — a heavy lowered brow shadowing narrowed eyes, a strong wedge nose, a grave closed mouth — dignified and fierce, never friendly. Regal weight, thick confident shapes, generous white margin around the ring. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible as a favicon at 32 pixels.
+Negative prompt: no dot eyes, no round friendly face, no teddy-bear muzzle, no smiling, no cartoon style, no mascot look, no children's-book cuteness, no clip-art, no perfect daisy-petal symmetry, no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no fur strand detail, no whiskers, no thin linework, no full body, no scene, no text, no letters, no watermark, no border beyond the seal ring, no blurry edges.
 ```
 
 ### BQ-SILH-MAM-102 · Mammalian Crest — Elephant Shield
@@ -198,8 +208,8 @@ Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, n
 Category emblem · type glyph · slug `mammalian-icon-glyph` · output `mammalian-icon-glyph_silhouette-bw_01.{png,svg}`
 
 ```text
-Design a flat LOGO ICON: an ultra-minimal glyph for a mammal collection, centered on a PURE WHITE background. One SOLID BLACK big-cat paw print abstracted to essentials: a broad three-lobed pad and four teardrop toes in a clean arc, every shape smooth and deliberate. Nothing else on the canvas. Absolute economy, generous white margin. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible at 16 pixels.
-Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no claws, no fifth toe, no second print, no trail of prints, no scene, no text, no letters, no watermark, no border, no blurry edges.
+Design a flat LOGO ICON: an ultra-minimal glyph for a mammal collection, centered on a PURE WHITE background, in the manner of a master brand mark — austere, field-guide authoritative, gallery-grade, never cute, never mascot-like. One SOLID BLACK big-cat track as a naturalist would record it pressed into earth mid-stride: a broad three-lobed pad with its true scalloped base, four toes of subtly unequal size and spacing set in a natural asymmetric arc, the whole print tilted a few degrees off vertical like a genuine trackway impression — anatomy observed, not a symmetrical sticker. Nothing else on the canvas. Absolute economy, generous white margin. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible at 16 pixels.
+Negative prompt: no perfect symmetry, no pet-store logo look, no cartoon style, no mascot look, no clip-art, no rounded toy-like shapes, no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no claws, no fifth toe, no second print, no trail of prints, no heart shapes, no scene, no text, no letters, no watermark, no border, no blurry edges.
 ```
 
 ---
@@ -211,8 +221,8 @@ Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, n
 Category emblem · type sigil · slug `reptilian-icon-sigil` · output `reptilian-icon-sigil_silhouette-bw_01.{png,svg}`
 
 ```text
-Design a flat LOGO ICON: a circular museum-seal emblem for a reptile collection, centered on a PURE WHITE background. Inside a bold solid-black circular ring, a serpent coiled in one elegant SOLID BLACK spiral of two and a half turns, the head rising at the center with a simple WHITE negative-space eye dot and a forked tongue reduced to one clean small V. Ancient, deliberate, thick confident shapes, generous white margin around the ring. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible as a favicon at 32 pixels.
-Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no scale-by-scale detail, no thin fragile linework, no fangs, no ouroboros tail-eating, no scene, no text, no letters, no watermark, no border beyond the seal ring, no blurry edges.
+Design a flat LOGO ICON: a circular museum-seal emblem for a reptile collection, centered on a PURE WHITE background, in the manner of a master brand mark — austere, heraldic, gallery-grade, never cute, never mascot-like. Inside a bold solid-black circular ring, a serpent coiled in one elegant SOLID BLACK spiral of two and a half turns, the coil tapering with true snake anatomy, the head rising at the center as a clean featureless strike-ready wedge — no eye, no tongue, no face at all; the menace lives entirely in the coil and the poised head. Ancient, deliberate, thick confident shapes, generous white margin around the ring. Flat vector mark, high contrast, crisp edges, traceable to clean fillable paths, legible as a favicon at 32 pixels.
+Negative prompt: no eye dot, no tongue, no face, no smiling, no cartoon style, no mascot look, no children's-book cuteness, no clip-art, no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no scale-by-scale detail, no thin fragile linework, no fangs, no ouroboros tail-eating, no scene, no text, no letters, no watermark, no border beyond the seal ring, no blurry edges.
 ```
 
 ### BQ-SILH-REP-102 · Reptilian Crest — Turtle Shell Badge
@@ -229,6 +239,6 @@ Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, n
 Category emblem · type glyph · slug `reptilian-icon-glyph` · output `reptilian-icon-glyph_silhouette-bw_01.{png,svg}`
 
 ```text
-Design a flat LOGO ICON: an ultra-minimal glyph for a reptile collection, centered on a PURE WHITE background. One single SOLID BLACK gecko curled into a gentle comma shape, seen from above: smooth tapering tail curling under, four legs as simple splayed pads, rounded head, the whole animal one fluid continuous form. Nothing else on the canvas. Absolute economy, one closed shape, generous white margin. Flat vector mark, high contrast, crisp edges, traceable to a single fillable path, legible at 16 pixels.
-Negative prompt: no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no toe detail, no eyes, no scales, no second animal, no leaf, no scene, no text, no letters, no watermark, no border, no blurry edges.
+Design a flat LOGO ICON: an ultra-minimal glyph for a reptile collection, centered on a PURE WHITE background, in the manner of a master brand mark — austere, gallery-grade, never cute, never mascot-like. One single SOLID BLACK gecko seen from above in a natural asymmetric wall-climbing gait: body in a gentle S-flex, opposite legs advanced the way a real gecko climbs, each foot a fan of distinct slender toe pads, the tail trailing in one confident tapering sweep — anatomy observed like a field-guide plate, not a souvenir. Nothing else on the canvas. Absolute economy, one closed shape, generous white margin. Flat vector mark, high contrast, crisp edges, traceable to a single fillable path, legible at 16 pixels.
+Negative prompt: no tribal tattoo look, no tourist-souvenir gecko, no curled comma pose, no ball-tipped toes, no curly-Q tail, no cartoon style, no mascot look, no clip-art, no rounded toy-like shapes, no photorealism, no 3D, no gradients, no grayscale, no color, no texture, no eyes, no scales, no second animal, no leaf, no scene, no text, no letters, no watermark, no border, no blurry edges.
 ```
