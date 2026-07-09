@@ -5,14 +5,14 @@
     "model": "gpt-image-2",
     "quality": "high",
     "size": "1024x1024",
-    "secs": 130.73,
+    "secs": 136.04,
     "retries": 0,
     "tokens": {
-      "input_tokens": 192,
+      "input_tokens": 228,
       "output_tokens": 7024,
-      "total_tokens": 7216
+      "total_tokens": 7252
     },
-    "ts": 1783494070
+    "ts": 1783586239
   },
   "BQ-SILH-AQU-101__v1": {
     "status": "done",
@@ -2848,5 +2848,205 @@
     "status": "submitted",
     "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
     "ts": 1783585548
+  },
+  "BQ-GEOL-AQU-006__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-AQU-007__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-AQU-008__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-AQU-009__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-AQU-010__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-AVI-006__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-AVI-007__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-AVI-008__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-AVI-009__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-AVI-010__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-INS-006__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-INS-007__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-INS-008__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-INS-009__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-INS-010__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-MAM-006__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-MAM-007__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-MAM-008__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-MAM-009__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-MAM-010__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-REP-006__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-REP-007__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-REP-008__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-REP-009__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-GEOL-REP-010__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d09ae4c81909d251ee1a112779e",
+    "ts": 1783586057
+  },
+  "BQ-SILH-AQU-201__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-AQU-202__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-AQU-203__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-AVI-201__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-AVI-202__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-AVI-203__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-INS-201__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-INS-202__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-INS-203__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-MAM-201__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-MAM-202__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-MAM-203__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-REP-201__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-REP-202__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
+  },
+  "BQ-SILH-REP-203__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a4f5d26e3d8819089bd6a1270f196af",
+    "ts": 1783586086
   }
 }

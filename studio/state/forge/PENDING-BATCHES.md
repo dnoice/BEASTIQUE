@@ -36,14 +36,10 @@ Submitted 2026-07-09 · 25 never-rendered species each at high · ~$2.06 each.
 uv run tools/bq_linocut_forge.py fetch --batch-id batch_6a4f5aecb7f08190a08d0499d7584c94 --libs studio/prompts/low-poly  --style low-poly  --quality high
 uv run tools/bq_linocut_forge.py fetch --batch-id batch_6a4f5afa04b88190a3baf3d4fd92b5ef --libs studio/prompts/woodcut   --style woodcut   --quality high
 uv run tools/bq_linocut_forge.py fetch --batch-id batch_6a4f5b03a3148190ae54942b2993b562 --libs studio/prompts/line-art  --style line-art  --quality high
-uv run tools/bq_linocut_forge.py fetch --batch-id batch_6a4f5b0cd3c08190a5cb12bf089b3ab2 --libs studio/prompts/stencil   --style stencil   --quality high
+uv run tools/bq_linocut_forge.py fetch --batch-id batch_6a4f5b0cd3c08190a5cb12bf089b3ab2 --libs studio/prompts/stencil  --style stencil  --quality high
+uv run tools/bq_linocut_forge.py fetch --batch-id batch_6a4f5d09ae4c81909d251ee1a112779e --libs studio/prompts/geo-line --style geo-line --quality high
+uv run tools/bq_linocut_forge.py fetch --batch-id batch_6a4f5d26e3d8819089bd6a1270f196af --libs studio/prompts/banners  --style silhouette --quality high
 ```
 
-## ⚠ Not yet submitted
-
-- **geo-line** Expansion-B — submit with:
-  `uv run tools/bq_linocut_forge.py batch --libs studio/prompts/geo-line --style geo-line --quality high`
-- **banners** (new library, 15 prompts) — submit with:
-  `uv run tools/bq_linocut_forge.py batch --libs studio/prompts/banners --style silhouette --quality high --size 1536x1024`
-- **AQU-103 manta icon redo** (sync, cheap):
-  `uv run tools/bq_linocut_forge.py sync --libs studio/prompts/icons --style silhouette --quality high --size 1024x1024 --only AQU-103 --force`
+All Expansion-B batches + the banner wave are submitted (2026-07-09 ~01:34).
+The AQU-103 manta icon redo ran as a live sync — it writes directly, no fetch.
