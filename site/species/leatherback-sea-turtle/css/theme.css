@@ -1,0 +1,66 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * ✒ Metadata
+ *    - Title: Design System Variables (BEASTIQUE Edition - v1.0)
+ *    - File Name: theme.css
+ *    - Relative Path: site/species/leatherback-sea-turtle/css/theme.css
+ *    - Artifact Type: config
+ *    - Version: 1.0.0
+ *    - Date: 2026-06-27
+ *    - Update: Saturday, June 27, 2026
+ *    - Author: Dennis 'dnoice' Smaltz
+ *    - A.I. Acknowledgement: Anthropic - Claude Opus 4.8
+ *    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+ *
+ * ✒ Description:
+ *    Design tokens for the Leatherback Sea Turtle profile page. Theme: "Tanned
+ *    Depths" — warm saddle-leather and bronze on a cold deep-green ocean,
+ *    echoing the hero plate's leather-clad titan suspended over a pale seabed.
+ *
+ * ✒ Key Features:
+ *    - Feature 1: Warm leather/bronze accents against cold abyssal teal-green
+ *    - Feature 2: Same token names as the shared component system (re-skin only)
+ *    - Feature 3: Fluid typography scale using clamp()
+ *    - Feature 4: Spectral (display) + Mulish (body) — ancient, oceanic gravitas
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
+
+:root {
+    /* ─────────────────────────────────────────────────────────────────────────
+       Color Palette — Tanned Depths (warm leather over cold deep-green sea)
+       ───────────────────────────────────────────────────────────────────────── */
+    --color-abyss: #050d0c;          /* deepest void — page background, edges */
+    --color-deep: #0a1816;           /* deep ocean surface */
+    --color-ocean: #123330;          /* murky teal-green mid-water */
+    --color-teal: #2b6157;           /* living sea-green — circle beds, mid accent */
+    --color-coral: #c0894c;          /* tanned saddle-leather — primary warm accent */
+    --color-coral-soft: #d4a268;     /* soft tan — flesh of the leather */
+    --color-coral-bright: #e8c487;   /* bright sand-gold — hottest highlight */
+    --color-pearl: #f2ead7;          /* warm parchment — primary text, catch-light */
+    --color-silver: #aec4bc;         /* cool sea-mist — bone, particles, cool metal */
+    --color-foam: rgba(220, 236, 230, 0.08);  /* subtle cool overlay */
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Typography — Spectral (deep literary serif) + Mulish (clean sans)
+       ───────────────────────────────────────────────────────────────────────── */
+    --font-display: 'Spectral', 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'Mulish', 'Helvetica Neue', sans-serif;
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Spacing Scale
+       ───────────────────────────────────────────────────────────────────────── */
+    --space-xs: clamp(0.5rem, 1vw, 0.75rem);
+    --space-sm: clamp(1rem, 2vw, 1.5rem);
+    --space-md: clamp(2rem, 4vw, 3rem);
+    --space-lg: clamp(4rem, 8vw, 6rem);
+    --space-xl: clamp(6rem, 12vw, 10rem);
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Transitions & Easing
+       ───────────────────────────────────────────────────────────────────────── */
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --duration-fast: 200ms;
+    --duration-normal: 400ms;
+    --duration-slow: 800ms;
+}

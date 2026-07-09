@@ -1,17 +1,23 @@
 <!--
 ✒ Metadata
-    - Title: Project Tree & Stats (BEASTIQUE Edition - v2.0)
+    - Title: Project Tree & Stats (BEASTIQUE Edition - v2.1)
     - File Name: PROJECT-TREE.md
     - Relative Path: docs/PROJECT-TREE.md
     - Artifact Type: docs
-    - Version: 2.0.0
-    - Date: 2026-06-27
-    - Update: Saturday, June 27, 2026
+    - Version: 2.1.0
+    - Date: 2026-07-07
+    - Update: Tuesday, July 07, 2026
     - Author: Dennis 'dendogg' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.8
+    - A.I. Acknowledgement: Anthropic - Claude Fable 5
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Changelog:
+    - 2.1.0 (2026-07-07) [Anthropic - Claude Fable 5] — Delta appendix added
+      (the measured snapshot remains the 2026-06-27 data): orphaned root
+      /assets/ deleted; _collages/ moved to studio/workbench/contact-sheets/;
+      new site/assets/images/web/ derivative tier + bq_web_derivatives.py;
+      studio/prompts/icons/ library; EXPERIENCE-MAP + LANDING-EXPERIENCE docs;
+      repo pinned fully local (dehydration gap closed by choice).
     - 2.0.0 (2026-06-27) [Anthropic - Claude Opus 4.8] — Post-restructure rewrite.
       The root was reorganized into four clean domains — site/ (deployable),
       studio/ (production), tools/ (CLIs), docs/ (project docs) — per
@@ -57,6 +63,43 @@
 A point-in-time snapshot of the project tree, true storage footprint, and
 pipeline state, **after the site/ + studio/ restructure**. Generated Saturday,
 June 27, 2026.
+
+## Delta since this snapshot (2026-07-07)
+
+The measured tables below are the June 27 data. Structural changes since:
+
+- **Root cleaned to pure four-domain.** The orphaned duplicate `/assets/`
+  (5 OneDrive-locked reptilian dupes left by the restructure) was verified
+  byte-identical to `site/assets/images/reptilian/` and deleted; its
+  `.gitignore` stanza removed. `_collages/` (58 review contact sheets,
+  214 MB) moved to `studio/workbench/contact-sheets/` (git-ignored).
+- **New web derivative tier.** `site/assets/images/web/` — 900–1920px WebP
+  for the landing heroes/carousel/banners/ledger (~12 MB total), plus
+  `thumbs/featured/` and `logos/bq_logo_128.webp`. Generated and maintained
+  by the new `tools/bq_web_derivatives.py` (544 derivatives under management).
+- **Archive pages serve thumbs.** All ~216 category cards now reference
+  400px WebP thumbs instead of full PNGs (~750 MB of page weight retired).
+- **New prompt library.** `studio/prompts/icons/category_icons_prompts.md` —
+  15 category logo-icon prompts (BQ-SILH-*-1xx block, Sigil/Crest/Glyph × 5).
+- **New docs.** `docs/EXPERIENCE-MAP.md` (the unification contract) and
+  `docs/LANDING-EXPERIENCE.md` (the Vault wiring diagram).
+- **Species build-out.** Four exhibits built *and wired*: amur-leopard,
+  beluga-sturgeon, kākāpō, leatherback-sea-turtle. `species.json` = 199
+  entries, audited clean 2026-07-07.
+- **Storage.** The repo was deliberately pinned fully local (`attrib +P`) on
+  2026-07-07 — the logical-vs-on-disk dehydration gap described below no
+  longer applies.
+- **Retired.** `studio/sandbox/species-v2/` (the species-page v2 prototype)
+  was intentionally deleted by Dennis on 2026-07-07 — its ideas live on in
+  the built exhibits; do not restore. Sandbox now holds only
+  `sos-frame-module-test/`.
+- **source-art reorganized (2026-07-08).** The custom-designs / holding-area /
+  homepage-assets / icons / prompts jumble was refiled into a function-first
+  taxonomy: `brand/`, `display/`, `frames/`, `generators/` (the procedural
+  SVG pipeline reunited: scripts+data+templates+output), `collages/`,
+  `masters/`, `concepts/`; `mini-series/` untouched (load-bearing path).
+  5,323 files verified before/after; 23 generator scripts repointed. Map and
+  filing rules: `studio/source-art/README.md`.
 
 ## At a Glance
 

@@ -258,6 +258,7 @@ STYLE_CODE = {
     "line-art": "LINE",
     "stencil": "STEN",
     "geo-line": "GEOL",
+    "specimen": "SPEC",        # full-color species-page hero/fact art (NOT traced)
 }
 
 # Indicative per-image USD prices (sync). Batch applies BATCH_MULTIPLIER.

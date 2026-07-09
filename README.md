@@ -80,13 +80,13 @@ These four pieces capture the project's wider narrative arc: land converted into
 | Plate | Image |
 | --- | --- |
 | **African Elephant**  
-Mass, memory, and habitat compressed into a monumental object. The plate reads like a forged relic of the savannah, turning one of the planet's most recognizable land animals into a record of what industrial appetite does to range, water, and continuity. | ![African Elephant](site/assets/images/featured/african-elephant.png) |
+Mass, memory, and habitat compressed into a monumental object. The plate reads like a forged relic of the savannah, turning one of the planet's most recognizable land animals into a record of what industrial appetite does to range, water, and continuity. | ![African Elephant](docs/media/african-elephant.webp) |
 | **Amur Leopard**  
-Isolation becomes part of the composition here. The cold palette and severe framing reinforce a species living at the edge of viability, where rarity is treated as visual prestige even while the living animal is pushed toward disappearance. | ![Amur Leopard](site/assets/images/featured/amur-leopard-1.png) |
+Isolation becomes part of the composition here. The cold palette and severe framing reinforce a species living at the edge of viability, where rarity is treated as visual prestige even while the living animal is pushed toward disappearance. | ![Amur Leopard](docs/media/amur-leopard-1.webp) |
 | **Beluga Sturgeon**  
-This image carries the logic of extraction underwater: a body shaped by deep time rendered like a premium artifact. It fits BEASTIQUE's forensic tone especially well because the animal feels both ancient and already processed by the market's gaze. | ![Beluga Sturgeon](site/assets/images/featured/beluga-sturgeon-1.png) |
+This image carries the logic of extraction underwater: a body shaped by deep time rendered like a premium artifact. It fits BEASTIQUE's forensic tone especially well because the animal feels both ancient and already processed by the market's gaze. | ![Beluga Sturgeon](docs/media/beluga-sturgeon-1.webp) |
 | **Butterfly**  
-The faceted wings turn delicacy into something jewel-like and nearly transactional. That tension matters to the project: pollinators are foundational to living systems, yet they are often treated as peripheral until decline becomes impossible to ignore. | ![Butterfly](site/assets/images/featured/butterfly-1.png) |
+The faceted wings turn delicacy into something jewel-like and nearly transactional. That tension matters to the project: pollinators are foundational to living systems, yet they are often treated as peripheral until decline becomes impossible to ignore. | ![Butterfly](docs/media/butterfly-1.webp) |
 
 ## What The Project Is Building
 

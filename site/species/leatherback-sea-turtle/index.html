@@ -1,0 +1,571 @@
+<!--
+✒ Metadata
+    - Title: Leatherback Sea Turtle Showcase (BEASTIQUE Edition - v1.0)
+    - File Name: index.html
+    - Relative Path: site/species/leatherback-sea-turtle/index.html
+    - Artifact Type: other
+    - Version: 1.0.0
+    - Date: 2026-06-27
+    - Update: Saturday, June 27, 2026
+    - Author: Dennis 'dnoice' Smaltz
+    - A.I. Acknowledgement: Anthropic - Claude Opus 4.8
+    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+
+✒ Description:
+    An immersive profile of the Leatherback Sea Turtle (Dermochelys coriacea) —
+    the largest sea turtle alive and the deepest-diving reptile on Earth. Themed
+    "Tanned Depths": warm saddle-leather and bronze suspended over a cold,
+    deep-green ocean, after the hero plate's leather-clad titan.
+
+✒ Key Features:
+    - Feature 1: Full-bleed hero with floating marine particles + parallax
+    - Feature 2: Four animated key-stat counters
+    - Feature 3: Scientific classification card
+    - Feature 4: Six illustrated "Remarkable Facts" in circular crops
+    - Feature 5: Conservation section with sourced threat tags
+    - Feature 6: Framed closing showcase + reverent citation
+
+✒ Other Important Information:
+    - Dependencies: shared modules in ../../js/modules/ ; local particles module
+    - Self-contained: loads only local css/main.css + js/main.js
+    - Up-links: ../../index.html and ../../categories/reptilian.html
+---------
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leatherback Sea Turtle — Deep-Diving Titan of the Open Sea</title>
+    <meta name="description"
+        content="The largest sea turtle on Earth and the deepest-diving reptile alive — Dermochelys coriacea, a leather-skinned wanderer of the open ocean since the age of dinosaurs.">
+
+    <!-- Google Fonts: Spectral (display) + Mulish (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Mulish:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main navigation">
+        <div class="container nav__inner">
+            <a href="../../index.html" class="nav__logo">
+                <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+                    <path d="M20 4L8 14v16l12 8 12-8V14L20 4z"/>
+                    <path d="M20 10l-6 5v8l6 4 6-4v-8l-6-5z" stroke-width="0.8" opacity="0.6"/>
+                    <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.8"/>
+                </svg>
+                BEASTIQUE
+            </a>
+            <div class="nav__breadcrumb">
+                <a href="../../index.html">Home</a>
+                <span class="nav__breadcrumb-sep">/</span>
+                <a href="../../categories/reptilian.html">Reptilian</a>
+                <span class="nav__breadcrumb-sep">/</span>
+                <span>Leatherback Sea Turtle</span>
+            </div>
+            <ul class="nav__links">
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#facts" class="nav__link">Facts</a></li>
+                <li><a href="#conservation" class="nav__link">Conservation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Hero">
+        <div class="hero__particles" id="particles"></div>
+
+        <div class="hero__image-container">
+            <img src="assets/images/hero.png"
+                alt="Leatherback sea turtle rendered in stitched leather and bronze, gliding over a pale seabed in deep green water"
+                class="hero__image">
+        </div>
+
+        <!-- Title Block - Top left, over image -->
+        <div class="hero__title-block">
+            <h1 class="hero__title">Leatherback <span>Sea Turtle</span></h1>
+        </div>
+
+        <!-- Description Block - Bottom right -->
+        <div class="hero__description-block">
+            <p class="hero__description">
+                <em>Dermochelys coriacea</em> — the Deep-Diving Titan of the open sea.
+                The largest turtle alive and the deepest-diving reptile on Earth, clad
+                not in a hard shell but in ridged, leathery skin. It has wandered the
+                oceans since the age of dinosaurs, crossing whole basins between tropical
+                nesting beaches and near-arctic feeding grounds.
+            </p>
+            <a href="#facts" class="hero__cta">
+                <span>Discover More</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+
+        <!-- Wave Divider -->
+        <div class="wave-divider" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="var(--color-deep)">
+                <path d="M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z" />
+            </svg>
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="var(--color-deep)">
+                <path d="M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z" />
+            </svg>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- Stats Section -->
+    <section class="stats" aria-label="Key statistics">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stat" data-animate>
+                    <svg class="stat__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d="M24 6v30" />
+                        <path d="M16 28l8 8 8-8" />
+                        <path d="M8 42h32" />
+                    </svg>
+                    <div class="stat__number">1,280m</div>
+                    <div class="stat__label">Deepest Dive</div>
+                </div>
+                <div class="stat" data-animate>
+                    <svg class="stat__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d="M24 8v6" />
+                        <path d="M12 14h24" />
+                        <path d="M12 14l-5 16a7 7 0 0010 0z" />
+                        <path d="M36 14l5 16a7 7 0 01-10 0z" />
+                        <path d="M18 40h12" />
+                    </svg>
+                    <div class="stat__number">916kg</div>
+                    <div class="stat__label">Record Weight</div>
+                </div>
+                <div class="stat" data-animate>
+                    <svg class="stat__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d="M6 30s4-6 9-6 6 4 12 4 9-6 9-6" />
+                        <path d="M6 38s4-6 9-6 6 4 12 4 9-6 9-6" />
+                        <circle cx="34" cy="12" r="4" />
+                    </svg>
+                    <div class="stat__number">16,000km</div>
+                    <div class="stat__label">Longest Migration</div>
+                </div>
+                <div class="stat" data-animate>
+                    <svg class="stat__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <ellipse cx="24" cy="12" rx="16" ry="6" />
+                        <path d="M8 12v12c0 3.3 7.2 6 16 6s16-2.7 16-6V12" />
+                        <path d="M8 24v12c0 3.3 7.2 6 16 6s16-2.7 16-6V24" />
+                    </svg>
+                    <div class="stat__number">100M</div>
+                    <div class="stat__label">Years on Earth</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__content" data-animate>
+                    <div class="about__label">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M12 2l2 7h7l-6 4 2 7-6-4-6 4 2-7-6-4h7z" />
+                        </svg>
+                        Species Profile
+                    </div>
+                    <h2 class="about__title">The Last of an Ancient Line</h2>
+                    <p class="about__text">
+                        The leatherback (<em>Dermochelys coriacea</em>) is the largest sea
+                        turtle on Earth and one of the most extraordinary reptiles alive.
+                        Where every other sea turtle carries a hard, bony shell, the leatherback
+                        is sheathed in tough, rubbery skin raised into seven long ridges — a
+                        carapace built for the open ocean rather than the reef.
+                    </p>
+                    <p class="about__text">
+                        It is a creature of superlatives: the deepest-diving reptile, plunging
+                        beyond 1,200 metres into the lightless deep; a near-warm-blooded titan
+                        that holds its body heat in seas cold enough to kill other turtles; and
+                        the most widely distributed reptile on the planet, ranging from the tropics
+                        to the edge of the Arctic in pursuit of a single, gelatinous prey — jellyfish.
+                    </p>
+                    <p class="about__text">
+                        Its lineage is older than almost anything else swimming today, reaching back
+                        more than a hundred million years to seas that mosasaurs once ruled. Yet this
+                        deep-time survivor now faces a thoroughly modern gauntlet — plastic, longlines,
+                        poached nests, and a warming climate quietly rewriting the next generation.
+                    </p>
+                </div>
+                <div class="about__visual" data-animate>
+                    <div class="about__frame">
+                        <div class="taxonomy-card">
+                            <div class="taxonomy-card__header">
+                                <svg class="taxonomy-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" aria-hidden="true">
+                                    <rect x="6" y="6" width="36" height="36" rx="4" />
+                                    <path d="M6 18h36M18 18v24" />
+                                    <circle cx="12" cy="12" r="2" />
+                                </svg>
+                                <h3 class="taxonomy-card__title">Scientific Classification</h3>
+                            </div>
+                            <ul class="taxonomy-card__list">
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Kingdom</span>
+                                    <span class="taxonomy-card__value">Animalia</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Phylum</span>
+                                    <span class="taxonomy-card__value">Chordata</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Class</span>
+                                    <span class="taxonomy-card__value">Reptilia</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Order</span>
+                                    <span class="taxonomy-card__value">Testudines</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Family</span>
+                                    <span class="taxonomy-card__value">Dermochelyidae</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Genus</span>
+                                    <span class="taxonomy-card__value">Dermochelys</span>
+                                </li>
+                                <li class="taxonomy-card__item">
+                                    <span class="taxonomy-card__key">Species</span>
+                                    <span class="taxonomy-card__value">D. coriacea</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- Facts Section -->
+    <section class="facts" id="facts">
+        <div class="container">
+            <header class="facts__header">
+                <div class="facts__label">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M12 6v6l4 2" />
+                    </svg>
+                    Remarkable Facts
+                </div>
+                <h2>Titan of Deep Time</h2>
+            </header>
+
+            <div class="facts__grid">
+                <!-- Fact 1: The Shell That Isn't -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-01-leather-shell.png"
+                                alt="Close-up of the leatherback's ridged, leather-like carapace over a mosaic of small bones"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 01</div>
+                        <h3 class="fact-card__title">The Shell That Isn't</h3>
+                        <p class="fact-card__text">
+                            Alone among sea turtles, the leatherback has no hard shell. Its back is
+                            a flexible mosaic of thousands of tiny bones embedded in tough, oil-soaked
+                            skin, raised into seven long ridges that channel water as it swims. The name
+                            says it all — <em>Dermochelys</em> means "skin turtle," a hull of leather
+                            built for the open ocean.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 2: Into the Crushing Deep -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-02-deep-dive.png"
+                                alt="Leatherback descending into the lightless deep, a shaft of light fading above it"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 02</div>
+                        <h3 class="fact-card__title">Into the Crushing Deep</h3>
+                        <p class="fact-card__text">
+                            It is the deepest-diving reptile alive, recorded at 1,280 metres — deeper
+                            than most whales. Its flexible shell and collapsible lungs let it shrug off
+                            pressure that would crush a hard-shelled turtle, while its heartbeat slows
+                            to a crawl. The leatherback hunts in the twilight and midnight zones where
+                            few air-breathers dare to follow.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 3: Warm Heart in Cold Seas -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-03-warm-blooded.png"
+                                alt="Leatherback glowing with inner warmth amid cold, ice-tinged water"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 03</div>
+                        <h3 class="fact-card__title">Warm Heart in Cold Seas</h3>
+                        <p class="fact-card__text">
+                            Through "gigantothermy," the leatherback keeps its body up to 18°C warmer
+                            than the water around it. Sheer bulk, an insulating layer of fat, and
+                            countercurrent heat exchange in its flippers let it forage in seas off
+                            Norway, Newfoundland, and Chile — water cold enough to kill any other sea
+                            turtle outright.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 4: Built to Swallow the Sea -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-04-jellyfish-hunter.png"
+                                alt="Open leatherback throat lined with backward-pointing spines, a jellyfish drifting near"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 04</div>
+                        <h3 class="fact-card__title">Built to Swallow the Sea</h3>
+                        <p class="fact-card__text">
+                            The leatherback is a jellyfish specialist, and its throat is a one-way
+                            trap: hundreds of backward-pointing keratin spines line the mouth and
+                            esophagus so gelatinous prey can never slip free. It can eat its own body
+                            weight in jellyfish in a day — which is exactly why a single drifting plastic
+                            bag, mistaken for a jelly, can be fatal.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 5: The Ocean Wanderer -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-05-ocean-wanderer.png"
+                                alt="Leatherback crossing open ocean, a long luminous migration trail behind it"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 05</div>
+                        <h3 class="fact-card__title">The Ocean Wanderer</h3>
+                        <p class="fact-card__text">
+                            No reptile roams farther. Leatherbacks undertake transoceanic migrations of
+                            up to 16,000 kilometres between tropical nesting beaches and distant feeding
+                            grounds, navigating the open blue with uncanny precision. A turtle that hatches
+                            in Indonesia may feed off the coast of California — a lifetime spent crossing
+                            entire oceans.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Fact 6: Survivor of Deep Time -->
+                <article class="fact-card" data-animate>
+                    <div class="fact-card__visual">
+                        <div class="fact-card__circle">
+                            <img src="assets/images/facts/fact-06-deep-time.png"
+                                alt="Leatherback silhouette against a fossil-toned ancient sea, evoking deep geological time"
+                                class="fact-card__image" loading="lazy" width="250" height="250">
+                        </div>
+                    </div>
+                    <div class="fact-card__content">
+                        <div class="fact-card__number">Fact 06</div>
+                        <h3 class="fact-card__title">Survivor of Deep Time</h3>
+                        <p class="fact-card__text">
+                            The leatherback is the sole survivor of an entire family, Dermochelyidae,
+                            whose roots reach back more than 100 million years to the Cretaceous. It
+                            shared the seas with mosasaurs and outlasted the asteroid that ended the
+                            dinosaurs. Its body plan has barely changed since — a design the ocean
+                            has not improved upon in a hundred million years.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- Conservation Section -->
+    <section class="conservation" id="conservation">
+        <div class="container">
+            <div class="conservation__content">
+                <div class="conservation__badge" data-animate>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M12 9v4M12 17h.01" />
+                        <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+                    </svg>
+                    Vulnerable
+                </div>
+                <h2 class="conservation__title" data-animate>A Wanderer Running Out of Ocean</h2>
+                <p class="conservation__text" data-animate>
+                    Globally listed as Vulnerable on the IUCN Red List, the leatherback's story
+                    differs sharply from sea to sea. Atlantic populations are holding on, but the
+                    Pacific subpopulations have collapsed by more than 90% and are now critically
+                    endangered. Decades of bycatch, plundered nests, and an ocean filling with
+                    plastic have hollowed out a species that survived the death of the dinosaurs.
+                </p>
+                <p class="conservation__text" data-animate>
+                    The fixes are known and they work where they are applied: protected nesting
+                    beaches, turtle-excluder devices and circle hooks that cut bycatch, and
+                    international agreements like CITES and the Convention on Migratory Species. The
+                    hard part is scale — a turtle that crosses whole ocean basins can only be saved by
+                    cleaner seas and safer fisheries across all of them at once.
+                </p>
+                <div class="conservation__threats" data-animate>
+                    <h3 class="conservation__threats-heading">What Threatens Their Survival</h3>
+                    <div class="conservation__threats-grid">
+                    <a class="threat-tag"
+                        href="https://www.fisheries.noaa.gov/species/leatherback-turtle"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M3 6h18M8 6V4h8v2M6 6l1 14a2 2 0 002 2h6a2 2 0 002-2l1-14" />
+                        </svg>
+                        <span class="threat-tag__label">Plastic Pollution</span>
+                        <span class="threat-tag__detail">Floating bags are mistaken for jellyfish and choke the gut</span>
+                        <span class="sr-only">(source: NOAA Fisheries — opens in new tab)</span>
+                    </a>
+                    <a class="threat-tag"
+                        href="https://www.worldwildlife.org/species/leatherback-turtle"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M4 6c8 2 12 2 16 6M4 10c6 1 10 2 14 6M4 14c4 1 7 2 10 5" />
+                            <circle cx="19" cy="6" r="1.5" />
+                        </svg>
+                        <span class="threat-tag__label">Fisheries Bycatch</span>
+                        <span class="threat-tag__detail">Longlines and gillnets drown thousands every year</span>
+                        <span class="sr-only">(source: WWF — opens in new tab)</span>
+                    </a>
+                    <a class="threat-tag"
+                        href="https://conserveturtles.org/information-sea-turtles-leatherback-sea-turtle/"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <ellipse cx="12" cy="14" rx="7" ry="5" />
+                            <path d="M9 14a3 3 0 016 0" />
+                            <path d="M12 9V5M9 6l3-2 3 2" />
+                        </svg>
+                        <span class="threat-tag__label">Egg Poaching</span>
+                        <span class="threat-tag__detail">Nests raided on tropical beaches before they ever hatch</span>
+                        <span class="sr-only">(source: Sea Turtle Conservancy — opens in new tab)</span>
+                    </a>
+                    <a class="threat-tag"
+                        href="https://www.iucnredlist.org/species/6494/43526147"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M3 21h18M6 21V11l6-5 6 5v10" />
+                            <path d="M10 21v-5h4v5" />
+                        </svg>
+                        <span class="threat-tag__label">Coastal Development</span>
+                        <span class="threat-tag__detail">Lights and construction erase the beaches they nest on</span>
+                        <span class="sr-only">(source: IUCN Red List — opens in new tab)</span>
+                    </a>
+                    <a class="threat-tag"
+                        href="https://www.fisheries.noaa.gov/species/leatherback-turtle"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <circle cx="12" cy="12" r="5" />
+                            <path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2" />
+                        </svg>
+                        <span class="threat-tag__label">Climate Change</span>
+                        <span class="threat-tag__detail">Hotter sand skews hatchlings female; rising seas drown nests</span>
+                        <span class="sr-only">(source: NOAA Fisheries — opens in new tab)</span>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    <!-- Closing Showcase -->
+    <section class="closing" id="closing" aria-label="Closing showcase">
+        <div class="container">
+            <div class="closing__content" data-animate>
+                <div class="closing__frame">
+                    <img src="assets/images/closing.png"
+                        alt="Leatherback sea turtle rendered in leather and bronze within an ornate deep-ocean frame"
+                        class="closing__image" loading="lazy" width="1024" height="1024">
+                </div>
+                <blockquote class="closing__quote" data-animate>
+                    <p>
+                        It needs no fortress of bone —
+                        only the open sea, and the patience of a hundred million years.
+                    </p>
+                    <cite>In reverence of <em>Dermochelys coriacea</em></cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" aria-hidden="true">
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                            <path d="M16 5c6 0 11 5 11 11s-5 11-11 11S5 22 5 16 10 5 16 5z" />
+                            <path d="M16 9l2.5 4.5L23 16l-4.5 2.5L16 23l-2.5-4.5L9 16l4.5-2.5z" stroke-width="1" opacity="0.6" />
+                        </svg>
+                        Leatherback Sea Turtle
+                    </div>
+                    <p class="footer__project">A digiSpace Studios production &mdash; part of the BEASTIQUE Project</p>
+                    <div class="footer__links">
+                        <a href="mailto:densmaltz4@gmail.com" class="footer__link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="M22 4L12 13 2 4" />
+                            </svg>
+                            densmaltz4@gmail.com
+                        </a>
+                        <a href="https://github.com/dnoice/BEASTIQUE" target="_blank" rel="noopener" class="footer__link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                            </svg>
+                            dnoice/BEASTIQUE
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__signature-block">
+                    <p class="footer__signature">&#xFE3B;&#x30C7;&#x2550;&#x2500;&#x2500;&#x2500; &#x2726; &#x2726; &#x2726; &#x007C; Aim Twice, Shoot Once!</p>
+                    <p class="footer__disclaimer">The signature <em>"Aim Twice, Shoot Once"</em> is a personal creative
+                        philosophy of precision and intentionality &mdash; measure twice, execute once. It represents a
+                        commitment to thoughtful craftsmanship over haste, not a reference to anything beyond that craft.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript Module -->
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

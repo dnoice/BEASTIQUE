@@ -1,11 +1,74 @@
-/* ============================================
-   BEASTIQUE — Global Foundation
-   Reset · Typography · Utilities · Animation Base
-   Shared across all pages (landing, category, species)
-   ============================================ */
+/*
+✒ Metadata
+    - Title: Global Foundation Stylesheet (BEASTIQUE Edition - v2.0)
+    - File Name: global.css
+    - Relative Path: site/css/global.css
+    - Artifact Type: library
+    - Version: 2.0.0
+    - Date: 2026-07-07
+    - Update: Tuesday, July 07, 2026
+    - Author: Dennis 'dendogg' Smaltz
+    - A.I. Acknowledgement: Anthropic - Claude Fable 5
+    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+
+✒ Changelog:
+    - 2.0.0 (2026-07-07) [Anthropic - Claude Fable 5] — Promoted the color and
+      font tokens into :root as the single canonical brand palette (previously
+      duplicated across landing.css and category.css). Added the SOS signal
+      gold and IUCN status tokens. No structural rules changed.
+    - 1.0.0 (2025) — Original shared foundation: reset, spacing/motion tokens,
+      typography scale, container, a11y utilities, reveal base, keyframes.
+
+✒ Description:
+    The shared foundation loaded by every BEASTIQUE page — landing (The Vault),
+    category archives, and species exhibits. Owns the canonical design tokens:
+    palette, typography, spacing, motion, and layout. Page stylesheets may
+    override tokens (per-category accents, per-species themes) but must not
+    redefine the brand base.
+
+✒ Key Features:
+    - Canonical brand palette: near-black bases, warm ivory text, BEASTIQUE gold
+    - SOS signal gold (--color-signal) shared with the sos-frame component
+    - IUCN status color tokens for conservation badges
+    - Fluid clamp()-based spacing and typographic scales
+    - Motion tokens + shared keyframes + reduced-motion guard
+    - Accessibility primitives: skip-link, .sr-only, :focus-visible
+
+✒ Other Important Information:
+    - Dependencies: none (pure CSS, loaded first on every page)
+    - Compatible platforms: all evergreen browsers
+---------
+*/
 
 /* ── Shared Design Tokens ── */
 :root {
+  /* Palette — canonical brand base (override per page/species, never redefine) */
+  --color-void: #050505;
+  --color-bg: #0a0a0a;
+  --color-surface: #111111;
+  --color-surface-alt: #0d0d0d;
+  --color-muted: #2a2a2a;
+  --color-accent: #c8a45c;
+  --color-accent-dim: rgba(200, 164, 92, 0.15);
+  --color-accent-glow: rgba(200, 164, 92, 0.08);
+  --color-text: #e8e4dc;
+  --color-text-dim: #8a8680;
+  --color-text-muted: #55524c;
+  --color-mist: rgba(255, 255, 255, 0.06);
+
+  /* SOS signal — universal across all species (morse frames, urgency marks) */
+  --color-signal: #f2bc00;
+
+  /* IUCN status colors */
+  --status-critical: #d4565c;
+  --status-endangered: #d4944a;
+  --status-vulnerable: #c9a84e;
+  --status-stable: #8fae6e;
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Raleway', 'Segoe UI', sans-serif;
+
   /* Spacing Scale */
   --space-xs: clamp(0.5rem, 1vw, 0.75rem);
   --space-sm: clamp(1rem, 2vw, 1.5rem);

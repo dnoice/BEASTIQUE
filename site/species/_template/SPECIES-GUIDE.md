@@ -47,6 +47,7 @@ species/{species-slug}/
 Each species page needs these content elements:
 
 ### Hero Section
+
 - Common name (e.g., "Amur Leopard")
 - Scientific name (e.g., "Panthera pardus orientalis")
 - Tagline / subtitle (e.g., "Ghost of the Siberian Forest")
@@ -54,20 +55,24 @@ Each species page needs these content elements:
 - Hero image (full-bleed, atmospheric)
 
 ### Stats (4 key numbers)
+
 - Pick 4 compelling stats about the species
 - Format: number + label (e.g., "~120" / "Wild Population")
 - The counter module animates these on scroll
 
 ### About Section
+
 - 3 paragraphs of species profile text
 - Full scientific taxonomy (Kingdom through Species/Subspecies)
 
 ### Facts (6 illustrated facts)
+
 - Each fact needs: number, title, description paragraph, image
 - Images should be circular crop format, 440x440px recommended
 - Optional: alternate images for gallery rotation
 
 ### Conservation Section
+
 - Conservation status badge (e.g., "Critically Endangered")
 - Section title (e.g., "On the Edge of Forever")
 - 2 paragraphs on conservation situation
@@ -78,6 +83,7 @@ Each species page needs these content elements:
   - Source name
 
 ### Closing
+
 - Atmospheric image
 - Poetic blockquote (2-3 lines)
 - Citation (e.g., "In reverence of Panthera pardus orientalis")
@@ -109,7 +115,9 @@ Every species gets its own color palette and font pair:
 ## JS Conventions
 
 ### Entry function
+
 Every `main.js` must use `bootstrap()` as the entry function name:
+
 ```js
 function bootstrap() { ... }
 if (document.readyState === 'loading') {
@@ -120,7 +128,9 @@ if (document.readyState === 'loading') {
 ```
 
 ### Module exports
+
 All modules (shared and species-specific) export a single `init` function:
+
 ```js
 // In your module file:
 export function init(config = {}) { ... }
@@ -130,7 +140,9 @@ import { init as initSnowflakes } from './modules/snowflakes.js';
 ```
 
 ### Shared modules
+
 Imported from `../../../js/modules/`:
+
 - `scroll-animations.js` — Intersection Observer reveals
 - `counter.js` — Animated stat counters
 - `nav-scroll.js` — Nav background darkens on scroll

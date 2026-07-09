@@ -748,6 +748,17 @@
     "hasPage": false
   },
   {
+    "id": "kakapo",
+    "name": "Kākāpō",
+    "scientific_name": "Strigops habroptilus",
+    "category": "avian",
+    "conservation_status": "Critically Endangered",
+    "tagline": "Night Parrot of the Ancient Forest",
+    "thumbnail": "assets/images/avian/kakapo-1.png",
+    "page": "species/kākāpō/",
+    "hasPage": true
+  },
+  {
     "id": "king-vulture",
     "name": "King Vulture",
     "scientific_name": "Sarcoramphus papa",
@@ -1771,6 +1782,17 @@
     "hasPage": false
   },
   {
+    "id": "caribou",
+    "name": "Caribou",
+    "scientific_name": "Rangifer tarandus",
+    "category": "mammalian",
+    "conservation_status": "Vulnerable",
+    "tagline": "Nomad of the Tundra Roads",
+    "thumbnail": "assets/images/mammalian/caribou-1.png",
+    "page": "species/caribou/",
+    "hasPage": false
+  },
+  {
     "id": "cheetah",
     "name": "Cheetah",
     "scientific_name": "Acinonyx jubatus",
@@ -1782,6 +1804,17 @@
     "hasPage": false
   },
   {
+    "id": "echidna",
+    "name": "Echidna",
+    "scientific_name": "Tachyglossus aculeatus",
+    "category": "mammalian",
+    "conservation_status": "Least Concern",
+    "tagline": "Spined Relic of an Older Blueprint",
+    "thumbnail": "assets/images/mammalian/echidna-1.png",
+    "page": "species/echidna/",
+    "hasPage": false
+  },
+  {
     "id": "ethiopian-wolf",
     "name": "Ethiopian Wolf",
     "scientific_name": "Canis simensis",
@@ -1790,6 +1823,17 @@
     "tagline": "Rarest Canid on Earth",
     "thumbnail": "assets/images/mammalian/ethiopian-wolf-1.png",
     "page": "species/ethiopian-wolf/",
+    "hasPage": false
+  },
+  {
+    "id": "fennec-fox",
+    "name": "Fennec Fox",
+    "scientific_name": "Vulpes zerda",
+    "category": "mammalian",
+    "conservation_status": "Least Concern",
+    "tagline": "Big-Eared Ghost of the Dunes",
+    "thumbnail": "assets/images/mammalian/fennec-fox-1.png",
+    "page": "species/fennec-fox/",
     "hasPage": false
   },
   {
@@ -1837,6 +1881,17 @@
     "hasPage": false
   },
   {
+    "id": "grevys-zebra",
+    "name": "Grevy's Zebra",
+    "scientific_name": "Equus grevyi",
+    "category": "mammalian",
+    "conservation_status": "Endangered",
+    "tagline": "Finest Stripes in the Rift",
+    "thumbnail": "assets/images/mammalian/grevys-zebra-1.png",
+    "page": "species/grevys-zebra/",
+    "hasPage": false
+  },
+  {
     "id": "grizzly-bear",
     "name": "Grizzly Bear",
     "scientific_name": "Ursus arctos horribilis",
@@ -1845,6 +1900,17 @@
     "tagline": "Silver-Tipped Titan of the Mountains",
     "thumbnail": "assets/images/mammalian/grizzly-bear-1.png",
     "page": "species/grizzly-bear/",
+    "hasPage": false
+  },
+  {
+    "id": "himalayan-brown-bear",
+    "name": "Himalayan Brown Bear",
+    "scientific_name": "Ursus arctos isabellinus",
+    "category": "mammalian",
+    "conservation_status": "Vulnerable",
+    "tagline": "Highland Giant of the Thin Air",
+    "thumbnail": "assets/images/mammalian/himalayan-brown-bear-1.png",
+    "page": "species/himalayan-brown-bear/",
     "hasPage": false
   },
   {
@@ -1870,6 +1936,17 @@
     "hasPage": false
   },
   {
+    "id": "kodiak-bear",
+    "name": "Kodiak Bear",
+    "scientific_name": "Ursus arctos middendorffi",
+    "category": "mammalian",
+    "conservation_status": "Data Deficient",
+    "tagline": "Island King of the Salmon Run",
+    "thumbnail": "assets/images/mammalian/kodiak-bear-1.png",
+    "page": "species/kodiak-bear/",
+    "hasPage": false
+  },
+  {
     "id": "lion",
     "name": "Lion",
     "scientific_name": "Panthera leo",
@@ -1889,6 +1966,17 @@
     "tagline": "Stilt-Legged Ghost of the Cerrado",
     "thumbnail": "assets/images/mammalian/maned-wolf-1.png",
     "page": "species/maned-wolf/",
+    "hasPage": false
+  },
+  {
+    "id": "margay",
+    "name": "Margay",
+    "scientific_name": "Leopardus wiedii",
+    "category": "mammalian",
+    "conservation_status": "Near Threatened",
+    "tagline": "Acrobat of the Midnight Canopy",
+    "thumbnail": "assets/images/mammalian/margay-1.png",
+    "page": "species/margay/",
     "hasPage": false
   },
   {
@@ -1925,6 +2013,50 @@
     "hasPage": false
   },
   {
+    "id": "przewalskis-horse",
+    "name": "Przewalski's Horse",
+    "scientific_name": "Equus ferus przewalskii",
+    "category": "mammalian",
+    "conservation_status": "Endangered",
+    "tagline": "The Last Truly Wild Horse",
+    "thumbnail": "assets/images/mammalian/przewalskis-horse-1.png",
+    "page": "species/przewalskis-horse/",
+    "hasPage": false
+  },
+  {
+    "id": "pygmy-hippopotamus",
+    "name": "Pygmy Hippopotamus",
+    "scientific_name": "Choeropsis liberiensis",
+    "category": "mammalian",
+    "conservation_status": "Endangered",
+    "tagline": "Shy Heavyweight of the Forest Streams",
+    "thumbnail": "assets/images/mammalian/pygmy-hippopotamus-1.png",
+    "page": "species/pygmy-hippopotamus/",
+    "hasPage": false
+  },
+  {
+    "id": "quokka",
+    "name": "Quokka",
+    "scientific_name": "Setonix brachyurus",
+    "category": "mammalian",
+    "conservation_status": "Vulnerable",
+    "tagline": "Smiling Survivor of the Island Refuge",
+    "thumbnail": "assets/images/mammalian/quokka-1.png",
+    "page": "species/quokka/",
+    "hasPage": false
+  },
+  {
+    "id": "red-kangaroo",
+    "name": "Red Kangaroo",
+    "scientific_name": "Osphranter rufus",
+    "category": "mammalian",
+    "conservation_status": "Least Concern",
+    "tagline": "Red Engine of the Outback",
+    "thumbnail": "assets/images/mammalian/red-kangaroo-1.png",
+    "page": "species/red-kangaroo/",
+    "hasPage": false
+  },
+  {
     "id": "red-panda",
     "name": "Red Panda",
     "scientific_name": "Ailurus fulgens",
@@ -1933,6 +2065,17 @@
     "tagline": "Crimson Shadow of the Bamboo",
     "thumbnail": "assets/images/mammalian/red-panda-1.png",
     "page": "species/red-panda/",
+    "hasPage": false
+  },
+  {
+    "id": "saiga-antelope",
+    "name": "Saiga Antelope",
+    "scientific_name": "Saiga tatarica",
+    "category": "mammalian",
+    "conservation_status": "Critically Endangered",
+    "tagline": "Strange-Nosed Survivor of the Steppe",
+    "thumbnail": "assets/images/mammalian/saiga-antelope-1.png",
+    "page": "species/saiga-antelope/",
     "hasPage": false
   },
   {
@@ -1980,6 +2123,28 @@
     "hasPage": false
   },
   {
+    "id": "sumatran-tiger",
+    "name": "Sumatran Tiger",
+    "scientific_name": "Panthera tigris sumatrae",
+    "category": "mammalian",
+    "conservation_status": "Critically Endangered",
+    "tagline": "Last Tiger of the Sunda Isles",
+    "thumbnail": "assets/images/mammalian/sumatran-tiger-1.png",
+    "page": "species/sumatran-tiger/",
+    "hasPage": false
+  },
+  {
+    "id": "tamaraw",
+    "name": "Tamaraw",
+    "scientific_name": "Bubalus mindorensis",
+    "category": "mammalian",
+    "conservation_status": "Critically Endangered",
+    "tagline": "Mindoro's Mountain Buffalo",
+    "thumbnail": "assets/images/mammalian/tamaraw-1.png",
+    "page": "species/tamaraw/",
+    "hasPage": false
+  },
+  {
     "id": "western-lowland-gorilla",
     "name": "Western Lowland Gorilla",
     "scientific_name": "Gorilla gorilla gorilla",
@@ -1999,6 +2164,17 @@
     "tagline": "Ferocious Nomad of the Boreal",
     "thumbnail": "assets/images/mammalian/wolverine-1.png",
     "page": "species/wolverine/",
+    "hasPage": false
+  },
+  {
+    "id": "wombat",
+    "name": "Wombat",
+    "scientific_name": "Vombatus ursinus",
+    "category": "mammalian",
+    "conservation_status": "Least Concern",
+    "tagline": "Burrow Engineer of the Bush",
+    "thumbnail": "assets/images/mammalian/wombat-1.png",
+    "page": "species/wombat/",
     "hasPage": false
   },
   {
@@ -2024,6 +2200,17 @@
     "hasPage": false
   },
   {
+    "id": "arizona-coral-snake",
+    "name": "Arizona Coral Snake",
+    "scientific_name": "Micruroides euryxanthus",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Banded Warning of the Desert",
+    "thumbnail": "assets/images/reptilian/arizona-coral-snake-1.png",
+    "page": "species/arizona-coral-snake/",
+    "hasPage": false
+  },
+  {
     "id": "australian-saltwater-crocodile",
     "name": "Australian Saltwater Crocodile",
     "scientific_name": "Crocodylus porosus",
@@ -2043,6 +2230,61 @@
     "tagline": "Living Prism of the Branch",
     "thumbnail": "assets/images/reptilian/chameleon-1.png",
     "page": "species/chameleon/",
+    "hasPage": false
+  },
+  {
+    "id": "copperhead-snake",
+    "name": "Copperhead Snake",
+    "scientific_name": "Agkistrodon contortrix",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Leaf-Litter Ambush in Bronze",
+    "thumbnail": "assets/images/reptilian/copperhead-snake-1.png",
+    "page": "species/copperhead-snake/",
+    "hasPage": false
+  },
+  {
+    "id": "eastern-brown-snake",
+    "name": "Eastern Brown Snake",
+    "scientific_name": "Pseudonaja textilis",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Quiet Lightning of the Outback",
+    "thumbnail": "assets/images/reptilian/eastern-brown-snake-1.png",
+    "page": "species/eastern-brown-snake/",
+    "hasPage": false
+  },
+  {
+    "id": "european-fire-salamander",
+    "name": "European Fire Salamander",
+    "scientific_name": "Salamandra salamandra",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Black-and-Gold Keeper of Wet Woods",
+    "thumbnail": "assets/images/reptilian/european-fire-salamander-1.webp",
+    "page": "species/european-fire-salamander/",
+    "hasPage": false
+  },
+  {
+    "id": "flat-headed-gecko",
+    "name": "Flat-headed Gecko",
+    "scientific_name": "Hemidactylus platyurus",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Whisper on the Ceiling",
+    "thumbnail": "assets/images/reptilian/flat-headed-gecko-1.png",
+    "page": "species/flat-headed-gecko/",
+    "hasPage": false
+  },
+  {
+    "id": "fowlers-toad",
+    "name": "Fowler's Toad",
+    "scientific_name": "Anaxyrus fowleri",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Gravel-Voiced Son of the Sandbanks",
+    "thumbnail": "assets/images/reptilian/fowlers-toad-1.png",
+    "page": "species/fowlers-toad/",
     "hasPage": false
   },
   {
@@ -2101,6 +2343,17 @@
     "hasPage": false
   },
   {
+    "id": "japanese-rat-snake",
+    "name": "Japanese Rat Snake",
+    "scientific_name": "Elaphe climacophora",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Temple Guardian of the Rice Fields",
+    "thumbnail": "assets/images/reptilian/japanese-rat-snake-1.png",
+    "page": "species/japanese-rat-snake/",
+    "hasPage": false
+  },
+  {
     "id": "king-cobra",
     "name": "King Cobra",
     "scientific_name": "Ophiophagus hannah",
@@ -2131,6 +2384,28 @@
     "tagline": "Deep-Diving Titan of the Open Sea",
     "thumbnail": "assets/images/reptilian/leatherback-sea-turtle-3.png",
     "page": "species/leatherback-sea-turtle/",
+    "hasPage": true
+  },
+  {
+    "id": "loggerhead-sea-turtles",
+    "name": "Loggerhead Sea Turtles",
+    "scientific_name": "Caretta caretta",
+    "category": "reptilian",
+    "conservation_status": "Vulnerable",
+    "tagline": "Old Compass of the Warm Currents",
+    "thumbnail": "assets/images/reptilian/loggerhead-sea-turtles-1.png",
+    "page": "species/loggerhead-sea-turtles/",
+    "hasPage": false
+  },
+  {
+    "id": "mesoamerican-river-turtle",
+    "name": "Mesoamerican River Turtle",
+    "scientific_name": "Dermatemys mawii",
+    "category": "reptilian",
+    "conservation_status": "Critically Endangered",
+    "tagline": "Last of a Seventy-Million-Year Line",
+    "thumbnail": "assets/images/reptilian/mesoamerican-river-turtle-1.png",
+    "page": "species/mesoamerican-river-turtle/",
     "hasPage": false
   },
   {
@@ -2145,6 +2420,39 @@
     "hasPage": false
   },
   {
+    "id": "mexican-pine-snake",
+    "name": "Mexican Pine Snake",
+    "scientific_name": "Pituophis deppei",
+    "category": "reptilian",
+    "conservation_status": "Data Deficient",
+    "tagline": "Highland Coil of the Sierra",
+    "thumbnail": "assets/images/reptilian/mexican-pine-snake-1.png",
+    "page": "species/mexican-pine-snake/",
+    "hasPage": false
+  },
+  {
+    "id": "mountain-pit-viper",
+    "name": "Mountain Pit Viper",
+    "scientific_name": "Ovophis monticola",
+    "category": "reptilian",
+    "conservation_status": "Data Deficient",
+    "tagline": "Cold Sentinel of the Mist Forests",
+    "thumbnail": "assets/images/reptilian/mountain-pit-viper-1.png",
+    "page": "species/mountain-pit-viper/",
+    "hasPage": false
+  },
+  {
+    "id": "mourning-gecko",
+    "name": "Mourning Gecko",
+    "scientific_name": "Lepidodactylus lugubris",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "The Clone Colony on the Tide Line",
+    "thumbnail": "assets/images/reptilian/mourning-gecko-1.png",
+    "page": "species/mourning-gecko/",
+    "hasPage": false
+  },
+  {
     "id": "nile-crocodile",
     "name": "Nile Crocodile",
     "scientific_name": "Crocodylus niloticus",
@@ -2153,6 +2461,39 @@
     "tagline": "Ancient Ambusher of the Riverbank",
     "thumbnail": "assets/images/reptilian/nile-crocodile-1.png",
     "page": "species/nile-crocodile/",
+    "hasPage": false
+  },
+  {
+    "id": "nile-monitor",
+    "name": "Nile Monitor",
+    "scientific_name": "Varanus niloticus",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "River Dragon of the Papyrus",
+    "thumbnail": "assets/images/reptilian/nile-monitor-1.png",
+    "page": "species/nile-monitor/",
+    "hasPage": false
+  },
+  {
+    "id": "northern-alligator-lizard",
+    "name": "Northern Alligator Lizard",
+    "scientific_name": "Elgaria coerulea",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Cool-Weather Hunter of the Understory",
+    "thumbnail": "assets/images/reptilian/northern-alligator-lizard-1.png",
+    "page": "species/northern-alligator-lizard/",
+    "hasPage": false
+  },
+  {
+    "id": "northern-pacific-rattlesnake",
+    "name": "Northern Pacific Rattlesnake",
+    "scientific_name": "Crotalus oreganus",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Dry Rattle of the Golden Hills",
+    "thumbnail": "assets/images/reptilian/northern-pacific-rattlesnake-1.png",
+    "page": "species/northern-pacific-rattlesnake/",
     "hasPage": false
   },
   {
@@ -2167,6 +2508,50 @@
     "hasPage": false
   },
   {
+    "id": "red-eared-slider",
+    "name": "Red-eared Slider",
+    "scientific_name": "Trachemys scripta elegans",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "The Pond Empire Builder",
+    "thumbnail": "assets/images/reptilian/red-eared-slider-1.png",
+    "page": "species/red-eared-slider/",
+    "hasPage": false
+  },
+  {
+    "id": "saltwater-crocodile",
+    "name": "Saltwater Crocodile",
+    "scientific_name": "Crocodylus porosus",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Tide-Line Emperor of the Estuaries",
+    "thumbnail": "assets/images/reptilian/saltwater-crocodile-1.png",
+    "page": "species/saltwater-crocodile/",
+    "hasPage": false
+  },
+  {
+    "id": "savannah-monitor",
+    "name": "Savannah Monitor",
+    "scientific_name": "Varanus exanthematicus",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Stocky Digger of the Grasslands",
+    "thumbnail": "assets/images/reptilian/savannah-monitor-1.png",
+    "page": "species/savannah-monitor/",
+    "hasPage": false
+  },
+  {
+    "id": "sea-snake",
+    "name": "Sea Snake",
+    "scientific_name": "Hydrophis sp.",
+    "category": "reptilian",
+    "conservation_status": "Data Deficient",
+    "tagline": "Ribbon Venom of the Coral Shallows",
+    "thumbnail": "assets/images/reptilian/sea-snake-1.png",
+    "page": "species/sea-snake/",
+    "hasPage": false
+  },
+  {
     "id": "sea-turtle",
     "name": "Sea Turtle",
     "scientific_name": "Cheloniidae",
@@ -2175,6 +2560,50 @@
     "tagline": "Ancient Mariner of the Current",
     "thumbnail": "assets/images/reptilian/sea-turtle-1.png",
     "page": "species/sea-turtle/",
+    "hasPage": false
+  },
+  {
+    "id": "sinaloan-milksnake",
+    "name": "Sinaloan Milksnake",
+    "scientific_name": "Lampropeltis triangulum sinaloae",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "False Coral of the Dry Forest",
+    "thumbnail": "assets/images/reptilian/sinaloan-milksnake-1.png",
+    "page": "species/sinaloan-milksnake/",
+    "hasPage": false
+  },
+  {
+    "id": "smooth-snake",
+    "name": "Smooth Snake",
+    "scientific_name": "Coronella austriaca",
+    "category": "reptilian",
+    "conservation_status": "Least Concern",
+    "tagline": "Secretive Coil of the Heathlands",
+    "thumbnail": "assets/images/reptilian/smooth-snake-1.png",
+    "page": "species/smooth-snake/",
+    "hasPage": false
+  },
+  {
+    "id": "variegated-bush-frog",
+    "name": "Variegated Bush Frog",
+    "scientific_name": "Raorchestes variegatus",
+    "category": "reptilian",
+    "conservation_status": "Data Deficient",
+    "tagline": "Small Voice of the Shola Sky Islands",
+    "thumbnail": "assets/images/reptilian/variegated-bush-frog-1.png",
+    "page": "species/variegated-bush-frog/",
+    "hasPage": false
+  },
+  {
+    "id": "vogelkop-monitor",
+    "name": "Vogelkop Monitor",
+    "scientific_name": "Varanus jobiensis",
+    "category": "reptilian",
+    "conservation_status": "Data Deficient",
+    "tagline": "Emerald Watcher of the Bird's Head",
+    "thumbnail": "assets/images/reptilian/vogelkop-monitor-1.png",
+    "page": "species/vogelkop-monitor/",
     "hasPage": false
   }
 ]

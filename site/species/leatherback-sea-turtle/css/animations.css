@@ -1,0 +1,190 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * ✒ Metadata
+ *    - Title: Animation Keyframes (BEASTIQUE Edition - v1.0)
+ *    - File Name: animations.css
+ *    - Relative Path: css/animations.css
+ *    - Artifact Type: config
+ *    - Version: 1.0.0
+ *    - Date: 2025-01-04
+ *    - Update: Saturday, January 04, 2025
+ *    - Author: Dennis 'dnoice' Smaltz
+ *    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+ *    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+ *
+ * ✒ Description:
+ *    Reusable CSS keyframe animations for scroll reveals, particles,
+ *    waves, and micro-interactions throughout the showcase.
+ *
+ * ✒ Key Features:
+ *    - Feature 1: Slide and fade entrance animations
+ *    - Feature 2: Floating particle animation
+ *    - Feature 3: Wave motion animation
+ *    - Feature 4: Pulse effect for decorative elements
+ *    - Feature 5: Scale and reveal transitions
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Entrance Animations
+   ───────────────────────────────────────────────────────────────────────────── */
+@keyframes slideDown {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%) scale(0.9) translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-50%) scale(1) translateX(0);
+    }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   The Descent — leatherback-unique hero motion
+   Light shafts sway like sun through deep water; marine snow sinks downward.
+   ───────────────────────────────────────────────────────────────────────────── */
+@keyframes shaftSway {
+    0%, 100% {
+        opacity: 0.06;
+        transform: rotate(8deg) translateX(var(--shaft-shift, 0)) scaleY(0.97);
+    }
+    50% {
+        opacity: 0.28;
+        transform: rotate(12deg) translateX(var(--shaft-shift, 0)) scaleY(1.03);
+    }
+}
+
+@keyframes sink {
+    0% {
+        transform: translateY(0) translateX(0);
+        opacity: 0;
+    }
+    12% { opacity: 0.7; }
+    88% { opacity: 0.55; }
+    100% {
+        transform: translateY(122vh) translateX(28px);
+        opacity: 0;
+    }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Wave Animation
+   ───────────────────────────────────────────────────────────────────────────── */
+@keyframes wave {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Ring Animations — One per fact card
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Fact 1 — Deep Pulse: pressure draws inward, then releases outward */
+@keyframes ringPulse {
+    0%, 100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 0.4;
+    }
+    35% {
+        transform: scale(0.9) rotate(-2deg);
+        opacity: 0.5;
+    }
+    70% {
+        transform: scale(1.1) rotate(1deg);
+        opacity: 0.12;
+    }
+}
+
+/* Fact 2 — Tidal Drift: a long, slow swell that rolls and settles */
+@keyframes ringBreathe {
+    0%, 100% {
+        transform: scale(1) rotate(0deg) translateY(0);
+        opacity: 0.38;
+    }
+    45% {
+        transform: scale(1.07) rotate(3deg) translateY(-3px);
+        opacity: 0.16;
+    }
+    75% {
+        transform: scale(1.02) rotate(-1deg) translateY(2px);
+        opacity: 0.32;
+    }
+}
+
+/* Fact 3 — Current Sway: pushed sideways by an unseen deep current */
+@keyframes ringDrift {
+    0%, 100% {
+        transform: scale(1.02) translateX(0) rotate(0deg);
+        opacity: 0.4;
+    }
+    30% {
+        transform: scale(1.05) translateX(5px) rotate(2deg);
+        opacity: 0.22;
+    }
+    70% {
+        transform: scale(1.05) translateX(-5px) rotate(-2deg);
+        opacity: 0.22;
+    }
+}
+
+/* Fact 4 — Pressure: the crushing squeeze of the deep, held then released */
+@keyframes ringContract {
+    0%, 100% {
+        transform: scale(1.06);
+        opacity: 0.42;
+    }
+    45%, 55% {
+        transform: scale(0.88);
+        opacity: 0.16;
+    }
+}
+
+/* Fact 5 — Ridge Shimmer: light catching the carapace ridges in a slow gleam */
+@keyframes ringGlow {
+    0%, 100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 0.52;
+    }
+    40% {
+        transform: scale(1.03) rotate(1.5deg);
+        opacity: 0.1;
+    }
+    65% {
+        transform: scale(1.01) rotate(-0.5deg);
+        opacity: 0.42;
+    }
+}
+
+/* Fact 6 — Dive Ripple: a sharp plunge outward, then a long drift back */
+@keyframes ringRipple {
+    0%, 100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 0.45;
+    }
+    18% {
+        transform: scale(1.16) rotate(-3deg);
+        opacity: 0.08;
+    }
+    60% {
+        transform: scale(1.05) rotate(1deg);
+        opacity: 0.28;
+    }
+}

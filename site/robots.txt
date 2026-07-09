@@ -1,1 +1,7 @@
-# Placeholder for public/robots.txt
+# BEASTIQUE — robots.txt
+# The vault is open to all visitors, human and crawler alike.
+
+User-agent: *
+Allow: /
+
+# Sitemap: add when the deployment domain is settled

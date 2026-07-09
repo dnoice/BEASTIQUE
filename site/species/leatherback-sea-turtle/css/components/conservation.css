@@ -1,0 +1,203 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * ✒ Metadata
+ *    - Title: Conservation Section Component (BEASTIQUE Edition - v1.0)
+ *    - File Name: conservation.css
+ *    - Relative Path: css/components/conservation.css
+ *    - Artifact Type: config
+ *    - Version: 1.0.0
+ *    - Date: 2025-01-04
+ *    - Update: Saturday, January 04, 2025
+ *    - Author: Dennis 'dnoice' Smaltz
+ *    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+ *    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+ *
+ * ✒ Description:
+ *    Conservation awareness section with endangered status badge,
+ *    centered content, and interactive threat tags.
+ *
+ * ✒ Key Features:
+ *    - Feature 1: Gradient background transition
+ *    - Feature 2: Endangered status badge with icon
+ *    - Feature 3: Staggered reveal animations
+ *    - Feature 4: Interactive threat tags with hover effects
+ *    - Feature 5: Centered content layout
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
+
+.conservation {
+    background: linear-gradient(
+        180deg,
+        var(--color-abyss) 0%,
+        var(--color-deep) 50%,
+        var(--color-abyss) 100%
+    );
+    position: relative;
+}
+
+.conservation__content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Badge
+   ───────────────────────────────────────────────────────────────────────────── */
+.conservation__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-xs) var(--space-sm);
+    background: rgba(212, 86, 92, 0.15);
+    border: 1px solid var(--color-coral);
+    color: var(--color-coral);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: var(--space-md);
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity var(--duration-normal) var(--ease-out-expo),
+                transform var(--duration-normal) var(--ease-out-expo);
+}
+
+.conservation__badge.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.conservation__badge svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Title & Text
+   ───────────────────────────────────────────────────────────────────────────── */
+.conservation__title {
+    margin-bottom: var(--space-md);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity var(--duration-slow) var(--ease-out-expo) 0.1s,
+                transform var(--duration-slow) var(--ease-out-expo) 0.1s;
+}
+
+.conservation__title.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.conservation__text {
+    color: var(--color-silver);
+    margin-bottom: var(--space-md);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity var(--duration-slow) var(--ease-out-expo) 0.2s,
+                transform var(--duration-slow) var(--ease-out-expo) 0.2s;
+}
+
+.conservation__text.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Threats
+   ───────────────────────────────────────────────────────────────────────────── */
+.conservation__threats {
+    margin-top: var(--space-lg);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity var(--duration-slow) var(--ease-out-expo),
+                transform var(--duration-slow) var(--ease-out-expo);
+}
+
+.conservation__threats.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.conservation__threats-heading {
+    font-family: var(--font-display);
+    font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--color-pearl);
+    margin-bottom: var(--space-md);
+}
+
+.conservation__threats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-sm);
+}
+
+.threat-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-sm);
+    flex: 1 1 calc(20% - var(--space-sm));
+    min-width: 140px;
+    max-width: 200px;
+    background: var(--color-foam);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color var(--duration-fast) ease,
+                box-shadow var(--duration-fast) ease,
+                transform var(--duration-fast) ease;
+}
+
+.threat-tag:hover,
+.threat-tag:focus-visible {
+    border-color: var(--color-coral);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(212, 86, 92, 0.15);
+}
+
+.threat-tag svg {
+    width: 24px;
+    height: 24px;
+    color: var(--color-coral-soft);
+    transition: color var(--duration-fast) ease;
+}
+
+.threat-tag:hover svg,
+.threat-tag:focus-visible svg {
+    color: var(--color-coral-bright);
+}
+
+.threat-tag__label {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-pearl);
+    letter-spacing: 0.05em;
+}
+
+.threat-tag__detail {
+    font-size: 0.8rem;
+    color: var(--color-silver);
+    line-height: 1.4;
+    opacity: 0.7;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Threats Responsive
+   ───────────────────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .threat-tag {
+        flex: 1 1 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    .threat-tag {
+        flex: 1 1 100%;
+    }
+}

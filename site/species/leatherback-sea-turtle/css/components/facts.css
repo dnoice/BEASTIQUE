@@ -1,0 +1,278 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * ✒ Metadata
+ *    - Title: Facts Section Component (BEASTIQUE Edition - v1.0)
+ *    - File Name: facts.css
+ *    - Relative Path: css/components/facts.css
+ *    - Artifact Type: config
+ *    - Version: 1.0.0
+ *    - Date: 2025-01-04
+ *    - Update: Saturday, January 04, 2025
+ *    - Author: Dennis 'dnoice' Smaltz
+ *    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+ *    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+ *
+ * ✒ Description:
+ *    Alternating fact cards with circular icon containers, gradient
+ *    backgrounds, and pulse animation effects.
+ *
+ * ✒ Key Features:
+ *    - Feature 1: Alternating left/right layout
+ *    - Feature 2: Circular icon containers with gradient
+ *    - Feature 3: Pulse animation on icon circles
+ *    - Feature 4: Vertical center line decoration
+ *    - Feature 5: Scroll-triggered reveal animations
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
+
+.facts {
+    background: var(--color-abyss);
+    position: relative;
+    overflow: hidden;
+}
+
+.facts::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            transparent,
+            var(--color-ocean),
+            transparent);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Header
+   ───────────────────────────────────────────────────────────────────────────── */
+.facts__header {
+    text-align: center;
+    margin-bottom: var(--space-lg);
+}
+
+.facts__label {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--color-coral);
+    margin-bottom: var(--space-sm);
+}
+
+.facts__grid {
+    display: grid;
+    gap: var(--space-lg);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Fact Card
+   ───────────────────────────────────────────────────────────────────────────── */
+.fact-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    align-items: center;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity var(--duration-slow) var(--ease-out-expo),
+                transform var(--duration-slow) var(--ease-out-expo);
+}
+
+.fact-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fact-card:nth-child(even) {
+    direction: rtl;
+}
+
+.fact-card:nth-child(even)>* {
+    direction: ltr;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Fact Card Visual
+   ───────────────────────────────────────────────────────────────────────────── */
+.fact-card__visual {
+    position: relative;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact-card__circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: var(--color-abyss);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.3),
+        inset 0 0 60px rgba(255, 255, 255, 0.05);
+    transition: transform var(--duration-normal) var(--ease-out-expo);
+}
+
+.fact-card__circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    transition: transform var(--duration-normal) var(--ease-out-expo);
+}
+
+.fact-card:hover .fact-card__circle img {
+    transform: scale(1.08);
+}
+
+.fact-card__circle::before {
+    content: '';
+    position: absolute;
+    inset: -10px;
+    border-radius: 50%;
+    border: 2px solid var(--color-coral);
+    z-index: 0;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Per-Card Ring Animations & Colors
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Fact 1 — Boneless Giant: cyan · pulse */
+.fact-card:nth-child(1) .fact-card__circle::before {
+    border-color: #4dd8e0;
+    animation: ringPulse 4s ease-in-out infinite;
+}
+
+/* Fact 2 — Liquid Gold: burnt orange · breathe */
+.fact-card:nth-child(2) .fact-card__circle::before {
+    border-color: #d4802a;
+    animation: ringBreathe 5s ease-in-out infinite;
+}
+
+/* Fact 3 — Epic Migrations: stormy slate-teal · drift */
+.fact-card:nth-child(3) .fact-card__circle::before {
+    border-color: #5a8fa0;
+    animation: ringDrift 6s ease-in-out infinite;
+}
+
+/* Fact 4 — Sensory Masters: fiery coral-red · contract */
+.fact-card:nth-child(4) .fact-card__circle::before {
+    border-color: #e8553a;
+    animation: ringContract 3.5s ease-in-out infinite;
+}
+
+/* Fact 5 — Armored Ancestors: copper bronze · glow */
+.fact-card:nth-child(5) .fact-card__circle::before {
+    border-color: #b87333;
+    animation: ringGlow 5.5s ease-in-out infinite;
+}
+
+/* Fact 6 — Record Breakers: deep amber · ripple */
+.fact-card:nth-child(6) .fact-card__circle::before {
+    border-color: #a07040;
+    animation: ringRipple 4.5s ease-in-out infinite;
+}
+
+.fact-card__circle::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    /* Inner vignette to blend image edges with page background */
+    box-shadow: inset 0 0 38px var(--color-abyss);
+    z-index: 2;
+    /* Above image */
+    pointer-events: none;
+}
+
+.fact-card:hover .fact-card__circle {
+    transform: scale(1.05);
+}
+
+.fact-card__icon {
+    width: 100px;
+    height: 100px;
+    color: var(--color-pearl);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Fact Card Content
+   ───────────────────────────────────────────────────────────────────────────── */
+.fact-card__content {
+    padding: var(--space-md);
+}
+
+.fact-card__number {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    color: var(--color-coral);
+    margin-bottom: var(--space-xs);
+    letter-spacing: 0.2em;
+}
+
+.fact-card__title {
+    margin-bottom: var(--space-sm);
+}
+
+.fact-card__text {
+    color: var(--color-silver);
+    font-size: 1rem;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Responsive
+   ───────────────────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+
+    .fact-card,
+    .fact-card:nth-child(even) {
+        grid-template-columns: 1fr;
+        direction: ltr;
+    }
+
+    .fact-card__visual {
+        justify-self: center;
+    }
+
+    .fact-card__circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .fact-card__content {
+        text-align: center;
+    }
+
+    .fact-card__icon {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .fact-card__circle {
+        width: 160px;
+        height: 160px;
+    }
+
+    .fact-card__content {
+        padding: var(--space-sm);
+    }
+
+    .fact-card__icon {
+        width: 60px;
+        height: 60px;
+    }
+}

@@ -1,10 +1,48 @@
-/**
- * BEASTIQUE — Landing Page Entry Point
- * Initializes shared modules + landing-specific cinematic effects.
- *
- * Shared modules  → js/modules/
- * Local modules   → js/landing/
- */
+/*
+✒ Metadata
+    - Title: The Vault — Landing Entry Point (BEASTIQUE Edition - v2.2)
+    - File Name: landing.js
+    - Relative Path: site/js/landing.js
+    - Artifact Type: script
+    - Version: 2.2.0
+    - Date: 2026-07-07
+    - Update: Tuesday, July 07, 2026
+    - Author: Dennis 'dendogg' Smaltz
+    - A.I. Acknowledgement: Anthropic - Claude Fable 5
+    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+
+✒ Changelog:
+    - 2.2.0 (2026-07-07) [Anthropic - Claude Fable 5] — Signature pass: wired
+      appraisal cursor, Exhibit A transaction sequence, split-title reveals,
+      hero plate tilt, page veil; typewriter now waits for the vault door
+      (bq:entered).
+    - 2.1.0 (2026-07-07) [Anthropic - Claude Fable 5] — Polish pass: wired
+      vault-door entrance, card tilt, magnetic CTAs; added inline nav retreat
+      on scroll-down, hero scroll-out cinematics, and Ledger drag-to-browse.
+    - 2.0.0 (2026-07-07) [Anthropic - Claude Fable 5] — Vault rebuild. Added
+      vault-data (species.json-driven Collection wall + live counts, awaited
+      before counters bind) and extinction-clock (closing banner). Bootstrap
+      is now async.
+    - 1.0.0 (2025) — Original orchestrator: shared + landing modules.
+
+✒ Description:
+    Entry point for the BEASTIQUE landing page ("The Vault"). Imports shared
+    and landing-specific ES modules and initializes each with tuned config.
+    Data-driven sections render first so animated counters bind to final
+    values from data/species.json.
+
+✒ Key Features:
+    - Single bootstrap with graceful per-module failure containment
+    - Catalog-driven rendering awaited ahead of counter animation binding
+    - Hamburger menu, scroll hint, and section-spy defined inline
+    - Every module no-ops if its markup is absent
+
+✒ Other Important Information:
+    - Dependencies: js/modules/* (shared), js/landing/* (page-local),
+      data/species.json (via vault-data)
+    - Compatible platforms: all evergreen browsers (ES modules required)
+---------
+*/
 
 // ── Shared Modules ──────────────────────────────────────────
 import { init as initScrollAnimations } from './modules/scroll-animations.js';
@@ -17,14 +55,33 @@ import { init as initParticles }       from './landing/canvas-particles.js';
 import { init as initTypewriter }      from './landing/typewriter.js';
 import { init as initScrollProgress }  from './landing/scroll-progress.js';
 import { init as initGallery }         from './landing/gallery.js';
+import { init as initVaultData }       from './landing/vault-data.js';
+import { init as initExtinctionClock } from './landing/extinction-clock.js';
+import { init as initVaultDoor }       from './landing/vault-door.js';
+import { init as initCardTilt }        from './landing/card-tilt.js';
+import { init as initMagneticCta }     from './landing/magnetic-cta.js';
+import { init as initTransaction }     from './landing/transaction.js';
+import { init as initCursor }          from './landing/cursor.js';
+import { init as initTitleReveal }     from './landing/title-reveal.js';
 
 // ── Configuration ───────────────────────────────────────────
 const NAV_OFFSET = 72;
 
 // ── Bootstrap ───────────────────────────────────────────────
 
-function bootstrap() {
+async function bootstrap() {
   try {
+    // 0a. Vault door entrance — mounts immediately so it covers first paint.
+    //     holdMs matches the unlocking-ritual timeline in landing.css §17.
+    initVaultDoor({ holdMs: 3600, openMs: 1500 });
+
+    // 0b. Catalog-driven sections (Collection wall, Archive counts, Numbers).
+    //     Awaited so [data-count] values are final before counters bind.
+    await initVaultData({
+      speciesUrl: 'data/species.json',
+      wallSize: 28,
+    });
+
     // 1. Scroll-triggered reveal animations
     initScrollAnimations({
       selector: '[data-animate]',
@@ -51,6 +108,11 @@ function bootstrap() {
       threshold: 0.3,
     });
 
+    // 4b. Extinction clock (closing banner)
+    initExtinctionClock({
+      rateSeconds: 600,
+    });
+
     // 5. Canvas metallic particle system (hero)
     initParticles({
       selector: '#particle-canvas',
@@ -58,8 +120,12 @@ function bootstrap() {
       mouseInfluence: 0.08,
     });
 
-    // 6. Typewriter text effect (hero tagline)
-    initTypewriter();
+    // 6. Typewriter text effect (hero tagline) — waits for the vault door
+    if (document.body.classList.contains('bq-entered')) {
+      initTypewriter();
+    } else {
+      window.addEventListener('bq:entered', () => initTypewriter(), { once: true });
+    }
 
     // 7. Scroll progress bar (nav)
     initScrollProgress({
@@ -74,14 +140,151 @@ function bootstrap() {
       parallaxAmount: 12,
     });
 
-    // 9. Landing-specific interactions
+    // 9. Pointer interactions (fine-pointer, motion-safe only — the modules
+    //    gate themselves)
+    initCardTilt({ selector: '.beast-card', maxTilt: 5 });
+    initCardTilt({ selector: '.hero__artwork-wrap', maxTilt: 2.2 });
+    initMagneticCta({
+      selector: '.hero__cta, .wall__cta, .closing-banner__cta',
+      strength: 6,
+    });
+    initCursor();
+
+    // 10. Exhibit A — the replacement transaction (scroll-pinned)
+    initTransaction();
+
+    // 11. Split-letter museum titles
+    initTitleReveal();
+
+    // 12. Landing-specific interactions
     initHamburger();
     initScrollHint();
     initNavActiveSection();
+    initNavRetreat();
+    initHeroScrollOut();
+    initLedgerDrag();
+    initPageVeil();
 
   } catch (err) {
     console.error('[BEASTIQUE] Init error:', err);
   }
+}
+
+// ── Nav Retreat — hide on scroll-down, return on scroll-up ──
+
+function initNavRetreat() {
+  const nav = document.querySelector('.nav');
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (!nav) return;
+
+  let lastY = window.scrollY;
+  let ticking = false;
+
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      const y = window.scrollY;
+      const menuOpen = mobileMenu?.classList.contains('mobile-menu--open');
+      if (!menuOpen) {
+        if (y > 400 && y > lastY + 4) {
+          nav.classList.add('nav--hidden');
+        } else if (y < lastY - 4 || y <= 400) {
+          nav.classList.remove('nav--hidden');
+        }
+      }
+      lastY = y;
+      ticking = false;
+    });
+  }, { passive: true });
+}
+
+// ── Hero Scroll-Out — the vault interior recedes as you descend ──
+
+function initHeroScrollOut() {
+  const content = document.querySelector('.hero__content');
+  if (!content) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  let ticking = false;
+
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      const progress = Math.min(window.scrollY / window.innerHeight, 1);
+      content.style.transform =
+        `translateY(${(progress * 60).toFixed(1)}px) scale(${(1 - progress * 0.04).toFixed(4)})`;
+      content.style.opacity = String(Math.max(1 - progress * 1.15, 0));
+      ticking = false;
+    });
+  }, { passive: true });
+}
+
+// ── Page Veil — exits fade to black before navigation ──
+
+function initPageVeil() {
+  const veil = document.createElement('div');
+  veil.className = 'page-veil';
+  veil.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(veil);
+
+  document.addEventListener('click', (e) => {
+    if (e.defaultPrevented || e.button !== 0) return;
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const link = e.target instanceof Element
+      ? e.target.closest('a[href^="species/"], a[href^="categories/"]')
+      : null;
+    if (!link || link.target === '_blank') return;
+    e.preventDefault();
+    veil.classList.add('is-active');
+    setTimeout(() => { window.location.href = link.href; }, 300);
+  });
+
+  // Back/forward cache restore: lift the veil
+  window.addEventListener('pageshow', () => veil.classList.remove('is-active'));
+}
+
+// ── Ledger Drag — grab and pull the strip ──
+
+function initLedgerDrag() {
+  const strip = document.querySelector('.ledger__strip');
+  if (!strip) return;
+  if (!window.matchMedia('(pointer: fine)').matches) return;
+
+  let isDown = false;
+  let startX = 0;
+  let startScroll = 0;
+  let moved = false;
+
+  strip.addEventListener('pointerdown', (e) => {
+    isDown = true;
+    moved = false;
+    startX = e.clientX;
+    startScroll = strip.scrollLeft;
+  });
+
+  strip.addEventListener('pointermove', (e) => {
+    if (!isDown) return;
+    const dx = e.clientX - startX;
+    if (!moved && Math.abs(dx) > 6) {
+      moved = true;
+      strip.classList.add('is-dragging');
+      strip.setPointerCapture(e.pointerId);
+    }
+    if (moved) {
+      strip.scrollLeft = startScroll - dx;
+    }
+  });
+
+  function release() {
+    isDown = false;
+    strip.classList.remove('is-dragging');
+  }
+
+  strip.addEventListener('pointerup', release);
+  strip.addEventListener('pointercancel', release);
+  strip.addEventListener('pointerleave', () => { if (!moved) release(); });
 }
 
 // ── Hamburger Menu ──────────────────────────────────────────

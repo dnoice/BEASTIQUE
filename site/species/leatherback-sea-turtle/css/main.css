@@ -1,0 +1,24 @@
+/* ============================================
+   BELUGA STURGEON — Main Stylesheet
+   Imports global foundation + species theme + components
+   ============================================ */
+
+/* Global BEASTIQUE foundation */
+@import url('../../../css/global.css');
+
+/* Species-specific theme (colors, fonts) */
+@import url('theme.css');
+
+/* Species base & animations */
+@import url('base.css');
+@import url('animations.css');
+
+/* Components */
+@import url('components/nav.css');
+@import url('components/hero.css');
+@import url('components/stats.css');
+@import url('components/about.css');
+@import url('components/facts.css');
+@import url('components/conservation.css');
+@import url('components/closing.css');
+@import url('components/footer.css');

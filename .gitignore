@@ -7,20 +7,20 @@
 desktop.ini
 **/desktop.ini
 
-# Orphaned duplicate dir left by the restructure (5 OneDrive-locked image dupes;
-# the complete set lives in site/assets/images/). Delete once the lock releases.
-/assets/
-
 # studio/ — heavy raw art + render outputs (OneDrive-backed, regenerable).
 # Kept in git: studio/prompts/ (text libraries), studio/state/ (small ledgers),
 # studio/sandbox/ (tiny experiments).
 studio/source-art/
 studio/collections/
 
+# transient batch-build artifacts the forge writes next to the libraries
+studio/prompts/**/forge_batch_input.jsonl
+
 # studio/workbench/ — keep the README, drop the heavy hand-art buckets
 studio/workbench/designs/
 studio/workbench/low-poly-studies/
 studio/workbench/trace-studies/
+studio/workbench/contact-sheets/
 
 # site/ — served print-grade media (the live site should serve web derivatives)
 site/assets/
