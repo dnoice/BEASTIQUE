@@ -14426,18 +14426,18 @@
     "results": {
       "linework": {
         "svg": "six-lined-racerunner_line-art-bw_01.svg",
-        "nodes": 510,
-        "subpaths": 21
+        "nodes": 486,
+        "subpaths": 17
       }
     },
-    "secs": 0.1,
+    "secs": 0.23,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783686922
+    "ts": 1783707233
   },
   "reptilian-beasts/line-art/high/pygmy-python_line-art-bw_01.png": {
     "status": "done",
