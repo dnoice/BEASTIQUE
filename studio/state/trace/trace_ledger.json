@@ -10683,8 +10683,8 @@
     "results": {
       "linework": {
         "svg": "giant-manta-ray_geo-line-bw_01.svg",
-        "nodes": 351,
-        "subpaths": 24
+        "nodes": 3837,
+        "subpaths": 609
       }
     },
     "secs": 0.1,
@@ -10694,7 +10694,7 @@
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783641466
+    "ts": 1783709505
   },
   "aquatic-beasts/geo-line/high/bottlenose-dolphin_geo-line-bw_01.png": {
     "status": "done",
@@ -10702,18 +10702,18 @@
     "results": {
       "linework": {
         "svg": "bottlenose-dolphin_geo-line-bw_01.svg",
-        "nodes": 219,
-        "subpaths": 7
+        "nodes": 2677,
+        "subpaths": 403
       }
     },
-    "secs": 0.1,
+    "secs": 0.15,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783641466
+    "ts": 1783709505
   },
   "aquatic-beasts/geo-line/high/albacore-tuna_geo-line-bw_01.png": {
     "status": "done",
@@ -10721,18 +10721,18 @@
     "results": {
       "linework": {
         "svg": "albacore-tuna_geo-line-bw_01.svg",
-        "nodes": 565,
-        "subpaths": 33
+        "nodes": 4994,
+        "subpaths": 709
       }
     },
-    "secs": 0.1,
+    "secs": 0.18,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783641466
+    "ts": 1783709505
   },
   "aquatic-beasts/geo-line/high/bobbit-worm_geo-line-bw_01.png": {
     "status": "done",
@@ -10740,18 +10740,18 @@
     "results": {
       "linework": {
         "svg": "bobbit-worm_geo-line-bw_01.svg",
-        "nodes": 1328,
-        "subpaths": 113
+        "nodes": 7850,
+        "subpaths": 978
       }
     },
-    "secs": 0.11,
+    "secs": 0.18,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783641466
+    "ts": 1783709505
   },
   "aquatic-beasts/geo-line/high/shrimp_geo-line-bw_01.png": {
     "status": "done",
@@ -10759,730 +10759,8 @@
     "results": {
       "linework": {
         "svg": "shrimp_geo-line-bw_01.svg",
-        "nodes": 842,
-        "subpaths": 43
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641466
-  },
-  "aquatic-beasts/geo-line/high/seahorse_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "seahorse_geo-line-bw_01.svg",
-        "nodes": 826,
-        "subpaths": 66
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641466
-  },
-  "aquatic-beasts/geo-line/high/narwhal_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "narwhal_geo-line-bw_01.svg",
-        "nodes": 154,
-        "subpaths": 5
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641466
-  },
-  "aquatic-beasts/geo-line/high/swordfish_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "swordfish_geo-line-bw_01.svg",
-        "nodes": 392,
-        "subpaths": 23
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641466
-  },
-  "aquatic-beasts/geo-line/high/white-marlin_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "white-marlin_geo-line-bw_01.svg",
-        "nodes": 372,
-        "subpaths": 24
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/atlantic-puffin_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "atlantic-puffin_geo-line-bw_01.svg",
-        "nodes": 510,
-        "subpaths": 36
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/andean-condor_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "andean-condor_geo-line-bw_01.svg",
-        "nodes": 873,
-        "subpaths": 46
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "aquatic-beasts/geo-line/high/whale-shark_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "whale-shark_geo-line-bw_01.svg",
-        "nodes": 1755,
-        "subpaths": 124
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/falkland-steamer-duck_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "falkland-steamer-duck_geo-line-bw_01.svg",
-        "nodes": 538,
-        "subpaths": 30
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/greater-snow-goose_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "greater-snow-goose_geo-line-bw_01.svg",
-        "nodes": 547,
-        "subpaths": 25
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/jabiru_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "jabiru_geo-line-bw_01.svg",
-        "nodes": 528,
-        "subpaths": 24
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/indian-peafowl_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "indian-peafowl_geo-line-bw_01.svg",
-        "nodes": 1227,
-        "subpaths": 91
-      }
-    },
-    "secs": 0.09,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/least-auklet_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "least-auklet_geo-line-bw_01.svg",
-        "nodes": 636,
-        "subpaths": 46
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/red-crowned-crane_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "red-crowned-crane_geo-line-bw_01.svg",
-        "nodes": 374,
-        "subpaths": 19
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/toco-toucan_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "toco-toucan_geo-line-bw_01.svg",
-        "nodes": 461,
-        "subpaths": 26
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "avian-beasts/geo-line/high/long-tailed-jaeger_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "long-tailed-jaeger_geo-line-bw_01.svg",
-        "nodes": 427,
-        "subpaths": 27
-      }
-    },
-    "secs": 0.1,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/atlas-moth_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "atlas-moth_geo-line-bw_01.svg",
-        "nodes": 1234,
-        "subpaths": 84
-      }
-    },
-    "secs": 0.09,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/carpenter-ant_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "carpenter-ant_geo-line-bw_01.svg",
-        "nodes": 691,
-        "subpaths": 41
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/german-cockroach_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "german-cockroach_geo-line-bw_01.svg",
-        "nodes": 694,
-        "subpaths": 34
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/emperor-scorpion_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "emperor-scorpion_geo-line-bw_01.svg",
-        "nodes": 1084,
-        "subpaths": 76
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/milkweed-leaf-beetle_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "milkweed-leaf-beetle_geo-line-bw_01.svg",
-        "nodes": 640,
-        "subpaths": 42
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/goliath-birdeater_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "goliath-birdeater_geo-line-bw_01.svg",
-        "nodes": 623,
-        "subpaths": 42
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/honeybee_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "honeybee_geo-line-bw_01.svg",
-        "nodes": 619,
-        "subpaths": 39
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/leafcutter-ant_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "leafcutter-ant_geo-line-bw_01.svg",
-        "nodes": 395,
-        "subpaths": 10
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/arabian-oryx_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "arabian-oryx_geo-line-bw_01.svg",
-        "nodes": 527,
-        "subpaths": 32
-      }
-    },
-    "secs": 0.06,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/northern-mole-cricket_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "northern-mole-cricket_geo-line-bw_01.svg",
-        "nodes": 1164,
-        "subpaths": 99
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "insecta-beasts/geo-line/high/sri-lankan-cruiser-butterfly_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "sri-lankan-cruiser-butterfly_geo-line-bw_01.svg",
-        "nodes": 1140,
-        "subpaths": 92
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/bengal-tiger_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "bengal-tiger_geo-line-bw_01.svg",
-        "nodes": 1149,
-        "subpaths": 60
-      }
-    },
-    "secs": 0.09,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/black-rhinoceros_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "black-rhinoceros_geo-line-bw_01.svg",
-        "nodes": 598,
-        "subpaths": 36
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/platypus_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "platypus_geo-line-bw_01.svg",
-        "nodes": 333,
-        "subpaths": 15
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/giraffe_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "giraffe_geo-line-bw_01.svg",
-        "nodes": 722,
-        "subpaths": 47
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/polar-bear_geo-line-bw_01.png": {
-    "status": "done",
-    "white": true,
-    "results": {
-      "linework": {
-        "svg": "polar-bear_geo-line-bw_01.svg",
-        "nodes": 279,
-        "subpaths": 8
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/pygmy-hippopotamus_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "pygmy-hippopotamus_geo-line-bw_01.svg",
-        "nodes": 536,
-        "subpaths": 22
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/przewalskis-horse_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "przewalskis-horse_geo-line-bw_01.svg",
-        "nodes": 832,
-        "subpaths": 46
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/saiga-antelope_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "saiga-antelope_geo-line-bw_01.svg",
-        "nodes": 805,
-        "subpaths": 50
-      }
-    },
-    "secs": 0.06,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "mammalian-beasts/geo-line/high/snow-leopard_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "snow-leopard_geo-line-bw_01.svg",
-        "nodes": 1397,
-        "subpaths": 86
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "reptilian-beasts/geo-line/high/gharial_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "gharial_geo-line-bw_01.svg",
-        "nodes": 523,
-        "subpaths": 8
-      }
-    },
-    "secs": 0.09,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "reptilian-beasts/geo-line/high/gila-monster_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "gila-monster_geo-line-bw_01.svg",
-        "nodes": 2077,
-        "subpaths": 111
-      }
-    },
-    "secs": 0.1,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "reptilian-beasts/geo-line/high/frilled-lizard_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "frilled-lizard_geo-line-bw_01.svg",
-        "nodes": 1581,
-        "subpaths": 143
+        "nodes": 4828,
+        "subpaths": 643
       }
     },
     "secs": 0.11,
@@ -11492,130 +10770,16 @@
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783641467
+    "ts": 1783709505
   },
-  "reptilian-beasts/geo-line/high/green-sea-turtle_geo-line-bw_01.png": {
+  "aquatic-beasts/geo-line/high/seahorse_geo-line-bw_01.png": {
     "status": "done",
     "white": false,
     "results": {
       "linework": {
-        "svg": "green-sea-turtle_geo-line-bw_01.svg",
-        "nodes": 1063,
-        "subpaths": 94
-      }
-    },
-    "secs": 0.09,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "reptilian-beasts/geo-line/high/japanese-rat-snake_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "japanese-rat-snake_geo-line-bw_01.svg",
-        "nodes": 559,
-        "subpaths": 14
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "reptilian-beasts/geo-line/high/loggerhead-sea-turtles_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "loggerhead-sea-turtles_geo-line-bw_01.svg",
-        "nodes": 1092,
-        "subpaths": 93
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "reptilian-beasts/geo-line/high/northern-alligator-lizard_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "northern-alligator-lizard_geo-line-bw_01.svg",
-        "nodes": 578,
-        "subpaths": 47
-      }
-    },
-    "secs": 0.07,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "reptilian-beasts/geo-line/high/mesoamerican-river-turtle_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "mesoamerican-river-turtle_geo-line-bw_01.svg",
-        "nodes": 977,
-        "subpaths": 85
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "reptilian-beasts/geo-line/high/vogelkop-monitor_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "vogelkop-monitor_geo-line-bw_01.svg",
-        "nodes": 414,
-        "subpaths": 13
-      }
-    },
-    "secs": 0.08,
-    "params": {
-      "blacklevel": 0.4,
-      "turdsize": 5,
-      "alphamax": 1.0,
-      "opttolerance": 3.5
-    },
-    "ts": 1783641467
-  },
-  "reptilian-beasts/geo-line/high/poison-dart-frog_geo-line-bw_01.png": {
-    "status": "done",
-    "white": false,
-    "results": {
-      "linework": {
-        "svg": "poison-dart-frog_geo-line-bw_01.svg",
-        "nodes": 1387,
-        "subpaths": 54
+        "svg": "seahorse_geo-line-bw_01.svg",
+        "nodes": 2875,
+        "subpaths": 439
       }
     },
     "secs": 0.1,
@@ -11625,7 +10789,843 @@
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783641467
+    "ts": 1783709505
+  },
+  "aquatic-beasts/geo-line/high/narwhal_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "narwhal_geo-line-bw_01.svg",
+        "nodes": 2617,
+        "subpaths": 391
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709505
+  },
+  "aquatic-beasts/geo-line/high/swordfish_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "swordfish_geo-line-bw_01.svg",
+        "nodes": 3301,
+        "subpaths": 501
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "aquatic-beasts/geo-line/high/white-marlin_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "white-marlin_geo-line-bw_01.svg",
+        "nodes": 3311,
+        "subpaths": 487
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/atlantic-puffin_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "atlantic-puffin_geo-line-bw_01.svg",
+        "nodes": 1848,
+        "subpaths": 260
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/andean-condor_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "andean-condor_geo-line-bw_01.svg",
+        "nodes": 4754,
+        "subpaths": 704
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "aquatic-beasts/geo-line/high/whale-shark_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "whale-shark_geo-line-bw_01.svg",
+        "nodes": 6198,
+        "subpaths": 798
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/falkland-steamer-duck_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "falkland-steamer-duck_geo-line-bw_01.svg",
+        "nodes": 3860,
+        "subpaths": 575
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/greater-snow-goose_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "greater-snow-goose_geo-line-bw_01.svg",
+        "nodes": 4056,
+        "subpaths": 576
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/jabiru_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "jabiru_geo-line-bw_01.svg",
+        "nodes": 1940,
+        "subpaths": 290
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/indian-peafowl_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "indian-peafowl_geo-line-bw_01.svg",
+        "nodes": 7193,
+        "subpaths": 880
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/least-auklet_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "least-auklet_geo-line-bw_01.svg",
+        "nodes": 2771,
+        "subpaths": 418
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/red-crowned-crane_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-crowned-crane_geo-line-bw_01.svg",
+        "nodes": 2526,
+        "subpaths": 367
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/toco-toucan_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "toco-toucan_geo-line-bw_01.svg",
+        "nodes": 2394,
+        "subpaths": 347
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "avian-beasts/geo-line/high/long-tailed-jaeger_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "long-tailed-jaeger_geo-line-bw_01.svg",
+        "nodes": 2804,
+        "subpaths": 428
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/atlas-moth_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "atlas-moth_geo-line-bw_01.svg",
+        "nodes": 5813,
+        "subpaths": 871
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/carpenter-ant_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "carpenter-ant_geo-line-bw_01.svg",
+        "nodes": 4909,
+        "subpaths": 725
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/german-cockroach_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "german-cockroach_geo-line-bw_01.svg",
+        "nodes": 3652,
+        "subpaths": 543
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/emperor-scorpion_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "emperor-scorpion_geo-line-bw_01.svg",
+        "nodes": 3851,
+        "subpaths": 562
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/milkweed-leaf-beetle_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "milkweed-leaf-beetle_geo-line-bw_01.svg",
+        "nodes": 4260,
+        "subpaths": 639
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/goliath-birdeater_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "goliath-birdeater_geo-line-bw_01.svg",
+        "nodes": 6711,
+        "subpaths": 987
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/honeybee_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "honeybee_geo-line-bw_01.svg",
+        "nodes": 3536,
+        "subpaths": 493
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/leafcutter-ant_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "leafcutter-ant_geo-line-bw_01.svg",
+        "nodes": 2798,
+        "subpaths": 394
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/arabian-oryx_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "arabian-oryx_geo-line-bw_01.svg",
+        "nodes": 3828,
+        "subpaths": 587
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/northern-mole-cricket_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "northern-mole-cricket_geo-line-bw_01.svg",
+        "nodes": 5214,
+        "subpaths": 770
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "insecta-beasts/geo-line/high/sri-lankan-cruiser-butterfly_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sri-lankan-cruiser-butterfly_geo-line-bw_01.svg",
+        "nodes": 5198,
+        "subpaths": 788
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/bengal-tiger_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bengal-tiger_geo-line-bw_01.svg",
+        "nodes": 3914,
+        "subpaths": 558
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/black-rhinoceros_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "black-rhinoceros_geo-line-bw_01.svg",
+        "nodes": 3889,
+        "subpaths": 559
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/platypus_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "platypus_geo-line-bw_01.svg",
+        "nodes": 3982,
+        "subpaths": 640
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/giraffe_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "giraffe_geo-line-bw_01.svg",
+        "nodes": 2453,
+        "subpaths": 359
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/polar-bear_geo-line-bw_01.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "polar-bear_geo-line-bw_01.svg",
+        "nodes": 3695,
+        "subpaths": 552
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/pygmy-hippopotamus_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "pygmy-hippopotamus_geo-line-bw_01.svg",
+        "nodes": 4686,
+        "subpaths": 710
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/przewalskis-horse_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "przewalskis-horse_geo-line-bw_01.svg",
+        "nodes": 5168,
+        "subpaths": 758
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/saiga-antelope_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "saiga-antelope_geo-line-bw_01.svg",
+        "nodes": 3311,
+        "subpaths": 488
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "mammalian-beasts/geo-line/high/snow-leopard_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "snow-leopard_geo-line-bw_01.svg",
+        "nodes": 5590,
+        "subpaths": 709
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709506
+  },
+  "reptilian-beasts/geo-line/high/gharial_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gharial_geo-line-bw_01.svg",
+        "nodes": 3914,
+        "subpaths": 581
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
+  },
+  "reptilian-beasts/geo-line/high/gila-monster_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gila-monster_geo-line-bw_01.svg",
+        "nodes": 7629,
+        "subpaths": 1155
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
+  },
+  "reptilian-beasts/geo-line/high/frilled-lizard_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "frilled-lizard_geo-line-bw_01.svg",
+        "nodes": 7557,
+        "subpaths": 1037
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
+  },
+  "reptilian-beasts/geo-line/high/green-sea-turtle_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-sea-turtle_geo-line-bw_01.svg",
+        "nodes": 4111,
+        "subpaths": 622
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
+  },
+  "reptilian-beasts/geo-line/high/japanese-rat-snake_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "japanese-rat-snake_geo-line-bw_01.svg",
+        "nodes": 6073,
+        "subpaths": 936
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
+  },
+  "reptilian-beasts/geo-line/high/loggerhead-sea-turtles_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "loggerhead-sea-turtles_geo-line-bw_01.svg",
+        "nodes": 4506,
+        "subpaths": 609
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
+  },
+  "reptilian-beasts/geo-line/high/northern-alligator-lizard_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "northern-alligator-lizard_geo-line-bw_01.svg",
+        "nodes": 5057,
+        "subpaths": 793
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
+  },
+  "reptilian-beasts/geo-line/high/mesoamerican-river-turtle_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mesoamerican-river-turtle_geo-line-bw_01.svg",
+        "nodes": 3703,
+        "subpaths": 557
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
+  },
+  "reptilian-beasts/geo-line/high/vogelkop-monitor_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "vogelkop-monitor_geo-line-bw_01.svg",
+        "nodes": 4284,
+        "subpaths": 694
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
+  },
+  "reptilian-beasts/geo-line/high/poison-dart-frog_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "poison-dart-frog_geo-line-bw_01.svg",
+        "nodes": 5287,
+        "subpaths": 789
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783709507
   },
   "mammalian-beasts/linocut/high/white-tailed-deer_linocut-bw_01-med.png": {
     "status": "done",
@@ -12963,8 +12963,8 @@
     "results": {
       "linework": {
         "svg": "large-beetle_geo-line-bw_01.svg",
-        "nodes": 758,
-        "subpaths": 52
+        "nodes": 5234,
+        "subpaths": 784
       }
     },
     "secs": 0.1,
@@ -12974,7 +12974,7 @@
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783644431
+    "ts": 1783709506
   },
   "avian-beasts/geo-line/high/madagascar-serpent-eagle_geo-line-bw_01.png": {
     "status": "done",
@@ -12982,18 +12982,18 @@
     "results": {
       "linework": {
         "svg": "madagascar-serpent-eagle_geo-line-bw_01.svg",
-        "nodes": 947,
-        "subpaths": 84
+        "nodes": 4391,
+        "subpaths": 692
       }
     },
-    "secs": 0.11,
+    "secs": 0.1,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783644431
+    "ts": 1783709506
   },
   "avian-beasts/geo-line/high/spoon-billed-sandpiper_geo-line-bw_01.png": {
     "status": "done",
@@ -13001,18 +13001,18 @@
     "results": {
       "linework": {
         "svg": "spoon-billed-sandpiper_geo-line-bw_01.svg",
-        "nodes": 469,
-        "subpaths": 30
+        "nodes": 3370,
+        "subpaths": 506
       }
     },
-    "secs": 0.11,
+    "secs": 0.09,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783644431
+    "ts": 1783709506
   },
   "mammalian-beasts/geo-line/high/african-leopard_geo-line-bw_01.png": {
     "status": "done",
@@ -13020,8 +13020,8 @@
     "results": {
       "linework": {
         "svg": "african-leopard_geo-line-bw_01.svg",
-        "nodes": 2177,
-        "subpaths": 117
+        "nodes": 8828,
+        "subpaths": 1152
       }
     },
     "secs": 0.11,
@@ -13031,7 +13031,7 @@
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783644431
+    "ts": 1783709506
   },
   "reptilian-beasts/geo-line/high/northern-pacific-rattlesnake_geo-line-bw_01.png": {
     "status": "done",
@@ -13039,18 +13039,18 @@
     "results": {
       "linework": {
         "svg": "northern-pacific-rattlesnake_geo-line-bw_01.svg",
-        "nodes": 1317,
-        "subpaths": 98
+        "nodes": 9584,
+        "subpaths": 1436
       }
     },
-    "secs": 0.07,
+    "secs": 0.12,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783644431
+    "ts": 1783709507
   },
   "aquatic-beasts/stencil/high/pilot-whale_stencil-bw_01.png": {
     "status": "done",
@@ -14487,14 +14487,14 @@
         "subpaths": 580
       }
     },
-    "secs": 0.16,
+    "secs": 0.09,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783686922
+    "ts": 1783709506
   },
   "mammalian-beasts/geo-line/high/sumatran-rhino_geo-line-bw_01.png": {
     "status": "done",
@@ -14506,14 +14506,14 @@
         "subpaths": 644
       }
     },
-    "secs": 0.17,
+    "secs": 0.1,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783686922
+    "ts": 1783709506
   },
   "avian-beasts/geo-line/high/shoebill-stork_geo-line-bw_01.png": {
     "status": "done",
@@ -14525,14 +14525,14 @@
         "subpaths": 442
       }
     },
-    "secs": 0.18,
+    "secs": 0.09,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783686922
+    "ts": 1783709506
   },
   "aquatic-beasts/geo-line/high/armored-catfish_geo-line-bw_01.png": {
     "status": "done",
@@ -14544,14 +14544,14 @@
         "subpaths": 1094
       }
     },
-    "secs": 0.19,
+    "secs": 0.2,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783686922
+    "ts": 1783709505
   },
   "reptilian-beasts/geo-line/high/sea-turtle_geo-line-bw_01.png": {
     "status": "done",
@@ -14563,13 +14563,13 @@
         "subpaths": 519
       }
     },
-    "secs": 0.12,
+    "secs": 0.09,
     "params": {
       "blacklevel": 0.4,
       "turdsize": 5,
       "alphamax": 1.0,
       "opttolerance": 3.5
     },
-    "ts": 1783686922
+    "ts": 1783709507
   }
 }

@@ -2075,129 +2075,279 @@
     "ts": 1783644161
   },
   "BQ-GEOL-AQU-001__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\narwhal_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 301,
+      "output_tokens": 5488,
+      "total_tokens": 5789
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AQU-002__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\whale-shark_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 319,
+      "output_tokens": 5488,
+      "total_tokens": 5807
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AQU-003__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\swordfish_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 296,
+      "output_tokens": 5488,
+      "total_tokens": 5784
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AQU-004__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\bottlenose-dolphin_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 305,
+      "output_tokens": 5488,
+      "total_tokens": 5793
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AQU-005__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\seahorse_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 315,
+      "output_tokens": 5488,
+      "total_tokens": 5803
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-001__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\andean-condor_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 317,
+      "output_tokens": 5488,
+      "total_tokens": 5805
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-002__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\indian-peafowl_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 328,
+      "output_tokens": 5488,
+      "total_tokens": 5816
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-003__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\atlantic-puffin_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 307,
+      "output_tokens": 5488,
+      "total_tokens": 5795
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-004__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\toco-toucan_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 307,
+      "output_tokens": 5488,
+      "total_tokens": 5795
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-005__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\red-crowned-crane_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 310,
+      "output_tokens": 5488,
+      "total_tokens": 5798
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-001__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\goliath-birdeater_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 328,
+      "output_tokens": 5488,
+      "total_tokens": 5816
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-002__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\emperor-scorpion_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 313,
+      "output_tokens": 5488,
+      "total_tokens": 5801
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-003__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\leafcutter-ant_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 307,
+      "output_tokens": 5488,
+      "total_tokens": 5795
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-004__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\honeybee_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 305,
+      "output_tokens": 5488,
+      "total_tokens": 5793
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-005__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\atlas-moth_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 319,
+      "output_tokens": 5488,
+      "total_tokens": 5807
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-001__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\snow-leopard_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 309,
+      "output_tokens": 5488,
+      "total_tokens": 5797
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-002__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\polar-bear_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 308,
+      "output_tokens": 5488,
+      "total_tokens": 5796
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-003__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\black-rhinoceros_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 310,
+      "output_tokens": 5488,
+      "total_tokens": 5798
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-004__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\giraffe_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 313,
+      "output_tokens": 5488,
+      "total_tokens": 5801
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-005__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\bengal-tiger_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 312,
+      "output_tokens": 5488,
+      "total_tokens": 5800
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-REP-001__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\gharial_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 314,
+      "output_tokens": 5488,
+      "total_tokens": 5802
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-REP-002__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\frilled-lizard_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 312,
+      "output_tokens": 5488,
+      "total_tokens": 5800
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-REP-003__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\gila-monster_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 311,
+      "output_tokens": 5488,
+      "total_tokens": 5799
+    },
+    "ts": 1783709340
   },
   "BQ-GEOL-REP-004__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\poison-dart-frog_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 314,
+      "output_tokens": 5488,
+      "total_tokens": 5802
+    },
+    "ts": 1783709340
   },
   "BQ-GEOL-REP-005__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\green-sea-turtle_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 312,
+      "output_tokens": 5488,
+      "total_tokens": 5800
+    },
+    "ts": 1783709340
   },
   "BQ-LOPO-AQU-006__v1": {
     "status": "done",
@@ -3300,129 +3450,279 @@
     "ts": 1783644161
   },
   "BQ-GEOL-AQU-006__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\giant-manta-ray_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 297,
+      "output_tokens": 5488,
+      "total_tokens": 5785
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AQU-007__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\albacore-tuna_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 304,
+      "output_tokens": 5488,
+      "total_tokens": 5792
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AQU-008__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\white-marlin_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 297,
+      "output_tokens": 5488,
+      "total_tokens": 5785
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AQU-009__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\bobbit-worm_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 301,
+      "output_tokens": 5488,
+      "total_tokens": 5789
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AQU-010__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\shrimp_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 298,
+      "output_tokens": 5488,
+      "total_tokens": 5786
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-006__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\jabiru_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 298,
+      "output_tokens": 5488,
+      "total_tokens": 5786
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-007__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\long-tailed-jaeger_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 298,
+      "output_tokens": 5488,
+      "total_tokens": 5786
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-008__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\least-auklet_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 296,
+      "output_tokens": 5488,
+      "total_tokens": 5784
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-009__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\greater-snow-goose_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 298,
+      "output_tokens": 5488,
+      "total_tokens": 5786
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-010__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\falkland-steamer-duck_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 296,
+      "output_tokens": 5488,
+      "total_tokens": 5784
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-006__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\carpenter-ant_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 296,
+      "output_tokens": 5488,
+      "total_tokens": 5784
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-007__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\northern-mole-cricket_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 295,
+      "output_tokens": 5488,
+      "total_tokens": 5783
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-008__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\sri-lankan-cruiser-butterfly_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 298,
+      "output_tokens": 5488,
+      "total_tokens": 5786
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-009__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\milkweed-leaf-beetle_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 294,
+      "output_tokens": 5488,
+      "total_tokens": 5782
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-010__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\german-cockroach_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 295,
+      "output_tokens": 5488,
+      "total_tokens": 5783
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-006__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\arabian-oryx_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 297,
+      "output_tokens": 5488,
+      "total_tokens": 5785
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-007__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\przewalskis-horse_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 294,
+      "output_tokens": 5488,
+      "total_tokens": 5782
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-008__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\platypus_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 299,
+      "output_tokens": 5488,
+      "total_tokens": 5787
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-009__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\saiga-antelope_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 297,
+      "output_tokens": 5488,
+      "total_tokens": 5785
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-010__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\pygmy-hippopotamus_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 295,
+      "output_tokens": 5488,
+      "total_tokens": 5783
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-REP-006__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\loggerhead-sea-turtles_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 297,
+      "output_tokens": 5488,
+      "total_tokens": 5785
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-REP-007__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\northern-alligator-lizard_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 296,
+      "output_tokens": 5488,
+      "total_tokens": 5784
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-REP-008__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\japanese-rat-snake_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 297,
+      "output_tokens": 5488,
+      "total_tokens": 5785
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-REP-009__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\vogelkop-monitor_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 294,
+      "output_tokens": 5488,
+      "total_tokens": 5782
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-REP-010__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\mesoamerican-river-turtle_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 301,
+      "output_tokens": 5488,
+      "total_tokens": 5789
+    },
+    "ts": 1783709339
   },
   "BQ-SILH-AQU-201__v1": {
     "status": "done",
@@ -3822,29 +4122,59 @@
     "ts": 1783644185
   },
   "BQ-GEOL-AVI-011__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\spoon-billed-sandpiper_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 300,
+      "output_tokens": 5488,
+      "total_tokens": 5788
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-AVI-012__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\madagascar-serpent-eagle_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 308,
+      "output_tokens": 5488,
+      "total_tokens": 5796
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-INS-011__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\large-beetle_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 308,
+      "output_tokens": 5488,
+      "total_tokens": 5796
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-MAM-011__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\african-leopard_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 309,
+      "output_tokens": 5488,
+      "total_tokens": 5797
+    },
+    "ts": 1783709339
   },
   "BQ-GEOL-REP-011__v1": {
-    "status": "submitted",
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\northern-pacific-rattlesnake_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "ts": 1783707179
+    "tokens": {
+      "input_tokens": 309,
+      "output_tokens": 5488,
+      "total_tokens": 5797
+    },
+    "ts": 1783709339
   },
   "BQ-LOPO-AQU-012__v1": {
     "status": "done",
