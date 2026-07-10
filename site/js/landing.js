@@ -4,14 +4,17 @@
     - File Name: landing.js
     - Relative Path: site/js/landing.js
     - Artifact Type: script
-    - Version: 2.2.0
-    - Date: 2026-07-07
-    - Update: Tuesday, July 07, 2026
+    - Version: 2.2.1
+    - Date: 2026-07-09
+    - Update: Thursday, July 09, 2026
     - Author: Dennis 'dendogg' Smaltz
     - A.I. Acknowledgement: Anthropic - Claude Fable 5
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Changelog:
+    - 2.2.1 (2026-07-09) [Anthropic - Claude Fable 5] — Vault door holdMs
+      3600 → 4800 to match the rebuilt four-act unlocking ritual
+      (landing.css §17 v2.3 timeline, incl. the 650ms held breath).
     - 2.2.0 (2026-07-07) [Anthropic - Claude Fable 5] — Signature pass: wired
       appraisal cursor, Exhibit A transaction sequence, split-title reveals,
       hero plate tilt, page veil; typewriter now waits for the vault door
@@ -72,8 +75,9 @@ const NAV_OFFSET = 72;
 async function bootstrap() {
   try {
     // 0a. Vault door entrance — mounts immediately so it covers first paint.
-    //     holdMs matches the unlocking-ritual timeline in landing.css §17.
-    initVaultDoor({ holdMs: 3600, openMs: 1500 });
+    //     holdMs matches the unlocking-ritual timeline in landing.css §17:
+    //     lockup complete at ~4.15s + the 650ms held breath = 4.8s release.
+    initVaultDoor({ holdMs: 4800, openMs: 1500 });
 
     // 0b. Catalog-driven sections (Collection wall, Archive counts, Numbers).
     //     Awaited so [data-count] values are final before counters bind.

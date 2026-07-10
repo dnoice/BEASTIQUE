@@ -1,17 +1,30 @@
 /*
 ✒ Metadata
-    - Title: The Vault — Landing Stylesheet (BEASTIQUE Edition - v2.2)
+    - Title: The Vault — Landing Stylesheet (BEASTIQUE Edition - v2.3)
     - File Name: landing.css
     - Relative Path: site/css/landing.css
     - Artifact Type: library
-    - Version: 2.2.0
-    - Date: 2026-07-07
-    - Update: Tuesday, July 07, 2026
+    - Version: 2.3.0
+    - Date: 2026-07-09
+    - Update: Thursday, July 09, 2026
     - Author: Dennis 'dendogg' Smaltz
     - A.I. Acknowledgement: Anthropic - Claude Fable 5
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Changelog:
+    - 2.3.0 (2026-07-09) [Anthropic - Claude Fable 5] — "Give the vault mass,
+      give the ritual air": §17 rebuilt as a four-act sequence on a --vd-*
+      CSS-var timeline (open at 4.8s). Panels gain visible machined grain,
+      bevel columns, and an engraved hairline frame; seam ignites center-out
+      and windows out behind the lockup; dial becomes an object (bezel +
+      occluding disc) with combination stops at 2–3–7 (the collection count)
+      and numerals that land upright under a fixed flashing index; the muddy
+      raster emblem is replaced by the traced paw-track glyph, inline SVG in
+      gold; BEASTIQUE surfaces engraved (gold gradient clip, blur→sharp);
+      a true 650ms held breath precedes a causal release chain (rotor spins
+      free → 2px thunk → flare → +0.18s panels part over a light spill);
+      skip snap (--skip) completes the tableau before parting; §30 adds a
+      first-visit hero settle (1.035→1) synced to the door.
     - 2.2.0 (2026-07-07) [Anthropic - Claude Fable 5] — Signature pass: film
       grain overlay, appraisal cursor, Exhibit A transaction stage, split-title
       reveals, wall spotlight, exhibit curtains, ledger etched numerals,
@@ -2102,18 +2115,27 @@ body {
 
 
 /* ═══════════════════════════════════════
-   17. VAULT DOOR — The Unlocking Ritual
+   17. VAULT DOOR — The Unlocking Ritual v2
    (overlay injected by vault-door.js; never present without JS)
 
-   Timeline (open scheduled at ~3.6s by landing.js):
-     0.05s  seam appears full-height (where the doors meet)
-     0.35s  dial ring draws itself on the seam
-     0.95s  emblem + rotor fade in; rotor turns through 3 clicking stops
-     1.45s  BEASTIQUE engraves letter-by-letter
-     2.05s  thesis line + hairlines settle
-     2.40s  light sweep crosses the wordmark (ends 3.3s)
-     3.30s  the held breath — full lockup, still
-     3.60s  unlock flare → panels part with mass (1.5s)
+   "Give the vault mass, give the ritual air."
+   Every beat reads from the --vd-* vars on .vault-door; landing.js
+   schedules open at 4.8s. The combination is 2–3–7 — the collection.
+
+     0.10s  light bloom wakes behind the lockup
+     0.15s  seam ignites from center; windows out behind the lockup
+     0.30s  panel bevels catch the seam light
+     0.75s  dial ring draws itself on the seam
+     0.80s  skip affordance up (respect the hurried)
+     1.10s  bezel + solid dial body give the lock an object's mass
+     1.25s  the traced paw-track glyph surfaces at the heart
+     1.50s  rotor turns: 2 … 3 … 7 — three clicks, three flashes
+     2.30s  BEASTIQUE surfaces letter-by-letter, engraved gold
+     3.30s  light sweep crosses the settled wordmark
+     3.55s  thesis line rises between hairlines
+     4.15s  the held breath — 650ms of total stillness
+     4.80s  release: rotor spins free, 2px thunk, flare —
+            +0.18s the panels part with mass (1.5s), light spills
    ═══════════════════════════════════════ */
 
 .vault-door {
@@ -2121,6 +2143,32 @@ body {
   inset: 0;
   z-index: 5000;
   overflow: hidden;
+  --vd-bloom: 0.10s;
+  --vd-seam: 0.15s;
+  --vd-bevel: 0.30s;
+  --vd-ring: 0.75s;
+  --vd-skip-in: 0.80s;
+  --vd-disc: 1.10s;
+  --vd-emblem: 1.25s;
+  --vd-turn: 1.50s;
+  --vd-brand: 2.30s;
+  --vd-sweep: 3.30s;
+  --vd-line: 3.55s;
+}
+
+@keyframes vdFade {
+  to { opacity: 1; }
+}
+
+/* — Light spill: lives behind the panels, exposed as they part — */
+
+.vault-door__glow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(ellipse 26% 62% at 50% 50%,
+    rgba(255, 240, 200, 0.30), rgba(242, 188, 0, 0.12) 55%, transparent 76%);
+  opacity: 0;
 }
 
 /* — Machined panels — */
@@ -2130,27 +2178,62 @@ body {
   top: 0;
   bottom: 0;
   width: 50.5%;
+  z-index: 1;
   background:
     repeating-linear-gradient(90deg,
-      rgba(255, 255, 255, 0.008) 0 2px, transparent 2px 9px),
-    linear-gradient(105deg, rgba(255, 255, 255, 0.02) 0%, transparent 45%),
-    radial-gradient(ellipse 120% 100% at 50% 50%, #0b0a08, var(--color-void));
-  transition: transform 1.5s cubic-bezier(0.85, 0, 0.15, 1);
+      rgba(255, 255, 255, 0.022) 0 1px, transparent 1px 7px),
+    repeating-linear-gradient(90deg,
+      rgba(0, 0, 0, 0.28) 0 2px, transparent 2px 64px),
+    linear-gradient(105deg, rgba(255, 255, 255, 0.035) 0%, transparent 45%),
+    radial-gradient(ellipse 120% 100% at 50% 50%, #0d0c09, var(--color-void));
+  transition: transform 1.5s cubic-bezier(0.85, 0, 0.15, 1) 0.18s;
 }
 
 .vault-door__panel--left {
   left: 0;
-  border-right: 1px solid rgba(200, 164, 92, 0.3);
-  box-shadow: inset -60px 0 110px rgba(0, 0, 0, 0.6);
+  box-shadow: inset -80px 0 140px rgba(0, 0, 0, 0.72);
 }
 
 .vault-door__panel--right {
   right: 0;
-  border-left: 1px solid rgba(200, 164, 92, 0.3);
-  box-shadow: inset 60px 0 110px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 80px 0 140px rgba(0, 0, 0, 0.72);
 }
 
-/* — The seam: full-height meeting line the lock sits on — */
+/* Bevel columns: the machined edges that meet at the seam */
+.vault-door__panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 26px;
+  opacity: 0;
+  animation: vdFade 0.9s ease var(--vd-bevel) forwards;
+}
+
+.vault-door__panel--left::before {
+  right: 0;
+  background: linear-gradient(270deg,
+    rgba(200, 164, 92, 0.26), rgba(200, 164, 92, 0.05) 38%, transparent);
+  border-right: 1px solid rgba(200, 164, 92, 0.38);
+}
+
+.vault-door__panel--right::before {
+  left: 0;
+  background: linear-gradient(90deg,
+    rgba(200, 164, 92, 0.26), rgba(200, 164, 92, 0.05) 38%, transparent);
+  border-left: 1px solid rgba(200, 164, 92, 0.38);
+}
+
+/* Engraved hairline frame set into each panel face */
+.vault-door__panel::after {
+  content: '';
+  position: absolute;
+  inset: 28px;
+  border: 1px solid rgba(200, 164, 92, 0.07);
+  pointer-events: none;
+}
+
+/* — The seam: ignites from center, windows out behind the lockup — */
 
 .vault-door__seam {
   position: absolute;
@@ -2158,18 +2241,33 @@ body {
   bottom: 0;
   left: 50%;
   width: 1px;
-  z-index: 1;
+  z-index: 2;
   background: linear-gradient(180deg,
-    transparent,
-    rgba(200, 164, 92, 0.55) 30%,
-    rgba(200, 164, 92, 0.55) 70%,
-    transparent);
+    transparent 0%,
+    rgba(200, 164, 92, 0.6) 14%,
+    rgba(232, 208, 150, 0.85) 34%,
+    transparent 41%,
+    transparent 69%,
+    rgba(200, 164, 92, 0.5) 78%,
+    transparent 100%);
   transform: scaleY(0);
-  animation: seamRise 0.7s var(--ease-out-expo) 0.05s forwards;
+  animation: seamIgnite 0.6s var(--ease-out-expo) var(--vd-seam) forwards;
 }
 
-@keyframes seamRise {
+@keyframes seamIgnite {
   to { transform: scaleY(1); }
+}
+
+/* — Stage light: a low bloom so the ritual never plays in a void — */
+
+.vault-door__bloom {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: radial-gradient(ellipse 42% 36% at 50% 50%,
+    rgba(200, 164, 92, 0.10), transparent 72%);
+  opacity: 0;
+  animation: vdFade 1.1s ease var(--vd-bloom) forwards;
 }
 
 /* — Center lockup — */
@@ -2177,101 +2275,134 @@ body {
 .vault-door__center {
   position: absolute;
   inset: 0;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.6rem;
+  gap: 2rem;
   text-align: center;
   padding: 0 1.5rem;
-  transition: opacity 0.55s ease, transform 0.55s ease;
 }
 
-/* — The combination dial — */
+/* — The combination dial: an object with mass, not a diagram — */
 
 .vault-door__dial {
   position: relative;
-  width: clamp(110px, 16vh, 150px);
-  height: clamp(110px, 16vh, 150px);
+  width: clamp(128px, 19vh, 176px);
+  height: clamp(128px, 19vh, 176px);
 }
 
 .vault-door__dial svg {
   width: 100%;
   height: 100%;
-  transform: rotate(-90deg); /* ring draw starts at 12 o'clock */
   overflow: visible;
 }
 
+/* the ring draws itself from 12 o'clock (rotated at the element so the
+   rotor's coordinate frame stays screen-aligned for the numeral math) */
 .vault-door__dial-ring {
   fill: none;
-  stroke: rgba(200, 164, 92, 0.65);
-  stroke-width: 1.5;
+  stroke: rgba(200, 164, 92, 0.7);
+  stroke-width: 1.75;
   stroke-dasharray: 100;
   stroke-dashoffset: 100;
-  animation: dialDraw 0.85s var(--ease-out-expo) 0.35s forwards;
+  animation: dialDraw 0.7s var(--ease-out-expo) var(--vd-ring) forwards;
 }
 
 @keyframes dialDraw {
   to { stroke-dashoffset: 0; }
 }
 
+/* bezel + solid body: the disc occludes the seam — the lock is a thing */
+.vault-door__dial-body {
+  opacity: 0;
+  animation: vdFade 0.5s ease var(--vd-disc) forwards;
+}
+
+.vault-door__dial-bezel {
+  fill: none;
+  stroke: rgba(200, 164, 92, 0.22);
+  stroke-width: 5;
+}
+
+.vault-door__dial-disc {
+  fill: #0b0a08;
+  stroke: rgba(200, 164, 92, 0.3);
+  stroke-width: 1;
+}
+
 .vault-door__dial-rotor {
   opacity: 0;
   transform-origin: 60px 60px;
   animation:
-    dialFade 0.45s ease 0.95s forwards,
-    dialTurn 1.15s cubic-bezier(0.6, 0.04, 0.3, 1) 1.05s forwards;
+    vdFade 0.4s ease var(--vd-disc) forwards,
+    dialTurn 1.3s cubic-bezier(0.6, 0.04, 0.3, 1) var(--vd-turn) forwards;
 }
 
-@keyframes dialFade {
-  to { opacity: 1; }
-}
-
-/* Three stops, each with a small mechanical settle-back */
+/* Right to 2, on to 3, home at 7 — 237 species, one combination.
+   Each stop overshoots and settles back like a real catch. */
 @keyframes dialTurn {
   0%   { transform: rotate(0deg); }
-  26%  { transform: rotate(-56deg); }
-  34%  { transform: rotate(-50deg); }
-  58%  { transform: rotate(-110deg); }
-  66%  { transform: rotate(-104deg); }
-  92%  { transform: rotate(-158deg); }
-  100% { transform: rotate(-150deg); }
+  20%  { transform: rotate(-78deg); }
+  26%  { transform: rotate(-72deg); }
+  32%  { transform: rotate(-72deg); }
+  52%  { transform: rotate(-187deg); }
+  58%  { transform: rotate(-180deg); }
+  64%  { transform: rotate(-180deg); }
+  90%  { transform: rotate(-332deg); }
+  96%  { transform: rotate(-324deg); }
+  100% { transform: rotate(-324deg); }
 }
 
 .vault-door__dial-ticks {
   fill: none;
-  stroke: rgba(200, 164, 92, 0.45);
-  stroke-width: 4;
-  /* 24 ticks around r=46: circumference ≈ 289 → 24 × (2 + 10.04) */
-  stroke-dasharray: 2 10.04;
+  stroke: rgba(200, 164, 92, 0.4);
+  stroke-width: 3.5;
+  /* 24 ticks around r=38: circumference ≈ 238.8 → 24 × (2 + 7.95) */
+  stroke-dasharray: 2 7.95;
 }
 
+.vault-door__dial-num {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  fill: rgba(200, 164, 92, 0.78);
+}
+
+/* fixed index at 12 o'clock — flashes as each number lands under it */
 .vault-door__dial-notch {
   stroke: var(--color-accent);
   stroke-width: 2.5;
   stroke-linecap: round;
-  animation: notchClicks 1.15s linear 1.05s forwards;
+  opacity: 0;
+  animation:
+    vdFade 0.4s ease var(--vd-disc) forwards,
+    notchClicks 1.3s linear var(--vd-turn) forwards;
 }
 
-/* Gold flashes timed to the rotor's three stops */
+/* Gold flashes timed to the rotor's three catches */
 @keyframes notchClicks {
-  0%, 30%  { stroke: var(--color-accent); filter: none; }
-  34%      { stroke: var(--color-signal); filter: drop-shadow(0 0 6px rgba(242, 188, 0, 0.9)); }
-  40%, 62% { stroke: var(--color-accent); filter: none; }
-  66%      { stroke: var(--color-signal); filter: drop-shadow(0 0 6px rgba(242, 188, 0, 0.9)); }
-  72%, 94% { stroke: var(--color-accent); filter: none; }
-  100%     { stroke: var(--color-signal); filter: drop-shadow(0 0 9px rgba(242, 188, 0, 1)); }
+  0%, 22%   { stroke: var(--color-accent); filter: none; }
+  26%       { stroke: var(--color-signal); filter: drop-shadow(0 0 6px rgba(242, 188, 0, 0.9)); }
+  32%, 54%  { stroke: var(--color-accent); filter: none; }
+  58%       { stroke: var(--color-signal); filter: drop-shadow(0 0 6px rgba(242, 188, 0, 0.9)); }
+  64%, 90%  { stroke: var(--color-accent); filter: none; }
+  96%, 100% { stroke: var(--color-signal); filter: drop-shadow(0 0 9px rgba(242, 188, 0, 1)); }
 }
 
+/* the beast's mark at the heart of the lock — the traced paw track,
+   inline SVG filled with gold (the muddy raster logo is retired) */
 .vault-door__emblem {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 34%;
-  transform: translate(-50%, -50%) scale(0.82);
+  width: 40%;
+  height: 40%;
+  color: var(--color-accent);
+  transform: translate(-50%, -50%) scale(0.8);
   opacity: 0;
-  animation: emblemIn 0.7s var(--ease-out-back) 1.1s forwards;
+  filter: drop-shadow(0 0 10px rgba(200, 164, 92, 0.25));
+  animation: emblemIn 0.65s var(--ease-out-back) var(--vd-emblem) forwards;
 }
 
 @keyframes emblemIn {
@@ -2281,43 +2412,57 @@ body {
   }
 }
 
-/* — BEASTIQUE engraves itself — */
+/* — BEASTIQUE surfaces, engraved in gold — */
 
 .vault-door__brand {
   display: inline-flex;
   overflow: hidden;
-  padding-bottom: 0.1em;
+  padding: 0.05em 0 0.12em;
   font-family: var(--font-display);
-  font-size: clamp(1.2rem, 2.8vw, 1.8rem);
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
   font-weight: 400;
-  letter-spacing: 0.55em;
-  color: var(--color-text);
+  letter-spacing: 0.5em;
   position: relative;
+}
+
+/* trailing tracking space would shove the word off the seam's axis */
+.vault-door__letter:last-child {
+  letter-spacing: 0;
 }
 
 .vault-door__letter {
   display: inline-block;
-  transform: translateY(120%);
-  animation: letterRise 0.65s var(--ease-out-expo) forwards;
-  animation-delay: calc(1.45s + var(--i) * 0.05s);
+  background: linear-gradient(180deg, #efe0b4 0%, #c8a45c 52%, #91713a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0;
+  transform: translateY(70%);
+  filter: blur(7px) drop-shadow(0 1px 0 rgba(0, 0, 0, 0.65));
+  animation: letterSurface 0.6s var(--ease-out-expo) forwards;
+  animation-delay: calc(var(--vd-brand) + var(--i) * 0.045s);
 }
 
-@keyframes letterRise {
-  to { transform: translateY(0); }
+@keyframes letterSurface {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0) drop-shadow(0 1px 0 rgba(0, 0, 0, 0.65));
+  }
 }
 
-/* Light sweep across the settled wordmark */
+/* Light sweep across the settled wordmark — after every letter lands */
 .vault-door__brand::after {
   content: '';
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: -10%;
+  bottom: -10%;
   left: -30%;
-  width: 22%;
+  width: 24%;
   background: linear-gradient(100deg, transparent,
-    rgba(255, 240, 200, 0.32), transparent);
+    rgba(255, 240, 200, 0.38), transparent);
   transform: skewX(-18deg);
-  animation: brandSweep 0.9s ease-in-out 2.4s forwards;
+  animation: brandSweep 0.8s ease-in-out var(--vd-sweep) forwards;
 }
 
 @keyframes brandSweep {
@@ -2332,13 +2477,13 @@ body {
   gap: 1rem;
   white-space: nowrap;
   font-family: var(--font-mono);
-  font-size: clamp(0.58rem, 1.2vw, 0.72rem);
+  font-size: clamp(0.62rem, 1.3vw, 0.78rem);
   letter-spacing: 0.42em;
   text-indent: 0.42em;
   text-transform: uppercase;
   color: var(--color-accent);
   opacity: 0;
-  animation: fadeUp 0.7s var(--ease-out-expo) 2.05s forwards;
+  animation: fadeUp 0.6s var(--ease-out-expo) var(--vd-line) forwards;
 }
 
 @media (max-width: 480px) {
@@ -2354,7 +2499,7 @@ body {
   height: 1px;
   background: rgba(200, 164, 92, 0.4);
   transform: scaleX(0);
-  animation: hairlineGrow 0.7s var(--ease-out-expo) 2.2s forwards;
+  animation: hairlineGrow 0.7s var(--ease-out-expo) calc(var(--vd-line) + 0.12s) forwards;
 }
 
 .vault-door__line::before { transform-origin: right; }
@@ -2369,21 +2514,36 @@ body {
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 3;
   font-family: var(--font-mono);
   font-size: 0.6rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--color-text-muted);
   opacity: 0;
-  animation: fadeUp 0.8s ease 2.6s forwards;
+  animation: fadeUp 0.8s ease var(--vd-skip-in) forwards;
 }
 
-/* — The unlock: flare, then the panels part with mass — */
+/* — The release: rotor spins free, the mechanism thunks, light spills,
+     and only then do the panels move — cause before effect — */
 
 .vault-door--open .vault-door__panel--left { transform: translateX(-102%); }
 .vault-door--open .vault-door__panel--right { transform: translateX(102%); }
 
+.vault-door--open .vault-door__glow {
+  animation: glowSpill 1.4s ease-out 0.12s forwards;
+}
+
+@keyframes glowSpill {
+  0% { opacity: 0; }
+  22% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 .vault-door--open .vault-door__seam {
+  /* flare replaces the ignite animation, so its scaleY(1) fill is lost —
+     restated here or the seam would collapse to its scaleY(0) base */
+  transform: scaleY(1);
   animation: seamFlare 0.5s ease-out forwards;
 }
 
@@ -2402,8 +2562,18 @@ body {
   }
 }
 
+/* the lock lets go — the rotor spins backward, free of its catches */
+.vault-door--open .vault-door__dial-rotor {
+  animation: rotorRelease 0.4s cubic-bezier(0.5, 0, 0.9, 0.6) forwards;
+}
+
+@keyframes rotorRelease {
+  from { transform: rotate(-324deg); opacity: 1; }
+  to   { transform: rotate(-424deg); opacity: 1; }
+}
+
 .vault-door--open .vault-door__dial {
-  animation: dialFlare 0.65s ease-out forwards;
+  animation: dialFlare 0.6s ease-out 0.1s forwards;
 }
 
 @keyframes dialFlare {
@@ -2414,23 +2584,77 @@ body {
   }
   35% {
     filter: drop-shadow(0 0 26px rgba(242, 188, 0, 0.8));
-    transform: scale(1.12);
+    transform: scale(1.1);
     opacity: 1;
   }
   100% {
     filter: drop-shadow(0 0 0 rgba(242, 188, 0, 0));
-    transform: scale(1.3);
+    transform: scale(1.24);
     opacity: 0;
   }
 }
 
+/* the mechanism thunks: a 2px drop, then the lockup yields to the light */
 .vault-door--open .vault-door__center {
-  opacity: 0;
-  transform: scale(0.94);
+  animation: centerRelease 0.7s ease forwards;
 }
 
+@keyframes centerRelease {
+  0%   { transform: translateY(0) scale(1); opacity: 1; }
+  25%  { transform: translateY(2px) scale(1); opacity: 1; }
+  100% { transform: translateY(2px) scale(0.96); opacity: 0; }
+}
+
+/* their entrance animations hold an opacity:1 fill, so they must be
+   faded by a replacement animation — a plain override loses the cascade */
+.vault-door--open .vault-door__bloom,
 .vault-door--open .vault-door__skip {
-  opacity: 0;
+  animation: vdFadeOut 0.3s ease forwards;
+}
+
+@keyframes vdFadeOut {
+  to { opacity: 0; }
+}
+
+/* — Skip: any input mid-ritual snaps the lockup complete first, so the
+     doors always part on the finished tableau, never a half-risen word — */
+
+.vault-door--skip .vault-door__seam,
+.vault-door--skip .vault-door__bloom,
+.vault-door--skip .vault-door__panel::before,
+.vault-door--skip .vault-door__dial-ring,
+.vault-door--skip .vault-door__dial-body,
+.vault-door--skip .vault-door__dial-notch,
+.vault-door--skip .vault-door__letter,
+.vault-door--skip .vault-door__brand::after,
+.vault-door--skip .vault-door__line,
+.vault-door--skip .vault-door__line::before,
+.vault-door--skip .vault-door__line::after {
+  animation: none;
+}
+
+.vault-door--skip .vault-door__seam { transform: scaleY(1); }
+.vault-door--skip .vault-door__bloom { opacity: 1; }
+.vault-door--skip .vault-door__panel::before { opacity: 1; }
+.vault-door--skip .vault-door__dial-ring { stroke-dashoffset: 0; }
+.vault-door--skip .vault-door__dial-body { opacity: 1; }
+.vault-door--skip .vault-door__dial-notch { opacity: 1; }
+.vault-door--skip .vault-door__brand::after { opacity: 0; }
+
+.vault-door--skip .vault-door__letter {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0) drop-shadow(0 1px 0 rgba(0, 0, 0, 0.65));
+}
+
+.vault-door--skip .vault-door__line { opacity: 1; }
+.vault-door--skip .vault-door__line::before,
+.vault-door--skip .vault-door__line::after { transform: scaleX(1); }
+
+/* skip + open land together; restore the flare the --skip reset removed */
+.vault-door--skip.vault-door--open .vault-door__seam {
+  transform: scaleY(1);
+  animation: seamFlare 0.5s ease-out forwards;
 }
 
 
@@ -2991,6 +3215,19 @@ body.bq-gate:not(.bq-entered) .hero *,
 body.bq-gate:not(.bq-entered) .hero *::before,
 body.bq-gate:not(.bq-entered) .hero *::after {
   animation-play-state: paused !important;
+}
+
+/* First visit only (bq-gate exists only when the door mounted): the room
+   settles from a breath larger as the panels part — synced to openMs */
+@media (prefers-reduced-motion: no-preference) {
+  body.bq-gate.bq-entered .hero {
+    animation: heroSettle 1.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
+@keyframes heroSettle {
+  from { transform: scale(1.035); }
+  to   { transform: scale(1); }
 }
 
 /* Hero plate leans with the pointer (vars set on the wrap by card-tilt.js) */
