@@ -11721,5 +11721,1335 @@
       "opttolerance": 3.5
     },
     "ts": 1783641468
+  },
+  "aquatic-beasts/stencil/high/dusky-dolphin_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dusky-dolphin_stencil-bw_01.svg",
+        "nodes": 93,
+        "subpaths": 4
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "aquatic-beasts/stencil/high/blue-whale_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "blue-whale_stencil-bw_01-med.svg",
+        "nodes": 73,
+        "subpaths": 5
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "aquatic-beasts/stencil/high/barramundi_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "barramundi_stencil-bw_01.svg",
+        "nodes": 855,
+        "subpaths": 64
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "aquatic-beasts/stencil/high/clown-triggerfish_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "clown-triggerfish_stencil-bw_01.svg",
+        "nodes": 574,
+        "subpaths": 73
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "aquatic-beasts/stencil/high/dwarf-sperm-whale_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dwarf-sperm-whale_stencil-bw_01.svg",
+        "nodes": 491,
+        "subpaths": 28
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "aquatic-beasts/stencil/high/hammerhead-shark_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hammerhead-shark_stencil-bw_01-med.svg",
+        "nodes": 111,
+        "subpaths": 9
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "aquatic-beasts/stencil/high/great-white-shark_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "great-white-shark_stencil-bw_01-med.svg",
+        "nodes": 100,
+        "subpaths": 8
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "aquatic-beasts/stencil/high/green-humphead-parrotfish_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-humphead-parrotfish_stencil-bw_01.svg",
+        "nodes": 623,
+        "subpaths": 38
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "aquatic-beasts/stencil/high/manta-ray_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "manta-ray_stencil-bw_01-med.svg",
+        "nodes": 99,
+        "subpaths": 11
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "aquatic-beasts/stencil/high/orca_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "orca_stencil-bw_01-med.svg",
+        "nodes": 58,
+        "subpaths": 3
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/african-penguin_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-penguin_stencil-bw_01.svg",
+        "nodes": 318,
+        "subpaths": 6
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/bald-eagle_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "bald-eagle_stencil-bw_01-med.svg",
+        "nodes": 165,
+        "subpaths": 5
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/flamingo_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "flamingo_stencil-bw_01-med.svg",
+        "nodes": 73,
+        "subpaths": 5
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/crested-shelduck_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "crested-shelduck_stencil-bw_01.svg",
+        "nodes": 332,
+        "subpaths": 12
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/harriss-hawk_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "harriss-hawk_stencil-bw_01.svg",
+        "nodes": 534,
+        "subpaths": 19
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/flores-scops-owl_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "flores-scops-owl_stencil-bw_01.svg",
+        "nodes": 1290,
+        "subpaths": 44
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/masked-booby_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "masked-booby_stencil-bw_01.svg",
+        "nodes": 223,
+        "subpaths": 11
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/scarlet-macaw_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "scarlet-macaw_stencil-bw_01-med.svg",
+        "nodes": 148,
+        "subpaths": 14
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/philippine-eagle_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "philippine-eagle_stencil-bw_01.svg",
+        "nodes": 959,
+        "subpaths": 40
+      }
+    },
+    "secs": 0.09,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/shoebill_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "shoebill_stencil-bw_01-med.svg",
+        "nodes": 188,
+        "subpaths": 15
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "avian-beasts/stencil/high/snowy-owl_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": true,
+    "results": {
+      "linework": {
+        "svg": "snowy-owl_stencil-bw_01-med.svg",
+        "nodes": 213,
+        "subpaths": 13
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/black-vine-weevil_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "black-vine-weevil_stencil-bw_01.svg",
+        "nodes": 881,
+        "subpaths": 141
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/african-swallowtail_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-swallowtail_stencil-bw_01.svg",
+        "nodes": 684,
+        "subpaths": 75
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/dragonfly_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dragonfly_stencil-bw_01-med.svg",
+        "nodes": 645,
+        "subpaths": 90
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/hercules-beetle_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "hercules-beetle_stencil-bw_01-med.svg",
+        "nodes": 269,
+        "subpaths": 25
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/praying-mantis_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "praying-mantis_stencil-bw_01-med.svg",
+        "nodes": 165,
+        "subpaths": 12
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/monarch-butterfly_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "monarch-butterfly_stencil-bw_01-med.svg",
+        "nodes": 518,
+        "subpaths": 98
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/red-imported-fire-ant_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-imported-fire-ant_stencil-bw_01.svg",
+        "nodes": 545,
+        "subpaths": 46
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/spider_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "spider_stencil-bw_01.svg",
+        "nodes": 833,
+        "subpaths": 74
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/spotted-lanternfly_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "spotted-lanternfly_stencil-bw_01.svg",
+        "nodes": 822,
+        "subpaths": 123
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/stag-beetle_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "stag-beetle_stencil-bw_01-med.svg",
+        "nodes": 263,
+        "subpaths": 24
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "insecta-beasts/stencil/high/yellow-jacket_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "yellow-jacket_stencil-bw_01.svg",
+        "nodes": 610,
+        "subpaths": 35
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/addax_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "addax_stencil-bw_01.svg",
+        "nodes": 521,
+        "subpaths": 12
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/african-elephant_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-elephant_stencil-bw_01-med.svg",
+        "nodes": 166,
+        "subpaths": 11
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/african-wild-dog_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-wild-dog_stencil-bw_01.svg",
+        "nodes": 1163,
+        "subpaths": 32
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/fennec-fox_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "fennec-fox_stencil-bw_01.svg",
+        "nodes": 605,
+        "subpaths": 14
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/gray-wolf_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "gray-wolf_stencil-bw_01-med.svg",
+        "nodes": 331,
+        "subpaths": 13
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/koala-bear_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "koala-bear_stencil-bw_01.svg",
+        "nodes": 558,
+        "subpaths": 12
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/grevys-zebra_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "grevys-zebra_stencil-bw_01.svg",
+        "nodes": 1500,
+        "subpaths": 105
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/lion_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "lion_stencil-bw_01-med.svg",
+        "nodes": 393,
+        "subpaths": 21
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/mountain-gorilla_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mountain-gorilla_stencil-bw_01-med.svg",
+        "nodes": 236,
+        "subpaths": 12
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644429
+  },
+  "mammalian-beasts/stencil/high/red-fox_stencil-bw_01-med.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-fox_stencil-bw_01-med.svg",
+        "nodes": 144,
+        "subpaths": 8
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "mammalian-beasts/stencil/high/red-panda_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-panda_stencil-bw_01.svg",
+        "nodes": 1084,
+        "subpaths": 31
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/australian-saltwater-crocodile_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "australian-saltwater-crocodile_stencil-bw_01.svg",
+        "nodes": 1354,
+        "subpaths": 126
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/copperhead-snake_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "copperhead-snake_stencil-bw_01.svg",
+        "nodes": 793,
+        "subpaths": 49
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/flat-headed-gecko_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "flat-headed-gecko_stencil-bw_01.svg",
+        "nodes": 361,
+        "subpaths": 14
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/green-iguana_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "green-iguana_stencil-bw_01.svg",
+        "nodes": 1100,
+        "subpaths": 108
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/king-cobra_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "king-cobra_stencil-bw_01.svg",
+        "nodes": 429,
+        "subpaths": 28
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/komodo-dragon_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "komodo-dragon_stencil-bw_01.svg",
+        "nodes": 236,
+        "subpaths": 7
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/mexican-pine-snake_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "mexican-pine-snake_stencil-bw_01.svg",
+        "nodes": 1374,
+        "subpaths": 64
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/panther-chameleon_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "panther-chameleon_stencil-bw_01.svg",
+        "nodes": 482,
+        "subpaths": 24
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/red-eared-slider_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "red-eared-slider_stencil-bw_01.svg",
+        "nodes": 907,
+        "subpaths": 62
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/saltwater-crocodile_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "saltwater-crocodile_stencil-bw_01.svg",
+        "nodes": 515,
+        "subpaths": 43
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/sinaloan-milksnake_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sinaloan-milksnake_stencil-bw_01.svg",
+        "nodes": 733,
+        "subpaths": 33
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/stencil/high/variegated-bush-frog_stencil-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "variegated-bush-frog_stencil-bw_01.svg",
+        "nodes": 523,
+        "subpaths": 32
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "avian-beasts/low-poly/high/shoebill-stork_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "shoebill-stork_low-poly-bw_01.svg",
+        "nodes": 638,
+        "subpaths": 52
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "mammalian-beasts/low-poly/high/sumatran-rhino_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sumatran-rhino_low-poly-bw_01.svg",
+        "nodes": 612,
+        "subpaths": 51
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "insecta-beasts/low-poly/high/scorpion_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "scorpion_low-poly-bw_01.svg",
+        "nodes": 919,
+        "subpaths": 57
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "aquatic-beasts/low-poly/high/armored-catfish_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "armored-catfish_low-poly-bw_01.svg",
+        "nodes": 1068,
+        "subpaths": 67
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/low-poly/high/sea-turtle_low-poly-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "sea-turtle_low-poly-bw_01.svg",
+        "nodes": 499,
+        "subpaths": 30
+      }
+    },
+    "secs": 0.08,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "aquatic-beasts/line-art/high/dolphin_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "dolphin_line-art-bw_01.svg",
+        "nodes": 115,
+        "subpaths": 6
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "avian-beasts/line-art/high/peacock_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "peacock_line-art-bw_01.svg",
+        "nodes": 767,
+        "subpaths": 72
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "insecta-beasts/line-art/high/brown-recluse-spider_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "brown-recluse-spider_line-art-bw_01.svg",
+        "nodes": 802,
+        "subpaths": 67
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "mammalian-beasts/line-art/high/echidna_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "echidna_line-art-bw_01.svg",
+        "nodes": 1129,
+        "subpaths": 74
+      }
+    },
+    "secs": 0.12,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "reptilian-beasts/line-art/high/chameleon_line-art-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "chameleon_line-art-bw_01.svg",
+        "nodes": 247,
+        "subpaths": 14
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644430
+  },
+  "insecta-beasts/geo-line/high/large-beetle_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "large-beetle_geo-line-bw_01.svg",
+        "nodes": 758,
+        "subpaths": 52
+      }
+    },
+    "secs": 0.1,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644431
+  },
+  "avian-beasts/geo-line/high/madagascar-serpent-eagle_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "madagascar-serpent-eagle_geo-line-bw_01.svg",
+        "nodes": 947,
+        "subpaths": 84
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644431
+  },
+  "avian-beasts/geo-line/high/spoon-billed-sandpiper_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "spoon-billed-sandpiper_geo-line-bw_01.svg",
+        "nodes": 469,
+        "subpaths": 30
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644431
+  },
+  "mammalian-beasts/geo-line/high/african-leopard_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "african-leopard_geo-line-bw_01.svg",
+        "nodes": 2177,
+        "subpaths": 117
+      }
+    },
+    "secs": 0.11,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644431
+  },
+  "reptilian-beasts/geo-line/high/northern-pacific-rattlesnake_geo-line-bw_01.png": {
+    "status": "done",
+    "white": false,
+    "results": {
+      "linework": {
+        "svg": "northern-pacific-rattlesnake_geo-line-bw_01.svg",
+        "nodes": 1317,
+        "subpaths": 98
+      }
+    },
+    "secs": 0.07,
+    "params": {
+      "blacklevel": 0.4,
+      "turdsize": 5,
+      "alphamax": 1.0,
+      "opttolerance": 3.5
+    },
+    "ts": 1783644431
   }
 }

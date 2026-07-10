@@ -1802,277 +1802,277 @@
   "BQ-STEN-AQU-001__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\blue-whale_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 219,
+      "input_tokens": 307,
       "output_tokens": 5488,
-      "total_tokens": 5707
+      "total_tokens": 5795
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-AQU-002__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\great-white-shark_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 222,
+      "input_tokens": 314,
       "output_tokens": 5488,
-      "total_tokens": 5710
+      "total_tokens": 5802
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-AQU-003__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\manta-ray_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 213,
+      "input_tokens": 305,
       "output_tokens": 5488,
-      "total_tokens": 5701
+      "total_tokens": 5793
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-AQU-004__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\orca_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 217,
+      "input_tokens": 309,
       "output_tokens": 5488,
-      "total_tokens": 5705
+      "total_tokens": 5797
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-AQU-005__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\hammerhead-shark_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 208,
+      "input_tokens": 300,
       "output_tokens": 5488,
-      "total_tokens": 5696
+      "total_tokens": 5788
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-001__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\bald-eagle_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 216,
+      "input_tokens": 308,
       "output_tokens": 5488,
-      "total_tokens": 5704
+      "total_tokens": 5796
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-002__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\snowy-owl_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 223,
+      "input_tokens": 315,
       "output_tokens": 5488,
-      "total_tokens": 5711
+      "total_tokens": 5803
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-003__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\flamingo_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 232,
+      "input_tokens": 315,
       "output_tokens": 5488,
-      "total_tokens": 5720
+      "total_tokens": 5803
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-004__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\scarlet-macaw_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 223,
+      "input_tokens": 315,
       "output_tokens": 5488,
-      "total_tokens": 5711
+      "total_tokens": 5803
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-005__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\shoebill_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 217,
+      "input_tokens": 309,
       "output_tokens": 5488,
-      "total_tokens": 5705
+      "total_tokens": 5797
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-INS-001__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\monarch-butterfly_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 220,
+      "input_tokens": 299,
       "output_tokens": 5488,
-      "total_tokens": 5708
+      "total_tokens": 5787
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-INS-002__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\hercules-beetle_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 227,
+      "input_tokens": 312,
       "output_tokens": 5488,
-      "total_tokens": 5715
+      "total_tokens": 5800
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-INS-003__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\praying-mantis_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 217,
+      "input_tokens": 296,
       "output_tokens": 5488,
-      "total_tokens": 5705
+      "total_tokens": 5784
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-INS-004__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\dragonfly_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 217,
+      "input_tokens": 296,
       "output_tokens": 5488,
-      "total_tokens": 5705
+      "total_tokens": 5784
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-INS-005__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\stag-beetle_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 220,
+      "input_tokens": 299,
       "output_tokens": 5488,
-      "total_tokens": 5708
+      "total_tokens": 5787
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-001__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\gray-wolf_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 214,
+      "input_tokens": 306,
       "output_tokens": 5488,
-      "total_tokens": 5702
+      "total_tokens": 5794
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-002__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\lion_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 220,
+      "input_tokens": 314,
       "output_tokens": 5488,
-      "total_tokens": 5708
+      "total_tokens": 5802
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-003__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\red-fox_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 203,
+      "input_tokens": 295,
       "output_tokens": 5488,
-      "total_tokens": 5691
+      "total_tokens": 5783
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-004__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\african-elephant_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 210,
+      "input_tokens": 304,
       "output_tokens": 5488,
-      "total_tokens": 5698
+      "total_tokens": 5792
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-005__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\mountain-gorilla_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 216,
+      "input_tokens": 308,
       "output_tokens": 5488,
-      "total_tokens": 5704
+      "total_tokens": 5796
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-REP-001__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\panther-chameleon_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 227,
+      "input_tokens": 319,
       "output_tokens": 5488,
-      "total_tokens": 5715
+      "total_tokens": 5807
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-REP-002__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\komodo-dragon_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 220,
+      "input_tokens": 312,
       "output_tokens": 5488,
-      "total_tokens": 5708
+      "total_tokens": 5800
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-REP-003__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\king-cobra_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 216,
+      "input_tokens": 308,
       "output_tokens": 5488,
-      "total_tokens": 5704
+      "total_tokens": 5796
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-REP-004__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\saltwater-crocodile_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 224,
+      "input_tokens": 316,
       "output_tokens": 5488,
-      "total_tokens": 5712
+      "total_tokens": 5804
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-STEN-REP-005__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\green-iguana_stencil-bw_01.png",
-    "batch_id": "batch_6a4e6b5b25ec8190ab8c8b0420b21b2d",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 232,
+      "input_tokens": 324,
       "output_tokens": 5488,
-      "total_tokens": 5720
+      "total_tokens": 5812
     },
-    "ts": 1783558995
+    "ts": 1783644161
   },
   "BQ-GEOL-AQU-001__v1": {
     "status": "done",
@@ -3177,277 +3177,277 @@
   "BQ-STEN-AQU-006__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\clown-triggerfish_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 210,
+      "input_tokens": 298,
       "output_tokens": 5488,
-      "total_tokens": 5698
+      "total_tokens": 5786
     },
-    "ts": 1783634617
+    "ts": 1783644160
   },
   "BQ-STEN-AQU-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\dwarf-sperm-whale_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 206,
+      "input_tokens": 294,
       "output_tokens": 5488,
-      "total_tokens": 5694
+      "total_tokens": 5782
     },
-    "ts": 1783634617
+    "ts": 1783644160
   },
   "BQ-STEN-AQU-008__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\green-humphead-parrotfish_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 210,
+      "input_tokens": 298,
       "output_tokens": 5488,
-      "total_tokens": 5698
+      "total_tokens": 5786
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-AQU-009__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\dusky-dolphin_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 213,
+      "input_tokens": 301,
       "output_tokens": 5488,
-      "total_tokens": 5701
+      "total_tokens": 5789
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-AQU-010__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\stencil\\high\\barramundi_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 206,
+      "input_tokens": 294,
       "output_tokens": 5488,
-      "total_tokens": 5694
+      "total_tokens": 5782
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-006__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\african-penguin_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 207,
+      "input_tokens": 295,
       "output_tokens": 5488,
-      "total_tokens": 5695
+      "total_tokens": 5783
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\harriss-hawk_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 206,
+      "input_tokens": 294,
       "output_tokens": 5488,
-      "total_tokens": 5694
+      "total_tokens": 5782
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-008__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\masked-booby_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 206,
+      "input_tokens": 294,
       "output_tokens": 5488,
-      "total_tokens": 5694
+      "total_tokens": 5782
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-009__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\crested-shelduck_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 207,
+      "input_tokens": 295,
       "output_tokens": 5488,
-      "total_tokens": 5695
+      "total_tokens": 5783
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-AVI-010__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\flores-scops-owl_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 207,
+      "input_tokens": 295,
       "output_tokens": 5488,
-      "total_tokens": 5695
+      "total_tokens": 5783
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-INS-006__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\red-imported-fire-ant_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 209,
+      "input_tokens": 297,
       "output_tokens": 5488,
-      "total_tokens": 5697
+      "total_tokens": 5785
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-INS-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\spotted-lanternfly_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 207,
+      "input_tokens": 295,
       "output_tokens": 5488,
-      "total_tokens": 5695
+      "total_tokens": 5783
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-INS-008__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\african-swallowtail_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 206,
+      "input_tokens": 294,
       "output_tokens": 5488,
-      "total_tokens": 5694
+      "total_tokens": 5782
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-INS-009__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\yellow-jacket_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 207,
+      "input_tokens": 295,
       "output_tokens": 5488,
-      "total_tokens": 5695
+      "total_tokens": 5783
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-INS-010__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\black-vine-weevil_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 214,
+      "input_tokens": 302,
       "output_tokens": 5488,
-      "total_tokens": 5702
+      "total_tokens": 5790
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-006__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\african-wild-dog_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 209,
+      "input_tokens": 297,
       "output_tokens": 5488,
-      "total_tokens": 5697
+      "total_tokens": 5785
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\red-panda_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 211,
+      "input_tokens": 299,
       "output_tokens": 5488,
-      "total_tokens": 5699
+      "total_tokens": 5787
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-008__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\fennec-fox_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 206,
+      "input_tokens": 294,
       "output_tokens": 5488,
-      "total_tokens": 5694
+      "total_tokens": 5782
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-009__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\koala-bear_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 209,
+      "input_tokens": 297,
       "output_tokens": 5488,
-      "total_tokens": 5697
+      "total_tokens": 5785
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-MAM-010__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\grevys-zebra_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 208,
+      "input_tokens": 296,
       "output_tokens": 5488,
-      "total_tokens": 5696
+      "total_tokens": 5784
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-REP-006__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\copperhead-snake_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 208,
+      "input_tokens": 296,
       "output_tokens": 5488,
-      "total_tokens": 5696
+      "total_tokens": 5784
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-REP-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\red-eared-slider_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 214,
+      "input_tokens": 302,
       "output_tokens": 5488,
-      "total_tokens": 5702
+      "total_tokens": 5790
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-REP-008__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\mexican-pine-snake_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 205,
+      "input_tokens": 293,
       "output_tokens": 5488,
-      "total_tokens": 5693
+      "total_tokens": 5781
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-REP-009__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\flat-headed-gecko_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 205,
+      "input_tokens": 293,
       "output_tokens": 5488,
-      "total_tokens": 5693
+      "total_tokens": 5781
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-STEN-AMP-001__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\variegated-bush-frog_stencil-bw_01.png",
-    "batch_id": "batch_6a4f5b0cd3c08190a5cb12bf089b3ab2",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
-      "input_tokens": 207,
+      "input_tokens": 295,
       "output_tokens": 5488,
-      "total_tokens": 5695
+      "total_tokens": 5783
     },
-    "ts": 1783634617
+    "ts": 1783644161
   },
   "BQ-GEOL-AQU-006__v1": {
     "status": "done",
@@ -3900,5 +3900,280 @@
       "total_tokens": 5715
     },
     "ts": 1783634641
+  },
+  "BQ-STEN-AVI-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\philippine-eagle_stencil-bw_01.png",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
+    "tokens": {
+      "input_tokens": 306,
+      "output_tokens": 5488,
+      "total_tokens": 5794
+    },
+    "ts": 1783644161
+  },
+  "BQ-STEN-ARA-001__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\spider_stencil-bw_01.png",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
+    "tokens": {
+      "input_tokens": 303,
+      "output_tokens": 5488,
+      "total_tokens": 5791
+    },
+    "ts": 1783644161
+  },
+  "BQ-STEN-MAM-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\addax_stencil-bw_01.png",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
+    "tokens": {
+      "input_tokens": 304,
+      "output_tokens": 5488,
+      "total_tokens": 5792
+    },
+    "ts": 1783644161
+  },
+  "BQ-STEN-REP-010__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\sinaloan-milksnake_stencil-bw_01.png",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
+    "tokens": {
+      "input_tokens": 313,
+      "output_tokens": 5488,
+      "total_tokens": 5801
+    },
+    "ts": 1783644161
+  },
+  "BQ-STEN-REP-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\australian-saltwater-crocodile_stencil-bw_01.png",
+    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
+    "tokens": {
+      "input_tokens": 310,
+      "output_tokens": 5488,
+      "total_tokens": 5798
+    },
+    "ts": 1783644161
+  },
+  "BQ-LOPO-AQU-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\low-poly\\high\\armored-catfish_low-poly-bw_01.png",
+    "batch_id": "batch_6a50343daca481909b74d2ea76027884",
+    "tokens": {
+      "input_tokens": 287,
+      "output_tokens": 5488,
+      "total_tokens": 5775
+    },
+    "ts": 1783644179
+  },
+  "BQ-LOPO-AVI-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\shoebill-stork_low-poly-bw_01.png",
+    "batch_id": "batch_6a50343daca481909b74d2ea76027884",
+    "tokens": {
+      "input_tokens": 277,
+      "output_tokens": 5488,
+      "total_tokens": 5765
+    },
+    "ts": 1783644179
+  },
+  "BQ-LOPO-ARA-001__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\low-poly\\high\\scorpion_low-poly-bw_01.png",
+    "batch_id": "batch_6a50343daca481909b74d2ea76027884",
+    "tokens": {
+      "input_tokens": 289,
+      "output_tokens": 5488,
+      "total_tokens": 5777
+    },
+    "ts": 1783644179
+  },
+  "BQ-LOPO-MAM-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\low-poly\\high\\sumatran-rhino_low-poly-bw_01.png",
+    "batch_id": "batch_6a50343daca481909b74d2ea76027884",
+    "tokens": {
+      "input_tokens": 280,
+      "output_tokens": 5488,
+      "total_tokens": 5768
+    },
+    "ts": 1783644179
+  },
+  "BQ-LOPO-REP-010__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\sea-turtle_low-poly-bw_01.png",
+    "batch_id": "batch_6a50343daca481909b74d2ea76027884",
+    "tokens": {
+      "input_tokens": 282,
+      "output_tokens": 5488,
+      "total_tokens": 5770
+    },
+    "ts": 1783644179
+  },
+  "BQ-WOOD-AQU-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\woodcut\\high\\ganges-shark_woodcut-bw_01.png",
+    "batch_id": "batch_6a503447af448190a5a70997a50c0990",
+    "tokens": {
+      "input_tokens": 240,
+      "output_tokens": 5488,
+      "total_tokens": 5728
+    },
+    "ts": 1783644182
+  },
+  "BQ-WOOD-AVI-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\woodcut\\high\\secretary-bird_woodcut-bw_01.png",
+    "batch_id": "batch_6a503447af448190a5a70997a50c0990",
+    "tokens": {
+      "input_tokens": 243,
+      "output_tokens": 5488,
+      "total_tokens": 5731
+    },
+    "ts": 1783644182
+  },
+  "BQ-WOOD-ARA-002__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\woodcut\\high\\mule-deer-tick_woodcut-bw_01.png",
+    "batch_id": "batch_6a503447af448190a5a70997a50c0990",
+    "tokens": {
+      "input_tokens": 244,
+      "output_tokens": 5488,
+      "total_tokens": 5732
+    },
+    "ts": 1783644182
+  },
+  "BQ-WOOD-MAM-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\woodcut\\high\\sumatran-tiger_woodcut-bw_01.png",
+    "batch_id": "batch_6a503447af448190a5a70997a50c0990",
+    "tokens": {
+      "input_tokens": 248,
+      "output_tokens": 5488,
+      "total_tokens": 5736
+    },
+    "ts": 1783644182
+  },
+  "BQ-WOOD-MAM-012__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\woodcut\\high\\tamaraw_woodcut-bw_01.png",
+    "batch_id": "batch_6a503447af448190a5a70997a50c0990",
+    "tokens": {
+      "input_tokens": 234,
+      "output_tokens": 5488,
+      "total_tokens": 5722
+    },
+    "ts": 1783644182
+  },
+  "BQ-LINE-AQU-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\line-art\\high\\dolphin_line-art-bw_01.png",
+    "batch_id": "batch_6a50345003b08190b9d1584871162228",
+    "tokens": {
+      "input_tokens": 202,
+      "output_tokens": 5488,
+      "total_tokens": 5690
+    },
+    "ts": 1783644185
+  },
+  "BQ-LINE-AVI-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\line-art\\high\\peacock_line-art-bw_01.png",
+    "batch_id": "batch_6a50345003b08190b9d1584871162228",
+    "tokens": {
+      "input_tokens": 216,
+      "output_tokens": 5488,
+      "total_tokens": 5704
+    },
+    "ts": 1783644185
+  },
+  "BQ-LINE-ARA-001__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\line-art\\high\\brown-recluse-spider_line-art-bw_01.png",
+    "batch_id": "batch_6a50345003b08190b9d1584871162228",
+    "tokens": {
+      "input_tokens": 211,
+      "output_tokens": 5488,
+      "total_tokens": 5699
+    },
+    "ts": 1783644185
+  },
+  "BQ-LINE-MAM-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\line-art\\high\\echidna_line-art-bw_01.png",
+    "batch_id": "batch_6a50345003b08190b9d1584871162228",
+    "tokens": {
+      "input_tokens": 207,
+      "output_tokens": 5488,
+      "total_tokens": 5695
+    },
+    "ts": 1783644185
+  },
+  "BQ-LINE-REP-010__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\line-art\\high\\chameleon_line-art-bw_01.png",
+    "batch_id": "batch_6a50345003b08190b9d1584871162228",
+    "tokens": {
+      "input_tokens": 206,
+      "output_tokens": 5488,
+      "total_tokens": 5694
+    },
+    "ts": 1783644185
+  },
+  "BQ-GEOL-AVI-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\spoon-billed-sandpiper_geo-line-bw_01.png",
+    "batch_id": "batch_6a5034591a9881908ef65b04c10859da",
+    "tokens": {
+      "input_tokens": 231,
+      "output_tokens": 5488,
+      "total_tokens": 5719
+    },
+    "ts": 1783644197
+  },
+  "BQ-GEOL-AVI-012__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\madagascar-serpent-eagle_geo-line-bw_01.png",
+    "batch_id": "batch_6a5034591a9881908ef65b04c10859da",
+    "tokens": {
+      "input_tokens": 239,
+      "output_tokens": 5488,
+      "total_tokens": 5727
+    },
+    "ts": 1783644197
+  },
+  "BQ-GEOL-INS-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\large-beetle_geo-line-bw_01.png",
+    "batch_id": "batch_6a5034591a9881908ef65b04c10859da",
+    "tokens": {
+      "input_tokens": 239,
+      "output_tokens": 5488,
+      "total_tokens": 5727
+    },
+    "ts": 1783644197
+  },
+  "BQ-GEOL-MAM-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\african-leopard_geo-line-bw_01.png",
+    "batch_id": "batch_6a5034591a9881908ef65b04c10859da",
+    "tokens": {
+      "input_tokens": 240,
+      "output_tokens": 5488,
+      "total_tokens": 5728
+    },
+    "ts": 1783644197
+  },
+  "BQ-GEOL-REP-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\northern-pacific-rattlesnake_geo-line-bw_01.png",
+    "batch_id": "batch_6a5034591a9881908ef65b04c10859da",
+    "tokens": {
+      "input_tokens": 240,
+      "output_tokens": 5488,
+      "total_tokens": 5728
+    },
+    "ts": 1783644197
   }
 }

@@ -6,7 +6,7 @@
     - File Name: bq_linocut_forge.py
     - Relative Path: BEASTIQUE/tools/bq_linocut_forge.py
     - Artifact Type: CLI
-    - Version: 1.9.0
+    - Version: 1.9.1
     - Date: 2026-07-09
     - Update: Thursday, July 09, 2026
     - Author: Dennis 'dendogg' Smaltz
@@ -14,6 +14,13 @@
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Changelog:
+    - 1.9.1 (2026-07-09) [Anthropic - Claude Fable 5] — Fetch-hint fix. The
+      "Fetch when complete" line printed after a batch submit now includes
+      --style and --quality. Without them, fetch fell back to the linocut
+      default, filtered every entry out, and reported all items as errors
+      ("status 200") despite a healthy batch — exactly what bit the first
+      stencil-wave fetch. The style filter itself is unchanged; fetch has
+      always required the submit-time flags, the hint just never said so.
     - 1.9.0 (2026-07-09) [Anthropic - Claude Fable 5] — Brand-work routing.
       Entry.out_path now files ID blocks into their own leaf folders under
       <style>/<quality>/: 1xx (icons) → icons/, 2xx (banners) → banners/;
@@ -1003,7 +1010,8 @@ def cmd_batch(args) -> int:
     save_ledger(ledger_path, ledger)
     print(OK(f"  Submitted. batch id: {batch.id}  status: {batch.status}"))
     print(DIM(f"  Fetch when complete:  uv run bq_linocut_forge.py fetch "
-              f"--batch-id {batch.id} --libs {args.libs}"))
+              f"--batch-id {batch.id} --libs {args.libs} "
+              f"--style {args.style} --quality {args.quality}"))
     return 0
 
 
