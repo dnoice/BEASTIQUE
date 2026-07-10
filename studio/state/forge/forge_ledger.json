@@ -4175,5 +4175,580 @@
       "total_tokens": 5728
     },
     "ts": 1783644197
+  },
+  "BQ-LOPO-AQU-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-AQU-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-AQU-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-AQU-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-AQU-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-AVI-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-AVI-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-AVI-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-AVI-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-AVI-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-INS-011__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-INS-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-INS-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-INS-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-INS-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-MAM-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-MAM-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-MAM-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-MAM-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-MAM-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-REP-011__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-REP-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-REP-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-REP-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-LOPO-REP-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
+    "ts": 1783684684
+  },
+  "BQ-WOOD-AQU-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-AQU-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-AQU-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-AQU-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-AQU-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-AVI-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-AVI-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-AVI-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-AVI-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-AVI-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-INS-010__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-INS-011__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-INS-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-INS-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-INS-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-MAM-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-MAM-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-MAM-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-MAM-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-MAM-017__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-REP-010__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-REP-011__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-REP-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-REP-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-WOOD-REP-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de5834cc819090a68470ab68c90b",
+    "ts": 1783684696
+  },
+  "BQ-LINE-AQU-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AQU-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AQU-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AQU-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AQU-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AVI-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AVI-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AVI-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AVI-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AVI-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-ARA-002__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-ARA-003__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-INS-011__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-INS-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-INS-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-MAM-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-MAM-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-MAM-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-MAM-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-MAM-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-REP-011__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-REP-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-REP-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-REP-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-LINE-AMP-002__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
+    "ts": 1783684708
+  },
+  "BQ-STEN-AQU-011__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AQU-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AQU-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AQU-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AQU-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AVI-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AVI-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AVI-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AVI-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AVI-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-INS-011__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-INS-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-INS-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-INS-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-INS-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-MAM-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-MAM-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-MAM-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-MAM-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-MAM-016__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-REP-012__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-AMP-002__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-REP-013__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-REP-014__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-STEN-REP-015__v1": {
+    "status": "submitted",
+    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
+    "ts": 1783684720
+  },
+  "BQ-GEOL-AVI-013__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\shoebill-stork_geo-line-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 100.13,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 290,
+      "output_tokens": 5488,
+      "total_tokens": 5778
+    },
+    "ts": 1783684845
+  },
+  "BQ-GEOL-ARA-001__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\scorpion_geo-line-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 104.14,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 298,
+      "output_tokens": 5488,
+      "total_tokens": 5786
+    },
+    "ts": 1783684849
+  },
+  "BQ-GEOL-AQU-011__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\armored-catfish_geo-line-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 110.9,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 295,
+      "output_tokens": 5488,
+      "total_tokens": 5783
+    },
+    "ts": 1783684855
+  },
+  "BQ-GEOL-MAM-012__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\sumatran-rhino_geo-line-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 127.13,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 289,
+      "output_tokens": 5488,
+      "total_tokens": 5777
+    },
+    "ts": 1783684872
+  },
+  "BQ-GEOL-REP-012__v1": {
+    "status": "done",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\sea-turtle_geo-line-bw_01.png",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1536x1024",
+    "secs": 99.25,
+    "retries": 0,
+    "tokens": {
+      "input_tokens": 293,
+      "output_tokens": 5488,
+      "total_tokens": 5781
+    },
+    "ts": 1783684944
   }
 }
