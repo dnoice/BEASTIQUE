@@ -4,12 +4,20 @@
     - File Name: line-art_expansion-d_prompts.md
     - Relative Path: studio/prompts/line-art/line-art_expansion-d_prompts.md
     - Artifact Type: data
-    - Version: 1.0.0
+    - Version: 1.0.1
     - Date: 2026-07-09
     - Update: Thursday, July 09, 2026
     - Author: Dennis 'dendogg' Smaltz
     - A.I. Acknowledgement: Anthropic - Claude Fable 5
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+
+✒ Changelog:
+    - 1.0.1 (2026-07-09) [Anthropic - Claude Fable 5] — REP-013 rewritten
+      after render review: "racerunner … sprinting … racing stripes" with no
+      taxon anchor rendered as a striped greyhound. Now anchored to whiptail
+      LIZARD anatomy (wedge head, four splayed reptilian legs, tail longer
+      than body) with "no dog, no greyhound, no mammal" in the negative —
+      the manta-mustache lesson, again.
 
 ✒ Description:
     Twenty-five line-art prompts of the Expansion-D wave (2026-07-09), authored
@@ -255,8 +263,8 @@ Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cro
 *Aspidoscelis sexlineata* · IUCN LC · slug `six-lined-racerunner` · output `six-lined-racerunner_line-art-bw_01.{png,svg}`
 
 ```text
-Create a clean, minimalist BLACK LINE-ART illustration of a six-lined racerunner in left-facing profile, sprinting on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the six clean racing stripes, the long whip tail, and the slender outstretched sprinting legs. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
+Create a clean, minimalist BLACK LINE-ART illustration of a six-lined racerunner — a slender whiptail LIZARD, unmistakably a reptile — in left-facing profile, mid-stride low to the ground, on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the six thin stripes running nose to tail along the back, the extremely long thin whip tail longer than the body, and the four small splayed reptilian legs with long-toed feet. Small wedge lizard head, no ears, no fur. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
+Negative prompt: no dog, no greyhound, no mammal, no fur, no ears, no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
 ### BQ-LINE-REP-014 · Arizona Coral Snake
