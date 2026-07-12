@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avian Beasts — BEASTIQUE</title>
-    <meta name="description" content="Voices of the Vanishing Sky — Avian Beasts, a BEASTIQUE hall.">
+    <meta name="description" content="Voices of the Vanishing Sky — Avian Beasts, a BEASTIQUE hall. They mapped the planet before we drew a single border. We answered with glass and poison.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Raleway:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../../css/global.css">
     <link rel="stylesheet" href="../../../css/category.css">
     <link rel="stylesheet" href="../../../css/galleries.css">
@@ -36,21 +36,97 @@
     </nav>
 
     <main id="main" class="hall" data-hall="avian" data-base="../../../">
-        <section class="hall-hero" aria-labelledby="hall-title">
+        <section class="hall-hero hall-hero--framed" aria-labelledby="hall-title">
             <div class="hall-hero__glow" aria-hidden="true"></div>
-            <div class="container hall-hero__inner">
-                <p class="hall-hero__kicker" data-animate>One of the Five Halls</p>
-                <h1 class="hall-hero__title" id="hall-title" data-animate>Avian Beasts</h1>
-                <p class="hall-hero__tagline" data-animate>Voices of the Vanishing Sky</p>
-                <p class="hall-hero__desc" data-animate>They mapped the Earth before we drew our first border. Migratory routes carved over millennia are severed by glass towers, poisoned fields, and stripped forests. Each silenced song is a frequency the planet will never recover.</p>
+            <div class="container hall-hero__grid">
+                <div class="hall-hero__text">
+                    <p class="hall-hero__kicker" data-animate>One of the Five Halls</p>
+                    <h1 class="hall-hero__title" id="hall-title" data-animate>Avian Beasts</h1>
+                    <p class="hall-hero__tagline" data-animate>Voices of the Vanishing Sky</p>
+                    <p class="hall-hero__teaser" data-animate>They mapped the planet before we drew a single border. We answered with glass and poison.</p>
+                    <a href="#roster" class="hall-hero__cue" data-animate>
+                        <span>Descend</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                    </a>
+                </div>
+                <figure class="hall-plate" data-animate>
+                    <img src="../../../assets/images/web/halls/avian/framed-hero.webp"
+                         alt="Scarlet Macaw rendered in precious material, in a hand-built frame"
+                         class="hall-plate__img" width="1400" height="800" loading="eager">
+                    <span class="hall-plate__glint" aria-hidden="true"></span>
+                    <figcaption class="hall-plate__cap">Scarlet Macaw &middot; lacquered in carmine</figcaption>
+                </figure>
             </div>
         </section>
 
-        <section class="species-grid" aria-label="The roster">
+        <section class="hall-thesis" aria-label="The argument">
+            <div class="container hall-thesis__inner">
+                <p class="hall-thesis__mark" aria-hidden="true">&ldquo;</p>
+                <p class="hall-thesis__lead" data-animate>Birds were the planet's first cartographers. They charted the winds and the coastlines and the turning of the seasons a hundred million years before we invented the map.</p>
+                <p class="hall-thesis__body" data-animate>We are erasing the charts. Routes carved over epochs now end at lit towers, stripped canopy, and fields dusted with neurotoxin. The macaw is trapped for the colour of its feathers; the vulture is poisoned as collateral on a carcass meant for something else. Each silence is a frequency the sky will not broadcast again.</p>
+                <p class="hall-thesis__body" data-animate>BEASTIQUE renders them in the materials of the trade that quiets them — carmine lacquer for the bird worth more caged than in flight. Beauty is the argument. This is the price of the song.</p>
+            </div>
+        </section>
+
+        <section class="hall-ledger" data-hall-stats aria-label="Conservation ledger">
+            <div class="container hall-ledger__inner">
+                <div class="hall-ledger__stats">
+                    <div class="hall-ledger__stat">
+                        <span class="hall-ledger__num" data-stat="total">&mdash;</span>
+                        <span class="hall-ledger__label">Beasts catalogued</span>
+                    </div>
+                    <div class="hall-ledger__stat">
+                        <span class="hall-ledger__num hall-ledger__num--warn" data-stat="threatened">&mdash;</span>
+                        <span class="hall-ledger__label">Threatened with extinction</span>
+                    </div>
+                    <div class="hall-ledger__stat">
+                        <span class="hall-ledger__num hall-ledger__num--crit" data-stat="critical">&mdash;</span>
+                        <span class="hall-ledger__label">One step from gone</span>
+                    </div>
+                </div>
+                <div class="hall-ledger__meter">
+                    <div class="hall-ledger__bar" data-stat="bar" role="img" aria-label="Distribution of conservation statuses"></div>
+                    <p class="hall-ledger__caption"><span data-stat="threatened-pct">&mdash;</span> of this hall is threatened or worse. Every status traces to the IUCN Red List.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="hall-materials" aria-label="The materials">
+            <div class="container">
+                <header class="hall-materials__header" data-animate>
+                    <h2>One Beast, Five Unmakings</h2>
+                    <p>The bald eagle — a nation's emblem, and once a bounty nailed to a barn. The same bird, cut in each of the five graphic materials BEASTIQUE works.</p>
+                </header>
+                <div class="materials-strip">
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/avian/sig-silhouette.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Silhouette</figcaption>
+                    </figure>
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/avian/sig-stencil.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Stencil</figcaption>
+                    </figure>
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/avian/sig-low-poly.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Low-Poly</figcaption>
+                    </figure>
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/avian/sig-line-art.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Line</figcaption>
+                    </figure>
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/avian/sig-geo-line.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Mesh</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="species-grid" id="roster" aria-label="The roster">
             <div class="container">
                 <div class="species-grid__header" data-animate>
                     <h2>The Roster</h2>
-                    <span class="species-grid__count">Loading the catalog…</span>
+                    <span class="species-grid__count">Loading the catalog&hellip;</span>
                 </div>
                 <div class="species-grid__list">
                     <p class="species-grid__fallback">This hall is rendered live from the BEASTIQUE catalog. If the roster doesn't appear, enable JavaScript or view the site over HTTP.</p>

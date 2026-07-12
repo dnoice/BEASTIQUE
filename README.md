@@ -106,7 +106,7 @@ for the full tree and `docs/REORG-AUDIT.md` for the rationale):
 - **`site/`** — the deployable static site. Point a web host here.
   - `site/index.html`, `site/css/`, and `site/js/` power the main experience.
   - `site/species/` contains individual species builds and reusable templates.
-  - `site/categories/` contains category landing pages for aquatic, avian, insecta, mammalian, and reptilian groupings.
+  - `site/categories/` holds the gallery "halls": `core/<cat>/` for the five taxonomic halls (aquatic, avian, insecta, mammalian, reptilian) and `special/<hall>/` for the cross-cutting halls (endangered, polar, nocturnal, k-9). Every hall is one data-driven landing page. See `docs/HALLS.md`.
   - `site/assets/` contains the served web media (`images/`, `logos/`).
   - `site/data/` contains category and species datasets plus palette references.
 - **`studio/`** — art production, never deployed. Holds `source-art/` (raw masters, custom designs, mini-series), the render `collections/`, the style `prompts/` libraries, hand `workbench/` studies, and pipeline `state/`.

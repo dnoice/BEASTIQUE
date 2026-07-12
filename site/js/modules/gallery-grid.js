@@ -123,6 +123,25 @@ export async function init(config = {}) {
     });
   if (!roster.length) return;
 
+  // ── Accurate stat band (optional; fills [data-hall-stats] if present) ──
+  const statBand = document.querySelector('[data-hall-stats]');
+  if (statBand) {
+    const total = roster.length;
+    const threatened = roster.filter(s => ['Critically Endangered', 'Endangered', 'Vulnerable'].includes(s.conservation_status)).length;
+    const critical = roster.filter(s => s.conservation_status === 'Critically Endangered').length;
+    const set = (k, v) => { const el = statBand.querySelector(`[data-stat="${k}"]`); if (el) el.textContent = v; };
+    set('total', total); set('threatened', threatened); set('critical', critical);
+    set('threatened-pct', total ? Math.round(threatened / total * 100) + '%' : '—');
+    const bar = statBand.querySelector('[data-stat="bar"]');
+    if (bar) {
+      bar.innerHTML = STATUS_ORDER.map(st => {
+        const n = roster.filter(s => s.conservation_status === st).length;
+        if (!n) return '';
+        return `<span class="hall-ledger__seg hall-ledger__seg--${STATUS_BADGE[st]}" style="width:${(n / total * 100).toFixed(2)}%" title="${st}: ${n}"></span>`;
+      }).join('');
+    }
+  }
+
   const header = document.querySelector(opts.headerSelector);
   const countEl = document.querySelector(opts.countSelector);
   let activeStatus = null;

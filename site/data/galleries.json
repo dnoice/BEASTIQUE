@@ -1,9 +1,9 @@
 {
   "_meta": {
     "title": "BEASTIQUE Gallery Registry",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "date": "2026-07-10",
-    "note": "Single source for navigation + gallery landing pages. Five main halls (one per taxonomic category) and the special halls (cross-cutting collections). Every page's Halls switcher and every gallery grid reads from here. Add a hall = add an entry. Membership rules: 'category' matches species.category; 'status' matches conservation_status; 'ids' is a curated roster (extensible). Paths: each hall is a folder with index.html under categories/core/ or categories/special/ (3 levels deep from site root; use base ../../../).",
+    "note": "Single source for navigation + gallery landing pages. Five main halls (one per taxonomic category) and the special halls (cross-cutting collections). Every page's Halls switcher and every gallery grid reads from here. Add a hall = add an entry. Membership rules: 'category' matches species.category; 'status' matches conservation_status; 'ids' is a curated roster (extensible). Paths: each hall is a folder with index.html under categories/core/ or categories/special/ (3 levels deep from site root; use base ../../../). v1.1: enriched with per-hall rich narrative (heroMaterial, heroTeaser, thesisLead, thesisBody, signature) for the cinematic hall template.",
     "author": "Dennis 'dendogg' Smaltz",
     "ai": "Anthropic - Claude Fable 5"
   },
@@ -29,6 +29,20 @@
         "values": [
           "aquatic"
         ]
+      },
+      "rich": {
+        "heroMaterial": "cast in steel",
+        "heroTeaser": "The oldest lineages on Earth, sold by the gram and drowned by the ton.",
+        "thesisLead": "The ocean was the first cathedral. Every living thing that ever crawled onto land carried the sea back out of it — in blood, in tears, in the salt of every cell.",
+        "thesisBody": [
+          "We are draining the cathedral. The beluga sturgeon has swum since before the dinosaurs; we grind its roe into caviar and price it by the gram. The vaquita — <strong>fewer than ten remain on Earth</strong> — drowns in nets set for a fish it never was. What the trawler misses, the warming water takes.",
+          "BEASTIQUE renders them in the materials of that transaction — steel for the apex hunter reduced to a fin on a scale, silver for the body sold by weight. The beauty is the receipt. This is what the water is spending."
+        ],
+        "signature": {
+          "species": "great-white-shark",
+          "name": "Great White Shark",
+          "intro": "The great white shark — apex of the open water, and a fin on a market scale. The same animal, cut in each of the five graphic materials BEASTIQUE works."
+        }
       }
     },
     {
@@ -52,6 +66,20 @@
         "values": [
           "avian"
         ]
+      },
+      "rich": {
+        "heroMaterial": "lacquered in carmine",
+        "heroTeaser": "They mapped the planet before we drew a single border. We answered with glass and poison.",
+        "thesisLead": "Birds were the planet's first cartographers. They charted the winds and the coastlines and the turning of the seasons a hundred million years before we invented the map.",
+        "thesisBody": [
+          "We are erasing the charts. Routes carved over epochs now end at lit towers, stripped canopy, and fields dusted with neurotoxin. The macaw is trapped for the colour of its feathers; the vulture is poisoned as collateral on a carcass meant for something else. Each silence is a frequency the sky will not broadcast again.",
+          "BEASTIQUE renders them in the materials of the trade that quiets them — carmine lacquer for the bird worth more caged than in flight. Beauty is the argument. This is the price of the song."
+        ],
+        "signature": {
+          "species": "bald-eagle",
+          "name": "Bald Eagle",
+          "intro": "The bald eagle — a nation's emblem, and once a bounty nailed to a barn. The same bird, cut in each of the five graphic materials BEASTIQUE works."
+        }
       }
     },
     {
@@ -75,6 +103,20 @@
         "values": [
           "insecta"
         ]
+      },
+      "rich": {
+        "heroMaterial": "faceted in cut crystal",
+        "heroTeaser": "The load-bearing wall of the living world, treated as if it were nothing.",
+        "thesisLead": "Insects are the architecture beneath everything. They pollinate the crop, turn the soil, feed the chain, and carry the dead back into the ground. Pull the thread and the tapestry does not fray — it drops.",
+        "thesisBody": [
+          "We are pulling the thread. Monocultures, broad-spectrum pesticide, and a night sky we refuse to switch off are collapsing insect biomass at a rate that outpaces almost every vertebrate. The monarch crosses a continent on wings thinner than paper and lands in a forest already sold for timber.",
+          "BEASTIQUE renders them in the materials that make their loss legible — cut crystal for the pollinator we treat as decorative until the harvest fails. Beauty is the argument. This is the earthquake under the field."
+        ],
+        "signature": {
+          "species": "monarch-butterfly",
+          "name": "Monarch Butterfly",
+          "intro": "The monarch — a beast of iron endurance dressed as a fragile thing. The same animal, cut in each of the five graphic materials BEASTIQUE works."
+        }
       }
     },
     {
@@ -98,6 +140,20 @@
         "values": [
           "mammalian"
         ]
+      },
+      "rich": {
+        "heroMaterial": "wrought in gold",
+        "heroTeaser": "Bloodlines that took an epoch to write, closed like a ledger nobody reads.",
+        "thesisLead": "We are the mammals who learned to price the other mammals. The megafauna we share this planet with are vanishing at a rate not seen since the ice age ended — and this time the glacier is us.",
+        "thesisBody": [
+          "Poaching, fragmentation, and a destabilised climate are erasing lineages that took millions of years to evolve. The leopard is worth more as a coat than as a predator; the range that fed it is worth more as pasture. Every extinction is a door that does not reopen.",
+          "BEASTIQUE renders them in the materials of that exchange — gold for the animal reduced to a trophy, a pelt, a line item. Beauty is the argument. This is the closing entry."
+        ],
+        "signature": {
+          "species": "lion",
+          "name": "Lion",
+          "intro": "The lion — the oldest symbol of power we ever borrowed from another animal. The same beast, cut in each of the five graphic materials BEASTIQUE works."
+        }
       }
     },
     {
@@ -121,6 +177,20 @@
         "values": [
           "reptilian"
         ]
+      },
+      "rich": {
+        "heroMaterial": "tooled in leather",
+        "heroTeaser": "Survivors of every mass extinction, meeting the one they can't outlast.",
+        "thesisLead": "Reptiles are the oldest blueprints still in print. They watched the great dyings come and go — the ash, the cold, the drowned world — and they kept the design running for a quarter of a billion years.",
+        "thesisBody": [
+          "Now the design is being shredded by hand. Habitat cleared, wetlands drained, the skin trade and the pet trade pulling the rarest first. The leatherback has crossed oceans since the dinosaurs and now dies on a longline or a beach paved for a resort.",
+          "BEASTIQUE renders them in the materials of the trade — tooled leather for the animal reduced to a handbag, a wallet, a belt. Beauty is the argument. This is the oldest thing we are throwing away."
+        ],
+        "signature": {
+          "species": "komodo-dragon",
+          "name": "Komodo Dragon",
+          "intro": "The komodo dragon — the last of the giant monitors, marooned on a shrinking shore. The same beast, cut in each of the five graphic materials BEASTIQUE works."
+        }
       }
     },
     {
@@ -147,6 +217,20 @@
           "Endangered",
           "Vulnerable"
         ]
+      },
+      "rich": {
+        "heroMaterial": "struck in cold silver",
+        "heroTeaser": "This is the argument the whole vault is built around.",
+        "thesisLead": "This hall is the thesis made flesh. Every beast here sits on the IUCN Red List's threatened tiers — Vulnerable, Endangered, Critically Endangered — gathered out of every kingdom into one room.",
+        "thesisBody": [
+          "They are not dying because they are weak. They are dying because the land, the water, the body is worth more on a market than alive in the world. The amur leopard is down to a rumour of individuals; the vaquita to a number you can count on two hands. The receipts are one click away.",
+          "BEASTIQUE renders them in the materials we destroy their worlds to extract — because the trade would rather they were objects. Beauty is the argument. Every plate here insists the living version was worth infinitely more."
+        ],
+        "signature": {
+          "species": "vaquita",
+          "name": "Vaquita",
+          "intro": "The vaquita — fewer than ten left, the smallest and most vanishing porpoise on Earth. The same animal, cut in each of the five graphic materials BEASTIQUE works."
+        }
       }
     },
     {
@@ -170,18 +254,29 @@
         "values": [
           "polar-bear",
           "arctic-fox",
+          "arctic-tern",
           "snowy-owl",
-          "emperor-penguin",
-          "adelie-penguin",
-          "ivory-gull",
-          "muskox",
-          "narwhal",
-          "walrus",
-          "ross-seal",
           "antarctic-petrel",
-          "arctic-hare",
-          "beluga-sturgeon"
+          "caribou",
+          "walrus",
+          "ptarmigan",
+          "greater-snow-goose",
+          "snow-leopard"
         ]
+      },
+      "rich": {
+        "heroMaterial": "cast in brushed pewter",
+        "heroTeaser": "Animals engineered for a world of ice, watching it melt beneath them.",
+        "thesisLead": "The poles are the planet's cold engine, and the animals built there are built for a temperature we are switching off. White coats, blubbered bodies, blood that runs in the freeze — exquisite engineering for a habitat with a shrinking floor.",
+        "thesisBody": [
+          "The ice is the ground, and the ground is disappearing. The bear needs the pack to hunt; the narwhal needs the leads to breathe; the whole architecture is keyed to a season that arrives later and leaves sooner every year. This is extraction at a distance — the carbon burned elsewhere, the bill paid here.",
+          "BEASTIQUE renders them in the materials of a colder value — pewter and silver for the animal fixed in place while its world runs out from under it. Beauty is the argument. This is what the thaw is spending."
+        ],
+        "signature": {
+          "species": "narwhal",
+          "name": "Narwhal",
+          "intro": "The narwhal — the unicorn of the sea, its tusk a nerve wrapped in ivory. The same animal, cut in each of the five graphic materials BEASTIQUE works."
+        }
       }
     },
     {
@@ -203,21 +298,32 @@
       "membership": {
         "rule": "ids",
         "values": [
-          "snowy-owl",
           "great-horned-owl",
+          "snowy-owl",
           "flores-scops-owl",
           "sunda-scops-owl",
-          "large-flying-fox",
-          "aardvark",
-          "kinkajou",
-          "echidna",
-          "silky-anteater",
-          "deaths-head-hawkmoth",
           "atlas-moth",
-          "red-eyed-tree-frog",
-          "tokay-gecko",
-          "fennec-fox"
+          "deaths-head-hawkmoth",
+          "aardvark",
+          "echidna",
+          "flat-headed-gecko",
+          "mourning-gecko",
+          "fowlers-toad"
         ]
+      },
+      "rich": {
+        "heroMaterial": "hewn in slate",
+        "heroTeaser": "The night shift of the living world — erased by a century of light.",
+        "thesisLead": "Half of life works while we sleep. The owl, the moth, the flying fox — a whole civilisation tuned to the dark, running the pollination and predation and burial that the day shift never sees.",
+        "thesisBody": [
+          "We have spent a hundred years abolishing the dark. Light pollution scrambles migration and mating and the hunt; the moth burns itself on the lamp, the fledgling never learns the stars. They are the quiet casualties of a planet that no longer switches off.",
+          "BEASTIQUE renders them in the materials of the unseen — slate and oxidised metal for the animal we only notice once it is gone. Beauty is the argument. Rendered, at last, to be seen."
+        ],
+        "signature": {
+          "species": "snowy-owl",
+          "name": "Snowy Owl",
+          "intro": "The snowy owl — a hunter of the long dark, drifting south as its world warms. The same animal, cut in each of the five graphic materials BEASTIQUE works."
+        }
       }
     },
     {
@@ -239,16 +345,27 @@
       "membership": {
         "rule": "ids",
         "values": [
-          "gray-wolf",
-          "red-fox",
-          "arctic-fox",
-          "fennec-fox",
-          "maned-wolf",
           "african-wild-dog",
+          "arctic-fox",
           "ethiopian-wolf",
-          "coyote",
-          "european-wolf"
+          "fennec-fox",
+          "gray-wolf",
+          "maned-wolf"
         ]
+      },
+      "rich": {
+        "heroMaterial": "cast in verdigris bronze",
+        "heroTeaser": "The family that split from ours and stayed wild — and got shot for it.",
+        "thesisLead": "Every dog asleep at a human hearth is a wolf that made a bargain. This hall gathers the ones who refused it — the wild canids, the lineage that stayed feral while its cousins were bred into the couch.",
+        "thesisBody": [
+          "We repaid the refusal with a bounty. Wolves poisoned as competition, wild dogs shot as vermin, foxes run for sport and fur — the most social, most intelligent predators on the continent persecuted for the crime of hunting the same prey we do.",
+          "BEASTIQUE renders them in the materials of that grudge — weathered bronze for the animal we cast as villain and then mounted on a wall. Beauty is the argument. This is the family portrait we tried not to keep."
+        ],
+        "signature": {
+          "species": "gray-wolf",
+          "name": "Gray Wolf",
+          "intro": "The gray wolf — the wild original behind every hearth-dog on Earth. The same beast, cut in each of the five graphic materials BEASTIQUE works."
+        }
       }
     }
   ]

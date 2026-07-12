@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insecta Beasts — BEASTIQUE</title>
-    <meta name="description" content="The Invisible Architecture of Life — Insecta Beasts, a BEASTIQUE hall.">
+    <meta name="description" content="The Invisible Architecture of Life — Insecta Beasts, a BEASTIQUE hall. The load-bearing wall of the living world, treated as if it were nothing.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Raleway:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../../css/global.css">
     <link rel="stylesheet" href="../../../css/category.css">
     <link rel="stylesheet" href="../../../css/galleries.css">
@@ -36,21 +36,97 @@
     </nav>
 
     <main id="main" class="hall" data-hall="insecta" data-base="../../../">
-        <section class="hall-hero" aria-labelledby="hall-title">
+        <section class="hall-hero hall-hero--framed" aria-labelledby="hall-title">
             <div class="hall-hero__glow" aria-hidden="true"></div>
-            <div class="container hall-hero__inner">
-                <p class="hall-hero__kicker" data-animate>One of the Five Halls</p>
-                <h1 class="hall-hero__title" id="hall-title" data-animate>Insecta Beasts</h1>
-                <p class="hall-hero__tagline" data-animate>The Invisible Architecture of Life</p>
-                <p class="hall-hero__desc" data-animate>They pollinate our crops, decompose our waste, and feed the chains that sustain every ecosystem on Earth. We repay them with pesticides, monocultures, and light pollution. The collapse of insect populations is not a warning. It is an earthquake beneath our feet.</p>
+            <div class="container hall-hero__grid">
+                <div class="hall-hero__text">
+                    <p class="hall-hero__kicker" data-animate>One of the Five Halls</p>
+                    <h1 class="hall-hero__title" id="hall-title" data-animate>Insecta Beasts</h1>
+                    <p class="hall-hero__tagline" data-animate>The Invisible Architecture of Life</p>
+                    <p class="hall-hero__teaser" data-animate>The load-bearing wall of the living world, treated as if it were nothing.</p>
+                    <a href="#roster" class="hall-hero__cue" data-animate>
+                        <span>Descend</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                    </a>
+                </div>
+                <figure class="hall-plate" data-animate>
+                    <img src="../../../assets/images/web/halls/insecta/framed-hero.webp"
+                         alt="Butterfly rendered in precious material, in a hand-built frame"
+                         class="hall-plate__img" width="1400" height="800" loading="eager">
+                    <span class="hall-plate__glint" aria-hidden="true"></span>
+                    <figcaption class="hall-plate__cap">Butterfly &middot; faceted in cut crystal</figcaption>
+                </figure>
             </div>
         </section>
 
-        <section class="species-grid" aria-label="The roster">
+        <section class="hall-thesis" aria-label="The argument">
+            <div class="container hall-thesis__inner">
+                <p class="hall-thesis__mark" aria-hidden="true">&ldquo;</p>
+                <p class="hall-thesis__lead" data-animate>Insects are the architecture beneath everything. They pollinate the crop, turn the soil, feed the chain, and carry the dead back into the ground. Pull the thread and the tapestry does not fray — it drops.</p>
+                <p class="hall-thesis__body" data-animate>We are pulling the thread. Monocultures, broad-spectrum pesticide, and a night sky we refuse to switch off are collapsing insect biomass at a rate that outpaces almost every vertebrate. The monarch crosses a continent on wings thinner than paper and lands in a forest already sold for timber.</p>
+                <p class="hall-thesis__body" data-animate>BEASTIQUE renders them in the materials that make their loss legible — cut crystal for the pollinator we treat as decorative until the harvest fails. Beauty is the argument. This is the earthquake under the field.</p>
+            </div>
+        </section>
+
+        <section class="hall-ledger" data-hall-stats aria-label="Conservation ledger">
+            <div class="container hall-ledger__inner">
+                <div class="hall-ledger__stats">
+                    <div class="hall-ledger__stat">
+                        <span class="hall-ledger__num" data-stat="total">&mdash;</span>
+                        <span class="hall-ledger__label">Beasts catalogued</span>
+                    </div>
+                    <div class="hall-ledger__stat">
+                        <span class="hall-ledger__num hall-ledger__num--warn" data-stat="threatened">&mdash;</span>
+                        <span class="hall-ledger__label">Threatened with extinction</span>
+                    </div>
+                    <div class="hall-ledger__stat">
+                        <span class="hall-ledger__num hall-ledger__num--crit" data-stat="critical">&mdash;</span>
+                        <span class="hall-ledger__label">One step from gone</span>
+                    </div>
+                </div>
+                <div class="hall-ledger__meter">
+                    <div class="hall-ledger__bar" data-stat="bar" role="img" aria-label="Distribution of conservation statuses"></div>
+                    <p class="hall-ledger__caption"><span data-stat="threatened-pct">&mdash;</span> of this hall is threatened or worse. Every status traces to the IUCN Red List.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="hall-materials" aria-label="The materials">
+            <div class="container">
+                <header class="hall-materials__header" data-animate>
+                    <h2>One Beast, Five Unmakings</h2>
+                    <p>The monarch — a beast of iron endurance dressed as a fragile thing. The same animal, cut in each of the five graphic materials BEASTIQUE works.</p>
+                </header>
+                <div class="materials-strip">
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/insecta/sig-silhouette.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Silhouette</figcaption>
+                    </figure>
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/insecta/sig-stencil.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Stencil</figcaption>
+                    </figure>
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/insecta/sig-low-poly.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Low-Poly</figcaption>
+                    </figure>
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/insecta/sig-line-art.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Line</figcaption>
+                    </figure>
+                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/insecta/sig-geo-line.svg)">
+                        <div class="material-plate__beast" aria-hidden="true"></div>
+                        <figcaption>Mesh</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="species-grid" id="roster" aria-label="The roster">
             <div class="container">
                 <div class="species-grid__header" data-animate>
                     <h2>The Roster</h2>
-                    <span class="species-grid__count">Loading the catalog…</span>
+                    <span class="species-grid__count">Loading the catalog&hellip;</span>
                 </div>
                 <div class="species-grid__list">
                     <p class="species-grid__fallback">This hall is rendered live from the BEASTIQUE catalog. If the roster doesn't appear, enable JavaScript or view the site over HTTP.</p>

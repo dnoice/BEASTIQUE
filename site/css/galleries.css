@@ -215,6 +215,250 @@
   color: var(--hall-bg, #0a0a0a);
 }
 
+/* ═══════════════════════════════════════════════════
+   RICH HALL — cinematic hero, thesis, ledger, materials
+   (the SVG "dance": beasts as masked accent-light)
+   ═══════════════════════════════════════════════════ */
+
+/* ── Cinematic hero: the framed plate ── */
+.hall-hero--framed {
+  min-height: min(92vh, 820px);
+  display: flex;
+  align-items: center;
+  padding: clamp(5rem, 10vh, 8rem) 0 clamp(3rem, 6vh, 5rem);
+}
+.hall-hero__grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+@media (max-width: 880px) {
+  .hall-hero__grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .hall-hero__text { order: 2; }
+  .hall-plate { order: 1; }
+}
+.hall-hero__text { position: relative; min-width: 0; }
+.hall-hero--framed .hall-hero__title {
+  font-size: clamp(2.3rem, 4.6vw, 4rem);
+  line-height: 1.03;
+  overflow-wrap: break-word;
+}
+
+/* the framed plate — a museum piece, floating, its glass alive */
+.hall-plate { position: relative; margin: 0; }
+.hall-plate__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 30px 55px rgba(0, 0, 0, 0.6));
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hall-plate { animation: plate-float 7s ease-in-out infinite; }
+  @keyframes plate-float { 0%, 100% { transform: translateY(0) rotate(-0.15deg); } 50% { transform: translateY(-10px) rotate(0.15deg); } }
+}
+/* specular glint sweeping across the beveled glass */
+.hall-plate__glint {
+  position: absolute;
+  inset: 4% 3%;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 40%, rgba(255, 255, 255, 0.16) 48%, rgba(255, 255, 255, 0.28) 50%, rgba(255, 255, 255, 0.16) 52%, transparent 60%);
+  background-size: 260% 100%;
+  background-position: 200% 0;
+  mix-blend-mode: screen;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hall-plate__glint { animation: plate-glint 6.5s ease-in-out 1.5s infinite; }
+  @keyframes plate-glint { 0% { background-position: 200% 0; } 45%, 100% { background-position: -160% 0; } }
+}
+.hall-plate__cap {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 60%, transparent);
+}
+
+.hall-hero__teaser {
+  font-family: var(--font-mono, monospace);
+  font-size: clamp(0.8rem, 1.5vw, 0.95rem);
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 78%, transparent);
+  max-width: 44ch;
+  margin: 1.6rem 0 2.2rem;
+  border-left: 2px solid var(--hall-accent, #c8a45c);
+  padding-left: 1rem;
+}
+.hall-hero__cue {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--hall-accent, #c8a45c);
+  text-decoration: none;
+}
+.hall-hero__cue svg { width: 16px; height: 16px; }
+@media (prefers-reduced-motion: no-preference) {
+  .hall-hero__cue svg { animation: cue-bob 1.8s ease-in-out infinite; }
+  @keyframes cue-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(4px); } }
+}
+
+/* ── The thesis ── */
+.hall-thesis { padding: clamp(4rem, 10vh, 7rem) 0; }
+.hall-thesis__inner { position: relative; max-width: 760px; }
+.hall-thesis__mark {
+  position: absolute;
+  top: -2.5rem; left: -0.5rem;
+  font-family: var(--font-display, serif);
+  font-size: 9rem;
+  line-height: 1;
+  color: color-mix(in srgb, var(--hall-accent, #c8a45c) 22%, transparent);
+  pointer-events: none;
+}
+.hall-thesis__lead {
+  font-family: var(--font-display, 'Playfair Display', serif);
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--hall-text, #f5f0e8);
+  margin: 0 0 1.6rem;
+}
+.hall-thesis__body {
+  font-size: clamp(0.98rem, 1.5vw, 1.12rem);
+  line-height: 1.8;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 80%, transparent);
+  margin: 0 0 1.2rem;
+}
+.hall-thesis__body strong { color: var(--hall-accent, #c8a45c); font-weight: 600; }
+
+/* ── The ledger (data band) ── */
+.hall-ledger {
+  padding: clamp(3rem, 7vh, 5rem) 0;
+  background: color-mix(in srgb, var(--hall-primary, #222) 30%, var(--hall-bg, #0a0a0a));
+  border-top: 1px solid color-mix(in srgb, var(--hall-accent, #c8a45c) 16%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--hall-accent, #c8a45c) 16%, transparent);
+}
+.hall-ledger__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 620px) { .hall-ledger__stats { grid-template-columns: 1fr; gap: 1rem; text-align: center; } }
+.hall-ledger__stat { display: flex; flex-direction: column; gap: 0.3rem; }
+.hall-ledger__num {
+  font-family: var(--font-display, 'Playfair Display', serif);
+  font-size: clamp(2.6rem, 6vw, 4.2rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--hall-text, #f5f0e8);
+  font-variant-numeric: tabular-nums;
+}
+.hall-ledger__num--warn { color: var(--hall-accent, #d4944a); }
+.hall-ledger__num--crit { color: var(--color-signal, #f2bc00); }
+.hall-ledger__label {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 55%, transparent);
+}
+.hall-ledger__bar {
+  display: flex;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+}
+.hall-ledger__seg { height: 100%; transition: filter 0.2s ease; }
+.hall-ledger__seg--critical { background: #c0392b; }
+.hall-ledger__seg--endangered { background: #d4944a; }
+.hall-ledger__seg--vulnerable { background: #d4b24a; }
+.hall-ledger__seg--near-threatened { background: #7a9a6a; }
+.hall-ledger__seg--least-concern { background: #4a7a5a; }
+.hall-ledger__seg--data-needed { background: #555; }
+.hall-ledger__caption {
+  margin: 0.8rem 0 0;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.78rem;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 65%, transparent);
+}
+.hall-ledger__caption span { color: var(--color-signal, #f2bc00); font-weight: 500; }
+
+/* ── The materials strip (the SVG dance) ── */
+.hall-materials { padding: clamp(4rem, 9vh, 6.5rem) 0; }
+.hall-materials__header { max-width: 640px; margin-bottom: 2.5rem; }
+.hall-materials__header h2 {
+  font-family: var(--font-display, serif);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  margin: 0 0 0.6rem;
+  color: var(--hall-text, #f5f0e8);
+}
+.hall-materials__header p {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 72%, transparent);
+  margin: 0;
+}
+.materials-strip {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+@media (max-width: 860px) { .materials-strip { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 520px) { .materials-strip { grid-template-columns: repeat(2, 1fr); } }
+
+.material-plate {
+  margin: 0;
+  padding: 1rem;
+  background: color-mix(in srgb, var(--hall-primary, #222) 24%, var(--hall-bg, #0a0a0a));
+  border: 1px solid color-mix(in srgb, var(--hall-accent, #c8a45c) 20%, transparent);
+  border-radius: 3px;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.material-plate:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--hall-accent, #c8a45c) 55%, transparent);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+}
+.material-plate__beast {
+  aspect-ratio: 1536 / 1024;
+  -webkit-mask: var(--mask) center / contain no-repeat;
+  mask: var(--mask) center / contain no-repeat;
+  background: linear-gradient(115deg,
+    color-mix(in srgb, var(--hall-accent, #c8a45c) 62%, var(--hall-deep, transparent)) 0%,
+    var(--hall-accent, #c8a45c) 44%,
+    color-mix(in srgb, var(--hall-accent, #c8a45c) 45%, #fff) 50%,
+    var(--hall-accent, #c8a45c) 56%,
+    color-mix(in srgb, var(--hall-accent, #c8a45c) 62%, var(--hall-deep, transparent)) 100%);
+  background-size: 250% 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .material-plate__beast { animation: material-shimmer 5s linear infinite; }
+  .material-plate:nth-child(2) .material-plate__beast { animation-delay: -1s; }
+  .material-plate:nth-child(3) .material-plate__beast { animation-delay: -2s; }
+  .material-plate:nth-child(4) .material-plate__beast { animation-delay: -3s; }
+  .material-plate:nth-child(5) .material-plate__beast { animation-delay: -4s; }
+  @keyframes material-shimmer { to { background-position: -250% 0; } }
+}
+.material-plate figcaption {
+  margin-top: 0.7rem;
+  text-align: center;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.64rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 60%, transparent);
+}
+
 /* ── Special Halls strip (home page: index.html) ── */
 .special-halls { margin-top: clamp(2rem, 5vh, 3.5rem); }
 .special-halls__label {

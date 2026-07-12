@@ -61,7 +61,7 @@ evidence → point to the exits (what can be done). Each wing serves one step.
 | — | The Vault | The landing page. Controlled entry, map of the building. | `site/index.html` |
 | I | The Plates | Framed featured artworks — the crown-jewel carousel. | `site/assets/images/featured/` + landing carousel |
 | II | The Collection | The living wall — the full catalog made visible. | Landing wall, rendered from `data/species.json` |
-| III | The Archives | Five category halls: browse, filter, choose a beast. | `site/categories/*.html` |
+| III | The Archives / The Halls | Nine data-driven halls — five core (per category) + four special (Endangered, Polar, Nocturnal, K9). Each a cinematic landing: framed hero, thesis, live IUCN ledger, "five unmakings" materials strip, membership roster. Any-to-any switcher. | `site/categories/{core,special}/*/` from `site/data/galleries.json`; see `docs/HALLS.md` |
 | IV | The Exhibits | Immersive single-species showcases. | `site/species/<slug>/` |
 | V | The Ledger | The Collapse Ledger — ten cited written investigations. | `studio/source-art/mini-series/` (web wing pending) |
 
