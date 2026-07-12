@@ -19,11 +19,7 @@
     <nav class="nav" aria-label="Main navigation">
         <div class="container nav__inner">
             <a href="../../../index.html" class="nav__logo" aria-label="BEASTIQUE Home">
-                <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-                    <path d="M20 4L8 14v16l12 8 12-8V14L20 4z" stroke="currentColor" stroke-width="1.2"/>
-                    <path d="M20 10l-6 5v8l6 4 6-4v-8l-6-5z" stroke="currentColor" stroke-width="0.8" opacity="0.6"/>
-                    <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.8"/>
-                </svg>
+                <img src="../../../assets/logos/bq_logo_128.webp" alt="" class="nav__logo-icon" aria-hidden="true">
                 <span class="nav__logo-text">BEASTIQUE</span>
             </a>
             <div class="nav__breadcrumb">
@@ -91,6 +87,21 @@
             </div>
         </section>
 
+        <section class="hall-pressures" aria-label="What is driving the loss">
+            <div class="container">
+                <header class="hall-pressures__header" data-animate>
+                    <h2>The Pressures</h2>
+                    <p>No single hand pulls the trigger. These are the named, mapped processes trading this hall away.</p>
+                </header>
+                <ol class="pressures__list">
+                    <li class="pressures__item" data-animate><span class="pressures__no">01</span><span class="pressures__name">Persecution & culling</span></li>
+                    <li class="pressures__item" data-animate><span class="pressures__no">02</span><span class="pressures__name">Poison & bounties</span></li>
+                    <li class="pressures__item" data-animate><span class="pressures__no">03</span><span class="pressures__name">Habitat loss</span></li>
+                    <li class="pressures__item" data-animate><span class="pressures__no">04</span><span class="pressures__name">Disease from domestic dogs</span></li>
+                </ol>
+            </div>
+        </section>
+
         <section class="hall-materials" aria-label="The materials">
             <div class="container">
                 <header class="hall-materials__header" data-animate>
@@ -98,30 +109,45 @@
                     <p>The gray wolf — the wild original behind every hearth-dog on Earth. The same beast, cut in each of the five graphic materials BEASTIQUE works.</p>
                 </header>
                 <div class="materials-strip">
-                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/k-9/sig-silhouette.svg)">
-                        <div class="material-plate__beast" aria-hidden="true"></div>
+                    <figure class="material-plate" data-animate>
+                        <div class="material-plate__frame"><img class="material-plate__beast" src="../../../assets/images/web/halls/k-9/sig-silhouette.svg" alt="Gray Wolf in silhouette" loading="lazy"></div>
                         <figcaption>Silhouette</figcaption>
                     </figure>
-                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/k-9/sig-stencil.svg)">
-                        <div class="material-plate__beast" aria-hidden="true"></div>
+                    <figure class="material-plate" data-animate>
+                        <div class="material-plate__frame"><img class="material-plate__beast" src="../../../assets/images/web/halls/k-9/sig-stencil.svg" alt="Gray Wolf in stencil" loading="lazy"></div>
                         <figcaption>Stencil</figcaption>
                     </figure>
-                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/k-9/sig-low-poly.svg)">
-                        <div class="material-plate__beast" aria-hidden="true"></div>
+                    <figure class="material-plate" data-animate>
+                        <div class="material-plate__frame"><img class="material-plate__beast" src="../../../assets/images/web/halls/k-9/sig-low-poly.svg" alt="Gray Wolf in low-poly" loading="lazy"></div>
                         <figcaption>Low-Poly</figcaption>
                     </figure>
-                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/k-9/sig-line-art.svg)">
-                        <div class="material-plate__beast" aria-hidden="true"></div>
+                    <figure class="material-plate" data-animate>
+                        <div class="material-plate__frame"><img class="material-plate__beast" src="../../../assets/images/web/halls/k-9/sig-line-art.svg" alt="Gray Wolf in line" loading="lazy"></div>
                         <figcaption>Line</figcaption>
                     </figure>
-                    <figure class="material-plate" data-animate style="--mask:url(../../../assets/images/web/halls/k-9/sig-geo-line.svg)">
-                        <div class="material-plate__beast" aria-hidden="true"></div>
+                    <figure class="material-plate" data-animate>
+                        <div class="material-plate__frame"><img class="material-plate__beast" src="../../../assets/images/web/halls/k-9/sig-geo-line.svg" alt="Gray Wolf in mesh" loading="lazy"></div>
                         <figcaption>Mesh</figcaption>
                     </figure>
                 </div>
             </div>
         </section>
 
+        <section class="hall-specimen" aria-label="Featured specimen">
+            <div class="container hall-specimen__inner">
+                <figure class="specimen__plate" data-animate>
+                    <img src="../../../assets/images/thumbs/mammalian/gray-wolf-1.webp" alt="Gray Wolf" loading="lazy">
+                    <span class="specimen__badge specimen__badge--least-concern">Least Concern</span>
+                </figure>
+                <div class="specimen__text" data-animate>
+                    <p class="specimen__kicker">Featured Specimen</p>
+                    <h2 class="specimen__name">Gray Wolf</h2>
+                    <p class="specimen__sci">Canis lupus</p>
+                    <p class="specimen__tagline">Alpha of the Wilderness.</p>
+                    <span class="specimen__cta specimen__cta--pending">Exhibit in preparation</span>
+                </div>
+            </div>
+        </section>
         <section class="species-grid" id="roster" aria-label="The roster">
             <div class="container">
                 <div class="species-grid__header" data-animate>

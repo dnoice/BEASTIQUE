@@ -1,7 +1,7 @@
 {
   "_meta": {
     "title": "BEASTIQUE Gallery Registry",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "date": "2026-07-10",
     "note": "Single source for navigation + gallery landing pages. Five main halls (one per taxonomic category) and the special halls (cross-cutting collections). Every page's Halls switcher and every gallery grid reads from here. Add a hall = add an entry. Membership rules: 'category' matches species.category; 'status' matches conservation_status; 'ids' is a curated roster (extensible). Paths: each hall is a folder with index.html under categories/core/ or categories/special/ (3 levels deep from site root; use base ../../../). v1.1: enriched with per-hall rich narrative (heroMaterial, heroTeaser, thesisLead, thesisBody, signature) for the cinematic hall template.",
     "author": "Dennis 'dendogg' Smaltz",
@@ -42,7 +42,13 @@
           "species": "great-white-shark",
           "name": "Great White Shark",
           "intro": "The great white shark — apex of the open water, and a fin on a market scale. The same animal, cut in each of the five graphic materials BEASTIQUE works."
-        }
+        },
+        "pressures": [
+          "Industrial overfishing",
+          "Bycatch — nets & longlines",
+          "The caviar & fin trade",
+          "Warming, acidifying seas"
+        ]
       }
     },
     {
@@ -79,7 +85,13 @@
           "species": "bald-eagle",
           "name": "Bald Eagle",
           "intro": "The bald eagle — a nation's emblem, and once a bounty nailed to a barn. The same bird, cut in each of the five graphic materials BEASTIQUE works."
-        }
+        },
+        "pressures": [
+          "Habitat clearance",
+          "Collision — glass, towers, turbines",
+          "Pesticide & lead poisoning",
+          "The cage-bird trade"
+        ]
       }
     },
     {
@@ -116,7 +128,13 @@
           "species": "monarch-butterfly",
           "name": "Monarch Butterfly",
           "intro": "The monarch — a beast of iron endurance dressed as a fragile thing. The same animal, cut in each of the five graphic materials BEASTIQUE works."
-        }
+        },
+        "pressures": [
+          "Neonicotinoid pesticides",
+          "Monoculture & habitat loss",
+          "Light pollution",
+          "Climate disruption"
+        ]
       }
     },
     {
@@ -153,7 +171,13 @@
           "species": "lion",
           "name": "Lion",
           "intro": "The lion — the oldest symbol of power we ever borrowed from another animal. The same beast, cut in each of the five graphic materials BEASTIQUE works."
-        }
+        },
+        "pressures": [
+          "Poaching & trophy trade",
+          "Habitat fragmentation",
+          "Human–wildlife conflict",
+          "Climate destabilization"
+        ]
       }
     },
     {
@@ -190,7 +214,13 @@
           "species": "komodo-dragon",
           "name": "Komodo Dragon",
           "intro": "The komodo dragon — the last of the giant monitors, marooned on a shrinking shore. The same beast, cut in each of the five graphic materials BEASTIQUE works."
-        }
+        },
+        "pressures": [
+          "The skin & pet trade",
+          "Wetland drainage",
+          "Beach & coastal development",
+          "Warming — skewed sex ratios"
+        ]
       }
     },
     {
@@ -230,7 +260,13 @@
           "species": "vaquita",
           "name": "Vaquita",
           "intro": "The vaquita — fewer than ten left, the smallest and most vanishing porpoise on Earth. The same animal, cut in each of the five graphic materials BEASTIQUE works."
-        }
+        },
+        "pressures": [
+          "Habitat conversion",
+          "Direct exploitation",
+          "Pollution & bycatch",
+          "Climate change"
+        ]
       }
     },
     {
@@ -276,7 +312,13 @@
           "species": "narwhal",
           "name": "Narwhal",
           "intro": "The narwhal — the unicorn of the sea, its tusk a nerve wrapped in ivory. The same animal, cut in each of the five graphic materials BEASTIQUE works."
-        }
+        },
+        "pressures": [
+          "Sea-ice collapse",
+          "Warming seas",
+          "Fossil-fuel & shipping",
+          "Prey-base failure"
+        ]
       }
     },
     {
@@ -323,7 +365,13 @@
           "species": "snowy-owl",
           "name": "Snowy Owl",
           "intro": "The snowy owl — a hunter of the long dark, drifting south as its world warms. The same animal, cut in each of the five graphic materials BEASTIQUE works."
-        }
+        },
+        "pressures": [
+          "Light pollution",
+          "Habitat loss",
+          "Pesticide load",
+          "Roost disturbance"
+        ]
       }
     },
     {
@@ -365,7 +413,13 @@
           "species": "gray-wolf",
           "name": "Gray Wolf",
           "intro": "The gray wolf — the wild original behind every hearth-dog on Earth. The same beast, cut in each of the five graphic materials BEASTIQUE works."
-        }
+        },
+        "pressures": [
+          "Persecution & culling",
+          "Poison & bounties",
+          "Habitat loss",
+          "Disease from domestic dogs"
+        ]
       }
     }
   ]
