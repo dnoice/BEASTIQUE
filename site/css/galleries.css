@@ -1,0 +1,272 @@
+/*
+✒ Metadata
+    - Title: Galleries — Halls Switcher + Hall Theming (BEASTIQUE Edition - v1.0)
+    - File Name: galleries.css
+    - Relative Path: site/css/galleries.css
+    - Artifact Type: library
+    - Version: 1.0.0
+    - Date: 2026-07-10
+    - Update: Friday, July 10, 2026
+    - Author: Dennis 'dendogg' Smaltz
+    - A.I. Acknowledgement: Anthropic - Claude Fable 5
+    - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
+
+✒ Description:
+    Styles the cross-gallery "Halls" switcher (js/modules/halls-nav.js) and the
+    per-hall landing theming. Each hall page sets --hall-primary/accent/bg/text
+    on <body>; this sheet turns those four tokens into a full contextual skin —
+    background, hero gradient, accent glow, and roster accents — so every hall
+    is unmistakably BEASTIQUE yet unmistakably itself. Builds on global.css +
+    category.css (nav, container, species grid/cards reused).
+---------
+*/
+
+/* ── Per-hall page skin (from the four inline tokens) ── */
+.gallery {
+  background: var(--hall-bg, #0a0a0a);
+  color: var(--hall-text, #e8e4dc);
+}
+.gallery .nav {
+  background: color-mix(in srgb, var(--hall-bg, #0a0a0a) 82%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--hall-accent, #c8a45c) 22%, transparent);
+}
+.gallery .nav__breadcrumb-current { color: var(--hall-accent, #c8a45c); }
+
+/* ── The Halls switcher ── */
+.halls { position: relative; margin-left: auto; }
+
+.halls__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--hall-text, #e8e4dc);
+  background: transparent;
+  border: 1px solid color-mix(in srgb, var(--hall-accent, #c8a45c) 40%, transparent);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.25s ease, color 0.25s ease;
+}
+.halls__toggle:hover,
+.halls.is-open .halls__toggle {
+  color: var(--hall-accent, #c8a45c);
+  border-color: var(--hall-accent, #c8a45c);
+}
+.halls__chevron { width: 14px; height: 14px; transition: transform 0.25s ease; }
+.halls.is-open .halls__chevron { transform: rotate(180deg); }
+
+.halls__panel {
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  right: 0;
+  z-index: 200;
+  width: min(92vw, 560px);
+  padding: 1.1rem 1.1rem 1.3rem;
+  background: color-mix(in srgb, var(--hall-bg, #0a0a0a) 88%, #000);
+  border: 1px solid color-mix(in srgb, var(--hall-accent, #c8a45c) 30%, transparent);
+  border-radius: 4px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  animation: halls-in 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes halls-in { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+
+.halls__home {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 65%, transparent);
+  text-decoration: none;
+}
+.halls__home:hover { color: var(--hall-accent, #c8a45c); }
+
+.halls__group + .halls__group { margin-top: 1rem; }
+.halls__group-label {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.6rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 45%, transparent);
+}
+.halls__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.35rem;
+}
+@media (max-width: 520px) { .halls__list { grid-template-columns: 1fr; } }
+
+.halls__item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 0.65rem;
+  border-radius: 3px;
+  text-decoration: none;
+  color: var(--hall-text, #e8e4dc);
+  border: 1px solid transparent;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.halls__item:hover {
+  background: color-mix(in srgb, var(--hall-item, var(--hall-accent, #c8a45c)) 12%, transparent);
+  border-color: color-mix(in srgb, var(--hall-item, var(--hall-accent, #c8a45c)) 45%, transparent);
+}
+.halls__item.is-current {
+  background: color-mix(in srgb, var(--hall-accent, #c8a45c) 10%, transparent);
+  border-color: color-mix(in srgb, var(--hall-accent, #c8a45c) 40%, transparent);
+  cursor: default;
+}
+.halls__item.is-flagship .halls__item-name { color: var(--hall-item, #f2bc00); }
+.halls__icon { width: 22px; height: 22px; flex-shrink: 0; color: var(--hall-item, var(--hall-accent, #c8a45c)); opacity: 0.9; }
+.halls__item-text { display: flex; flex-direction: column; line-height: 1.2; min-width: 0; }
+.halls__item-name { font-family: var(--font-display, 'Playfair Display', serif); font-size: 0.95rem; }
+.halls__item-tag {
+  font-size: 0.62rem;
+  letter-spacing: 0.03em;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 55%, transparent);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+/* each item carries its own accent via inline --hall-accent on the <a> */
+.halls__item { --hall-item: var(--hall-accent); }
+
+/* ── Hall hero ── */
+.hall-hero {
+  position: relative;
+  padding: clamp(6rem, 14vh, 10rem) 0 clamp(3rem, 7vh, 5rem);
+  overflow: hidden;
+  background:
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--hall-primary, #222) 55%, var(--hall-bg, #0a0a0a)) 0%,
+      var(--hall-bg, #0a0a0a) 100%);
+  border-bottom: 1px solid color-mix(in srgb, var(--hall-accent, #c8a45c) 18%, transparent);
+}
+.hall-hero__glow {
+  position: absolute;
+  top: -20%; left: 50%;
+  width: 80%; height: 120%;
+  transform: translateX(-50%);
+  background: radial-gradient(ellipse 50% 45% at 50% 30%,
+    color-mix(in srgb, var(--hall-accent, #c8a45c) 22%, transparent), transparent 70%);
+  pointer-events: none;
+}
+.hall-hero__inner { position: relative; max-width: 760px; }
+.hall-hero__kicker {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.7rem;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--hall-accent, #c8a45c);
+  margin: 0 0 1rem;
+}
+.hall-hero__title {
+  font-family: var(--font-display, 'Playfair Display', serif);
+  font-size: clamp(2.6rem, 7vw, 5rem);
+  font-weight: 700;
+  line-height: 1.02;
+  margin: 0 0 0.6rem;
+  color: var(--hall-text, #f5f0e8);
+}
+.hall-hero__tagline {
+  font-family: var(--font-display, serif);
+  font-style: italic;
+  font-size: clamp(1.1rem, 2.6vw, 1.6rem);
+  color: color-mix(in srgb, var(--hall-accent, #c8a45c) 85%, var(--hall-text));
+  margin: 0 0 1.4rem;
+}
+.hall-hero__desc {
+  font-size: clamp(0.95rem, 1.5vw, 1.08rem);
+  line-height: 1.7;
+  max-width: 62ch;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 82%, transparent);
+  margin: 0;
+}
+
+/* flagship (Endangered) gets a heavier hero */
+.gallery--endangered .hall-hero__kicker {
+  color: var(--color-signal, #f2bc00);
+  font-weight: 500;
+}
+
+/* ── Roster grid loading/fallback ── */
+.species-grid__fallback {
+  grid-column: 1 / -1;
+  padding: 2rem 0;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.8rem;
+  color: color-mix(in srgb, var(--hall-text, #e8e4dc) 55%, transparent);
+}
+.gallery .species-grid__count { color: var(--hall-accent, #c8a45c); }
+
+/* accent the reused category filter chips per hall */
+.gallery .archive-filters__chip[aria-pressed="true"] {
+  background: var(--hall-accent, #c8a45c);
+  border-color: var(--hall-accent, #c8a45c);
+  color: var(--hall-bg, #0a0a0a);
+}
+
+/* ── Special Halls strip (home page: index.html) ── */
+.special-halls { margin-top: clamp(2rem, 5vh, 3.5rem); }
+.special-halls__label {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.66rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-text, #e8e4dc) 50%, transparent);
+  text-align: center;
+  margin: 0 0 1.2rem;
+}
+.special-halls__row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.9rem;
+}
+@media (max-width: 860px) { .special-halls__row { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .special-halls__row { grid-template-columns: 1fr; } }
+
+.special-hall {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1.1rem 1.2rem;
+  text-decoration: none;
+  background: color-mix(in srgb, var(--card-accent, #c8a45c) 6%, transparent);
+  border: 1px solid color-mix(in srgb, var(--card-accent, #c8a45c) 22%, transparent);
+  border-left: 3px solid var(--card-accent, #c8a45c);
+  border-radius: 2px;
+  transition: background 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+}
+.special-hall:hover {
+  background: color-mix(in srgb, var(--card-accent, #c8a45c) 14%, transparent);
+  border-color: color-mix(in srgb, var(--card-accent, #c8a45c) 55%, transparent);
+  transform: translateY(-3px);
+}
+.special-hall__name {
+  font-family: var(--font-display, 'Playfair Display', serif);
+  font-size: 1.15rem;
+  color: var(--color-text, #f5f0e8);
+}
+.special-hall__tag {
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: color-mix(in srgb, var(--color-text, #e8e4dc) 60%, transparent);
+}
+.special-hall--flagship {
+  background: color-mix(in srgb, var(--card-accent, #f2bc00) 12%, transparent);
+  border-color: color-mix(in srgb, var(--card-accent, #f2bc00) 50%, transparent);
+}
+.special-hall--flagship .special-hall__name { color: var(--card-accent, #f2bc00); }
+
+/* ── Footer (shared, hall-tinted) ── */
+.gallery .footer { border-top: 1px solid color-mix(in srgb, var(--hall-accent, #c8a45c) 18%, transparent); }
+.footer__thesis { font-style: italic; opacity: 0.7; max-width: 40ch; margin: 0.4rem 0 0; font-size: 0.85rem; }

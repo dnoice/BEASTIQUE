@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K9 Beasts — BEASTIQUE</title>
+    <meta name="description" content="Blood of the Wolf — K9 Beasts, a BEASTIQUE hall.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/category.css">
+    <link rel="stylesheet" href="../../../css/galleries.css">
+</head>
+<body class="gallery gallery--k9"
+      style="--hall-primary:#3a2e22; --hall-accent:#c98a4e; --hall-bg:#0a0705; --hall-text:#f0e4d4">
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <nav class="nav" aria-label="Main navigation">
+        <div class="container nav__inner">
+            <a href="../../../index.html" class="nav__logo" aria-label="BEASTIQUE Home">
+                <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                    <path d="M20 4L8 14v16l12 8 12-8V14L20 4z" stroke="currentColor" stroke-width="1.2"/>
+                    <path d="M20 10l-6 5v8l6 4 6-4v-8l-6-5z" stroke="currentColor" stroke-width="0.8" opacity="0.6"/>
+                    <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.8"/>
+                </svg>
+                <span class="nav__logo-text">BEASTIQUE</span>
+            </a>
+            <div class="nav__breadcrumb">
+                <a href="../../../index.html">Home</a>
+                <span class="nav__breadcrumb-sep">/</span>
+                <span class="nav__breadcrumb-current">K9</span>
+            </div>
+            <div data-halls data-base="../../../" data-current="k9"></div>
+        </div>
+    </nav>
+
+    <main id="main" class="hall" data-hall="k9" data-base="../../../">
+        <section class="hall-hero" aria-labelledby="hall-title">
+            <div class="hall-hero__glow" aria-hidden="true"></div>
+            <div class="container hall-hero__inner">
+                <p class="hall-hero__kicker" data-animate>A Special Hall</p>
+                <h1 class="hall-hero__title" id="hall-title" data-animate>K9 Beasts</h1>
+                <p class="hall-hero__tagline" data-animate>Blood of the Wolf</p>
+                <p class="hall-hero__desc" data-animate>Every dog that ever slept at a human hearth is a wolf that made a bargain. This hall gathers the wild canids — the lineage that split from ours and stayed feral. Persecuted as vermin, poisoned as competition, they are the family portrait of the animal we chose to tame and the ones we chose to shoot.</p>
+            </div>
+        </section>
+
+        <section class="species-grid" aria-label="The roster">
+            <div class="container">
+                <div class="species-grid__header" data-animate>
+                    <h2>The Roster</h2>
+                    <span class="species-grid__count">Loading the catalog…</span>
+                </div>
+                <div class="species-grid__list">
+                    <p class="species-grid__fallback">This hall is rendered live from the BEASTIQUE catalog. If the roster doesn't appear, enable JavaScript or view the site over HTTP.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">BEASTIQUE</span>
+          <p class="footer__thesis">Extinction is a replacement transaction. Beauty is the argument.</p>
+        </div>
+        <nav class="footer__nav" aria-label="Footer">
+          <a href="../../../index.html" class="footer__link">The Vault</a>
+          <a href="mailto:densmaltz4@gmail.com" class="footer__link">densmaltz4@gmail.com</a>
+          <a href="https://github.com/dnoice/BEASTIQUE" target="_blank" rel="noopener" class="footer__link">dnoice/BEASTIQUE<span class="sr-only"> (opens in new tab)</span></a>
+        </nav>
+      </div>
+    </footer>
+
+    <script type="module" src="../../../js/gallery.js"></script>
+</body>
+</html>

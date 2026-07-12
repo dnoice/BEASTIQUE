@@ -61,6 +61,7 @@ import { init as initGallery }         from './landing/gallery.js';
 import { init as initVaultData }       from './landing/vault-data.js';
 import { init as initExtinctionClock } from './landing/extinction-clock.js';
 import { init as initVaultDoor }       from './landing/vault-door.js';
+import { init as initHalls }           from './modules/halls-nav.js';
 import { init as initCardTilt }        from './landing/card-tilt.js';
 import { init as initMagneticCta }     from './landing/magnetic-cta.js';
 import { init as initTransaction }     from './landing/transaction.js';
@@ -78,6 +79,9 @@ async function bootstrap() {
     //     holdMs matches the unlocking-ritual timeline in landing.css §17:
     //     lockup complete at ~4.15s + the 650ms held breath = 4.8s release.
     initVaultDoor({ holdMs: 4800, openMs: 1500 });
+
+    // 0a2. The Halls switcher — cross-gallery nav from the registry.
+    initHalls();
 
     // 0b. Catalog-driven sections (Collection wall, Archive counts, Numbers).
     //     Awaited so [data-count] values are final before counters bind.

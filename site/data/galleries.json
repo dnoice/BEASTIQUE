@@ -1,0 +1,255 @@
+{
+  "_meta": {
+    "title": "BEASTIQUE Gallery Registry",
+    "version": "1.0.0",
+    "date": "2026-07-10",
+    "note": "Single source for navigation + gallery landing pages. Five main halls (one per taxonomic category) and the special halls (cross-cutting collections). Every page's Halls switcher and every gallery grid reads from here. Add a hall = add an entry. Membership rules: 'category' matches species.category; 'status' matches conservation_status; 'ids' is a curated roster (extensible). Paths: each hall is a folder with index.html under categories/core/ or categories/special/ (3 levels deep from site root; use base ../../../).",
+    "author": "Dennis 'dendogg' Smaltz",
+    "ai": "Anthropic - Claude Fable 5"
+  },
+  "halls": [
+    {
+      "id": "aquatic",
+      "name": "Aquatic Beasts",
+      "short": "Aquatic",
+      "kind": "main",
+      "href": "categories/core/aquatic/",
+      "icon": "aquatic",
+      "tagline": "Guardians of the Deep",
+      "description": "From ancient sturgeon to vanishing reef dwellers, the oceans hold creatures that predate our species by millions of years. We drain their seas, poison their waters, and harvest their bodies for luxury goods. What surfaces is extinction.",
+      "colors": {
+        "primary": "#143a52",
+        "accent": "#d4565c",
+        "bg": "#0a1628",
+        "text": "#f5f0e8"
+      },
+      "hero": "beluga-sturgeon",
+      "membership": {
+        "rule": "category",
+        "values": [
+          "aquatic"
+        ]
+      }
+    },
+    {
+      "id": "avian",
+      "name": "Avian Beasts",
+      "short": "Avian",
+      "kind": "main",
+      "href": "categories/core/avian/",
+      "icon": "avian",
+      "tagline": "Voices of the Vanishing Sky",
+      "description": "They mapped the Earth before we drew our first border. Migratory routes carved over millennia are severed by glass towers, poisoned fields, and stripped forests. Each silenced song is a frequency the planet will never recover.",
+      "colors": {
+        "primary": "#2a3a4a",
+        "accent": "#7eb8c9",
+        "bg": "#0c1420",
+        "text": "#e8eef2"
+      },
+      "hero": "philippine-eagle",
+      "membership": {
+        "rule": "category",
+        "values": [
+          "avian"
+        ]
+      }
+    },
+    {
+      "id": "insecta",
+      "name": "Insecta Beasts",
+      "short": "Insecta",
+      "kind": "main",
+      "href": "categories/core/insecta/",
+      "icon": "insecta",
+      "tagline": "The Invisible Architecture of Life",
+      "description": "They pollinate our crops, decompose our waste, and feed the chains that sustain every ecosystem on Earth. We repay them with pesticides, monocultures, and light pollution. The collapse of insect populations is not a warning. It is an earthquake beneath our feet.",
+      "colors": {
+        "primary": "#3a4a2a",
+        "accent": "#c9a84e",
+        "bg": "#0a1208",
+        "text": "#f0e8d6"
+      },
+      "hero": "monarch-butterfly",
+      "membership": {
+        "rule": "category",
+        "values": [
+          "insecta"
+        ]
+      }
+    },
+    {
+      "id": "mammalian",
+      "name": "Mammalian Beasts",
+      "short": "Mammalian",
+      "kind": "main",
+      "href": "categories/core/mammalian/",
+      "icon": "mammalian",
+      "tagline": "Bloodlines Running Out",
+      "description": "The megafauna we share this planet with are disappearing at a rate not seen since the end of the Pleistocene. Poaching, habitat fragmentation, and climate destabilization are erasing species that took millions of years to evolve. Every extinction is a closed door we cannot reopen.",
+      "colors": {
+        "primary": "#4a3526",
+        "accent": "#d4944a",
+        "bg": "#0a0806",
+        "text": "#f0e6d6"
+      },
+      "hero": "amur-leopard",
+      "membership": {
+        "rule": "category",
+        "values": [
+          "mammalian"
+        ]
+      }
+    },
+    {
+      "id": "reptilian",
+      "name": "Reptilian Beasts",
+      "short": "Reptilian",
+      "kind": "main",
+      "href": "categories/core/reptilian/",
+      "icon": "reptilian",
+      "tagline": "Ancient Scales, Modern Graves",
+      "description": "Survivors of every mass extinction event in Earth's history now face one they cannot outlast. Habitat destruction, illegal trade, and climate change are dismantling lineages that stretch back to the age of dinosaurs. The oldest blueprints on Earth are being shredded.",
+      "colors": {
+        "primary": "#2a4a3a",
+        "accent": "#8fae6e",
+        "bg": "#080c0a",
+        "text": "#e0eed6"
+      },
+      "hero": "komodo-dragon",
+      "membership": {
+        "rule": "category",
+        "values": [
+          "reptilian"
+        ]
+      }
+    },
+    {
+      "id": "endangered",
+      "name": "Endangered Beasts",
+      "short": "Endangered",
+      "kind": "special",
+      "flagship": true,
+      "href": "categories/special/endangered/",
+      "icon": "endangered",
+      "tagline": "The Red List Made Flesh",
+      "description": "This is the argument the whole vault is built around. Every beast here is on the IUCN Red List's threatened tiers — Vulnerable, Endangered, Critically Endangered — rendered in precious materials precisely because the trade would rather they were. Beauty as the receipt for what we are spending.",
+      "colors": {
+        "primary": "#3a1216",
+        "accent": "#f2bc00",
+        "bg": "#0c0605",
+        "text": "#f5e8d8"
+      },
+      "hero": "amur-leopard",
+      "membership": {
+        "rule": "status",
+        "values": [
+          "Critically Endangered",
+          "Endangered",
+          "Vulnerable"
+        ]
+      }
+    },
+    {
+      "id": "polar",
+      "name": "Polar Beasts",
+      "short": "Polar",
+      "kind": "special",
+      "href": "categories/special/polar/",
+      "icon": "polar",
+      "tagline": "Life at the Edge of the Thaw",
+      "description": "The animals built for a world of ice, watching that world melt beneath them. Their white coats and blubbered bodies are engineering for a climate we are switching off. To render them in silver is to fix a thing that is running out of ground to stand on.",
+      "colors": {
+        "primary": "#1a3a4a",
+        "accent": "#a8d8e8",
+        "bg": "#060f18",
+        "text": "#eaf4f8"
+      },
+      "hero": "polar-bear",
+      "membership": {
+        "rule": "ids",
+        "values": [
+          "polar-bear",
+          "arctic-fox",
+          "snowy-owl",
+          "emperor-penguin",
+          "adelie-penguin",
+          "ivory-gull",
+          "muskox",
+          "narwhal",
+          "walrus",
+          "ross-seal",
+          "antarctic-petrel",
+          "arctic-hare",
+          "beluga-sturgeon"
+        ]
+      }
+    },
+    {
+      "id": "nocturnal",
+      "name": "Nocturnal Beasts",
+      "short": "Nocturnal",
+      "kind": "special",
+      "href": "categories/special/nocturnal/",
+      "icon": "nocturnal",
+      "tagline": "Those Who Own the Dark",
+      "description": "The night shift of the living world — the eyes that open when ours close. Adapted to a darkness we have spent a century erasing with light, they are the quiet casualties of a planet that no longer switches off. Rendered to be seen, at last.",
+      "colors": {
+        "primary": "#1c1a3a",
+        "accent": "#b0a8d8",
+        "bg": "#07060f",
+        "text": "#ece8f6"
+      },
+      "hero": "snowy-owl",
+      "membership": {
+        "rule": "ids",
+        "values": [
+          "snowy-owl",
+          "great-horned-owl",
+          "flores-scops-owl",
+          "sunda-scops-owl",
+          "large-flying-fox",
+          "aardvark",
+          "kinkajou",
+          "echidna",
+          "silky-anteater",
+          "deaths-head-hawkmoth",
+          "atlas-moth",
+          "red-eyed-tree-frog",
+          "tokay-gecko",
+          "fennec-fox"
+        ]
+      }
+    },
+    {
+      "id": "k9",
+      "name": "K9 Beasts",
+      "short": "K9",
+      "kind": "special",
+      "href": "categories/special/k-9/",
+      "icon": "k9",
+      "tagline": "Blood of the Wolf",
+      "description": "Every dog that ever slept at a human hearth is a wolf that made a bargain. This hall gathers the wild canids — the lineage that split from ours and stayed feral. Persecuted as vermin, poisoned as competition, they are the family portrait of the animal we chose to tame and the ones we chose to shoot.",
+      "colors": {
+        "primary": "#3a2e22",
+        "accent": "#c98a4e",
+        "bg": "#0a0705",
+        "text": "#f0e4d4"
+      },
+      "hero": "gray-wolf",
+      "membership": {
+        "rule": "ids",
+        "values": [
+          "gray-wolf",
+          "red-fox",
+          "arctic-fox",
+          "fennec-fox",
+          "maned-wolf",
+          "african-wild-dog",
+          "ethiopian-wolf",
+          "coyote",
+          "european-wolf"
+        ]
+      }
+    }
+  ]
+}

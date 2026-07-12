@@ -80,6 +80,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/galleries.css">
 
     <!-- Hero artwork — web derivative, not the print master -->
     <link rel="preload" as="image" href="assets/images/web/landing/bq-lion-hero.webp">
@@ -107,6 +108,7 @@
                 <li><a href="#ledger" class="nav__link">Ledger</a></li>
                 <li><a href="#mission" class="nav__link">Mission</a></li>
             </ul>
+            <div data-halls data-base="" data-current=""></div>
             <!-- Mobile hamburger -->
             <button type="button" class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
                 <span></span><span></span><span></span>
@@ -443,9 +445,9 @@
         <div class="wall__grid" data-wall aria-label="Species collection wall">
             <noscript>
                 <p class="wall__noscript">The living wall assembles itself with JavaScript enabled.
-                Browse the archives directly: <a href="categories/aquatic.html">Aquatic</a> &middot;
-                <a href="categories/avian.html">Avian</a> &middot; <a href="categories/insecta.html">Insecta</a> &middot;
-                <a href="categories/mammalian.html">Mammalian</a> &middot; <a href="categories/reptilian.html">Reptilian</a></p>
+                Browse the archives directly: <a href="categories/core/aquatic/">Aquatic</a> &middot;
+                <a href="categories/core/avian/">Avian</a> &middot; <a href="categories/core/insecta/">Insecta</a> &middot;
+                <a href="categories/core/mammalian/">Mammalian</a> &middot; <a href="categories/core/reptilian/">Reptilian</a></p>
             </noscript>
         </div>
 
@@ -486,7 +488,7 @@
 
             <div class="beasts__grid">
                 <!-- Aquatic -->
-                <a href="categories/aquatic.html" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #d4565c; --card-bg: #0a1628;">
+                <a href="categories/core/aquatic/" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #d4565c; --card-bg: #0a1628;">
                     <div class="beast-card__image-wrap">
                         <img src="assets/images/web/featured/great-white-shark.webp" alt="Aquatic — Guardians of the Deep" class="beast-card__image" loading="lazy">
                         <div class="beast-card__overlay" aria-hidden="true"></div>
@@ -500,7 +502,7 @@
                 </a>
 
                 <!-- Avian -->
-                <a href="categories/avian.html" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #7eb8c9; --card-bg: #0c1420;">
+                <a href="categories/core/avian/" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #7eb8c9; --card-bg: #0c1420;">
                     <div class="beast-card__image-wrap">
                         <img src="assets/images/web/featured/philippine-eagle.webp" alt="Avian — Voices of the Vanishing Sky" class="beast-card__image" loading="lazy">
                         <div class="beast-card__overlay" aria-hidden="true"></div>
@@ -514,7 +516,7 @@
                 </a>
 
                 <!-- Insecta -->
-                <a href="categories/insecta.html" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #c9a84e; --card-bg: #0a1208;">
+                <a href="categories/core/insecta/" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #c9a84e; --card-bg: #0a1208;">
                     <div class="beast-card__image-wrap">
                         <img src="assets/images/web/featured/butterfly-1.webp" alt="Insecta — The Invisible Architecture of Life" class="beast-card__image" loading="lazy">
                         <div class="beast-card__overlay" aria-hidden="true"></div>
@@ -528,7 +530,7 @@
                 </a>
 
                 <!-- Mammalian -->
-                <a href="categories/mammalian.html" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #d4944a; --card-bg: #0a0806;">
+                <a href="categories/core/mammalian/" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #d4944a; --card-bg: #0a0806;">
                     <div class="beast-card__image-wrap">
                         <img src="assets/images/web/featured/amur-leopard-1.webp" alt="Mammalian — Bloodlines Running Out" class="beast-card__image" loading="lazy">
                         <div class="beast-card__overlay" aria-hidden="true"></div>
@@ -542,7 +544,7 @@
                 </a>
 
                 <!-- Reptilian -->
-                <a href="categories/reptilian.html" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #8fae6e; --card-bg: #080c0a;">
+                <a href="categories/core/reptilian/" class="beast-card" data-animate data-cursor="Open" style="--card-accent: #8fae6e; --card-bg: #080c0a;">
                     <div class="beast-card__image-wrap">
                         <img src="assets/images/web/featured/arizona-tree-frog.webp" alt="Reptilian — Ancient Scales, Modern Graves" class="beast-card__image" loading="lazy">
                         <div class="beast-card__overlay" aria-hidden="true"></div>
@@ -554,6 +556,29 @@
                     </div>
                     <div class="beast-card__border" aria-hidden="true"></div>
                 </a>
+            </div>
+
+            <!-- Special Halls — cross-cutting collections -->
+            <div class="special-halls" data-animate>
+                <p class="special-halls__label">Special Halls &middot; Collections That Cross the Kingdoms</p>
+                <div class="special-halls__row">
+                    <a href="categories/special/endangered/" class="special-hall special-hall--flagship" data-cursor="Open" style="--card-accent:#f2bc00;">
+                        <span class="special-hall__name">Endangered Beasts</span>
+                        <span class="special-hall__tag">The Red List Made Flesh</span>
+                    </a>
+                    <a href="categories/special/polar/" class="special-hall" data-cursor="Open" style="--card-accent:#a8d8e8;">
+                        <span class="special-hall__name">Polar Beasts</span>
+                        <span class="special-hall__tag">Life at the Edge of the Thaw</span>
+                    </a>
+                    <a href="categories/special/nocturnal/" class="special-hall" data-cursor="Open" style="--card-accent:#b0a8d8;">
+                        <span class="special-hall__name">Nocturnal Beasts</span>
+                        <span class="special-hall__tag">Those Who Own the Dark</span>
+                    </a>
+                    <a href="categories/special/k-9/" class="special-hall" data-cursor="Open" style="--card-accent:#c98a4e;">
+                        <span class="special-hall__name">K9 Beasts</span>
+                        <span class="special-hall__tag">Blood of the Wolf</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
