@@ -454,14 +454,6 @@ Negative prompt: no grayscale, no color, no photographic realism, no airbrush, n
 
 ## The Library — Arachnids & Kin (ARA)
 
-### BQ-LINO-ARA-001 · Emperor Scorpion
-
-*Pandinus imperator* · IUCN NE · slug `emperor-scorpion` · output `emperor-scorpion_linocut-bw_01.{png,svg}`
-
-```text
-Create a refined, high-contrast black-and-white vector-compatible linocut illustration of an emperor scorpion viewed from above in a defensive stance, the great pincers forward and the tail arched over the back, styled as a bold premium woodcut emblem and upgraded antique natural-history engraving. Center it in the frame with clean white space. Render the defining anatomy: a broad flat body (cephalothorax and segmented mesosoma), the signature pair of massive bulky pincer pedipalps (large grasping claws) held forward, eight legs, and the long segmented metasoma (tail) arched up and over the back ending in the bulbous venom vesicle and curved sting. Use pure black ink on pure white only — no grayscale, no color, no gradients, no painterly shading; closed forms and carved hatch, vector-traceable. The hero accents are the massive pincers (render as bold heavy claws with clean reserved highlight glints to read the glossy chitin — the bulky-clawed identifier) and the arched stinging tail (render the segmented metasoma as clean bold beads curving overhead to the bulb and sting). The density map: render the body and claws as smooth hard chitin with reserved gloss streaks and fine sculptural pitting, the segmented tail as clean defined beads. Render all eight legs as bold segmented limbs with clean claws (never hairline). One bold continuous contour around the scorpion and its arched tail. Weight hierarchy: thick contour, massive glossy pincers, arched beaded tail, bold legs — legible large and small. Standing; a few horizontal foot-shadow strokes; background blank white, no scene.
-Negative prompt: no grayscale, no color, no photographic realism, no airbrush, no blurry edges, no desert, no sand, no rocks, no background, no border, no text, no extra animals, no hairline legs, no random speckles, no ultra-thin lines, no fragmented outline.
-```
 
 ### BQ-LINO-ARA-002 · Deathstalker Scorpion
 

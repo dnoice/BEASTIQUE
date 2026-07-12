@@ -22,6 +22,12 @@
 
 # BEASTIQUE — Catalog Curation & Prune Proposal
 
+> **EXECUTED 2026-07-10.** All 46 candidates (Tiers 1–3) pruned across **every**
+> style (linocut and woodcut included) for a standardized roster; `koala-bear`
+> merged into `koala`. 110 render/trace files deleted, 119 prompt blocks removed,
+> 57 ledger entries cleaned. Active roster 245 → 199; the pending gap-fill dropped
+> to 225 images. This document is retained as the curation record.
+
 **46 prune candidates** across the 5 active styles. Impact: removes **51 existing render files**, drops **14** animals from the pending gap-fill wave (**51 fewer images** to render, ~$4.21 saved). Active roster 245 → 199.
 
 Do this **before** running the gap-fill, so coverage completes on the clean roster instead of propagating duplicates into every style.

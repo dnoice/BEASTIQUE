@@ -584,21 +584,6 @@
     },
     "ts": 1783517968
   },
-  "BQ-SILH-AQU-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\silhouette\\high\\seahorse_silhouette-bw_01.png",
-    "model": "gpt-image-2",
-    "quality": "high",
-    "size": "1536x1024",
-    "secs": 87.76,
-    "retries": 0,
-    "tokens": {
-      "input_tokens": 230,
-      "output_tokens": 5488,
-      "total_tokens": 5718
-    },
-    "ts": 1783518044
-  },
   "BQ-SILH-REP-005__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\silhouette\\high\\green-iguana_silhouette-bw_01.png",
@@ -786,21 +771,6 @@
     "quality": "high",
     "size": "1536x1024",
     "secs": 94.49,
-    "retries": 0,
-    "tokens": {
-      "input_tokens": 212,
-      "output_tokens": 5488,
-      "total_tokens": 5700
-    },
-    "ts": 1783518347
-  },
-  "BQ-SILH-ARA-001__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\silhouette\\high\\emperor-scorpion_silhouette-bw_01.png",
-    "model": "gpt-image-2",
-    "quality": "high",
-    "size": "1536x1024",
-    "secs": 106.38,
     "retries": 0,
     "tokens": {
       "input_tokens": 212,
@@ -2118,28 +2088,6 @@
     },
     "ts": 1783709339
   },
-  "BQ-GEOL-AQU-005__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\seahorse_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 315,
-      "output_tokens": 5488,
-      "total_tokens": 5803
-    },
-    "ts": 1783709339
-  },
-  "BQ-GEOL-AVI-001__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\andean-condor_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 317,
-      "output_tokens": 5488,
-      "total_tokens": 5805
-    },
-    "ts": 1783709339
-  },
   "BQ-GEOL-AVI-002__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\indian-peafowl_geo-line-bw_01.png",
@@ -2192,17 +2140,6 @@
       "input_tokens": 328,
       "output_tokens": 5488,
       "total_tokens": 5816
-    },
-    "ts": 1783709339
-  },
-  "BQ-GEOL-INS-002__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\emperor-scorpion_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 313,
-      "output_tokens": 5488,
-      "total_tokens": 5801
     },
     "ts": 1783709339
   },
@@ -2261,17 +2198,6 @@
     },
     "ts": 1783709339
   },
-  "BQ-GEOL-MAM-003__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\black-rhinoceros_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 310,
-      "output_tokens": 5488,
-      "total_tokens": 5798
-    },
-    "ts": 1783709339
-  },
   "BQ-GEOL-MAM-004__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\giraffe_geo-line-bw_01.png",
@@ -2324,17 +2250,6 @@
       "input_tokens": 311,
       "output_tokens": 5488,
       "total_tokens": 5799
-    },
-    "ts": 1783709340
-  },
-  "BQ-GEOL-REP-004__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\poison-dart-frog_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 314,
-      "output_tokens": 5488,
-      "total_tokens": 5802
     },
     "ts": 1783709340
   },
@@ -2514,17 +2429,6 @@
     },
     "ts": 1783634534
   },
-  "BQ-LOPO-MAM-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\low-poly\\high\\siberian-tiger_low-poly-bw_01.png",
-    "batch_id": "batch_6a4f5aecb7f08190a08d0499d7584c94",
-    "tokens": {
-      "input_tokens": 271,
-      "output_tokens": 5488,
-      "total_tokens": 5759
-    },
-    "ts": 1783634534
-  },
   "BQ-LOPO-MAM-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\low-poly\\high\\okapi_low-poly-bw_01.png",
@@ -2566,39 +2470,6 @@
       "input_tokens": 271,
       "output_tokens": 5488,
       "total_tokens": 5759
-    },
-    "ts": 1783634534
-  },
-  "BQ-LOPO-REP-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\nile-crocodile_low-poly-bw_01.png",
-    "batch_id": "batch_6a4f5aecb7f08190a08d0499d7584c94",
-    "tokens": {
-      "input_tokens": 271,
-      "output_tokens": 5488,
-      "total_tokens": 5759
-    },
-    "ts": 1783634534
-  },
-  "BQ-LOPO-REP-007__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\mexican-alligator-lizard_low-poly-bw_01.png",
-    "batch_id": "batch_6a4f5aecb7f08190a08d0499d7584c94",
-    "tokens": {
-      "input_tokens": 276,
-      "output_tokens": 5488,
-      "total_tokens": 5764
-    },
-    "ts": 1783634534
-  },
-  "BQ-LOPO-REP-008__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\indian-cobra_low-poly-bw_01.png",
-    "batch_id": "batch_6a4f5aecb7f08190a08d0499d7584c94",
-    "tokens": {
-      "input_tokens": 268,
-      "output_tokens": 5488,
-      "total_tokens": 5756
     },
     "ts": 1783634534
   },
@@ -2778,17 +2649,6 @@
     },
     "ts": 1783634583
   },
-  "BQ-WOOD-INS-009__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\woodcut\\high\\buckeye-butterfly_woodcut-bw_01.png",
-    "batch_id": "batch_6a4f5afa04b88190a3baf3d4fd92b5ef",
-    "tokens": {
-      "input_tokens": 227,
-      "output_tokens": 5488,
-      "total_tokens": 5715
-    },
-    "ts": 1783634583
-  },
   "BQ-WOOD-MAM-006__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\woodcut\\high\\himalayan-brown-bear_woodcut-bw_01.png",
@@ -2841,17 +2701,6 @@
       "input_tokens": 226,
       "output_tokens": 5488,
       "total_tokens": 5714
-    },
-    "ts": 1783634583
-  },
-  "BQ-WOOD-REP-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\woodcut\\high\\galapagos-tortoise_woodcut-bw_01.png",
-    "batch_id": "batch_6a4f5afa04b88190a3baf3d4fd92b5ef",
-    "tokens": {
-      "input_tokens": 230,
-      "output_tokens": 5488,
-      "total_tokens": 5718
     },
     "ts": 1783634583
   },
@@ -2954,17 +2803,6 @@
     },
     "ts": 1783634610
   },
-  "BQ-LINE-AVI-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\line-art\\high\\crane_line-art-bw_01.png",
-    "batch_id": "batch_6a4f5b03a3148190ae54942b2993b562",
-    "tokens": {
-      "input_tokens": 199,
-      "output_tokens": 5488,
-      "total_tokens": 5687
-    },
-    "ts": 1783634610
-  },
   "BQ-LINE-AVI-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\line-art\\high\\arctic-tern_line-art-bw_01.png",
@@ -3020,28 +2858,6 @@
     },
     "ts": 1783634610
   },
-  "BQ-LINE-INS-007__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\line-art\\high\\mason-bee_line-art-bw_01.png",
-    "batch_id": "batch_6a4f5b03a3148190ae54942b2993b562",
-    "tokens": {
-      "input_tokens": 197,
-      "output_tokens": 5488,
-      "total_tokens": 5685
-    },
-    "ts": 1783634610
-  },
-  "BQ-LINE-INS-008__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\line-art\\high\\eastern-amberwing-dragonfly_line-art-bw_01.png",
-    "batch_id": "batch_6a4f5b03a3148190ae54942b2993b562",
-    "tokens": {
-      "input_tokens": 202,
-      "output_tokens": 5488,
-      "total_tokens": 5690
-    },
-    "ts": 1783634610
-  },
   "BQ-LINE-INS-009__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\line-art\\high\\common-mormon-butterfly_line-art-bw_01.png",
@@ -3061,28 +2877,6 @@
       "input_tokens": 199,
       "output_tokens": 5488,
       "total_tokens": 5687
-    },
-    "ts": 1783634610
-  },
-  "BQ-LINE-MAM-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\line-art\\high\\amur-leopard_line-art-bw_01.png",
-    "batch_id": "batch_6a4f5b03a3148190ae54942b2993b562",
-    "tokens": {
-      "input_tokens": 202,
-      "output_tokens": 5488,
-      "total_tokens": 5690
-    },
-    "ts": 1783634610
-  },
-  "BQ-LINE-MAM-007__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\line-art\\high\\addra-gazelle_line-art-bw_01.png",
-    "batch_id": "batch_6a4f5b03a3148190ae54942b2993b562",
-    "tokens": {
-      "input_tokens": 200,
-      "output_tokens": 5488,
-      "total_tokens": 5688
     },
     "ts": 1783634610
   },
@@ -3108,17 +2902,6 @@
     },
     "ts": 1783634610
   },
-  "BQ-LINE-MAM-010__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\line-art\\high\\arctic-fox_line-art-bw_01.png",
-    "batch_id": "batch_6a4f5b03a3148190ae54942b2993b562",
-    "tokens": {
-      "input_tokens": 200,
-      "output_tokens": 5488,
-      "total_tokens": 5688
-    },
-    "ts": 1783634610
-  },
   "BQ-LINE-REP-006__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\line-art\\high\\leatherback-sea-turtle_line-art-bw_01.png",
@@ -3138,17 +2921,6 @@
       "input_tokens": 207,
       "output_tokens": 5488,
       "total_tokens": 5695
-    },
-    "ts": 1783634610
-  },
-  "BQ-LINE-REP-008__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\line-art\\high\\mourning-gecko_line-art-bw_01.png",
-    "batch_id": "batch_6a4f5b03a3148190ae54942b2993b562",
-    "tokens": {
-      "input_tokens": 200,
-      "output_tokens": 5488,
-      "total_tokens": 5688
     },
     "ts": 1783634610
   },
@@ -3229,17 +3001,6 @@
     },
     "ts": 1783644161
   },
-  "BQ-STEN-AVI-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\african-penguin_stencil-bw_01.png",
-    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
-    "tokens": {
-      "input_tokens": 295,
-      "output_tokens": 5488,
-      "total_tokens": 5783
-    },
-    "ts": 1783644161
-  },
   "BQ-STEN-AVI-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\stencil\\high\\harriss-hawk_stencil-bw_01.png",
@@ -3281,17 +3042,6 @@
       "input_tokens": 295,
       "output_tokens": 5488,
       "total_tokens": 5783
-    },
-    "ts": 1783644161
-  },
-  "BQ-STEN-INS-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\red-imported-fire-ant_stencil-bw_01.png",
-    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
-    "tokens": {
-      "input_tokens": 297,
-      "output_tokens": 5488,
-      "total_tokens": 5785
     },
     "ts": 1783644161
   },
@@ -3374,7 +3124,7 @@
   },
   "BQ-STEN-MAM-009__v1": {
     "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\koala-bear_stencil-bw_01.png",
+    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\koala_stencil-bw_01.png",
     "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
     "tokens": {
       "input_tokens": 297,
@@ -3416,28 +3166,6 @@
     },
     "ts": 1783644161
   },
-  "BQ-STEN-REP-008__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\mexican-pine-snake_stencil-bw_01.png",
-    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
-    "tokens": {
-      "input_tokens": 293,
-      "output_tokens": 5488,
-      "total_tokens": 5781
-    },
-    "ts": 1783644161
-  },
-  "BQ-STEN-REP-009__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\flat-headed-gecko_stencil-bw_01.png",
-    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
-    "tokens": {
-      "input_tokens": 293,
-      "output_tokens": 5488,
-      "total_tokens": 5781
-    },
-    "ts": 1783644161
-  },
   "BQ-STEN-AMP-001__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\variegated-bush-frog_stencil-bw_01.png",
@@ -3449,17 +3177,6 @@
     },
     "ts": 1783644161
   },
-  "BQ-GEOL-AQU-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\giant-manta-ray_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 297,
-      "output_tokens": 5488,
-      "total_tokens": 5785
-    },
-    "ts": 1783709339
-  },
   "BQ-GEOL-AQU-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\albacore-tuna_geo-line-bw_01.png",
@@ -3468,17 +3185,6 @@
       "input_tokens": 304,
       "output_tokens": 5488,
       "total_tokens": 5792
-    },
-    "ts": 1783709339
-  },
-  "BQ-GEOL-AQU-008__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\geo-line\\high\\white-marlin_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 297,
-      "output_tokens": 5488,
-      "total_tokens": 5785
     },
     "ts": 1783709339
   },
@@ -3603,17 +3309,6 @@
     },
     "ts": 1783709339
   },
-  "BQ-GEOL-INS-010__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\german-cockroach_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 295,
-      "output_tokens": 5488,
-      "total_tokens": 5783
-    },
-    "ts": 1783709339
-  },
   "BQ-GEOL-MAM-006__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\arabian-oryx_geo-line-bw_01.png",
@@ -3669,17 +3364,6 @@
     },
     "ts": 1783709339
   },
-  "BQ-GEOL-REP-006__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\loggerhead-sea-turtles_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 297,
-      "output_tokens": 5488,
-      "total_tokens": 5785
-    },
-    "ts": 1783709339
-  },
   "BQ-GEOL-REP-007__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\northern-alligator-lizard_geo-line-bw_01.png",
@@ -3688,28 +3372,6 @@
       "input_tokens": 296,
       "output_tokens": 5488,
       "total_tokens": 5784
-    },
-    "ts": 1783709339
-  },
-  "BQ-GEOL-REP-008__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\japanese-rat-snake_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 297,
-      "output_tokens": 5488,
-      "total_tokens": 5785
-    },
-    "ts": 1783709339
-  },
-  "BQ-GEOL-REP-009__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\vogelkop-monitor_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 294,
-      "output_tokens": 5488,
-      "total_tokens": 5782
     },
     "ts": 1783709339
   },
@@ -3912,17 +3574,6 @@
     },
     "ts": 1783644161
   },
-  "BQ-STEN-ARA-001__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\spider_stencil-bw_01.png",
-    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
-    "tokens": {
-      "input_tokens": 303,
-      "output_tokens": 5488,
-      "total_tokens": 5791
-    },
-    "ts": 1783644161
-  },
   "BQ-STEN-MAM-011__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\stencil\\high\\addax_stencil-bw_01.png",
@@ -3945,17 +3596,6 @@
     },
     "ts": 1783644161
   },
-  "BQ-STEN-REP-011__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\australian-saltwater-crocodile_stencil-bw_01.png",
-    "batch_id": "batch_6a50341bc8348190ae718a9b2cdec61c",
-    "tokens": {
-      "input_tokens": 310,
-      "output_tokens": 5488,
-      "total_tokens": 5798
-    },
-    "ts": 1783644161
-  },
   "BQ-LOPO-AQU-011__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\low-poly\\high\\armored-catfish_low-poly-bw_01.png",
@@ -3964,17 +3604,6 @@
       "input_tokens": 287,
       "output_tokens": 5488,
       "total_tokens": 5775
-    },
-    "ts": 1783644179
-  },
-  "BQ-LOPO-AVI-011__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\shoebill-stork_low-poly-bw_01.png",
-    "batch_id": "batch_6a50343daca481909b74d2ea76027884",
-    "tokens": {
-      "input_tokens": 277,
-      "output_tokens": 5488,
-      "total_tokens": 5765
     },
     "ts": 1783644179
   },
@@ -3997,17 +3626,6 @@
       "input_tokens": 280,
       "output_tokens": 5488,
       "total_tokens": 5768
-    },
-    "ts": 1783644179
-  },
-  "BQ-LOPO-REP-010__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\sea-turtle_low-poly-bw_01.png",
-    "batch_id": "batch_6a50343daca481909b74d2ea76027884",
-    "tokens": {
-      "input_tokens": 282,
-      "output_tokens": 5488,
-      "total_tokens": 5770
     },
     "ts": 1783644179
   },
@@ -4066,17 +3684,6 @@
     },
     "ts": 1783644182
   },
-  "BQ-LINE-AQU-011__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\line-art\\high\\dolphin_line-art-bw_01.png",
-    "batch_id": "batch_6a50345003b08190b9d1584871162228",
-    "tokens": {
-      "input_tokens": 202,
-      "output_tokens": 5488,
-      "total_tokens": 5690
-    },
-    "ts": 1783644185
-  },
   "BQ-LINE-AVI-011__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\line-art\\high\\peacock_line-art-bw_01.png",
@@ -4110,17 +3717,6 @@
     },
     "ts": 1783644185
   },
-  "BQ-LINE-REP-010__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\line-art\\high\\chameleon_line-art-bw_01.png",
-    "batch_id": "batch_6a50345003b08190b9d1584871162228",
-    "tokens": {
-      "input_tokens": 206,
-      "output_tokens": 5488,
-      "total_tokens": 5694
-    },
-    "ts": 1783644185
-  },
   "BQ-GEOL-AVI-011__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\spoon-billed-sandpiper_geo-line-bw_01.png",
@@ -4143,31 +3739,9 @@
     },
     "ts": 1783709339
   },
-  "BQ-GEOL-INS-011__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\geo-line\\high\\large-beetle_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 308,
-      "output_tokens": 5488,
-      "total_tokens": 5796
-    },
-    "ts": 1783709339
-  },
   "BQ-GEOL-MAM-011__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\geo-line\\high\\african-leopard_geo-line-bw_01.png",
-    "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
-    "tokens": {
-      "input_tokens": 309,
-      "output_tokens": 5488,
-      "total_tokens": 5797
-    },
-    "ts": 1783709339
-  },
-  "BQ-GEOL-REP-011__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\northern-pacific-rattlesnake_geo-line-bw_01.png",
     "batch_id": "batch_6a51362b3e28819096a8374cbcec4d99",
     "tokens": {
       "input_tokens": 309,
@@ -4209,17 +3783,6 @@
     },
     "ts": 1783686017
   },
-  "BQ-LOPO-AQU-015__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\low-poly\\high\\coral-seahorse_low-poly-bw_01.png",
-    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
-    "tokens": {
-      "input_tokens": 281,
-      "output_tokens": 5488,
-      "total_tokens": 5769
-    },
-    "ts": 1783686017
-  },
   "BQ-LOPO-AQU-016__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\low-poly\\high\\sockeye-salmon_low-poly-bw_01.png",
@@ -4228,28 +3791,6 @@
       "input_tokens": 277,
       "output_tokens": 5488,
       "total_tokens": 5765
-    },
-    "ts": 1783686017
-  },
-  "BQ-LOPO-AVI-012__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\ostrich_low-poly-bw_01.png",
-    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
-    "tokens": {
-      "input_tokens": 279,
-      "output_tokens": 5488,
-      "total_tokens": 5767
-    },
-    "ts": 1783686017
-  },
-  "BQ-LOPO-AVI-013__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\adelie-penguin_low-poly-bw_01.png",
-    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
-    "tokens": {
-      "input_tokens": 284,
-      "output_tokens": 5488,
-      "total_tokens": 5772
     },
     "ts": 1783686017
   },
@@ -4278,17 +3819,6 @@
   "BQ-LOPO-AVI-016__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\low-poly\\high\\ivory-gull_low-poly-bw_01.png",
-    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
-    "tokens": {
-      "input_tokens": 270,
-      "output_tokens": 5488,
-      "total_tokens": 5758
-    },
-    "ts": 1783686017
-  },
-  "BQ-LOPO-INS-011__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\low-poly\\high\\butterfly_low-poly-bw_01.png",
     "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
     "tokens": {
       "input_tokens": 270,
@@ -4396,17 +3926,6 @@
     },
     "ts": 1783686017
   },
-  "BQ-LOPO-REP-011__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\hawksbill-sea-turtle_low-poly-bw_01.png",
-    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
-    "tokens": {
-      "input_tokens": 281,
-      "output_tokens": 5488,
-      "total_tokens": 5769
-    },
-    "ts": 1783686017
-  },
   "BQ-LOPO-REP-012__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\egyptian-uromastyx_low-poly-bw_01.png",
@@ -4415,17 +3934,6 @@
       "input_tokens": 285,
       "output_tokens": 5488,
       "total_tokens": 5773
-    },
-    "ts": 1783686017
-  },
-  "BQ-LOPO-REP-013__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\low-poly\\high\\marbled-monitor_low-poly-bw_01.png",
-    "batch_id": "batch_6a50de4bc2b48190b8b7e6390cc841ca",
-    "tokens": {
-      "input_tokens": 280,
-      "output_tokens": 5488,
-      "total_tokens": 5768
     },
     "ts": 1783686017
   },
@@ -4792,17 +4300,6 @@
     },
     "ts": 1783685710
   },
-  "BQ-LINE-AVI-013__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\line-art\\high\\hummingbird_line-art-bw_01.png",
-    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
-    "tokens": {
-      "input_tokens": 198,
-      "output_tokens": 5488,
-      "total_tokens": 5686
-    },
-    "ts": 1783685710
-  },
   "BQ-LINE-AVI-014__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\line-art\\high\\sanderling_line-art-bw_01.png",
@@ -4880,17 +4377,6 @@
     },
     "ts": 1783685710
   },
-  "BQ-LINE-INS-013__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\line-art\\high\\buckeye-butterfly_line-art-bw_01.png",
-    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
-    "tokens": {
-      "input_tokens": 206,
-      "output_tokens": 5488,
-      "total_tokens": 5694
-    },
-    "ts": 1783685710
-  },
   "BQ-LINE-MAM-012__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\mammalian-beasts\\line-art\\high\\quokka_line-art-bw_01.png",
@@ -4946,17 +4432,6 @@
     },
     "ts": 1783685710
   },
-  "BQ-LINE-REP-011__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\line-art\\high\\smooth-snake_line-art-bw_01.png",
-    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
-    "tokens": {
-      "input_tokens": 207,
-      "output_tokens": 5488,
-      "total_tokens": 5695
-    },
-    "ts": 1783685710
-  },
   "BQ-LINE-REP-012__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\line-art\\high\\pygmy-python_line-art-bw_01.png",
@@ -4991,17 +4466,6 @@
       "input_tokens": 204,
       "output_tokens": 5488,
       "total_tokens": 5692
-    },
-    "ts": 1783685710
-  },
-  "BQ-LINE-AMP-002__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\line-art\\high\\small-tree-frog_line-art-bw_01.png",
-    "batch_id": "batch_6a50de64bd8881909ad733aff5d237d5",
-    "tokens": {
-      "input_tokens": 203,
-      "output_tokens": 5488,
-      "total_tokens": 5691
     },
     "ts": 1783685710
   },
@@ -5148,17 +4612,6 @@
     },
     "ts": 1783686627
   },
-  "BQ-STEN-INS-014__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\eastern-amberwing-dragonfly_stencil-bw_01.png",
-    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
-    "tokens": {
-      "input_tokens": 300,
-      "output_tokens": 5488,
-      "total_tokens": 5788
-    },
-    "ts": 1783686627
-  },
   "BQ-STEN-INS-015__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\stencil\\high\\sri-lankan-cruiser-butterfly_stencil-bw_01.png",
@@ -5225,17 +4678,6 @@
     },
     "ts": 1783686627
   },
-  "BQ-STEN-REP-012__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\mojave-rattlesnake_stencil-bw_01.png",
-    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
-    "tokens": {
-      "input_tokens": 304,
-      "output_tokens": 5488,
-      "total_tokens": 5792
-    },
-    "ts": 1783686627
-  },
   "BQ-STEN-AMP-002__v1": {
     "status": "done",
     "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\little-red-frog-of-yapacana_stencil-bw_01.png",
@@ -5268,32 +4710,6 @@
       "total_tokens": 5795
     },
     "ts": 1783686627
-  },
-  "BQ-STEN-REP-015__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\stencil\\high\\galapagos-tortoise_stencil-bw_01.png",
-    "batch_id": "batch_6a50de7051b88190a0ab3739609f5d15",
-    "tokens": {
-      "input_tokens": 303,
-      "output_tokens": 5488,
-      "total_tokens": 5791
-    },
-    "ts": 1783686627
-  },
-  "BQ-GEOL-AVI-013__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\geo-line\\high\\shoebill-stork_geo-line-bw_01.png",
-    "model": "gpt-image-2",
-    "quality": "high",
-    "size": "1536x1024",
-    "secs": 100.13,
-    "retries": 0,
-    "tokens": {
-      "input_tokens": 290,
-      "output_tokens": 5488,
-      "total_tokens": 5778
-    },
-    "ts": 1783684845
   },
   "BQ-GEOL-ARA-001__v1": {
     "status": "done",
@@ -5339,20 +4755,5 @@
       "total_tokens": 5777
     },
     "ts": 1783684872
-  },
-  "BQ-GEOL-REP-012__v1": {
-    "status": "done",
-    "file": "C:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\reptilian-beasts\\geo-line\\high\\sea-turtle_geo-line-bw_01.png",
-    "model": "gpt-image-2",
-    "quality": "high",
-    "size": "1536x1024",
-    "secs": 99.25,
-    "retries": 0,
-    "tokens": {
-      "input_tokens": 293,
-      "output_tokens": 5488,
-      "total_tokens": 5781
-    },
-    "ts": 1783684944
   }
 }

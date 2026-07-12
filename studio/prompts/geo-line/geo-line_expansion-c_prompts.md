@@ -68,14 +68,6 @@ Negative prompt: no coloring-book outline, no empty white regions inside the bod
 
 ## Insecta
 
-### BQ-GEOL-INS-011 · Large Beetle
-
-*Coleoptera* · IUCN LC · slug `large-beetle` · output `large-beetle_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of a large heavy-bodied beetle seen from above on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the domed elytra split by a straight center seam, the six angular jointed legs, and the paired segmented antennae, plus the pronotum shield behind the head; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ## Mammalian
 
@@ -90,11 +82,3 @@ Negative prompt: no coloring-book outline, no empty white regions inside the bod
 
 ## Reptilian
 
-### BQ-GEOL-REP-011 · Northern Pacific Rattlesnake
-
-*Crotalus oreganus* · IUCN LC · slug `northern-pacific-rattlesnake` · output `northern-pacific-rattlesnake_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of a northern pacific rattlesnake coiled, head raised and facing left, rattle lifted on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the chain of dorsal diamond blotches along the coils, the arrow-shaped head, and the segmented rattle, plus the eye and pit; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```

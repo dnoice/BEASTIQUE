@@ -153,14 +153,6 @@ Negative prompt: no interior lines, no facial features, no eye, no white inside 
 
 ## Avian
 
-### BQ-SILH-AVI-011 · Adélie Penguin
-
-*Pygoscelis adeliae* · IUCN NT · slug `adelie-penguin` · output `adelie-penguin_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of an adélie penguin standing upright, facing left, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the clean tuxedo split of black back, white front, and the round white-ringed eye sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-AVI-012 · African Fish Eagle
 
@@ -171,14 +163,6 @@ Create a clean, bold SILHOUETTE of a african fish eagle perched, facing left, fi
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-AVI-013 · African Penguin
-
-*Spheniscus demersus* · IUCN EN · slug `african-penguin` · output `african-penguin_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a african penguin standing upright, facing left, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the eye, the horseshoe chest band, and the flipper line against the body sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-AVI-014 · Albatross
 
@@ -189,14 +173,6 @@ Create a clean, bold SILHOUETTE of a albatross soaring, seen in profile, filled 
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-AVI-015 · Andean Condor
-
-*Vultur gryphus* · IUCN VU · slug `andean-condor` · output `andean-condor_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of an Andean condor soaring with wings fully spread, viewed from below,, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the broad wings with their splayed fingered tips, the bald head, and the neck ruff sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-AVI-016 · Antarctic Petrel
 
@@ -234,15 +210,6 @@ Create a clean, bold SILHOUETTE of an attwater's prairie chicken displaying, fac
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-AVI-020 · Shoebill Stork
-
-*Balaeniceps rex* · IUCN VU · slug `shoebill-stork` · output `shoebill-stork_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a shoebill stork standing upright, facing left, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the massive clog-shaped hooked bill, the blocky wide-browed head, and the long stilt legs sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
-
 
 ## Insecta
 
@@ -273,14 +240,6 @@ Create a clean, bold SILHOUETTE of an atlas moth seen from above, wings spread, 
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-INS-012 · Buckeye Butterfly
-
-*Junonia coenia* · IUCN LC · slug `buckeye-butterfly` · output `buckeye-butterfly_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a buckeye butterfly with wings spread, seen from above, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the big concentric eyespots on each wing, the scalloped wing edges, and the head sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-INS-013 · Carpenter Ant
 
@@ -300,14 +259,6 @@ Create a clean, bold SILHOUETTE of a conehead mantis in left-facing profile, fil
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-INS-015 · Eastern Amberwing Dragonfly
-
-*Perithemis tenera* · IUCN LC · slug `eastern-amberwing-dragonfly` · output `eastern-amberwing-dragonfly_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a eastern amberwing dragonfly seen from above, wings out, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the short stout wings, the banded tapering abdomen, and the large round eyes sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-ARA-003 · Garden Spider
 
@@ -411,14 +362,6 @@ Create a clean, bold SILHOUETTE of an addax in left-facing profile, standing ale
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-MAM-012 · Addra Gazelle
-
-*Nanger dama* · IUCN CR · slug `addra-gazelle` · output `addra-gazelle_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a addra gazelle standing in left-facing profile, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the S-curved lyre horns, the long slender neck, and the fine legs sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-MAM-013 · African Buffalo
 
@@ -447,14 +390,6 @@ Create a clean, bold SILHOUETTE of a african wild dog standing in left-facing pr
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-MAM-016 · Amur Leopard
-
-*Panthera pardus orientalis* · IUCN CR · slug `amur-leopard` · output `amur-leopard_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a amur leopard prowling in left-facing profile, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the eye, the outline of large widely-spaced rosette clusters, and the long thick tail sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-MAM-017 · Arabian Oryx
 
@@ -465,14 +400,6 @@ Create a clean, bold SILHOUETTE of a arabian oryx standing in left-facing profil
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-MAM-018 · Arctic Fox
-
-*Vulpes lagopus* · IUCN LC · slug `arctic-fox` · output `arctic-fox_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a arctic fox sitting in left-facing profile, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the eye, the short muzzle, and small rounded ears sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-MAM-019 · Banteng
 
@@ -549,14 +476,6 @@ Create a clean, bold SILHOUETTE of an arizona coral snake in a moving S-curve, f
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-REP-013 · Australian Saltwater Crocodile
-
-*Crocodylus porosus* · IUCN LC · slug `australian-saltwater-crocodile` · output `australian-saltwater-crocodile_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of an australian saltwater crocodile in left-facing profile, low prowling walk, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the rows of raised back scutes, the long toothed jaw line, and the armored ridge crests running down the heavy tail sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-REP-014 · Black-headed Python
 
@@ -567,20 +486,4 @@ Create a clean, bold SILHOUETTE of a black-headed python coiled, head raised and
 Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-REP-015 · Galapagos Tortoise
 
-*Chelonoidis nigra* · IUCN VU · slug `galapagos-tortoise` · output `galapagos-tortoise_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a galapagos tortoise in left-facing profile, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the high domed shell, the long reaching wrinkled neck, and the columnar legs sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
-
-### BQ-SILH-REP-016 · Sea Turtle
-
-*Cheloniidae* · IUCN VU · slug `sea-turtle` · output `sea-turtle_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a sea turtle seen from above, foreflippers spread mid-stroke, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the shield of large polygonal shell scutes, the long swept paddle foreflippers, and the small beaked head sharp and legible. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no facial features, no eye, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```

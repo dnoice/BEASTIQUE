@@ -51,14 +51,6 @@ Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatchi
 
 ## Insecta
 
-### BQ-STEN-ARA-001 · Spider
-
-*Araneae* · IUCN LC · slug `spider` · output `spider_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a spider seen from above, legs spread wide, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the joint lines articulating the four pairs of long legs, the patterned oval abdomen, and the compact cephalothorax. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ## Mammalian
 
@@ -82,11 +74,3 @@ Create a bold STENCIL / papercut design of a sinaloan milksnake coiled in a swee
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-REP-011 · Australian Saltwater Crocodile
-
-*Crocodylus porosus* · IUCN LC · slug `australian-saltwater-crocodile` · output `australian-saltwater-crocodile_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of an australian saltwater crocodile in left-facing profile, low prowling walk, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the rows of raised back scutes, the long toothed jaw line, and the armored ridge crests running down the heavy tail. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```

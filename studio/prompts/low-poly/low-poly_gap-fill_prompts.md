@@ -123,14 +123,6 @@ Create a bold low-poly geometric illustration of a saddleback clownfish in left-
 Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LOPO-AQU-026 · Seahorse
-
-*Hippocampus hippocampus* · IUCN DD · slug `seahorse` · output `seahorse_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a seahorse in profile, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the segmented trunk, the curled prehensile tail, and the tubular snout, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-AQU-027 · Swordfish
 
@@ -162,14 +154,6 @@ Create a bold low-poly geometric illustration of a african fish eagle perched, f
 Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LOPO-AVI-018 · African Penguin
-
-*Spheniscus demersus* · IUCN EN · slug `african-penguin` · output `african-penguin_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a african penguin standing upright, facing left, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the eye, the horseshoe chest band, and the flipper line against the body, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-AVI-019 · Albatross
 
@@ -180,14 +164,6 @@ Create a bold low-poly geometric illustration of a albatross soaring, seen in pr
 Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LOPO-AVI-020 · Andean Condor
-
-*Vultur gryphus* · IUCN VU · slug `andean-condor` · output `andean-condor_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of an Andean condor soaring with wings fully spread, viewed from below,, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the broad wings with their splayed fingered tips, the bald head, and the neck ruff, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-AVI-021 · Antarctic Petrel
 
@@ -264,14 +240,6 @@ Create a bold low-poly geometric illustration of an atlas moth seen from above, 
 Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LOPO-INS-018 · Buckeye Butterfly
-
-*Junonia coenia* · IUCN LC · slug `buckeye-butterfly` · output `buckeye-butterfly_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a buckeye butterfly with wings spread, seen from above, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the big concentric eyespots on each wing, the scalloped wing edges, and the head, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-INS-019 · Carpenter Ant
 
@@ -282,23 +250,6 @@ Create a bold low-poly geometric illustration of a carpenter ant in left-facing 
 Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LOPO-INS-020 · Eastern Amberwing Dragonfly
-
-*Perithemis tenera* · IUCN LC · slug `eastern-amberwing-dragonfly` · output `eastern-amberwing-dragonfly_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a eastern amberwing dragonfly seen from above, wings out, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the short stout wings, the banded tapering abdomen, and the large round eyes, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
-### BQ-LOPO-INS-021 · Emperor Scorpion
-
-*Pandinus imperator* · IUCN NE · slug `emperor-scorpion` · output `emperor-scorpion_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of an emperor scorpion in top-down view, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the segmented tail curling overhead, the two large pincer claws, and the body segments, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-ARA-002 · Garden Spider
 
@@ -357,14 +308,6 @@ Create a bold low-poly geometric illustration of an addax in left-facing profile
 Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LOPO-MAM-018 · Addra Gazelle
-
-*Nanger dama* · IUCN CR · slug `addra-gazelle` · output `addra-gazelle_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a addra gazelle standing in left-facing profile, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the S-curved lyre horns, the long slender neck, and the fine legs, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-MAM-019 · African Buffalo
 
@@ -393,14 +336,6 @@ Create a bold low-poly geometric illustration of a african wild dog standing in 
 Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LOPO-MAM-022 · Amur Leopard
-
-*Panthera pardus orientalis* · IUCN CR · slug `amur-leopard` · output `amur-leopard_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a amur leopard prowling in left-facing profile, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the eye, the outline of large widely-spaced rosette clusters, and the long thick tail, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-MAM-023 · Arabian Oryx
 
@@ -411,14 +346,6 @@ Create a bold low-poly geometric illustration of a arabian oryx standing in left
 Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LOPO-MAM-024 · Arctic Fox
-
-*Vulpes lagopus* · IUCN LC · slug `arctic-fox` · output `arctic-fox_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a arctic fox sitting in left-facing profile, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the eye, the short muzzle, and small rounded ears, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-MAM-025 · Banteng
 
@@ -477,20 +404,4 @@ Create a bold low-poly geometric illustration of an arizona coral snake in a mov
 Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LOPO-REP-018 · Australian Saltwater Crocodile
 
-*Crocodylus porosus* · IUCN LC · slug `australian-saltwater-crocodile` · output `australian-saltwater-crocodile_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of an australian saltwater crocodile in left-facing profile, low prowling walk, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the rows of raised back scutes, the long toothed jaw line, and the armored ridge crests running down the heavy tail, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
-### BQ-LOPO-REP-019 · Galapagos Tortoise
-
-*Chelonoidis nigra* · IUCN VU · slug `galapagos-tortoise` · output `galapagos-tortoise_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a galapagos tortoise in left-facing profile, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the high domed shell, the long reaching wrinkled neck, and the columnar legs, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```

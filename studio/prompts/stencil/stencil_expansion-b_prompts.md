@@ -92,14 +92,6 @@ Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatchi
 
 ## Avian
 
-### BQ-STEN-AVI-006 · African Penguin
-
-*Spheniscus demersus* · IUCN EN · slug `african-penguin` · output `african-penguin_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a african penguin standing upright, facing left, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the eye, the horseshoe chest band, and the flipper line against the body. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-AVI-007 · Harris's Hawk
 
@@ -139,14 +131,6 @@ Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatchi
 
 ## Insecta
 
-### BQ-STEN-INS-006 · Red Imported Fire Ant
-
-*Solenopsis invicta* · IUCN LC · slug `red-imported-fire-ant` · output `red-imported-fire-ant_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a red imported fire ant in left-facing profile, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the eye, the two-node waist, the big-jawed head, and the oval gaster. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-INS-007 · Spotted Lanternfly
 
@@ -215,7 +199,7 @@ Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatchi
 
 ### BQ-STEN-MAM-009 · Koala
 
-*Phascolarctos cinereus* · IUCN VU · slug `koala-bear` · output `koala-bear_stencil-bw_01.{png,svg}`
+*Phascolarctos cinereus* · IUCN VU · slug `koala` · output `koala_stencil-bw_01.{png,svg}`
 
 ```text
 Create a bold STENCIL / papercut design of a koala clinging to a vertical trunk, facing left, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the eye, the big fluffy ears, the spoon nose, and the hugging grip. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
@@ -251,23 +235,6 @@ Create a bold STENCIL / papercut design of a red-eared slider in left-facing pro
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-REP-008 · Mexican Pine Snake
-
-*Pituophis deppei* · IUCN DD · slug `mexican-pine-snake` · output `mexican-pine-snake_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a mexican pine snake in open coils, head forward, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the eye, the small pointed head, and the sturdy tapering coils. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
-
-### BQ-STEN-REP-009 · Flat-headed Gecko
-
-*Hemidactylus platyurus* · IUCN LC · slug `flat-headed-gecko` · output `flat-headed-gecko_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a flat-headed gecko seen from directly above, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the eye pair, the wide flat head, and the splayed toe pads. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-AMP-001 · Variegated Bush Frog
 

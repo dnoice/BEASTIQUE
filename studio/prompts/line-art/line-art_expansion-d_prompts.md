@@ -45,7 +45,6 @@ Twenty-five beasts new to the line-art hall — unique per style
 (the revised roster rule, 2026-07-09).
 
 
-
 ## Aquatic
 
 ### BQ-LINE-AQU-012 · Krill
@@ -105,14 +104,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of a swan swimming, facin
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-AVI-013 · Hummingbird
-
-*Trochilidae* · IUCN LC · slug `hummingbird` · output `hummingbird_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a hummingbird hovering, facing left on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the blurred swept wings, the needle bill, and the tiny tucked feet and fanned tail. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-AVI-014 · Sanderling
 
@@ -180,15 +171,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of a madagascar hissing c
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-INS-013 · Buckeye Butterfly
-
-*Junonia coenia* · IUCN LC · slug `buckeye-butterfly` · output `buckeye-butterfly_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a buckeye butterfly seen from above, wings spread on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the bold ringed eyespots on each wing, the scalloped wing margins, and the banded forewing bars. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
 
 ## Mammalian
 
@@ -240,14 +222,6 @@ Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cro
 
 ## Reptilian
 
-### BQ-LINE-REP-011 · Smooth Snake
-
-*Coronella austriaca* · IUCN LC · slug `smooth-snake` · output `smooth-snake_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a smooth snake coiled loosely, head raised, facing left on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the slender smooth-scaled body, the small oval head with dark eye stripe, and the fine tapering tail. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-REP-012 · Pygmy Python
 
@@ -276,11 +250,3 @@ Create a clean, minimalist BLACK LINE-ART illustration of an arizona coral snake
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-AMP-002 · Small Tree Frog
-
-*Hylidae* · IUCN LC · slug `small-tree-frog` · output `small-tree-frog_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a small tree frog clinging, facing left on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the round toe pads on splayed fingers, the crouched sprung hind legs, and the large forward eye. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```

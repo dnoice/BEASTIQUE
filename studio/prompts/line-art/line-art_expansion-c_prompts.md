@@ -39,14 +39,6 @@ Five fresh beasts for the line-art plate — no repeats, ever
 
 ## Aquatic
 
-### BQ-LINE-AQU-011 · Dolphin
-
-*Delphinus delphis* · IUCN LC · slug `dolphin` · output `dolphin_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a dolphin in a rising left-facing leap arc on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the long slender beak with its gape line, the eye, and the tall falcate dorsal fin. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ## Avian
 
@@ -83,11 +75,3 @@ Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cro
 
 ## Reptilian
 
-### BQ-LINE-REP-010 · Chameleon
-
-*Chamaeleonidae* · IUCN VU · slug `chameleon` · output `chameleon_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a chameleon in left-facing profile, tail coiled in a tight spiral on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the tightly coiled spiral tail, the raised casque crown, and the large turreted eye. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```

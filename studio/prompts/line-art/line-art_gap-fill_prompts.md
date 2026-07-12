@@ -96,14 +96,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of a green sea turtle swi
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-AQU-023 · Seahorse
-
-*Hippocampus hippocampus* · IUCN DD · slug `seahorse` · output `seahorse_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a seahorse in profile on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the segmented trunk, the curled prehensile tail, and the tubular snout. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-AQU-024 · Swordfish
 
@@ -117,14 +109,6 @@ Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cro
 
 ## Avian
 
-### BQ-LINE-AVI-017 · Adélie Penguin
-
-*Pygoscelis adeliae* · IUCN NT · slug `adelie-penguin` · output `adelie-penguin_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of an adélie penguin standing upright, facing left on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the clean tuxedo split of black back, white front, and the round white-ringed eye. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-AVI-018 · African Fish Eagle
 
@@ -135,23 +119,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of a african fish eagle p
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-AVI-019 · African Penguin
-
-*Spheniscus demersus* · IUCN EN · slug `african-penguin` · output `african-penguin_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a african penguin standing upright, facing left on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the eye, the horseshoe chest band, and the flipper line against the body. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
-### BQ-LINE-AVI-020 · Andean Condor
-
-*Vultur gryphus* · IUCN VU · slug `andean-condor` · output `andean-condor_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of an Andean condor soaring with wings fully spread, viewed from below, on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the broad wings with their splayed fingered tips, the bald head, and the neck ruff. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-AVI-021 · Antarctic Petrel
 
@@ -189,14 +156,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of an Indian peafowl (pea
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-AVI-025 · Shoebill Stork
-
-*Balaeniceps rex* · IUCN VU · slug `shoebill-stork` · output `shoebill-stork_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a shoebill stork standing upright, facing left on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the massive clog-shaped hooked bill, the blocky wide-browed head, and the long stilt legs. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-AVI-026 · Toco Toucan
 
@@ -255,14 +214,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of a conehead mantis in l
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-INS-019 · Emperor Scorpion
-
-*Pandinus imperator* · IUCN NE · slug `emperor-scorpion` · output `emperor-scorpion_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of an emperor scorpion in top-down view on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the segmented tail curling overhead, the two large pincer claws, and the body segments. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-INS-020 · Honeybee
 
@@ -432,14 +383,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of a anaconda resting in 
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-REP-016 · Australian Saltwater Crocodile
-
-*Crocodylus porosus* · IUCN LC · slug `australian-saltwater-crocodile` · output `australian-saltwater-crocodile_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of an australian saltwater crocodile in left-facing profile, low prowling walk on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the rows of raised back scutes, the long toothed jaw line, and the armored ridge crests running down the heavy tail. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-REP-017 · Black-headed Python
 
@@ -450,20 +393,4 @@ Create a clean, minimalist BLACK LINE-ART illustration of a black-headed python 
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-REP-018 · Galapagos Tortoise
 
-*Chelonoidis nigra* · IUCN VU · slug `galapagos-tortoise` · output `galapagos-tortoise_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a galapagos tortoise in left-facing profile on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the high domed shell, the long reaching wrinkled neck, and the columnar legs. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
-### BQ-LINE-REP-020 · Sea Turtle
-
-*Cheloniidae* · IUCN VU · slug `sea-turtle` · output `sea-turtle_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a sea turtle seen from above, foreflippers spread mid-stroke on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the shield of large polygonal shell scutes, the long swept paddle foreflippers, and the small beaked head. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```

@@ -85,14 +85,6 @@ Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cro
 
 ## Avian
 
-### BQ-LINE-AVI-006 · Crane
-
-*Gruidae* · IUCN VU · slug `crane` · output `crane_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a crane standing, facing left on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the long S-curved neck, the long stilt legs, and the bustled tail plumes. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-AVI-007 · Arctic Tern
 
@@ -141,23 +133,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of a walking leaf seen fr
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-INS-007 · Mason Bee
-
-*Osmia* · IUCN NT · slug `mason-bee` · output `mason-bee_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a mason bee in left-facing profile on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the compact round body, the big head with strong mandibles, and the folded wings. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
-### BQ-LINE-INS-008 · Eastern Amberwing Dragonfly
-
-*Perithemis tenera* · IUCN LC · slug `eastern-amberwing-dragonfly` · output `eastern-amberwing-dragonfly_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a eastern amberwing dragonfly seen from above, wings out on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the short stout wings, the banded tapering abdomen, and the large round eyes. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-INS-009 · Common Mormon Butterfly
 
@@ -179,23 +154,6 @@ Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cro
 
 ## Mammalian
 
-### BQ-LINE-MAM-006 · Amur Leopard
-
-*Panthera pardus orientalis* · IUCN CR · slug `amur-leopard` · output `amur-leopard_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a amur leopard prowling in left-facing profile on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the eye, the outline of large widely-spaced rosette clusters, and the long thick tail. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
-### BQ-LINE-MAM-007 · Addra Gazelle
-
-*Nanger dama* · IUCN CR · slug `addra-gazelle` · output `addra-gazelle_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a addra gazelle standing in left-facing profile on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the S-curved lyre horns, the long slender neck, and the fine legs. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-MAM-008 · Margay
 
@@ -215,14 +173,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of a golden lion tamarin 
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-MAM-010 · Arctic Fox
-
-*Vulpes lagopus* · IUCN LC · slug `arctic-fox` · output `arctic-fox_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a arctic fox sitting in left-facing profile on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the eye, the short muzzle and small rounded ears, and the huge brush tail wrapped forward. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ## Reptilian
 
@@ -244,14 +194,6 @@ Create a clean, minimalist BLACK LINE-ART illustration of a amazon tree boa drap
 Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-LINE-REP-008 · Mourning Gecko
-
-*Lepidodactylus lugubris* · IUCN LC · slug `mourning-gecko` · output `mourning-gecko_line-art-bw_01.{png,svg}`
-
-```text
-Create a clean, minimalist BLACK LINE-ART illustration of a mourning gecko seen from directly above on a PURE WHITE background. Use confident, even, medium-weight black lines only — one bold continuous outer contour plus only the essential interior lines: the slender body, the splayed fan-toed feet, and the tapering banded tail. NO fill, NO solid black areas, NO hatching, NO shading, NO texture — line work only. Keep lines smooth, closed, and clean, not thin or sketchy, so they trace to crisp vector strokes. Center in frame.
-Negative prompt: no fill, no solid black shapes, no shading, no hatching, no cross-hatching, no stipple, no gradient, no grayscale, no color, no doubled sketchy lines, no thin wispy lines, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LINE-AMP-001 · European Fire Salamander
 

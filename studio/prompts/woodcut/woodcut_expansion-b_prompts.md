@@ -168,14 +168,6 @@ Create a refined black-and-white WOODCUT ENGRAVING of a garden spider seen from 
 Negative prompt: no smooth gradients, no airbrush, no soft shading, no color, no grayscale fills, no photographic realism, no stipple, no random speckles, no background, no scene, no text, no border, no extra animals, no ultra-thin broken lines, no blurry edges.
 ```
 
-### BQ-WOOD-INS-009 · Buckeye Butterfly
-
-*Junonia coenia* · IUCN LC · slug `buckeye-butterfly` · output `buckeye-butterfly_woodcut-bw_01.{png,svg}`
-
-```text
-Create a refined black-and-white WOODCUT ENGRAVING of a buckeye butterfly with wings spread, seen from above, in the manner of a vintage natural-history engraving. Build all tone from carved parallel-line hatching and cross-hatching — fine clean engraved lines, bold solid-black shadow masses, white carved highlights — never flat gray fills. Run dense directional hatch along the dark upper body following the form, fading to open white below, and render the big concentric eyespots on each wing and the scalloped wing edges with bold carved emphasis — the signature of the plate. Pure black ink on pure white, high contrast, closed forms, crisp carved lines following the form, vector-traceable. Center on plain white, no scene.
-Negative prompt: no smooth gradients, no airbrush, no soft shading, no color, no grayscale fills, no photographic realism, no stipple, no random speckles, no background, no scene, no text, no border, no extra animals, no ultra-thin broken lines, no blurry edges.
-```
 
 ## Mammalian
 
@@ -226,14 +218,6 @@ Negative prompt: no smooth gradients, no airbrush, no soft shading, no color, no
 
 ## Reptilian
 
-### BQ-WOOD-REP-006 · Galapagos Tortoise
-
-*Chelonoidis nigra* · IUCN VU · slug `galapagos-tortoise` · output `galapagos-tortoise_woodcut-bw_01.{png,svg}`
-
-```text
-Create a refined black-and-white WOODCUT ENGRAVING of a galapagos tortoise in left-facing profile, in the manner of a vintage natural-history engraving. Build all tone from carved parallel-line hatching and cross-hatching — fine clean engraved lines, bold solid-black shadow masses, white carved highlights — never flat gray fills. Run dense directional hatch along the dark upper body following the form, fading to open white below, and render the high domed shell, the long reaching wrinkled neck, and the columnar legs with bold carved emphasis — the signature of the plate. Pure black ink on pure white, high contrast, closed forms, crisp carved lines following the form, vector-traceable. Center on plain white, no scene.
-Negative prompt: no smooth gradients, no airbrush, no soft shading, no color, no grayscale fills, no photographic realism, no stipple, no random speckles, no background, no scene, no text, no border, no extra animals, no ultra-thin broken lines, no blurry edges.
-```
 
 ### BQ-WOOD-REP-007 · Nile Monitor
 

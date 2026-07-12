@@ -223,14 +223,6 @@ Create a refined, high-contrast black-and-white vector-compatible linocut illust
 Negative prompt: no grayscale, no color, no photographic realism, no soft feathers, no airbrush, no blurry edges, no over-darkened body, no snow scene, no sky, no border, no text, no extra animals, no cartoon proportions, no fluffy stipple, no random speckles, no ultra-thin lines, no fragmented outline.
 ```
 
-### BQ-LINO-AVI-009 · Andean Condor
-
-*Vultur gryphus* · IUCN VU · slug `andean-condor` · output `andean-condor_linocut-bw_01.{png,svg}`
-
-```text
-Create a refined, high-contrast black-and-white vector-compatible linocut illustration of a full-body Andean condor perched in a commanding three-quarter pose, wings slightly raised, head held high, styled as a monumental premium woodcut emblem and upgraded natural-history engraving. Center it in the frame with clean white space. Render the defining anatomy: a large bald wrinkled head with a hooked beak and (on the male) a fleshy comb/caruncle on the crown, the signature fluffy white ruff of down encircling the base of the neck, a heavy black body, very broad folded wings bearing a bold white wing-patch on the upper surface, strong legs, and large feet on a rocky perch stub. Use pure black ink on pure white only — no grayscale, no color, no gradients, no painterly shading; closed forms and carved hatch, vector-traceable. The density map is the dramatic contrast: the black body and wings carry the deepest weight — render the wing coverts as overlapping scale-rows and the great primaries as separated stacked blades — set against the reserved white neck ruff (rendered as a clean fluffy collar of short radial strokes) and the bold white wing-patch kept open. The bald wrinkled head is rendered with sculpted crease hatch and the comb as a bold clean shape; the hooked beak and eye are crisp accents. One bold continuous contour around the mantled condor and rocky perch. Weight hierarchy: thick contour, black structured wings, reserved white ruff and wing-patch — legible large and small. Perched; a few minimal ground strokes at the rock; background blank white, no scene.
-Negative prompt: no grayscale, no color, no photographic realism, no soft feathers, no airbrush, no blurry edges, no mountains, no sky, no carrion, no border, no text, no extra animals, no cartoon proportions, no fluffy stipple, no random speckles, no ultra-thin lines, no fragmented outline.
-```
 
 ### BQ-LINO-AVI-010 · Secretarybird
 

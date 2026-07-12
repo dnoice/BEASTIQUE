@@ -114,14 +114,6 @@ Create a bold STENCIL / papercut design of a narwhal in left-facing profile, gli
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-AQU-024 · Seahorse
-
-*Hippocampus hippocampus* · IUCN DD · slug `seahorse` · output `seahorse_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a seahorse in profile, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the segmented trunk, the curled prehensile tail, and the tubular snout. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-AQU-025 · Swordfish
 
@@ -135,14 +127,6 @@ Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatchi
 
 ## Avian
 
-### BQ-STEN-AVI-017 · Adélie Penguin
-
-*Pygoscelis adeliae* · IUCN NT · slug `adelie-penguin` · output `adelie-penguin_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of an adélie penguin standing upright, facing left, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the clean tuxedo split of black back, white front, and the round white-ringed eye. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-AVI-018 · African Fish Eagle
 
@@ -162,14 +146,6 @@ Create a bold STENCIL / papercut design of a albatross soaring, seen in profile,
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-AVI-020 · Andean Condor
-
-*Vultur gryphus* · IUCN VU · slug `andean-condor` · output `andean-condor_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of an Andean condor soaring with wings fully spread, viewed from below,, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the broad wings with their splayed fingered tips, the bald head, and the neck ruff. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-AVI-021 · Arctic Tern
 
@@ -198,14 +174,6 @@ Create a bold STENCIL / papercut design of an Indian peafowl (peacock) in profil
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-AVI-024 · Shoebill Stork
-
-*Balaeniceps rex* · IUCN VU · slug `shoebill-stork` · output `shoebill-stork_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a shoebill stork standing upright, facing left, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the massive clog-shaped hooked bill, the blocky wide-browed head, and the long stilt legs. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-AVI-025 · Toco Toucan
 
@@ -228,14 +196,6 @@ Create a bold STENCIL / papercut design of an atlas moth seen from above, wings 
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-INS-017 · Buckeye Butterfly
-
-*Junonia coenia* · IUCN LC · slug `buckeye-butterfly` · output `buckeye-butterfly_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a buckeye butterfly with wings spread, seen from above, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the big concentric eyespots on each wing, the scalloped wing edges, and the head. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-INS-018 · Conehead Mantis
 
@@ -246,14 +206,6 @@ Create a bold STENCIL / papercut design of a conehead mantis in left-facing prof
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-INS-019 · Emperor Scorpion
-
-*Pandinus imperator* · IUCN NE · slug `emperor-scorpion` · output `emperor-scorpion_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of an emperor scorpion in top-down view, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the segmented tail curling overhead, the two large pincer claws, and the body segments. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-ARA-002 · Garden Spider
 
@@ -348,14 +300,6 @@ Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatchi
 
 ## Mammalian
 
-### BQ-STEN-MAM-017 · Addra Gazelle
-
-*Nanger dama* · IUCN CR · slug `addra-gazelle` · output `addra-gazelle_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a addra gazelle standing in left-facing profile, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the S-curved lyre horns, the long slender neck, and the fine legs. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-MAM-018 · African Buffalo
 
@@ -375,14 +319,6 @@ Create a bold STENCIL / papercut design of an african leopard in left-facing pro
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-MAM-020 · Amur Leopard
-
-*Panthera pardus orientalis* · IUCN CR · slug `amur-leopard` · output `amur-leopard_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a amur leopard prowling in left-facing profile, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the eye, the outline of large widely-spaced rosette clusters, and the long thick tail. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-MAM-021 · Arabian Oryx
 
@@ -393,14 +329,6 @@ Create a bold STENCIL / papercut design of a arabian oryx standing in left-facin
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-MAM-022 · Arctic Fox
-
-*Vulpes lagopus* · IUCN LC · slug `arctic-fox` · output `arctic-fox_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a arctic fox sitting in left-facing profile, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the eye, the short muzzle, and small rounded ears. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-MAM-023 · Banteng
 
@@ -477,11 +405,3 @@ Create a bold STENCIL / papercut design of a black-headed python coiled, head ra
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-REP-020 · Sea Turtle
-
-*Cheloniidae* · IUCN VU · slug `sea-turtle` · output `sea-turtle_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a sea turtle seen from above, foreflippers spread mid-stroke, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the shield of large polygonal shell scutes, the long swept paddle foreflippers, and the small beaked head. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```

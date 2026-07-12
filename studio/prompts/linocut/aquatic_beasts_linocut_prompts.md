@@ -384,14 +384,6 @@ Create a refined, high-contrast black-and-white vector-compatible linocut illust
 Negative prompt: no grayscale, no color, no orange, no photographic realism, no soft shading, no airbrush, no blurry edges, no anemone, no water, no bubbles, no sky, no border, no text, no extra animals, no cartoon proportions, no random speckles, no ultra-thin lines, no fragmented outline.
 ```
 
-### BQ-LINO-AQU-028 · Seahorse
-
-*Hippocampus erectus* · IUCN VU · slug `seahorse` · output `seahorse_linocut-bw_01.{png,svg}`
-
-```text
-Create a refined, high-contrast black-and-white vector-compatible linocut illustration of a seahorse in upright profile, styled as a premium woodcut emblem and upgraded natural-history engraving — an ornate heraldic specimen. Center it vertically in the frame with clean white space. Render the defining anatomy: the horse-like head bent at right angles to the body with a long tubular snout, a small eye, a bony crown (coronet) on top of the head, a series of bony armored ridges and rings segmenting the upright body, a forward-curved chest, a small fluttering dorsal fin on the back, tiny pectoral fins behind the head, and the signature prehensile tail curled into a tight spiral at the bottom. Use pure black ink on pure white only — no grayscale, no color, no gradients, no painterly shading; closed forms and carved hatch, vector-traceable. The signature texture is the armored segmentation: render the bony body rings and ridges as a regular sequence of bold carved plate-edges and raised tubercles down the body and tail — the defining ornamental pattern, crisp and rhythmic, perfect for vector. Density anchor: deep carved shadow within each ring groove and along the shadowed front of the body versus the lighter raised plate faces, building a sculpted segmented relief. The coronet, the long snout, and the tightly coiled tail spiral are the focal accents. One bold continuous contour around the whole curved upright form and the coiled tail. Weight hierarchy: thick contour, bold ring-groove shadows, fine plate hatch, clean tail spiral — legible large and small. Floats alone on blank white; no water, no scene.
-Negative prompt: no grayscale, no color, no photographic realism, no soft shading, no airbrush, no blurry edges, no water, no bubbles, no seagrass, no coral, no sky, no border, no text, no extra animals, no cartoon proportions, no random speckles, no ultra-thin lines, no fragmented outline.
-```
 
 ### BQ-LINO-AQU-029 · Anglerfish
 

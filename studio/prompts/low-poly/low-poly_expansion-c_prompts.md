@@ -50,14 +50,6 @@ Negative prompt: no gradients, no shading, no grays, no color, no curved facet e
 
 ## Avian
 
-### BQ-LOPO-AVI-011 · Shoebill Stork
-
-*Balaeniceps rex* · IUCN VU · slug `shoebill-stork` · output `shoebill-stork_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a shoebill stork standing upright, facing left, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the massive clog-shaped hooked bill, the blocky wide-browed head, and the long stilt legs, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ## Insecta
 
@@ -83,11 +75,3 @@ Negative prompt: no gradients, no shading, no grays, no color, no curved facet e
 
 ## Reptilian
 
-### BQ-LOPO-REP-010 · Sea Turtle
-
-*Cheloniidae* · IUCN VU · slug `sea-turtle` · output `sea-turtle_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a sea turtle seen from above, foreflippers spread mid-stroke, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the shield of large polygonal shell scutes, the long swept paddle foreflippers, and the small beaked head, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit edges. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```

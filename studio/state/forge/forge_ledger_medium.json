@@ -413,21 +413,6 @@
     },
     "ts": 1782430170
   },
-  "BQ-LINO-AQU-028__v1": {
-    "status": "done",
-    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\linocut\\high\\seahorse_linocut-bw_01.png",
-    "model": "gpt-image-2",
-    "quality": "medium",
-    "size": "1536x1024",
-    "secs": 37.29,
-    "retries": 0,
-    "tokens": {
-      "input_tokens": 434,
-      "output_tokens": 1372,
-      "total_tokens": 1806
-    },
-    "ts": 1782430179
-  },
   "BQ-LINO-AQU-029__v1": {
     "status": "done",
     "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\aquatic-beasts\\linocut\\high\\anglerfish_linocut-bw_01.png",
@@ -862,21 +847,6 @@
       "total_tokens": 1803
     },
     "ts": 1782430520
-  },
-  "BQ-LINO-AVI-009__v1": {
-    "status": "done",
-    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\avian-beasts\\linocut\\high\\andean-condor_linocut-bw_01.png",
-    "model": "gpt-image-2",
-    "quality": "medium",
-    "size": "1536x1024",
-    "secs": 37.15,
-    "retries": 0,
-    "tokens": {
-      "input_tokens": 425,
-      "output_tokens": 1372,
-      "total_tokens": 1797
-    },
-    "ts": 1782430536
   },
   "BQ-LINO-AVI-008__v1": {
     "status": "done",
@@ -1949,21 +1919,6 @@
       "total_tokens": 1788
     },
     "ts": 1782431388
-  },
-  "BQ-LINO-ARA-001__v1": {
-    "status": "done",
-    "file": "c:\\Users\\DnnsS\\OneDrive\\Desktop\\dd1\\projects\\beastique\\studio\\collections\\insecta-beasts\\linocut\\high\\emperor-scorpion_linocut-bw_01.png",
-    "model": "gpt-image-2",
-    "quality": "medium",
-    "size": "1536x1024",
-    "secs": 38.93,
-    "retries": 0,
-    "tokens": {
-      "input_tokens": 416,
-      "output_tokens": 1372,
-      "total_tokens": 1788
-    },
-    "ts": 1782431400
   },
   "BQ-LINO-ARA-002__v1": {
     "status": "done",

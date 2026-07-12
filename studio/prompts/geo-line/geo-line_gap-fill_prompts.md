@@ -180,14 +180,6 @@ Negative prompt: no coloring-book outline, no empty white regions inside the bod
 
 ## Avian
 
-### BQ-GEOL-AVI-014 · Adélie Penguin
-
-*Pygoscelis adeliae* · IUCN NT · slug `adelie-penguin` · output `adelie-penguin_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of an adélie penguin standing upright, facing left on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the clean tuxedo split of black back, white front, and the round white-ringed eye; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-GEOL-AVI-015 · African Fish Eagle
 
@@ -198,14 +190,6 @@ Create a precise GEOMETRIC WIREFRAME illustration of a african fish eagle perche
 Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-GEOL-AVI-016 · African Penguin
-
-*Spheniscus demersus* · IUCN EN · slug `african-penguin` · output `african-penguin_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of a african penguin standing upright, facing left on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the eye, the horseshoe chest band, and the flipper line against the body; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-GEOL-AVI-017 · Albatross
 
@@ -309,14 +293,6 @@ Create a precise GEOMETRIC WIREFRAME illustration of a assassin bug in left-faci
 Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-GEOL-INS-014 · Buckeye Butterfly
-
-*Junonia coenia* · IUCN LC · slug `buckeye-butterfly` · output `buckeye-butterfly_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of a buckeye butterfly with wings spread, seen from above on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the big concentric eyespots on each wing, the scalloped wing edges, and the head; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-GEOL-INS-015 · Conehead Mantis
 
@@ -336,14 +312,6 @@ Create a precise GEOMETRIC WIREFRAME illustration of an emperor dragonfly in top
 Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-GEOL-INS-017 · Eastern Amberwing Dragonfly
-
-*Perithemis tenera* · IUCN LC · slug `eastern-amberwing-dragonfly` · output `eastern-amberwing-dragonfly_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of a eastern amberwing dragonfly seen from above, wings out on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the short stout wings, the banded tapering abdomen, and the large round eyes; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-GEOL-ARA-002 · Garden Spider
 
@@ -456,14 +424,6 @@ Create a precise GEOMETRIC WIREFRAME illustration of an addax in left-facing pro
 Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-GEOL-MAM-014 · Addra Gazelle
-
-*Nanger dama* · IUCN CR · slug `addra-gazelle` · output `addra-gazelle_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of a addra gazelle standing in left-facing profile on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the S-curved lyre horns, the long slender neck, and the fine legs; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-GEOL-MAM-015 · African Buffalo
 
@@ -492,23 +452,6 @@ Create a precise GEOMETRIC WIREFRAME illustration of a african wild dog standing
 Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-GEOL-MAM-018 · Amur Leopard
-
-*Panthera pardus orientalis* · IUCN CR · slug `amur-leopard` · output `amur-leopard_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of a amur leopard prowling in left-facing profile on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the eye, the outline of large widely-spaced rosette clusters, and the long thick tail; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
-### BQ-GEOL-MAM-019 · Arctic Fox
-
-*Vulpes lagopus* · IUCN LC · slug `arctic-fox` · output `arctic-fox_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of a arctic fox sitting in left-facing profile on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the eye, the short muzzle, and small rounded ears; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-GEOL-MAM-020 · Banteng
 
@@ -603,14 +546,6 @@ Create a precise GEOMETRIC WIREFRAME illustration of an arizona coral snake in a
 Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-GEOL-REP-016 · Australian Saltwater Crocodile
-
-*Crocodylus porosus* · IUCN LC · slug `australian-saltwater-crocodile` · output `australian-saltwater-crocodile_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of an australian saltwater crocodile in left-facing profile, low prowling walk on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the rows of raised back scutes, the long toothed jaw line, and the armored ridge crests running down the heavy tail; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-GEOL-REP-017 · Black-headed Python
 
@@ -621,14 +556,6 @@ Create a precise GEOMETRIC WIREFRAME illustration of a black-headed python coile
 Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
 ```
 
-### BQ-GEOL-REP-018 · Galapagos Tortoise
-
-*Chelonoidis nigra* · IUCN VU · slug `galapagos-tortoise` · output `galapagos-tortoise_geo-line-bw_01.{png,svg}`
-
-```text
-Create a precise GEOMETRIC WIREFRAME illustration of a galapagos tortoise in left-facing profile on a PURE WHITE background — the unfilled skeleton of a low-poly sculpture. Build the ENTIRE body as one connected triangulated mesh of straight black chords: every line is a triangle edge, every vertex shared with its neighbors, no line exists without structural purpose. MEDIUM-dense, deliberate triangulation that follows the body's volume — denser triangles articulating the high domed shell, the long reaching wrinkled neck, and the columnar legs; larger triangles opening across the broad planes of the body. Uniform medium line weight, crisp angular vertices, the outer contour unbroken. NO fills, NO shading, NO curves, NO random zigzag strokes, NO empty coloring-book regions — the mesh itself is the drawing. Vector-traceable to clean straight strokes. Center in frame.
-Negative prompt: no coloring-book outline, no empty white regions inside the body, no random zigzag lines, no scribbles, no sketch strokes, no doubled lines, no curves, no arcs, no rounded corners, no fills, no solid black shapes, no filled facets, no shading, no hatching, no stipple, no gradient, no grayscale, no color, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-GEOL-REP-019 · Green Iguana
 

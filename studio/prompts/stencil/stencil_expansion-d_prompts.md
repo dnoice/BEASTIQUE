@@ -37,7 +37,6 @@ Twenty-five beasts new to the stencil hall — unique per style
 (the revised roster rule, 2026-07-09).
 
 
-
 ## Aquatic
 
 ### BQ-STEN-AQU-011 · Vaquita
@@ -163,14 +162,6 @@ Create a bold STENCIL / papercut design of an assassin bug in left-facing profil
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-INS-014 · Eastern Amberwing Dragonfly
-
-*Perithemis tenera* · IUCN LC · slug `eastern-amberwing-dragonfly` · output `eastern-amberwing-dragonfly_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of an eastern amberwing dragonfly seen from above, wings spread, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the four short broad wings, the stubby banded abdomen, and the large wraparound eyes. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-INS-015 · Sri Lankan Cruiser
 
@@ -232,14 +223,6 @@ Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatchi
 
 ## Reptilian
 
-### BQ-STEN-REP-012 · Mojave Rattlesnake
-
-*Crotalus scutulatus* · IUCN LC · slug `mojave-rattlesnake` · output `mojave-rattlesnake_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a mojave rattlesnake coiled, head raised and facing left, rattle lifted, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the chain of dorsal diamonds, the flat arrow head, and the segmented raised rattle. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```
 
 ### BQ-STEN-AMP-002 · Little Red Frog of Yapacana
 
@@ -268,11 +251,3 @@ Create a bold STENCIL / papercut design of a gaboon viper coiled low, head forwa
 Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
 ```
 
-### BQ-STEN-REP-015 · Galápagos Tortoise
-
-*Chelonoidis niger* · IUCN VU · slug `galapagos-tortoise` · output `galapagos-tortoise_stencil-bw_01.{png,svg}`
-
-```text
-Create a bold STENCIL / papercut design of a galápagos tortoise standing, facing left, neck extended, pure black on a PURE WHITE background, in the manner of a master printmaker's hand-cut stencil — refined, deliberate, gallery-grade, never cartoonish. Render the subject as a bold solid-black shape with interior detail carved as clean WHITE negative-space gaps: the vast domed shell, the long wrinkled telescoping neck, and the columnar elephant feet. Keep everything connected by natural bridges into a single cut-ready piece — no floating islands — yet let every cut feel drawn, not die-cut. Cut with a confident, practiced hand: strokes that taper and swell like brush-drawn calligraphy, negative-space gaps placed with deliberate draftsmanship, anatomy closely observed rather than simplified — the line work of an artist so sure of the animal they barely need the stencil. Crisp clean edges, vector-traceable to a few closed paths. Center in frame.
-Negative prompt: no fragile disconnected hairlines, no hatching, no cross-hatching, no stipple, no shading, no gradient, no grayscale, no color, no floating disconnected islands, no fine wispy detail, no background, no scene, no text, no border, no extra animals, no cartoon style, no mascot look, no clip-art simplification, no rounded toy-like shapes, no uniform sticker outlines, no blurry edges.
-```

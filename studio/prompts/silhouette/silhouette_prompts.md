@@ -321,14 +321,6 @@ prop does the naming (the leafcutter's leaf, the dung beetle's ball).
 
 ## Aquatic — Expansion
 
-### BQ-SILH-AQU-006 · Seahorse
-
-*Hippocampus kuda* · IUCN VU · slug `seahorse` · output `seahorse_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of a seahorse in left-facing profile, upright in its classic S-curve posture, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the horse-like snouted head tilted down, the ridged arching back, the curled prehensile tail coiled beneath, and the small fan fin on the back sharp and legible. The S-curve and coiled tail are the signature of the outline. One closed shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no eye, no bony ring detail, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no seagrass, no coral, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-AQU-007 · Giant Pacific Octopus
 
@@ -433,14 +425,6 @@ Create a clean, bold SILHOUETTE of a desert locust in left-facing profile, fille
 Negative prompt: no interior lines, no eye, no wing venation, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no grass, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
 ```
 
-### BQ-SILH-ARA-001 · Emperor Scorpion
-
-*Pandinus imperator* · IUCN NE · slug `emperor-scorpion` · output `emperor-scorpion_silhouette-bw_01.{png,svg}`
-
-```text
-Create a clean, bold SILHOUETTE of an emperor scorpion in left-facing profile, filled completely SOLID BLACK with absolutely no interior detail, features, or shading, centered on a PURE WHITE background. The whole subject reads from its crisp outer contour alone — keep the two large crab-like pincers held forward, the low armored body on bowed legs, and the thick segmented tail curling high overhead ending in the pointed stinger. The raised curled sting tail plus forward pincers are the signature of the outline. One connected shape, smooth confident edges, high contrast, vector-traceable to a single fillable path.
-Negative prompt: no interior lines, no eyes, no segment detail, no white inside the body, no gradient, no grayscale, no color, no texture, no hatching, no outline-only unfilled shape, no sand, no rocks, no background, no scene, no text, no border, no extra animals, no blurry or fuzzy edges.
-```
 
 ### BQ-SILH-ARA-002 · Golden Orb-Weaver
 

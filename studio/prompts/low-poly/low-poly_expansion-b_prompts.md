@@ -179,14 +179,6 @@ Negative prompt: no gradients, no shading, no grays, no color, no curved facet e
 
 ## Mammalian
 
-### BQ-LOPO-MAM-006 · Siberian Tiger
-
-*Panthera tigris altaica* · IUCN EN · slug `siberian-tiger` · output `siberian-tiger_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a siberian tiger prowling in left-facing profile, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the heavy ruffed jaw, the bold body stripes, and the thick long tail, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-MAM-007 · Okapi
 
@@ -226,32 +218,6 @@ Negative prompt: no gradients, no shading, no grays, no color, no curved facet e
 
 ## Reptilian
 
-### BQ-LOPO-REP-006 · Nile Crocodile
-
-*Crocodylus niloticus* · IUCN LC · slug `nile-crocodile` · output `nile-crocodile_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a nile crocodile in left-facing profile, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the long toothy jaw, the jagged dorsal ridge line, and the powerful keeled tail, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
-### BQ-LOPO-REP-007 · Mexican Alligator Lizard
-
-*Abronia graminea* · IUCN EN · slug `mexican-alligator-lizard` · output `mexican-alligator-lizard_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a mexican alligator lizard in left-facing profile on a branch, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the wedge head, the keeled overlapping scale ridges, and the extremely long tapering tail, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
-
-### BQ-LOPO-REP-008 · Indian Cobra
-
-*Naja naja* · IUCN LC · slug `indian-cobra` · output `indian-cobra_low-poly-bw_01.{png,svg}`
-
-```text
-Create a bold low-poly geometric illustration of a indian cobra raised in a defensive display, rendered in PURE two-tone black and white only — every facet filled FLAT with solid black OR solid white, no grays, no gradients, no shading inside any facet. Anchor it on ONE clean, instantly-readable silhouette with a strong bold outer contour, then build the interior from a MEDIUM-density set of bold, straight-edged angular facets that follow the body's volume. Give special angular emphasis to the spread hood, the raised S-curved body, and the coiled base, keeping each readable as bold flat facets; cluster solid-black facets along the upper and shadow planes and reserve solid-white facets for the lit underside. Keep the facets bold and readable — no tiny slivers, no thin wireframe lines, no curved facet edges. Vector-traceable to clean flat polygons. Center on plain pure-white, no scene.
-Negative prompt: no gradients, no shading, no grays, no color, no curved facet edges, no tiny slivers or splinter facets, no fine wireframe, no hatching, no texture, no thin lines, no outline-only, no background, no scene, no text, no border, no extra animals, no blurry edges.
-```
 
 ### BQ-LOPO-AMP-001 · Golden Poison Dart Frog
 
